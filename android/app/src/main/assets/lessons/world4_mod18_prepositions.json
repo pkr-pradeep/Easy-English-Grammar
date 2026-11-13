@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_18",
+  "worldId": "WORLD_4",
+  "title": "Prepositions and Prepositional Objects",
+  "storyTitle": "The Missing Royal Diamond Clues",
+  "estimatedMinutes": 20,
+  "charactersInvolved": [
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "VAANI",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m18_step_01_intro",
+      "stepTitle": "Scene 1: Scrambled Clues in the Vault",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Treasury Vault • Night",
+      "settingDescription": "The royal diamond is missing! Detective Ira finds four torn location notes—each ruined by a misplaced or swapped preposition.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "scratching head",
+          "line": "Look at clue one: 'Meet AT Sunday IN 5 o'clock BETWEEN all the five pillars!' And clue two: 'We discussed ABOUT the lock before entering INTO the room!'"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "focused",
+          "line": "No wonder you went to the wrong pillar! One wrong preposition flips place, time, and direction—and 'discuss' and 'enter (a room)' refuse prepositions altogether!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "A Preposition always links to its Prepositional Object (a noun, object pronoun, or '-ing' gerund)—though in questions and relative clauses, the preposition may step neatly to the end!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "ready",
+          "line": "Let us decode time, space, collocations, and end-positioned prepositions to recover Maharaj Vakya's diamond!"
+        }
+      ],
+      "storyCallout": "Goal: Master prepositions of time/space/relation, prepositional objects, fixed collocations, and preposition position."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m18_step_02_time_space_objects",
+      "stepTitle": "Discover: Time, Space & Prepositional Objects",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "prepositions_time_space",
+      "subtopicTitle": "Prepositions of Time/Space & Object Requirements",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Prepositions of Time build an inverted pyramid: AT is the pinpoint tip (at 6 p.m., at noon), ON is a single calendar square (on Monday, on 15 August), and IN is the wide box around months, years, and seasons (in July, in 2026)!",
+      "formalDefinition": "A preposition shows the spatial, temporal, or logical relationship between its prepositional object (noun phrase, objective pronoun, or gerund) and another element in the clause. Core contrasts include at/on/in, since/for, by/until, between/among, beside/besides, and in/into.",
+      "simpleExplanation": "Keep these five contrast pairs crystal clear:\n1) Time Pyramid: AT (clock times, night, noon, dawn) • ON (days, dates, 'on Monday morning') • IN (months, seasons, years, 'in the morning'—remember ZERO preposition before 'today, tomorrow, yesterday, last/next/this + week'!).\n2) Duration vs. Deadline: SINCE + starting point ('since 2019 / since Monday') vs. FOR + length of time ('for two hours'); BY = no later than ('Finish by 5 p.m.') vs. UNTIL = continuing up to ('Wait until 5 p.m.').\n3) Space Pairs: BETWEEN (two, or distinct named items individually) vs. AMONG (3+ in a group); BESIDE (= next to) vs. BESIDES (= in addition to); IN (static location) vs. INTO (motion inward).\n4) Prepositional Object Rule: Use objective pronouns ('for you and me') and gerunds ('tired of waiting', 'insist on paying', 'prevented me from going'—NEVER *to go!).\n5) Zero-Preposition Verbs: Do NOT insert 'about/into/for' after 'discuss, order, enter (a room), resemble, marry, reach' (*discuss about → 'discuss the case').",
+      "structurePatterns": [
+        {
+          "formName": "Time Pyramid + Zero-Preposition Words",
+          "formula": "AT (clock/noon/night) | ON (day/date) | IN (month/year/morning) | Ø (this/next/last + day)",
+          "sample": "at 7:30 a.m. • on Tuesday • in October • Ø next Friday (NOT *on next Friday)"
+        },
+        {
+          "formName": "Preposition + Object Pronoun / Gerund",
+          "formula": "Preposition + (me / him / her / them) | Preposition + (V-ing)",
+          "sample": "interested in solving • good at drawing • between him and me"
+        },
+        {
+          "formName": "High-Confusion Space Pairs",
+          "formula": "between (2) vs. among (3+) | beside (next to) vs. besides (apart from) | by (agent) vs. with (instrument)",
+          "sample": "The scroll was signed by Ira (agent) with a fountain pen (instrument)."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Beside the brass lamp lay three clues; besides those, Ira found a glove.",
+          "contextNote": "'Beside' = next to; 'besides' = in addition to.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "The treaty was signed among the four coastal kingdoms in 1998.",
+          "contextNote": "'Among' fits four kingdoms; 'in' fits a year.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "We entered into the hall on yesterday and discussed about the problem since two hours.",
+          "correctSentence": "We entered the hall yesterday and discussed the problem for two hours.",
+          "whyItHappens": "'Enter (a place)' and 'discuss' take direct objects without prepositions; 'yesterday' takes no 'on'; duration 'two hours' takes 'for' (not 'since').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Even with more than two items, use 'between' when showing clear one-to-one connections ('a railway link between Delhi, Jaipur, and Agra').",
+        "'Made of' (material stays visible: 'a ring made of gold') vs. 'made from' (material is transformed: 'paper made from bamboo')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m18_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Crack the Time & Place Clues",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD18_CP1",
+      "subtopicId": "prepositions_time_space",
+      "subtopicTitle": "At / On / In & Since / For",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira decodes a coded diary line: \"The guard noticed the shadow ____ midnight ____ Thursday, and has been guarding the gate ____ three hours.\"",
+      "questionPrompt": "Pick the option that fills all three blanks accurately:",
+      "options": [
+        "in / in / since",
+        "at / on / for",
+        "on / at / for",
+        "at / in / since"
+      ],
+      "acceptedAnswers": ["at / on / for"],
+      "hint": "Midnight = pinpoint ('at'); Thursday = calendar day ('on'); three hours = length/duration ('for')!",
+      "feedbackCorrect": "Detective Ira: \"Vault lock #1 opened! 'At midnight', 'on Thursday', and 'for three hours' match exact time rules.\"",
+      "feedbackWrongDefault": "Use 'at' for midnight/noon/clock times, 'on' for weekdays, and 'for' for durations.",
+      "feedbackWrongByOption": {
+        "at / in / since": "Days take 'on' (not 'in'), and durations like 'three hours' take 'for' (not 'since')."
+      },
+      "simplerExample": "Meet at noon on Monday; wait for ten minutes.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m18_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Beside vs. Besides & Instrument 'with'",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD18_CP2",
+      "subtopicId": "prepositions_time_space",
+      "subtopicTitle": "Beside/Besides & By/With",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani examines the vault lock: \"The secret latch was opened ____ Detective Ira ____ a thin silver hairpin.\"",
+      "questionPrompt": "Enter the two prepositions separated by ' / ' (agent, then instrument tool):",
+      "sentenceTemplate": "The secret latch was opened ________ Detective Ira ________ a thin silver hairpin.",
+      "acceptedAnswers": ["by / with", "by, with"],
+      "hint": "Who did the action (agent)? Use 'by'. What tool/instrument did she use? Use 'with'!",
+      "feedbackCorrect": "Vaani: \"Vault lock #2 clicked open! 'By' marks the doer (agent), while 'with' marks the physical tool/instrument.\"",
+      "feedbackWrongDefault": "Use 'by' before the person (agent) and 'with' before the tool (instrument).",
+      "simplerExample": "The letter was written by Riya with blue ink.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m18_step_05_position_and_collocations",
+      "stepTitle": "Discover: Position of Prepositions & Fixed Collocations",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "preposition_position_collocations",
+      "subtopicTitle": "End-Positioned Prepositions & Adjective/Noun/Verb Collocations",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A preposition usually sits IN FRONT of its object like a doorstep ('on the chair')—EXCEPT when its object escapes to the front of a Wh-question, a Relative Clause, or a Passive sentence, leaving the loyal preposition standing neatly at the END ('Which chair did you sit on?')!",
+      "formalDefinition": "Although a preposition normally precedes its complement inside a prepositional phrase, English grammar places the preposition at the end of a clause (stranding) in wh-questions ('What are you looking for?'), relative clauses without 'that/which' ('the pen I wrote with'), passive constructions ('The baby was looked after'), and infinitive post-modifiers ('a safe place to live in').",
+      "simpleExplanation": "Master these rules from Assam's 'Position of Prepositions' and Odisha/Punjab preposition usage:\n1) Natural End-Position: In everyday questions, say 'Who are you waiting for?' (very formal: 'For whom are you waiting?'). Never duplicate the preposition (*For whom are you waiting for? — wrong!). Never add 'to' after 'Where are you going?' (*Where are you going to? — avoid!).\n2) Relative Clauses: Both 'the house in which she lives' (formal) and 'the house (that) she lives in' (natural) are grammatical; NEVER write *the house in that she lives (prepositions CANNOT precede 'that'!).\n3) High-Scoring Collocations (Verb/Adjective/Noun + Fixed Preposition): 'good AT maths' (NOT *in), 'afraid OF', 'fond OF', 'interested IN', 'proud OF', 'depend ON', 'listen TO', 'congratulate someone ON' (NOT *for), 'prefer tea TO coffee' (NOT *than), 'accused OF', 'abstain FROM', 'cope WITH' (NEVER *cope up with!).",
+      "structurePatterns": [
+        {
+          "formName": "Preposition Stranding (Natural End Position)",
+          "formula": "Wh-Question | Contact Relative Clause | Passive Verb + Preposition",
+          "sample": "What are you staring at? / That is the stool he stood on. / The plan was agreed on."
+        },
+        {
+          "formName": "Fixed Collocation Traps",
+          "formula": "congratulate ON • good AT • prefer X TO Y • cope WITH • abstain FROM • consist OF",
+          "sample": "I congratulated Riya on her medal; she prefers chess to carrom."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "This is the quiet bench that Grandfather always sits on—never write *on that he sits.",
+          "contextNote": "Preposition 'on' moves to the end when 'that' is used or omitted; *on that is ungrammatical.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "She is remarkably good at geometry and knows how to cope with exam pressure.",
+          "contextNote": "'Good at' (skill) and 'cope with' (never *cope up with).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "I congratulated him for his prize, though he prefers cricket than football and is weak in swimming.",
+          "correctSentence": "I congratulated him on his prize, though he prefers cricket to football and is weak at swimming.",
+          "whyItHappens": "Standard collocations require 'congratulate ON', 'prefer X TO Y', and 'good/weak AT' (or 'weak in a subject' vs 'at an activity', though 'weak at/in' vs 'good at' is standard).",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Die of' a disease/hunger ('died of malaria') vs. 'die from' an external cause/injury ('died from a snakebite / overwork').",
+        "'Angry WITH a person' vs. 'angry AT a thing/behaviour' ('angry with Chikoo at his carelessness')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m18_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Natural Preposition Position",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD18_CP3",
+      "subtopicId": "preposition_position_collocations",
+      "subtopicTitle": "Preposition Placement in Relative Clauses",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar examines four ways to describe the missing diamond's velvet box.",
+      "questionPrompt": "Which sentence places the preposition grammatically?",
+      "options": [
+        "Here is the velvet box in that the diamond was kept.",
+        "Here is the velvet box that the diamond was kept in.",
+        "Here is the velvet box in which the diamond was kept in.",
+        "Here is the velvet box which the diamond was kept."
+      ],
+      "acceptedAnswers": ["Here is the velvet box that the diamond was kept in."],
+      "hint": "Remember: a preposition CANNOT sit directly before 'that' (*in that), must NOT be repeated twice (*in which... in), and cannot be dropped completely!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Vault lock #3 unlocked! With 'that' (or omitted pronoun), 'in' goes neatly at the end ('that the diamond was kept in').\"",
+      "feedbackWrongDefault": "Check three rules: never *in that, never double prepositions, and don't drop 'in'.",
+      "feedbackWrongByOption": {
+        "Here is the velvet box in that the diamond was kept.": "Prepositions can precede 'which' ('in which'), NEVER 'that' (*in that)!",
+        "Here is the velvet box in which the diamond was kept in.": "Doubles 'in' at both start and end!"
+      },
+      "simplerExample": "The pen that I write with (OR: the pen with which I write).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m18_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Fix the Collocation Slips",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD18_CP4",
+      "subtopicId": "preposition_position_collocations",
+      "subtopicTitle": "Fixing Common Preposition Traps",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo reads the final vault inscription: \"We prevented the thief to escape, and everyone congratulated Ira for her success!\"",
+      "questionPrompt": "Pick the sentence that fixes BOTH preposition errors accurately:",
+      "options": [
+        "We prevented the thief from escaping, and everyone congratulated Ira on her success!",
+        "We prevented the thief to escaping, and everyone congratulated Ira on her success!",
+        "We prevented the thief from escape, and everyone congratulated Ira for her success!",
+        "We prevented the thief against escaping, and everyone congratulated Ira at her success!"
+      ],
+      "acceptedAnswers": ["We prevented the thief from escaping, and everyone congratulated Ira on her success!"],
+      "hint": "'Prevent someone FROM + V-ing', and 'congratulate someone ON + achievement'!",
+      "feedbackCorrect": "Maharaj Vakya: \"The Royal Diamond gleams again! 'Prevent... from + V-ing' and 'congratulate... on' are locked into treasure memory.\"",
+      "feedbackWrongDefault": "Remember: 'prevent [someone] from + V-ing' and 'congratulate [someone] on [something]'.",
+      "feedbackWrongByOption": {
+        "We prevented the thief from escape, and everyone congratulated Ira for her success!": "After preposition 'from', use gerund 'escaping', and 'congratulate' takes 'on'!"
+      },
+      "simplerExample": "Rain prevented us from playing; Mother congratulated me on my grades.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m18_step_08_outro",
+      "stepTitle": "Scene 2: The Diamond Recovered!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Treasury Vault • Dawn",
+      "settingDescription": "Inside the velvet box behind the fourth pillar, Detective Ira lifts the sparkling diamond back onto Maharaj Vakya's cushion!",
+      "dialogues": [
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "triumphant",
+          "line": "Safe and sound! Right inside the velvet box that the crown jewel rests in—not a stray preposition out of place."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "Check your Grammar Notebook for key preposition collocations and prove your detective instincts in the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 18 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Time Pyramid & Space Contrasts",
+        "ruleSummary": "Use AT for exact clock times/noon/night, ON for days/dates, IN for months/years/seasons/parts of day (except 'at night'). Use SINCE + point, FOR + duration; BY = deadline, UNTIL = duration up to.",
+        "formulaOrPattern": "at 5 p.m. • on Monday • in July • since 2020 (point) vs for 3 years (length)",
+        "example": "Wait here until noon; submit the report by Friday."
+      },
+      {
+        "heading": "Prepositional Objects & Zero-Preposition Verbs",
+        "ruleSummary": "Follow prepositions with objective pronouns (me, him, them) and gerunds (-ing). Omit prepositions after direct transitive verbs like discuss, order, enter (a place), resemble, and marry.",
+        "formulaOrPattern": "prevent [obj] from V-ing | discuss [topic] (NO 'about') | enter [room] (NO 'into')",
+        "example": "We discussed the riddle calmly; heavy rain prevented us from leaving."
+      },
+      {
+        "heading": "Position of Prepositions & Core Collocations",
+        "ruleSummary": "Prepositions stand at the end in natural wh-questions, contact relative clauses ('the chair I sat on'), and passives. Never place a preposition before 'that' (*in that). Key collocations: congratulate ON, prefer X TO Y, cope WITH, good AT.",
+        "formulaOrPattern": "the house in which she lives = the house (that) she lives in (NEVER *in that)",
+        "example": "Who are you waiting for? She is very good at chess and prefers it to cards."
+      }
+    ],
+    "memoryAids": [
+      "Time Pyramid: AT = sharp tip (5 p.m.), ON = calendar square (Monday), IN = big box (August / 2026); drop ALL prepositions before 'today, yesterday, tomorrow, next/last + day'!",
+      "After ANY preposition (in, on, at, of, from, with, to as prep), verbs MUST wear '-ing'!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "We will discuss about this on tomorrow and cope up with the delay.",
+        "correctSentence": "We will discuss this tomorrow and cope with the delay.",
+        "whyItHappens": "Do not add 'about' after 'discuss', 'on' before 'tomorrow', or 'up' inside 'cope with'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "I prefer tea than coffee, and she insisted to go home.",
+        "correctSentence": "I prefer tea to coffee, and she insisted on going home.",
+        "whyItHappens": "'Prefer' pairs with 'to' (not 'than'), and 'insist' takes preposition 'on' + gerund ('going').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Note 'made of' (material unchanged: 'made of wood') vs. 'made from' (material transformed: 'cheese made from milk').",
+      "'Enter into' IS valid for non-physical agreements/conversations ('enter into an agreement'), though NOT for physical rooms ('enter the classroom')."
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 14 (Position of Prepositions), Punjab IX Ch. 3 (Prepositions), and Odisha X Ch. 5 (Prepositions)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M18_Q01",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "At / On / In for time",
+        "difficulty": "EASY",
+        "questionText": "Fill in cleanly: \"The science fair opens ____ 9:30 a.m. ____ Saturday ____ November.\"",
+        "options": [
+          "on / at / in",
+          "at / on / in",
+          "in / on / at",
+          "at / in / on"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Clock time takes 'at' (at 9:30 a.m.), weekday takes 'on' (on Saturday), and month takes 'in' (in November).",
+        "distractorRationales": [
+          "Swapped 'on' and 'at'.",
+          "Correct: at (time) / on (day) / in (month).",
+          "Reversed time and month.",
+          "Swapped 'in' and 'on'."
+        ],
+        "grammarRule": "Use 'at' for clock times, 'on' for days/dates, and 'in' for months/seasons/years.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q02",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "Since vs For",
+        "difficulty": "EASY",
+        "questionText": "Choose the right preposition pair: \"Acharya has taught here ____ 2014, and Vaani has studied here ____ four years.\"",
+        "options": [
+          "for / since",
+          "since / for",
+          "from / since",
+          "since / from"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "With perfect tenses, 'since' marks a starting point (2014) and 'for' marks a length/duration (four years).",
+        "distractorRationales": [
+          "Reversed starting point and duration.",
+          "Correct: 'since' (starting year) + 'for' (duration).",
+          "'From' does not pair with Present Perfect without 'to/until'.",
+          "'From four years' is ungrammatical."
+        ],
+        "grammarRule": "Use 'since + point in time' and 'for + period/duration of time'.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q03",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "By vs Until",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the option matching this meaning: 'Submit your form no later than 4 p.m., because the desk stays open continuously up to 4 p.m.'",
+        "options": [
+          "Submit it until 4 p.m.; the desk stays open by 4 p.m.",
+          "Submit it by 4 p.m.; the desk stays open until 4 p.m.",
+          "Submit it since 4 p.m.; the desk stays open for 4 p.m.",
+          "Submit it at 4 p.m.; the desk stays open on 4 p.m."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'By' marks a deadline (no later than); 'until' marks continuous duration up to a point.",
+        "distractorRationales": [
+          "Swapped 'by' and 'until'.",
+          "Correct: 'by' (deadline) + 'until' (continuous action up to 4 p.m.).",
+          "Misuses 'since' and 'for'.",
+          "Changes meaning and uses wrong 'on'."
+        ],
+        "grammarRule": "Use 'by' for a single deadline and 'until/till' for an activity continuing up to a time.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q04",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "Beside vs Besides",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"____ singing classically, Meera sat ____ her sister during the prize distribution.\"",
+        "options": [
+          "Beside / besides",
+          "Besides / beside",
+          "Between / besides",
+          "Beside / among"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Besides' means 'in addition to' (+ gerund 'singing'); 'beside' means 'next to / by the side of'.",
+        "distractorRationales": [
+          "Swapped both words.",
+          "Correct: 'Besides' (in addition to) + 'beside' (next to).",
+          "Wrong meaning.",
+          "'Among' requires 3+ items."
+        ],
+        "grammarRule": "'Beside' = at the side of; 'besides' = in addition to / apart from.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q05",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "Position of prepositions in relative clauses",
+        "difficulty": "HARD",
+        "questionText": "Which sentence handles the preposition accurately inside a relative clause?",
+        "options": [
+          "That is the wooden bridge on that we met yesterday.",
+          "That is the wooden bridge which we met on yesterday.",
+          "That is the wooden bridge on which we met on yesterday.",
+          "That is the wooden bridge that we met yesterday."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Putting 'on' at the end ('which we met on') is grammatical; *on that is forbidden, *on which... on duplicates 'on', and dropping 'on' leaves 'met the bridge'.",
+        "distractorRationales": [
+          "Never place a preposition immediately before 'that'.",
+          "Correct: preposition stranded cleanly at the end of the relative clause.",
+          "Repeats 'on' twice.",
+          "Omits required 'on' ('we met on the bridge')."
+        ],
+        "grammarRule": "Never place a preposition before 'that'; strand it at the end or use 'preposition + which/whom'.",
+        "lessonStepRef": "m18_step_05_position_and_collocations",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M18_Q06",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "Preposition + Gerund",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in accurately: \"Good sportsmanship prevented the losing team ____ complaining ____ the referee's decision.\"",
+        "options": [
+          "to / on",
+          "from / about",
+          "against / for",
+          "of / into"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Prevent [someone] from + V-ing' and 'complain about [something]' are standard collocations.",
+        "distractorRationales": [
+          "'Prevent' does not take 'to'; 'complain' uses 'about/of'.",
+          "Correct: 'prevent from' + 'complain about'.",
+          "Wrong pair.",
+          "Wrong pair."
+        ],
+        "grammarRule": "Prepositions require nouns, object pronouns, or gerunds ('prevent from going', 'succeed in winning').",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q07",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "Zero-preposition transitive verbs",
+        "difficulty": "MEDIUM",
+        "questionText": "Spot the sentence WITHOUT an extra/unnecessary preposition:",
+        "options": [
+          "They discussed about the monsoon timetable.",
+          "He entered into the library quietly.",
+          "Her handwriting resembles her elder sister's.",
+          "We ordered for four masala dosas."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Resemble', 'discuss', 'enter (a room)', and 'order (food)' take direct objects without prepositions (*resemble with/to, *discuss about, *enter into a room, *order for).",
+        "distractorRationales": [
+          "Drop 'about' after 'discussed'.",
+          "Drop 'into' after 'entered' for rooms.",
+          "Correct: 'resembles' + direct object.",
+          "Drop 'for' after 'ordered'."
+        ],
+        "grammarRule": "Discuss, order, enter (a room), resemble, and await take direct objects with zero preposition.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M18_Q08",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "Die of vs Die from",
+        "difficulty": "HARD",
+        "questionText": "Choose the traditional distinction: \"Years ago, many villagers died ____ cholera, while one traveller died ____ a severe snakebite.\"",
+        "options": [
+          "from / of",
+          "of / from",
+          "with / by",
+          "by / of"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Standard grammar distinguishes 'die OF' a disease/hunger/thirst vs. 'die FROM' an injury, wound, or external cause.",
+        "distractorRationales": [
+          "Reversed disease vs external injury.",
+          "Correct: 'died of' (illness) vs. 'died from' (external wound/cause).",
+          "Wrong prepositions.",
+          "Wrong prepositions."
+        ],
+        "grammarRule": "Use 'die of' for diseases/starvation and 'die from' for wounds, bites, or external causes.",
+        "lessonStepRef": "m18_step_05_position_and_collocations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q09",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "Prefer X to Y & Congratulate on",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate collocations: \"She prefers classical music ____ pop, and we congratulated her ____ winning.\"",
+        "options": [
+          "than / for",
+          "to / on",
+          "over / about",
+          "from / at"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Always say 'prefer A TO B' (never *prefer A than B) and 'congratulate someone ON' (standard exam collocation).",
+        "distractorRationales": [
+          "Avoid *prefer... than and *congratulate for.",
+          "Correct: 'prefer... to' and 'congratulate... on'.",
+          "Less standard.",
+          "Wrong pair."
+        ],
+        "grammarRule": "Use 'prefer X to Y' and 'congratulate [person] on [achievement]'.",
+        "lessonStepRef": "m18_step_05_position_and_collocations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q10",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "Between vs Among",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the sentence using 'between' or 'among' accurately:",
+        "options": [
+          "Divide the four prize books between the six winners.",
+          "Keep this map secret among you and me.",
+          "A direct bus runs between Kolkata, Bhubaneswar, and Puri.",
+          "She walked between the dense crowd alone."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Between' applies to two items OR distinct named points viewed individually ('between Kolkata, Bhubaneswar, and Puri'), whereas undifferentiated groups of 3+ take 'among'.",
+        "distractorRationales": [
+          "Six winners as a group take 'among'.",
+          "Two people ('you and me') require 'between'.",
+          "Correct: distinct named geographical points take 'between'.",
+          "Moving inside a single mass crowd takes 'through' or 'among'."
+        ],
+        "grammarRule": "Use 'between' for two or distinct individual entities, and 'among' for three or more as a group.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M18_Q11",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "Made of vs Made from",
+        "difficulty": "HARD",
+        "questionText": "Fill in both blanks accurately: \"This flute is made ____ bamboo, whereas fine writing paper is made ____ bamboo pulp.\"",
+        "options": [
+          "from / of",
+          "of / from",
+          "by / with",
+          "with / by"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use 'made of' when the raw material stays recognisable ('flute made of bamboo'), and 'made from' when it undergoes chemical/physical transformation ('paper made from pulp').",
+        "distractorRationales": [
+          "Reversed physical vs transformed material.",
+          "Correct: 'made of' (visible material) vs. 'made from' (transformed).",
+          "Wrong prepositions.",
+          "Wrong prepositions."
+        ],
+        "grammarRule": "'Made of' = original material remains visible; 'made from' = material is transformed.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q12",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "Cope with & Angry with/at",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the grammatically standard sentence:",
+        "options": [
+          "He knows how to cope up with sudden power cuts.",
+          "The coach was angry with the goalkeeper at his careless mistake.",
+          "She is married with a marine biologist.",
+          "We arrived to the station five minutes early."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Angry WITH a person' and 'angry AT a thing/action' are standard. Note: never *cope up with (say 'cope with'), say 'married TO', and 'arrived AT the station'.",
+        "distractorRationales": [
+          "Never insert 'up' in 'cope with'.",
+          "Correct: 'angry with [person] at [mistake]'.",
+          "Use 'married to', not 'with'.",
+          "Use 'arrived at' a station (or 'in' a city), never *arrived to."
+        ],
+        "grammarRule": "Use 'cope with', 'married to', 'arrive at/in', and 'angry with (person) / at (thing)'.",
+        "lessonStepRef": "m18_step_05_position_and_collocations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M18_Q13",
+        "subtopicId": "prepositions_time_space",
+        "subtopicTitle": "Zero preposition before tomorrow/next/last",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate sentence:",
+        "options": [
+          "Our school sports meet begins on next Wednesday.",
+          "Our school sports meet begins next Wednesday.",
+          "I spoke to the librarian on yesterday.",
+          "Will you visit the lab in this evening?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Omit prepositions ('on/in') directly before 'this, that, next, last, every' + time noun, and before 'today, yesterday, tomorrow'.",
+        "distractorRationales": [
+          "Drop 'on' before 'next Wednesday'.",
+          "Correct: zero preposition before 'next Wednesday'.",
+          "Drop 'on' before 'yesterday'.",
+          "Drop 'in' before 'this evening'."
+        ],
+        "grammarRule": "Drop time prepositions before 'next, last, this, every' + time word and before 'today/tomorrow/yesterday'.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M18_Q14",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "End-positioned preposition in wh-questions",
+        "difficulty": "MEDIUM",
+        "questionText": "Which question avoids duplicating or misusing a preposition?",
+        "options": [
+          "Where are you coming from?",
+          "Where are you going to?",
+          "For whom are you looking for?",
+          "With who did you travel with?"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Where are you coming from?' properly places 'from' at the end once; 'Where are you going?' needs no 'to'; C and D repeat prepositions twice.",
+        "distractorRationales": [
+          "Correct: natural single end-positioned preposition 'from'.",
+          "Avoid redundant 'to' in 'Where are you going?'.",
+          "Doubles 'for' at start and end.",
+          "Doubles 'with' and uses 'who' right after 'With'."
+        ],
+        "grammarRule": "Never repeat a fronted preposition at the end of the same question.",
+        "lessonStepRef": "m18_step_05_position_and_collocations",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M18_Q15",
+        "subtopicId": "preposition_position_collocations",
+        "subtopicTitle": "In time vs On time",
+        "difficulty": "HARD",
+        "storyContext": "Detective Ira logs the closing entry in the Treasury casebook.",
+        "questionText": "What is the exact difference between \"The express train arrived ON time\" and \"We reached the platform just IN time to board\"?",
+        "options": [
+          "'On time' means punctual (exact schedule); 'in time' means early enough before it is too late.",
+          "'In time' means punctual; 'on time' means barely catching the train.",
+          "Both phrases have identical meanings and can always swap.",
+          "'On time' is ungrammatical."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'On time' = exactly at the scheduled hour (punctual); 'in time' = before a deadline or before missing an opportunity.",
+        "distractorRationales": [
+          "Correct distinction.",
+          "Reversed both meanings.",
+          "Their nuances differ clearly.",
+          "'On time' is standard English."
+        ],
+        "grammarRule": "'On time' = punctual as scheduled; 'in time' = soon enough before a cutoff.",
+        "lessonStepRef": "m18_step_02_time_space_objects",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

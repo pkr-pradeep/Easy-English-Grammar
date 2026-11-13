@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sectionTitle": "Composition & Communication Skills",
+  "note": "Kept separate from the 25 consolidated grammar modules as required by curriculum rules. Explicitly listed in Punjab Class IX contents; other boards pending PDF verification.",
+  "categories": [
+    {
+      "id": "COMP_PARAGRAPH",
+      "title": "Paragraph Writing",
+      "sourceBoard": "PUNJAB",
+      "sourceClass": 9,
+      "topics": [
+        "Describing people",
+        "Describing places",
+        "Describing events and incidents",
+        "Describing procedures"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "COMP_WRITING",
+      "title": "Writing Skills",
+      "sourceBoard": "PUNJAB",
+      "sourceClass": 9,
+      "topics": [
+        "Note-making",
+        "Short messages",
+        "Emails",
+        "Informal letters",
+        "Formal letters"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "COMP_READING",
+      "title": "Reading Comprehension",
+      "sourceBoard": "PUNJAB",
+      "sourceClass": 9,
+      "topics": [
+        "Prose passages",
+        "Poems"
+      ],
+      "status": "planned"
+    }
+  ]
+}

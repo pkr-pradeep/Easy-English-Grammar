@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_17",
+  "worldId": "WORLD_4",
+  "title": "Adverbs and Adverbials",
+  "storyTitle": "Live Commentary at the Royal Stadium",
+  "estimatedMinutes": 18,
+  "charactersInvolved": [
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m17_step_01_intro",
+      "stepTitle": "Scene 1: Commentary Box Chaos!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Stadium Commentary Box • Afternoon",
+      "settingDescription": "The Kingdom's Annual Cricket & Athletics Meet is live! Chikoo grabs the microphone and mangles half the adverbs in mid-air.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "hyped",
+          "line": "Our sprinter ran fastly! The goalkeeper plays good! And look—we hardly won not a single point yesterday at the stadium!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "gasping",
+          "line": "Quick, hand me the mic before the whole stadium groans! 'Fastly' is not a word, 'good' is an adjective (use 'well'!), and 'hardly' already means 'almost not'!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Both single-word Adverbs ('well, often, too') and multi-word Adverbials ('with great skill, on the pitch, at dusk') tell HOW, WHERE, WHEN, HOW OFTEN, and HOW MUCH."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "alert",
+          "line": "Even more important: moving an adverbial like 'only' or stacking Place and Time in the wrong order changes the entire broadcast!"
+        }
+      ],
+      "storyCallout": "Goal: Distinguish single adverbs from adverbial phrases/clauses, place adverbials accurately, and avoid classic -ly traps."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m17_step_02_types_and_positions",
+      "stepTitle": "Discover: Adverb Types, Adverbials & Natural Positions",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "adverb_types_position",
+      "subtopicTitle": "Adverbs vs. Adverbials & Front / Mid / End Positions",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "If Adjectives paint Nouns, Adverbs and Adverbials are the Stadium Spotlight Operators showing HOW, WHERE, WHEN, HOW OFTEN, and HOW MUCH the action happens—and at the end of a sentence, they always queue up as Manner → Place → Time (M-P-T)!",
+      "formalDefinition": "An adverb modifies a verb, an adjective, another adverb, or a whole clause. The broader term 'adverbial' covers single adverbs, adverbial phrases (e.g., prepositional phrases like 'in the park'), and adverbial clauses ('when the whistle blew'). Adverbials occupy Front, Mid, or End positions according to grammatical class.",
+      "simpleExplanation": "Lock down the three positional rules:\n1) Mid-Position (Frequency & Focus adverbs: always, often, never, seldom, already, almost): Stand BEFORE a single main verb ('She always arrives early'), AFTER 'am/is/are/was/were' ('She is always punctual'), and AFTER the FIRST auxiliary in multi-word verb groups ('He has never missed practice').\n2) End-Position (M–P–T Order): When Manner, Place, and Time crowd together at the end of a clause, line them up Manner → Place → Time ('The choir sang sweetly [M] in the auditorium [P] last night [T]').\n3) Verb + Direct Object Protection: Never wedge a manner adverb between a verb and its Direct Object (*She speaks fluently English → 'She speaks English fluently').",
+      "structurePatterns": [
+        {
+          "formName": "Mid-Position Rule (Frequency Adverbs)",
+          "formula": "Subject + [Adv] + Main Verb | Subject + Be / Aux1 + [Adv] + Main Verb",
+          "sample": "Kabir rarely complains. / Kabir is rarely late. / Kabir has rarely complained."
+        },
+        {
+          "formName": "End-Position M–P–T Queue",
+          "formula": "Subject + Verb (+ Object) + MANNER + PLACE + TIME",
+          "sample": "Meera batted calmly (M) at the stadium (P) yesterday (T)."
+        },
+        {
+          "formName": "Three Forms of Adverbials",
+          "formula": "Word ('quickly') | Phrase ('with great speed') | Clause ('before the rain started')",
+          "sample": "All three answer When / Where / How / Why!"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Fortunately, the fielders caught the ball cleanly near the boundary before dusk.",
+          "contextNote": "'Fortunately' (Front viewpoint adverb), 'cleanly' (Manner), 'near the boundary' (Place), 'before dusk' (Time).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Our science teacher has never postponed a practical demonstration.",
+          "contextNote": "Frequency adverb 'never' sits right after the first auxiliary 'has'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "We practised yesterday smoothly on the court.",
+          "correctSentence": "We practised smoothly on the court yesterday.",
+          "whyItHappens": "Follow Manner ('smoothly') → Place ('on the court') → Time ('yesterday') at the end of a clause.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "After verbs of movement ('go, come, arrive, walk'), Place often comes right after the verb before Manner ('He walked to the crease calmly').",
+        "Fronting negative/restrictive adverbs ('Never have I seen...', 'Seldom does she miss...') triggers subject–auxiliary inversion!"
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m17_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Line Up M–P–T Adverbials",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD17_CP1",
+      "subtopicId": "adverb_types_position",
+      "subtopicTitle": "Manner → Place → Time Ordering",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani drops her live-commentary cue cards! Rebuild the closing sentence in standard Manner → Place → Time order.",
+      "questionPrompt": "Tap the tiles to form a smooth English sentence:",
+      "wordTokens": [
+        "on the track",
+        "this morning.",
+        "ran",
+        "swiftly",
+        "Ananya"
+      ],
+      "acceptedAnswers": ["Ananya ran swiftly on the track this morning."],
+      "hint": "Subject ('Ananya') → Verb ('ran') → Manner ('swiftly') → Place ('on the track') → Time ('this morning.').",
+      "feedbackCorrect": "Vaani: \"Smooth broadcast! Subject + Verb + Manner ('swiftly') + Place ('on the track') + Time ('this morning')!\"",
+      "feedbackWrongDefault": "Follow Manner → Place → Time after 'Ananya ran'.",
+      "simplerExample": "The team celebrated joyfully in the pavilion last night.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m17_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Mid-Position Frequency Adverb",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD17_CP2",
+      "subtopicId": "adverb_types_position",
+      "subtopicTitle": "Placing 'always / seldom' with Auxiliaries",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar inspects four commentary lines using the adverb 'always'.",
+      "questionPrompt": "Which sentence places 'always' in the natural grammatical slot?",
+      "options": [
+        "Our captain always has inspired the team.",
+        "Our captain has always inspired the team.",
+        "Always our captain has inspired the team.",
+        "Our captain has inspired always the team."
+      ],
+      "acceptedAnswers": ["Our captain has always inspired the team."],
+      "hint": "When there is an auxiliary verb ('has'), mid-position frequency adverbs sit RIGHT AFTER the first auxiliary and before the main verb!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Spot on! Between auxiliary 'has' and main verb 'inspired' is the textbook mid-position slot.\"",
+      "feedbackWrongDefault": "Put 'always' after the auxiliary 'has' and before 'inspired'.",
+      "feedbackWrongByOption": {
+        "Our captain always has inspired the team.": "Put 'always' BEFORE single main verbs ('always inspires'), yet AFTER auxiliaries ('has always inspired')!"
+      },
+      "simplerExample": "She is always ready, and she has always worked hard.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m17_step_05_tricky_pairs_meaning",
+      "stepTitle": "Discover: Tricky Adverbs, Double Meanings & Emphasis",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "adverb_traps_meaning",
+      "subtopicTitle": "False '-ly' Forms, Hard/Hardly, Too/Very & Focus Adverbs",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Beware '-ly' disguises! Words like 'friendly, cowardly, lovely, brotherly' look like adverbs yet are ADJECTIVES (say 'in a friendly way'!). Meanwhile, 'hard' (with great effort) and 'hardly' (almost zero!) are complete opposites!",
+      "formalDefinition": "Several English adverbs have identical base and adverbial forms ('fast, hard, late, early'), while adding '-ly' either does not exist (*fastly) or creates a different meaning ('hardly' = scarcely; 'lately' = recently). Negative/restrictive adverbs ('hardly, scarcely, seldom') must not combine with 'not', and focus adverbs ('only, even') shift clause meaning based on position.",
+      "simpleExplanation": "Master these five exam favourites:\n1) No *fastly: 'fast' is both adjective ('a fast bowler') and adverb ('bowled fast'). Same for 'straight' and 'daily'.\n2) '-ly' Adjective Trap: 'friendly, lonely, lively, cowardly' are ADJECTIVES—to modify an action, say 'spoke in a friendly manner' (not *spoke friendly).\n3) Meaning Splitters: 'hard' (diligently: 'works hard') vs. 'hardly' (almost not at all: 'hardly sleeps'); 'late' (after scheduled time) vs. 'lately' (recently); 'good' (Adjective) vs. 'well' (Adverb of manner: 'played well'—though 'well' can mean healthy as an adjective!).\n4) 'Too + Adj + to V1' vs. 'Very': Avoid using 'too' when you merely mean 'very' (*The tea is too tasty → 'The tea is very tasty' / 'delicious'! Use 'too' for excess/problem: 'too hot to drink').\n5) Negative Adverbs ('hardly, scarcely, barely, seldom'): Already negative—never add 'not' (*I didn't hardly see him → 'I hardly saw him').",
+      "structurePatterns": [
+        {
+          "formName": "Identical Adv/Adj vs. '-ly' Meaning Shift",
+          "formula": "fast / straight / hard / late (Adverb) | hardly (= almost not) | lately (= recently)",
+          "sample": "Dev trained hard (effort), so he hardly missed (almost never) a catch lately (recently)."
+        },
+        {
+          "formName": "'Only' Focus Position",
+          "formula": "Place 'only' directly BEFORE the word it restricts",
+          "sample": "Only Maya ran two laps (nobody else). / Maya ran only two laps (not three)."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The referee smiled in a friendly manner even though the spectators cheered loudly.",
+          "contextNote": "Uses 'in a friendly manner' because 'friendly' is an adjective, not an adverb.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "The final over was very exciting, though the stadium floodlights were too bright to look at directly.",
+          "contextNote": "'Very' for positive intensity ('very exciting'); 'too... to' for excessive degree causing a barrier.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "She plays violin very good, and I couldn't hardly hear the whistle!",
+          "correctSentence": "She plays the violin very well, and I could hardly hear the whistle!",
+          "whyItHappens": "Use adverb 'well' (not adjective 'good') to modify 'plays', and never combine 'couldn't' with negative 'hardly'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Very' modifies positive/neutral adjectives and present participles ('very interesting'), whereas 'much' modifies comparatives and many past participles ('much better', 'much appreciated')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m17_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Hard vs. Hardly & Good vs. Well",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD17_CP3",
+      "subtopicId": "adverb_traps_meaning",
+      "subtopicTitle": "Adverb Meaning Pairs",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira praises the relay runner: \"Priya trained ____ all month, and today she ran remarkably ____!\"",
+      "questionPrompt": "Which two words fill the blanks accurately (type as 'word1 / word2')?",
+      "sentenceTemplate": "Priya trained ________ all month, and today she ran remarkably ________!",
+      "acceptedAnswers": ["hard / well", "hard, well"],
+      "hint": "Did she train diligently ('hard') or almost not at all ('hardly')? And what is the adverb form of 'good'?",
+      "feedbackCorrect": "Detective Ira: \"Gold-medal grammar! 'Trained hard' (diligently) and 'ran well' (adverb of manner)!\"",
+      "feedbackWrongDefault": "Use 'hard' (not 'hardly'!) for diligent effort, and adverb 'well' (not adjective 'good') for 'ran'.",
+      "simplerExample": "Study hard so you perform well.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m17_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Spot the Double Negative & False '-ly'",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD17_CP4",
+      "subtopicId": "adverb_traps_meaning",
+      "subtopicTitle": "Fixing *fastly and Double Negatives",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo reads his final commentary line: \"The courier sprinted fastly, yet I didn't hardly see him arrive!\"",
+      "questionPrompt": "Pick the clean correction fixing BOTH adverb mistakes:",
+      "options": [
+        "The courier sprinted fast, yet I hardly saw him arrive!",
+        "The courier sprinted fast, yet I didn't hardly saw him arrive!",
+        "The courier sprinted fastly, yet I hardly saw him arrive!",
+        "The courier sprinted quick, yet I didn't hardly see him arrive!"
+      ],
+      "acceptedAnswers": ["The courier sprinted fast, yet I hardly saw him arrive!"],
+      "hint": "Replace non-existent *fastly with 'fast', and remove 'didn't' before negative 'hardly' (using simple past 'saw')!",
+      "feedbackCorrect": "Maharaj Vakya: \"Broadcast approved! 'Fast' needs no '-ly', and 'hardly' carries negative sense all by itself!\"",
+      "feedbackWrongDefault": "Drop '-ly' from 'fastly' → 'fast', and remove 'didn't' so 'hardly' isn't doubled with another negative.",
+      "feedbackWrongByOption": {
+        "The courier sprinted fastly, yet I hardly saw him arrive!": "*Fastly is not a standard English word—'fast' is already an adverb!"
+      },
+      "simplerExample": "The train moved fast, and we could hardly blink.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m17_step_08_outro",
+      "stepTitle": "Scene 2: Standing Ovation in the Commentary Box!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Stadium • Trophy Ceremony",
+      "settingDescription": "Vaani and Chikoo deliver crisp, vibrant stadium commentary with spotless adverbials and razor-sharp placement.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "proud",
+          "line": "Our athletes performed brilliantly on the field today, and the spectators cheered in a friendly manner!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "smiling",
+          "line": "Spotless commentary! Review your Grammar Notebook and score big on the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 17 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Adverbs vs. Adverbials & Forms",
+        "ruleSummary": "Adverbials answer How, Where, When, How often, Why, or How much, appearing as single adverbs ('swiftly'), prepositional phrases ('on the field'), or adverb clauses ('when the bell rang').",
+        "formulaOrPattern": "Single Adverb | Adverbial Phrase | Adverbial Clause",
+        "example": "She arrived early / before eight o'clock / before the gates opened."
+      },
+      {
+        "heading": "Mid-Position & End-Position (M–P–T)",
+        "ruleSummary": "Frequency adverbs sit before single main verbs, after 'be', and after the first auxiliary. Multiple end adverbials follow Manner → Place → Time. Never split Verb and Direct Object.",
+        "formulaOrPattern": "Aux1 + [always/never] + Main Verb | End: Manner → Place → Time",
+        "example": "He has never spoken rudely in class during debates."
+      },
+      {
+        "heading": "Tricky Pairs & Negative Adverbs",
+        "ruleSummary": "Fast = adjective & adverb (never *fastly); friendly/lovely = adjectives ('in a friendly way'); good (adj) vs well (adv); hard (effort) vs hardly (almost none). Never combine 'hardly/seldom/scarcely' with 'not'.",
+        "formulaOrPattern": "very + Positive Adj/Adv | much + Comparative | too + Adj + to V1 (excess)",
+        "example": "They trained hard and played very well; we could hardly believe the score."
+      }
+    ],
+    "memoryAids": [
+      "Stadium Queue: End adverbials always line up Manner → Place → Time (HOW → WHERE → WHEN)!",
+      "Don't trust every '-ly': 'friendly, lonely, cowardly' are Adjectives in disguise, while 'fast' refuses '-ly' altogether!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "She speaks very well Hindi and behaved friendly with everyone.",
+        "correctSentence": "She speaks Hindi very well and behaved in a friendly manner with everyone.",
+        "whyItHappens": "Do not split verb ('speaks') and object ('Hindi'), and use 'in a friendly manner' since 'friendly' is an adjective.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "I couldn't hardly hear because the music was too sweet!",
+        "correctSentence": "I could hardly hear because the music was very sweet (or too loud to bear).",
+        "whyItHappens": "'Hardly' is already negative (drop 'n't'), and use 'very' rather than 'too' for pleasant qualities.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Opening a sentence with a negative/restrictive adverb ('Seldom, Never, Hardly, Not only') inverts auxiliary and subject: 'Seldom have I witnessed such teamwork.'"
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 13 (Adverbials), Odisha IX Ch. 10 (Adverbs and Adverbials), and Odisha X Ch. 8 (Adverb Clauses)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M17_Q01",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Identifying adverbial phrases & clauses",
+        "difficulty": "EASY",
+        "questionText": "In \"The sprinters warmed up behind the pavilion before the race began\", what kind of adverbials are 'behind the pavilion' and 'before the race began' respectively?",
+        "options": [
+          "Adverbial Phrase of Place, then Adverbial Clause of Time",
+          "Single Adverb, then Noun Phrase",
+          "Adverbial Clause of Manner, then Prepositional Phrase",
+          "Adjective Phrase, then Relative Clause"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Behind the pavilion' has no finite verb (Adverbial Phrase answering WHERE); 'before the race began' has subject + finite verb (Adverbial Clause answering WHEN).",
+        "distractorRationales": [
+          "Correct: Phrase of Place + Clause of Time.",
+          "Neither is a single word.",
+          "Reversed phrase/clause and wrong meaning.",
+          "Both modify the verb 'warmed up'."
+        ],
+        "grammarRule": "Distinguish single adverbs, adverbial phrases (no finite verb), and adverbial clauses (with subject + finite verb).",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q02",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Manner → Place → Time order",
+        "difficulty": "EASY",
+        "questionText": "Choose the sentence following standard Manner → Place → Time order:",
+        "options": [
+          "The orchestra performed last evening beautifully in the hall.",
+          "The orchestra performed beautifully in the hall last evening.",
+          "The orchestra performed in the hall last evening beautifully.",
+          "Last evening performed the orchestra beautifully in the hall."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Standard end-position sequence places Manner ('beautifully') → Place ('in the hall') → Time ('last evening').",
+        "distractorRationales": [
+          "Puts Time first.",
+          "Correct: Manner → Place → Time.",
+          "Puts Manner last.",
+          "Awkward verb-subject inversion."
+        ],
+        "grammarRule": "Order end-position adverbials as Manner → Place → Time.",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q03",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Mid-position with 'be' and auxiliaries",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence places 'seldom' accurately?",
+        "options": [
+          "Our school bus seldom is delayed by fog.",
+          "Our school bus is seldom delayed by fog.",
+          "Our school bus is delayed seldom by fog.",
+          "Seldom our school bus is delayed by fog."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Mid-position adverbs sit AFTER 'is/am/are/was/were' (and after the first auxiliary): 'is seldom delayed'.",
+        "distractorRationales": [
+          "Should follow 'is', not precede it.",
+          "Correct: after 'is' and before participle 'delayed'.",
+          "Placed too late after 'delayed'.",
+          "Initial 'Seldom' would require inversion ('Seldom is our school bus delayed')."
+        ],
+        "grammarRule": "Place mid-position adverbs after 'be' or the first auxiliary verb.",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q04",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Good vs Well",
+        "difficulty": "EASY",
+        "questionText": "Fill in accurately: \"Although Dev felt tired, he batted remarkably ____.\"",
+        "options": [
+          "good",
+          "well",
+          "goodly",
+          "bestly"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Well' is the adverb of manner modifying the action verb 'batted'; 'good' is an adjective.",
+        "distractorRationales": [
+          "Adjective cannot modify action verb 'batted' in standard grammar.",
+          "Correct: adverb 'well'.",
+          "Non-standard form.",
+          "*Bestly does not exist."
+        ],
+        "grammarRule": "Use 'well' (not 'good') as the adverb modifying action verbs.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q05",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Hard vs Hardly",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the sentence that matches the meaning 'almost never':",
+        "options": [
+          "Chikoo worked hard all week.",
+          "Chikoo hardly ever misses a banana snack.",
+          "Chikoo hit the shuttlecock hard.",
+          "The riddle was hard to solve."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Hardly ever' means 'almost never / scarcely'; 'hard' in A and C means 'with great effort/force', and in D is an adjective.",
+        "distractorRationales": [
+          "Means diligently.",
+          "Correct: 'hardly' = scarcely / almost not.",
+          "Means forcefully.",
+          "Adjective meaning difficult."
+        ],
+        "grammarRule": "'Hard' = diligently/forcefully; 'hardly' = scarcely / almost not at all.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q06",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Double negative with hardly/scarcely",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the grammatically accurate sentence:",
+        "options": [
+          "I couldn't scarcely see the trail through the mist.",
+          "I could scarcely see the trail through the mist.",
+          "She didn't hardly say a word during lunch.",
+          "There wasn't barely enough ink for one page."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Hardly, scarcely, barely' are already negative adverbs—pair them with positive verbs ('could scarcely', 'hardly said', 'was barely').",
+        "distractorRationales": [
+          "Double negative: 'couldn't' + 'scarcely'.",
+          "Correct: positive verb + negative adverb 'scarcely'.",
+          "Double negative: 'didn't' + 'hardly'.",
+          "Double negative: 'wasn't' + 'barely'."
+        ],
+        "grammarRule": "Never pair 'not / n't' with negative adverbs like hardly, scarcely, barely, or seldom.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M17_Q07",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Adjectives ending in -ly",
+        "difficulty": "HARD",
+        "questionText": "Which sentence uses 'friendly' or its adverbial equivalent accurately?",
+        "options": [
+          "The senior students welcomed us friendly.",
+          "The senior students welcomed us in a friendly manner.",
+          "She answered every question very friendly.",
+          "Walk friendly beside the younger children."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Words like 'friendly, lonely, lovely, cowardly, lively' ending in '-ly' are ADJECTIVES, so modifying a verb requires 'in a friendly manner/way'.",
+        "distractorRationales": [
+          "Cannot use adjective 'friendly' directly as manner adverb.",
+          "Correct: 'in a friendly manner'.",
+          "'Friendly' cannot modify 'answered'.",
+          "Cannot modify 'walk'."
+        ],
+        "grammarRule": "For '-ly' adjectives ('friendly, cowardly, silly'), use 'in a ___ way/manner' as an adverbial.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M17_Q08",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Late vs Lately",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in cleanly: \"Our train arrived twenty minutes ____, though trains on this route have been punctual ____.\"",
+        "options": [
+          "lately / late",
+          "late / lately",
+          "lately / lately",
+          "late / late"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Late' = after scheduled time; 'lately' = recently (often paired with Present Perfect 'have been').",
+        "distractorRationales": [
+          "Swapped meanings.",
+          "Correct: 'arrived late' + 'punctual lately (recently)'.",
+          "Cannot say *arrived twenty minutes lately.",
+          "Misses 'recently' sense."
+        ],
+        "grammarRule": "'Late' refers to tardiness; 'lately' means 'recently'.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q09",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Too vs Very & Much vs Very",
+        "difficulty": "HARD",
+        "questionText": "Choose the sentence that uses 'very', 'much', and 'too' accurately:",
+        "options": [
+          "This mango lassi is too delicious, and I am very better today.",
+          "This mango lassi is very delicious, and I am feeling much better today.",
+          "The tea is very hot to drink right now.",
+          "We are much happy to meet the guest speaker."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use 'very' (not 'too') for positive intensity ('very delicious'), and 'much' (not 'very') before comparatives ('much better').",
+        "distractorRationales": [
+          "Misuses 'too' for a pleasant trait and 'very' before comparative 'better'.",
+          "Correct: 'very' + positive adjective, 'much' + comparative.",
+          "'Too hot to drink' expresses excess barrier, not 'very'.",
+          "Use 'very happy' (positive adjective)."
+        ],
+        "grammarRule": "Pair 'very' with positive adjectives/adverbs and 'much' with comparatives; reserve 'too' for excess.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M17_Q10",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Negative inversion",
+        "difficulty": "HARD",
+        "questionText": "Complete cleanly with standard negative inversion: \"Seldom ____ such disciplined teamwork on the cricket pitch!\"",
+        "options": [
+          "we have witnessed",
+          "have we witnessed",
+          "did we witnessed",
+          "witnessed we"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Fronting negative/restrictive adverbs ('Seldom, Never, Rarely, Hardly') inverts the auxiliary BEFORE the subject: 'Seldom have we witnessed...'.",
+        "distractorRationales": [
+          "Lacks subject–auxiliary inversion.",
+          "Correct: auxiliary 'have' before subject 'we'.",
+          "Cannot use V2 'witnessed' after 'did'.",
+          "Main lexical verb cannot invert without auxiliary."
+        ],
+        "grammarRule": "Fronted negative adverbs (Never, Seldom, Hardly) invert Auxiliary + Subject.",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q11",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Focus adverb 'only' placement",
+        "difficulty": "MEDIUM",
+        "questionText": "Which placement of 'only' strictly means 'Meera ate NO MORE than one apple' (rather than 'nobody else ate one')?",
+        "options": [
+          "Only Meera ate one apple after practice.",
+          "Meera ate only one apple after practice.",
+          "Meera ate one apple after only practice.",
+          "Meera ate one apple after practice only."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Place 'only' directly before the phrase it restricts: 'only one apple' limits the quantity.",
+        "distractorRationales": [
+          "Restricts 'Meera' (= nobody else).",
+          "Correct: 'only' right before 'one apple'.",
+          "Restricts 'practice'.",
+          "Ambiguously restricts 'after practice'."
+        ],
+        "grammarRule": "Place focus adverbs ('only, even, just') immediately before the word or phrase they limit.",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M17_Q12",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Viewpoint/Sentence adverbs",
+        "difficulty": "EASY",
+        "questionText": "In \"Fortunately, the rain stopped before the opening march\", what does 'Fortunately' modify?",
+        "options": [
+          "Only the noun 'rain'",
+          "Only the preposition 'before'",
+          "The entire sentence/statement as the speaker's comment",
+          "The adjective 'opening'"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Fortunately', 'honestly', and 'clearly' at the start of a clause act as sentence/viewpoint adverbs commenting on the whole event.",
+        "distractorRationales": [
+          "Does not modify the rain directly.",
+          "Cannot modify a preposition.",
+          "Correct: modifies the entire clause.",
+          "Does not modify 'opening'."
+        ],
+        "grammarRule": "Sentence adverbs ('fortunately, surprisingly, sadly') express the speaker's attitude toward the whole clause.",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q13",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Verb-Object protection",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the natural sentence that avoids splitting verb and direct object:",
+        "options": [
+          "He wrote neatly all the answers in his register.",
+          "He wrote all the answers neatly in his register.",
+          "He neatly wrote in his register all the answers.",
+          "He all the answers wrote neatly in his register."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Keep 'wrote' directly beside its Direct Object 'all the answers', placing manner ('neatly') and place ('in his register') afterwards.",
+        "distractorRationales": [
+          "Wedges 'neatly' between verb and object.",
+          "Correct: Verb + Object + Manner + Place.",
+          "Wedges place phrase between verb and object.",
+          "Verb cannot follow object."
+        ],
+        "grammarRule": "Do not insert a manner or place adverbial between a transitive verb and its direct object.",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M17_Q14",
+        "subtopicId": "adverb_traps_meaning",
+        "subtopicTitle": "Flat adverbs (fast, high, near)",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"The eagle soared ____ above the cliffs, and the river flowed ____.\"",
+        "options": [
+          "highly / fastly",
+          "high / fast",
+          "highly / fast",
+          "high / fastly"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'High' marks literal altitude ('soared high'—'highly' means greatly, as in 'highly praised'); 'fast' never takes '-ly'.",
+        "distractorRationales": [
+          "Misuses 'highly' (abstract degree) and fake *fastly.",
+          "Correct: physical height 'high' and adverb 'fast'.",
+          "'Highly' means 'greatly', not vertical height.",
+          "*Fastly does not exist."
+        ],
+        "grammarRule": "'High' marks physical altitude ('fly high'), whereas 'highly' marks degree ('highly respected').",
+        "lessonStepRef": "m17_step_05_tricky_pairs_meaning",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M17_Q15",
+        "subtopicId": "adverb_types_position",
+        "subtopicTitle": "Adverbial of purpose/reason",
+        "difficulty": "EASY",
+        "storyContext": "Vaani wraps up the stadium broadcast.",
+        "questionText": "Which underlined-style phrase functions as an ADVERBIAL OF CONCESSION/CONTRAST?",
+        "options": [
+          "in the middle of the pitch",
+          "despite the sudden drizzle",
+          "every single morning",
+          "with great speed"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Despite the sudden drizzle' introduces contrast/concession ('Although it drizzled suddenly,...').",
+        "distractorRationales": [
+          "Place adverbial.",
+          "Correct: adverbial phrase of concession/contrast.",
+          "Frequency adverbial.",
+          "Manner adverbial."
+        ],
+        "grammarRule": "Prepositional phrases beginning with 'despite' or 'in spite of' function as adverbials of concession.",
+        "lessonStepRef": "m17_step_02_types_and_positions",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

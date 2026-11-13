@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_07",
+  "worldId": "WORLD_2",
+  "title": "Determiners and Articles",
+  "storyTitle": "The Royal Bazaar Shopping List",
+  "estimatedMinutes": 20,
+  "charactersInvolved": [
+    "CHIKOO_BANDAR",
+    "VAANI",
+    "DETECTIVE_IRA",
+    "ACHARYA_VIDYADHAR",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m07_step_01_intro",
+      "stepTitle": "Scene 1: Mystery Orders at the Bazaar",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "The Spice & Scroll Stall • Morning",
+      "settingDescription": "Chikoo Bandar hands the Royal Grocer a shopping list full of missing articles and mixed-up quantifiers.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "confused",
+          "line": "Read my order! 'Bring a orange, an uniform, few water, and a little bananas—quickly before the sun rises in a east!'"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "amused",
+          "line": "Chikoo! You picked 'an' before 'uniform' because of the letter 'u', forgot that 'the east' is unique, and mixed up 'a little' with 'a few'!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "calm",
+          "line": "Articles are only one shelf in the Determiner Pavilion. Demonstratives, possessives, numerals, quantifiers, and wh-determiners all work together before a noun."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "ready",
+          "line": "Let us fix every item on the royal list—and learn when nouns need ZERO article at all!"
+        }
+      ],
+      "storyCallout": "Goal: Master 'a / an / the / zero article', quantifiers (few/a few, little/a little), and determiner order."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m07_step_02_articles_and_zero",
+      "stepTitle": "Discover: Articles (a, an, the) & Zero Article",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "articles",
+      "subtopicTitle": "Definite, Indefinite & Zero Articles",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "'A' and 'an' listen with their EARS, not their eyes: 'an' stands before vowel SOUNDS ('an hour', 'an M.A.'), while 'a' greets consonant SOUNDS ('a university', 'a one-rupee coin'). 'The' is a spotlight pointing to ONE specific or famous thing!",
+      "formalDefinition": "Articles are central determiners that specify whether a noun is indefinite ('a', 'an'), definite ('the'), or generic/unmarked (zero article). Choice between 'a' and 'an' is governed strictly by the initial phonetic sound of the following word.",
+      "simpleExplanation": "1) Use 'an' before words starting with a vowel sound: 'an honest man' (silent h), 'an MLA' (starts with /em/), 'an umbrella'. Use 'a' before words starting with a consonant sound: 'a university' (/yu:/), 'a European' (/yu:/), 'a one-eyed deer' (/w/).\n2) Use 'the' for something already mentioned or clearly identified ('Open the blue window'), unique objects ('the sun, the equator'), superlatives ('the highest peak'), rivers/seas/mountain ranges ('the Ganga, the Himalayas'), musical instruments ('play the flute'), and holy books/newspapers.\n3) Use ZERO article before languages ('speak Tamil'), school subjects ('study physics'), meals ('at breakfast'), plural/uncountable generalisations ('Water is precious'), and primary-purpose institutions ('go to school' vs 'visit the school' to meet the principal).",
+      "structurePatterns": [
+        {
+          "formName": "Sound Rule for a / an",
+          "formula": "Consonant Sound → a | Vowel Sound → an",
+          "sample": "a university, a one-way road • an hour, an MBA degree, an eagle"
+        },
+        {
+          "formName": "Definite 'the' vs. Zero Article",
+          "formula": "Specific / Unique / River Range / Superlative → the | General / Language / Meal / Primary Purpose → Ø",
+          "sample": "I enjoy Ø music, especially the sitar. / Students go to Ø school at eight."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "She earned an M.Sc. degree from a university near the Brahmaputra.",
+          "contextNote": "'M.Sc.' starts with vowel sound /em/ → 'an'; 'university' starts with consonant sound /y/ → 'a'; 'Brahmaputra' is a river → 'the'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "He stayed in Ø hospital for treatment, while his aunt visited the hospital at noon.",
+          "contextNote": "Primary purpose (patient) takes zero article; visiting the building specifically takes 'the'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The gold is a costly metal, and I love the Hindi.",
+          "correctSentence": "Gold is a costly metal, and I love Hindi.",
+          "whyItHappens": "Material nouns spoken of generally ('gold') and names of languages ('Hindi') take ZERO article.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Use 'the' before countries whose names include plural/republic/kingdom words ('the United States', 'the Netherlands'), though single-name countries take no article ('India', 'Japan').",
+        "Although meals normally take no article ('after lunch'), a specific/described meal takes an article ('a delicious lunch')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m07_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Sound-Check the Articles",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD07_CP1",
+      "subtopicId": "articles",
+      "subtopicTitle": "Choosing a, an, or the by Sound & Specificity",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani reads out an announcement at the bazaar gate: \"____ honest volunteer carried ____ one-rupee coin to ____ post office.\"",
+      "questionPrompt": "Pick the option that fills all three blanks accurately:",
+      "options": [
+        "A / an / a",
+        "An / a / the",
+        "An / an / the",
+        "The / an / a"
+      ],
+      "acceptedAnswers": ["An / a / the"],
+      "hint": "Say 'honest' and 'one' out loud! 'Honest' starts with /o/ (silent h); 'one' starts with /w/. And both speakers know which post office!",
+      "feedbackCorrect": "Vaani: \"Music to my ears! 'An honest' (silent h), 'a one-rupee' (/w/ sound), and 'the post office' (specific local office).\"",
+      "feedbackWrongDefault": "Listen to the FIRST sound of 'honest' (/o/) and 'one' (/w/).",
+      "feedbackWrongByOption": {
+        "An / an / the": "'One' begins with the consonant sound /w/, like 'won', so it takes 'a', not 'an'."
+      },
+      "simplerExample": "An hour (/au/) • A useful tool (/y/).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m07_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Zero Article Check",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD07_CP2",
+      "subtopicId": "articles",
+      "subtopicTitle": "Where English Omits 'the'",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Chikoo wrote in his diary: \"I had the breakfast early because I wanted to revise the English.\"",
+      "questionPrompt": "Choose the natural correction:",
+      "options": [
+        "I had a breakfast early because I wanted to revise an English.",
+        "I had breakfast early because I wanted to revise English.",
+        "I had the breakfast early because I wanted to revise English.",
+        "I had breakfast early because I wanted to revise the English."
+      ],
+      "acceptedAnswers": ["I had breakfast early because I wanted to revise English."],
+      "hint": "Regular meals ('breakfast') and academic subjects/languages ('English') normally take zero article.",
+      "feedbackCorrect": "Detective Ira: \"Clean case! Both meals ('breakfast') and subjects/languages ('English') drop 'the' in general use.\"",
+      "feedbackWrongDefault": "Drop 'the' before ordinary meals and school subjects/languages.",
+      "feedbackWrongByOption": {
+        "I had the breakfast early because I wanted to revise English.": "'Breakfast' is an everyday meal here, not a specially described event."
+      },
+      "simplerExample": "We eat dinner at eight and study mathematics in the morning.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m07_step_05_other_determiners",
+      "stepTitle": "Discover: Quantifiers & Determiner Families",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "quantifiers_order",
+      "subtopicTitle": "Demonstratives, Possessives, Quantifiers, Numerals & Order",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Quantifier mood meter: bare 'few / little' wear a frown ('almost none—not enough!'), while 'a few / a little' wear a smile ('a small but helpful amount!').",
+      "formalDefinition": "Beyond articles, determiners include demonstratives (this, that, these, those), possessives (my, our, their), numerals (cardinals & ordinals), quantifiers (some, any, much, many, each, every, few/a few/the few, little/a little/the little), and wh-determiners (which, what, whose). Only one central determiner may precede a noun phrase, though predeterminers (all, both, half) may stand before it and numerals after it.",
+      "simpleExplanation": "Know these high-value distinctions: (1) 'Few / a few / the few' go with PLURAL countable nouns; 'little / a little / the little' go with UNCOUNTABLE nouns. Without 'a', 'few/little' sound negative (hardly any); with 'a', they mean 'some'. 'The few / the little' mean 'not many/much, yet ALL there is'. (2) 'Some' fits affirmative sentences and polite offers ('Would you like some tea?'); 'any' fits negatives and neutral questions. (3) Never stack two central determiners together (*this my book → 'this book of mine' or 'my book'). (4) Order: Predeterminer ('all/both/half') + Central Determiner ('the/my/these') + Ordinal ('first') + Cardinal ('two').",
+      "structurePatterns": [
+        {
+          "formName": "Determiner Slot Order",
+          "formula": "Predeterminer (all/both/half) + Central (the/my/these) + Ordinal + Cardinal + Noun",
+          "sample": "all the first three chapters • both his elder sisters"
+        },
+        {
+          "formName": "Few vs. Little Nuance",
+          "formula": "few / a few / the few (+ Plural Count) | little / a little / the little (+ Uncount)",
+          "sample": "Few students arrived (almost none). / A few students helped (some)."
+        },
+        {
+          "formName": "Each vs. Every",
+          "formula": "each (2 or more, individually) | every (3 or more, as a whole group)",
+          "sample": "Each side of the coin • Every citizen in the town"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The few mangoes that remained in the basket were shared among all the children.",
+          "contextNote": "'The few' = not many, yet all of that small group.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "She drank a little warm milk before studying, though there was little time left.",
+          "contextNote": "'A little' = a small positive amount; 'little' = almost none.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "I don't have some coins, and please give me the my blue pen.",
+          "correctSentence": "I don't have any coins, and please give me my blue pen.",
+          "whyItHappens": "Negative verbs ('don't have') normally take 'any' instead of 'some', and central determiners ('the' + 'my') cannot sit side by side.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'No' cannot combine with 'any'; say 'There isn't any ink' OR 'There is no ink'.",
+        "'Enough' can sit before a noun ('enough chairs'), whereas adjectives take 'enough' after them ('tall enough')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m07_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Positive or Negative Quantifier?",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD07_CP3",
+      "subtopicId": "quantifiers_order",
+      "subtopicTitle": "Few vs. A few vs. Little vs. A little",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar smiles reassuringly: \"Don't worry—we still have ____ minutes left, so we can check our last two answers.\"",
+      "questionPrompt": "Type the correct quantifier ('few', 'a few', 'little', or 'a little'):",
+      "sentenceTemplate": "Don't worry—we still have ________ minutes left, so we can check our last two answers.",
+      "acceptedAnswers": ["a few"],
+      "hint": "'Minutes' is countable plural, and the tone is encouraging ('we CAN check')!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Right! 'Minutes' is countable plural, and 'a few' gives the helpful, positive sense!\"",
+      "feedbackWrongDefault": "Use 'a few' for a small but sufficient number of countable items ('minutes').",
+      "simplerExample": "Good news: I saved a few rupees. / Bad news: Very few shops were open.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m07_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Line Up the Determiners",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD07_CP4",
+      "subtopicId": "quantifiers_order",
+      "subtopicTitle": "Determiner Order Before a Noun",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya asks you to arrange the Royal Library label in proper determiner order.",
+      "questionPrompt": "Tap the tiles in order to form a grammatical sentence:",
+      "wordTokens": [
+        "all",
+        "chapters",
+        "the",
+        "three",
+        "first",
+        "Read"
+      ],
+      "acceptedAnswers": ["Read all the first three chapters"],
+      "hint": "Follow: Verb → Predeterminer ('all') → Central Determiner ('the') → Ordinal ('first') → Cardinal ('three') → Noun.",
+      "feedbackCorrect": "Maharaj Vakya: \"Splendid order! Predeterminer ('all'), central determiner ('the'), ordinal ('first'), and cardinal ('three') march cleanly!\"",
+      "feedbackWrongDefault": "Place 'all' before 'the', then 'first', then 'three', then 'chapters'.",
+      "simplerExample": "All the first five winners received badges.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m07_step_08_outro",
+      "stepTitle": "Scene 2: Royal Shopping List Approved!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "The Spice & Scroll Stall • Noon",
+      "settingDescription": "With 'an honest volunteer', 'a university scroll', 'a few ripe bananas', and 'a little honey' clearly listed, the Royal Grocer packs every parcel cleanly.",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "cheerful",
+          "line": "Look how exact that order is now—no confusing articles and no empty pockets from 'few' vs 'a few'!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "Check your Grammar Notebook whenever 'a vs an' or 'little vs few' tries to trick you, then take the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 7 Story Complete! Open your Grammar Notebook or begin the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Articles: Sound Over Spelling",
+        "ruleSummary": "Choose 'a' before an initial consonant sound and 'an' before an initial vowel sound. Use 'the' for specific, previously mentioned, or unique nouns; omit articles for general languages, subjects, meals, and primary-purpose institutions.",
+        "formulaOrPattern": "a + consonant sound (/y/, /w/) | an + vowel sound (an hour, an M.A.) | the (specific/unique)",
+        "example": "An honest student joined a university near the Yamuna."
+      },
+      {
+        "heading": "Few vs. Little & Some vs. Any",
+        "ruleSummary": "'Few / a few / the few' modify plural countables; 'little / a little / the little' modify uncountables. 'Some' suits positives and offers; 'any' suits negatives and neutral questions.",
+        "formulaOrPattern": "few (hardly any) vs. a few (some) | little (hardly any) vs. a little (some)",
+        "example": "A few volunteers brought some water, though little shade remained."
+      },
+      {
+        "heading": "Determiner Position & Stacking",
+        "ruleSummary": "Never combine two central determiners (*the my book). Place predeterminers ('all, both, half') first, followed by central determiners, ordinals, and cardinals.",
+        "formulaOrPattern": "Predeterminer + Central Determiner + Ordinal + Cardinal + Noun",
+        "example": "Both the first two runners broke the record."
+      }
+    ],
+    "memoryAids": [
+      "'A' and 'an' listen with their EARS (sound), not their eyes ('a union' vs 'an uncle').",
+      "Mood meter: 'few/little' frown (almost none); 'a few/a little' smile (some, enough to help)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "He is an university student who plays harmonium well.",
+        "correctSentence": "He is a university student who plays the harmonium well.",
+        "whyItHappens": "'University' starts with a /y/ consonant sound ('a'), and musical instruments take 'the'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "All my both friends brought little apples.",
+        "correctSentence": "Both my friends brought a few apples.",
+        "whyItHappens": "Do not combine 'all' and 'both' on the same noun; use 'a few' (not 'little') with plural countable 'apples'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Unique geographical groups/plurals take 'the': 'the Himalayas', 'the Andaman Islands', 'the United Kingdom'.",
+      "A specific or described meal takes an article: 'a grand dinner' vs. general 'before dinner'."
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 6 (Determinatives), Punjab Ch. 1 (Determiners), and Odisha IX Ch. 8 (Determiners)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M07_Q01",
+        "subtopicId": "articles",
+        "subtopicTitle": "Indefinite articles by sound",
+        "difficulty": "EASY",
+        "questionText": "Fill in the blanks: \"It took ____ hour to reach ____ European museum.\"",
+        "options": [
+          "a / an",
+          "an / a",
+          "an / an",
+          "a / a"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Hour' begins with a vowel sound (/au/, silent 'h') → 'an'; 'European' begins with a consonant sound (/yu:/) → 'a'.",
+        "distractorRationales": [
+          "Reverses both sound rules.",
+          "Correct: 'an hour' + 'a European'.",
+          "'European' begins with /y/, not a vowel sound.",
+          "'Hour' begins with a vowel sound."
+        ],
+        "grammarRule": "Choose 'a' or 'an' by the initial spoken sound, not the written letter.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q02",
+        "subtopicId": "articles",
+        "subtopicTitle": "Articles with acronyms",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate article: \"Her elder sister works as ____ S.D.O. in this district.\"",
+        "options": [
+          "a",
+          "an",
+          "any",
+          "few"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The letter 'S' is pronounced /es/, starting with the vowel sound /e/, so it takes 'an S.D.O.'.",
+        "distractorRationales": [
+          "Follows spelling instead of sound.",
+          "Correct: /es/ starts with a vowel sound.",
+          "Wrong determiner for singular countable job title.",
+          "Used only with plural countables."
+        ],
+        "grammarRule": "Acronyms pronounced with initial vowel sounds (M.L.A., S.D.O., F.I.R., X-ray) take 'an'.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q03",
+        "subtopicId": "articles",
+        "subtopicTitle": "Definite 'the' uses",
+        "difficulty": "EASY",
+        "questionText": "Which sentence uses 'the' accurately?",
+        "options": [
+          "She plays the violin every evening.",
+          "We speak the Bengali at home.",
+          "The Mount Everest is in the Himalayas.",
+          "Do you like the cricket?"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Musical instruments ('the violin') take 'the'. Languages ('Bengali'), single mountain peaks ('Mount Everest'), and sports ('cricket') take zero article.",
+        "distractorRationales": [
+          "Correct: 'play the + instrument'.",
+          "Languages take zero article.",
+          "Mountain ranges take 'the' ('the Himalayas'), but single peaks do not ('Mount Everest').",
+          "Games/sports take zero article."
+        ],
+        "grammarRule": "Use 'the' with musical instruments and mountain ranges, NOT single peaks, languages, or sports.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q04",
+        "subtopicId": "articles",
+        "subtopicTitle": "Primary purpose vs specific visit",
+        "difficulty": "HARD",
+        "questionText": "Choose the right contrast: \"Riya goes to ____ college to study, while her father went to ____ college to pay her fees.\"",
+        "options": [
+          "the / no article",
+          "no article / the",
+          "a / a",
+          "the / the"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Going to college for its primary purpose (studying) omits 'the'; visiting the building specifically takes 'the'.",
+        "distractorRationales": [
+          "Reversed the two contexts.",
+          "Correct: primary purpose = zero article; specific visit = 'the'.",
+          "Missing distinction.",
+          "Missing distinction."
+        ],
+        "grammarRule": "School, college, hospital, church, and bed omit 'the' for their primary purpose, but take 'the' as specific places.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M07_Q05",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Few vs A few",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence implies that ALMOST NOBODY stayed back?",
+        "options": [
+          "A few volunteers stayed back to clean the hall.",
+          "Few volunteers stayed back to clean the hall.",
+          "The few volunteers who stayed back cleaned the hall.",
+          "Several volunteers stayed back to clean the hall."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Few' (without 'a') carries a negative meaning: 'hardly any volunteers stayed back'.",
+        "distractorRationales": [
+          "'A few' means a small positive number ('some').",
+          "Correct: bare 'few' = hardly any.",
+          "'The few' means all of the small group.",
+          "'Several' means a fair number."
+        ],
+        "grammarRule": "Bare 'few' means 'hardly any'; 'a few' means 'some'; 'the few' means 'all of that small number'.",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q06",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "The little / The few",
+        "difficulty": "HARD",
+        "questionText": "Complete the sentence: \"____ rice left in the jar was enough for one small bowl.\"",
+        "options": [
+          "A few",
+          "The few",
+          "The little",
+          "Many"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Rice' is uncountable, and 'left in the jar' specifies the entire small quantity available → 'The little'.",
+        "distractorRationales": [
+          "Only for countable plural nouns.",
+          "Only for countable plural nouns.",
+          "Correct: uncountable + specific small total = 'The little'.",
+          "Only for countable plural nouns."
+        ],
+        "grammarRule": "Use 'the little' for a small, specific total quantity of an uncountable noun.",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q07",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Some vs Any",
+        "difficulty": "EASY",
+        "questionText": "Choose the most polite and natural offer: \"Would you like ____ hot ginger tea?\"",
+        "options": [
+          "many",
+          "some",
+          "few",
+          "any"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Although 'any' is common in open questions, polite offers and requests expecting 'yes' use 'some'.",
+        "distractorRationales": [
+          "'Tea' is uncountable, not 'many'.",
+          "Correct: polite offers use 'some'.",
+          "'Tea' is uncountable.",
+          "'Any' sounds neutral or doubtful rather than a warm offer."
+        ],
+        "grammarRule": "Use 'some' in positive statements, offers, and polite requests.",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q08",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Each vs Every",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the option that fits BEST when talking about TWO hands: \"She held a lantern in ____ hand.\"",
+        "options": [
+          "every",
+          "each",
+          "all",
+          "both"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Each' is used for two or more items viewed individually ('each hand'), whereas 'every' requires three or more and 'both' takes a plural noun ('both hands').",
+        "distractorRationales": [
+          "'Every' is for three or more.",
+          "Correct: 'each' fits two items with singular 'hand'.",
+          "'All' requires plural or uncountable.",
+          "'Both' requires plural 'hands'."
+        ],
+        "grammarRule": "Use 'each' for two or more; 'every' is only for three or more.",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q09",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Determiner order",
+        "difficulty": "HARD",
+        "questionText": "Which phrase uses standard English determiner order?",
+        "options": [
+          "the all five boys",
+          "all the five boys",
+          "five all the boys",
+          "my all five boys"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Predeterminers ('all', 'both', 'half') stand BEFORE central determiners ('the', 'my', 'these').",
+        "distractorRationales": [
+          "Places central determiner 'the' before predeterminer 'all'.",
+          "Correct: Predeterminer ('all') + Central ('the') + Numeral ('five').",
+          "Cardinal cannot precede 'all'.",
+          "Central 'my' cannot precede 'all'."
+        ],
+        "grammarRule": "Predeterminers (all, both, half) always precede central determiners (the, my, these).",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q10",
+        "subtopicId": "articles",
+        "subtopicTitle": "Repeated 'the' vs single 'the'",
+        "difficulty": "HARD",
+        "questionText": "What is the difference between \"The poet and philosopher has arrived\" and \"The poet and the philosopher have arrived\"?",
+        "options": [
+          "The first refers to ONE person who is both poet and philosopher; the second refers to TWO different people.",
+          "Both always mean two different people.",
+          "The first is ungrammatical because 'has' is singular.",
+          "The second refers to only one person."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "One 'the' covers one person holding two titles (singular verb 'has'); repeating 'the' before each noun signals two distinct people (plural verb 'have').",
+        "distractorRationales": [
+          "Correct: repeating 'the' separates one person into two.",
+          "Single 'the' means one person.",
+          "'Has' is completely grammatical for one person.",
+          "Opposite of the rule."
+        ],
+        "grammarRule": "One shared determiner = one person/thing; repeated determiner = separate people/things.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M07_Q11",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Demonstratives near/far & singular/plural",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate demonstrative: \"Look across the river—____ mountains on the horizon are snow-capped.\"",
+        "options": [
+          "this",
+          "that",
+          "these",
+          "those"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "'Mountains' is plural and 'across the river / on the horizon' indicates distance → 'those'.",
+        "distractorRationales": [
+          "Singular near.",
+          "Singular far.",
+          "Plural near.",
+          "Correct: plural far."
+        ],
+        "grammarRule": "Match demonstratives for number and distance: this/these (near), that/those (far).",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q12",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Wh-determiners",
+        "difficulty": "MEDIUM",
+        "questionText": "In which sentence is a Wh-word acting as a DETERMINER before a noun?",
+        "options": [
+          "Which of the routes is shorter?",
+          "Which route leads to the railway station?",
+          "Whose is that blue raincoat?",
+          "What did you buy at the bazaar?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'Which route...', 'Which' immediately precedes and specifies the noun 'route', acting as a Wh-determiner (rather than standing alone as an interrogative pronoun).",
+        "distractorRationales": [
+          "Stands alone before 'of' (pronoun).",
+          "Correct: 'Which' sits directly before the noun 'route'.",
+          "Stands alone before 'is' (pronoun).",
+          "Stands alone (pronoun)."
+        ],
+        "grammarRule": "A wh-determiner (which, what, whose) directly precedes a noun phrase.",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q13",
+        "subtopicId": "articles",
+        "subtopicTitle": "Zero article with plural/uncountable generalisations",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the natural general statement:",
+        "options": [
+          "The tigers are endangered animals.",
+          "Tigers are endangered animals.",
+          "A tigers are endangered animals.",
+          "An tiger is endangered animals."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "General statements using plural countables ('Tigers') omit 'the'; 'The tiger is an endangered animal' would use singular + 'the'.",
+        "distractorRationales": [
+          "'The tigers' means a specific group of tigers, not the whole species.",
+          "Correct: bare plural for generalisations.",
+          "'A' cannot precede plural 'tigers'.",
+          "'An' before consonant /t/ and mismatch of singular/plural."
+        ],
+        "grammarRule": "Use bare plural nouns (no 'the') when stating general truths about a whole class.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q14",
+        "subtopicId": "quantifiers_order",
+        "subtopicTitle": "Much vs Many",
+        "difficulty": "EASY",
+        "questionText": "Complete accurately: \"How ____ patience does a chess player need, and how ____ moves did you plan?\"",
+        "options": [
+          "many / much",
+          "much / many",
+          "few / little",
+          "several / a little"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Patience' is uncountable ('much patience'); 'moves' is plural countable ('many moves').",
+        "distractorRationales": [
+          "Reversed countable and uncountable quantifiers.",
+          "Correct: much + uncountable; many + plural countable.",
+          "Wrong pairing and meaning.",
+          "Wrong pairing."
+        ],
+        "grammarRule": "Pair 'much' with uncountable nouns and 'many' with plural countable nouns.",
+        "lessonStepRef": "m07_step_05_other_determiners",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M07_Q15",
+        "subtopicId": "articles",
+        "subtopicTitle": "The + Adjective as plural class",
+        "difficulty": "HARD",
+        "storyContext": "Maharaj Vakya signs the final royal decree.",
+        "questionText": "Choose the accurate sentence: \"____ should always support ____.\"",
+        "options": [
+          "The rich / the poor",
+          "The riches / the poors",
+          "A rich / a poor",
+          "Richs / poors"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'The + adjective' ('the rich', 'the poor', 'the elderly') represents a whole class of people without adding '-s' and takes a plural verb.",
+        "distractorRationales": [
+          "Correct: 'the rich' and 'the poor' with no '-s'.",
+          "Never add '-s' to 'the + adjective' class names.",
+          "'A rich' needs a noun ('a rich person').",
+          "Ungrammatical plurals."
+        ],
+        "grammarRule": "'The + adjective' ('the brave', 'the needy') refers to a whole group of people and never adds '-s'.",
+        "lessonStepRef": "m07_step_02_articles_and_zero",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      }
+    ]
+  }
+}

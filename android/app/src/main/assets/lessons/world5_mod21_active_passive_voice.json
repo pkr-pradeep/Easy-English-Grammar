@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_21",
+  "worldId": "WORLD_5",
+  "title": "Active and Passive Voice",
+  "storyTitle": "Two Camera Angles in the Royal Courtroom",
+  "estimatedMinutes": 22,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "VAANI"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m21_step_01_intro",
+      "stepTitle": "Scene 1: Shifting the Courtroom Spotlight",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Courtroom • Morning",
+      "settingDescription": "Witnesses are describing how the courtyard bell went missing. Maharaj Vakya wants two camera angles on the same fact: who did it vs. what happened to the bell!",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "dramatic",
+          "line": "Angle One: 'The carpenter repaired the golden bell.' Now flip the spotlight onto the bell itself—without losing a single drop of tense!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "overconfident",
+          "line": "Easy! 'The golden bell repaired by the carpenter!' And for 'The bell fell down', it's 'The bell was fallen down'!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "shaking head",
+          "line": "Two huge traps, Chikoo! First, you forgot the passive auxiliary 'was' ('was repaired')! Second, 'fell' is INTRANSITIVE—it has no object, so it can NEVER become passive!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Passive Voice ALWAYS follows one golden core: [BE matched to original tense] + [Past Participle V3]. And smart writers know when to KEEP 'by + agent'—and when to DROP it!"
+        }
+      ],
+      "storyCallout": "Goal: Transform transitive active sentences into accurate passive forms across tenses and sentence patterns, and decide when to omit 'by + agent'."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m21_step_02_core_formula_and_tenses",
+      "stepTitle": "Discover: The Passive Engine & Tense Conversion",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "passive_tense_rules",
+      "subtopicTitle": "Transitivity Rule, [Be + V3] Formula & Tense Mapping",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Active vs. Passive is a camera switch! Active points at the DOER ('Riya painted the wall'); Passive points at the RECEIVER ('The wall was painted by Riya'). To build ANY passive, swap Object → Subject, insert a form of 'BE' dressed in the original tense, and lock the main verb into V3!",
+      "formalDefinition": "Voice indicates whether the subject performs the action (Active) or receives/undergoes the action (Passive). Only transitive verbs taking an object can passivise. The passive verb group always uses an inflected form of 'be' (expressing the original tense/aspect/modality) followed by the past participle (V3) of the main verb.",
+      "simpleExplanation": "Check every tense transformation carefully:\n1) Simple Present ('writes') → 'am/is/are + V3' ('is written')\n2) Simple Past ('wrote') → 'was/were + V3' ('was written')\n3) Present/Past Continuous ('is/was writing') → 'is/was + BEING + V3' ('is being written'—never drop 'being'!)\n4) Present/Past Perfect ('has/have/had written') → 'has/have/had + BEEN + V3'\n5) Modals / Future ('will/can/must write') → 'modal + BE + V3'\nCRITICAL RULE: Intransitive verbs ('sleep, arrive, happen, seem, occur, die, fall') take NO object, so they CANNOT form passives (*was happened, *was arrived are impossible!).",
+      "structurePatterns": [
+        {
+          "formName": "Master Tense Conversion Table",
+          "formula": "Original Tense → [Matching 'BE'] + V3",
+          "sample": "writes → is written | wrote → was written | is writing → is being written | has written → has been written"
+        },
+        {
+          "formName": "Modals & Going To in Passive",
+          "formula": "Modal + BE + V3 | Modal + HAVE BEEN + V3 | am/is/are going to + BE + V3",
+          "sample": "We must protect forests → Forests must be protected."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The masons are repairing the clock tower right now. → The clock tower is being repaired right now.",
+          "contextNote": "Present Continuous active keeps '-ing' inside passive 'is BEING repaired'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Someone has stolen my bicycle. → My bicycle has been stolen.",
+          "contextNote": "Omit vague 'by someone'—the receiver ('My bicycle') is the real focus.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The bridge is repairing this week, and an accident was happened yesterday.",
+          "correctSentence": "The bridge is being repaired this week, and an accident happened yesterday.",
+          "whyItHappens": "Bridges cannot repair themselves (needs passive 'is being repaired'), and intransitive 'happen' can NEVER take passive 'was happened'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Note two-word verbs in the passive: never drop the preposition! 'Everyone laughed at the clown' → 'The clown was laughed AT by everyone.'"
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m21_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Continuous & Perfect Passives",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD21_CP1",
+      "subtopicId": "passive_tense_rules",
+      "subtopicTitle": "Preserving Aspect in Passive Voice",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira tests two witness reports: \"The clerks are checking the royal seals right now.\"",
+      "questionPrompt": "Which passive transformation preserves the exact Present Continuous tense?",
+      "options": [
+        "The royal seals are checked right now by the clerks.",
+        "The royal seals are being checked right now by the clerks.",
+        "The royal seals have been checked right now by the clerks.",
+        "The royal seals were being checked right now by the clerks."
+      ],
+      "acceptedAnswers": ["The royal seals are being checked right now by the clerks."],
+      "hint": "Active has 'are checking' (Present Continuous) → plural 'seals' takes 'are' + 'being' + V3 ('checked')!",
+      "feedbackCorrect": "Detective Ira: \"Exact camera angle! 'Are being checked' preserves continuous aspect and plural agreement with 'royal seals'.\"",
+      "feedbackWrongDefault": "Keep Present Continuous ('are + -ing') by using 'are being + V3'.",
+      "feedbackWrongByOption": {
+        "The royal seals are checked right now by the clerks.": "Drops 'being', turning Present Continuous into Simple Present habit!",
+        "The royal seals have been checked right now by the clerks.": "Shifts aspect to Present Perfect (already completed)."
+      },
+      "simplerExample": "She is painting a poster → A poster is being painted by her.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m21_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Fill the Passive Verb Group",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD21_CP2",
+      "subtopicId": "passive_tense_rules",
+      "subtopicTitle": "Perfect Passive Construction",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar transforms: \"Before dusk, the volunteers had planted fifty bamboo saplings.\" → \"Before dusk, fifty bamboo saplings ____ planted by the volunteers.\"",
+      "questionPrompt": "Type the two missing auxiliary words ('____ ____'):",
+      "sentenceTemplate": "Before dusk, fifty bamboo saplings ________ planted by the volunteers.",
+      "acceptedAnswers": ["had been"],
+      "hint": "Active has Past Perfect 'had planted' → Past Perfect Passive uses 'had' + 'been' + V3!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Spot on! Past Perfect Active ('had planted') becomes Past Perfect Passive ('had been planted').\"",
+      "feedbackWrongDefault": "Use 'had been' (Past Perfect passive auxiliary pair) before 'planted'.",
+      "simplerExample": "She had locked the gate → The gate had been locked by her.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m21_step_05_patterns_and_agent",
+      "stepTitle": "Discover: Special Patterns & When to Omit 'By + Agent'",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "passive_patterns_agent",
+      "subtopicTitle": "Questions, Imperatives, Two Objects & Agent Omission",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Keep 'by + agent' ONLY when the doer is important news ('The telescope was invented by Galileo'). Drop 'by + agent' when the doer is vague ('someone'), obvious ('the police arrested the thief'), or unimportant ('Rice is grown in Assam')!",
+      "formalDefinition": "Passive voice applies across ditransitive clauses (promoting either indirect or direct object), interrogatives (retaining question inversion and converting 'Who' to 'By whom' / 'Who... by'), imperatives ('Let + object + be + V3' or 'You are advised/requested to...'), and prepositional verbs. Natural style omits 'by + agent' whenever the agent is unknown, generic, or self-evident.",
+      "simpleExplanation": "Master these four high-scoring passive patterns:\n1) Omitting 'by + agent': Omit 'by someone / by people / by them / by the police' unless needed for meaning ('English is spoken worldwide'—NOT *by people; 'The thief was arrested'—obviously by police!).\n2) Two Objects (SVOO): 'Grandmother told us a story' has TWO passives—promoting the person ('We were told a story by Grandmother') is usually most natural, or 'A story was told to us by Grandmother'.\n3) Questions & Imperatives: 'Who painted this?' → 'By whom was this painted?' (or 'Who was this painted by?'). Imperative 'Close the door' → 'Let the door be closed' or 'You are requested to close the door' (when 'Please' appears!).\n4) Non-'by' Passives & Prepositional Verbs: Some verbs take fixed prepositions instead of 'by' in the passive ('known TO', 'surprised AT', 'pleased WITH', 'filled WITH', 'contained IN'), and phrasal/prepositional verbs MUST keep their particle/preposition ('The doctor was sent FOR'; 'His proposal was laughed AT').",
+      "structurePatterns": [
+        {
+          "formName": "Passive Questions & Imperatives",
+          "formula": "Who V2 + Obj? → By whom was/were + Obj + V3? | Please + V1 → You are requested to + V1",
+          "sample": "Who broke the slate? → By whom was the slate broken? / Please sit down → You are requested to sit down."
+        },
+        {
+          "formName": "Non-'by' Stative Passives",
+          "formula": "known TO | surprised AT | interested IN | satisfied WITH | filled WITH",
+          "sample": "His honesty is known to everyone (NOT *by everyone). / The jar is filled with honey."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Two new bridges have been built across the river this year.",
+          "contextNote": "Omit 'by workers'—the focus is the bridges, and the agent is obvious.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "We were deeply impressed by—or rather satisfied with—the teamwork, and our coach is known to every school.",
+          "contextNote": "'Satisfied with' and 'known to' use fixed non-'by' prepositions.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The elderly woman was well looked by her neighbours, and his kindness is known by all.",
+          "correctSentence": "The elderly woman was well looked after by her neighbours, and his kindness is known to all.",
+          "whyItHappens": "Never drop 'after' from phrasal verb 'look after' in passive voice, and 'known' takes preposition 'to' (not 'by').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Active verbs 'make, see, hear' drop 'to' ('He made me wait'), yet in the PASSIVE they restore 'to' ('I was made to wait')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m21_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Passivise the Question",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD21_CP3",
+      "subtopicId": "passive_patterns_agent",
+      "subtopicTitle": "Passive Wh-Questions & Prepositional Verbs",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani challenges you to turn an active courtroom question into clean passive voice: \"Did anyone look after the injured bird?\"",
+      "questionPrompt": "Pick the grammatically accurate passive question:",
+      "options": [
+        "Was the injured bird looked by anyone?",
+        "Was the injured bird looked after?",
+        "Did the injured bird be looked after?",
+        "Were the injured bird looked after?"
+      ],
+      "acceptedAnswers": ["Was the injured bird looked after?"],
+      "hint": "Keep 'after' attached to 'looked' ('looked after'), start with 'Was' (past singular for 'the injured bird'), and drop vague 'by anyone'!",
+      "feedbackCorrect": "Vaani: \"Spotless! 'Was the injured bird looked after?' keeps the preposition 'after', matches singular 'bird', and drops vague 'by anyone'.\"",
+      "feedbackWrongDefault": "Use 'Was [singular subject] + V3 + after?' without 'Did'.",
+      "feedbackWrongByOption": {
+        "Was the injured bird looked by anyone?": "Never drop the particle 'after' from 'look after'!",
+        "Did the injured bird be looked after?": "Passive uses 'Was/Were', never 'Did... be'."
+      },
+      "simplerExample": "Did they send for the doctor? → Was the doctor sent for?",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m21_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Assemble the Formal Passive",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD21_CP4",
+      "subtopicId": "passive_patterns_agent",
+      "subtopicTitle": "Subject-Wh Passive ('By whom')",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya asks you to transform \"Who wrote this brilliant poem?\" into formal passive voice.",
+      "questionPrompt": "Tap the tiles in order to form the passive question:",
+      "wordTokens": [
+        "poem",
+        "was",
+        "By",
+        "this",
+        "written?",
+        "whom",
+        "brilliant"
+      ],
+      "acceptedAnswers": ["By whom was this brilliant poem written?"],
+      "hint": "Start with 'By whom', then 'was', then the full Noun Phrase ('this brilliant poem'), and end with V3 ('written?').",
+      "feedbackCorrect": "Maharaj Vakya: \"Courtroom perfection! 'By whom' + 'was' + Subject + V3!\"",
+      "feedbackWrongDefault": "Order: By whom → was → this brilliant poem → written?",
+      "simplerExample": "By whom was the bell rung?",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m21_step_08_outro",
+      "stepTitle": "Scene 2: Both Camera Angles Mastered!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Courtroom • Afternoon",
+      "settingDescription": "With active actors and passive spotlights switching seamlessly without dropping a tense or preposition, Maharaj Vakya closes the hearing.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "smiling",
+          "line": "Now our court scribes know BOTH when to spotlight the doer ('The carpenter repaired the bell') and when to spotlight the action ('The bell has been repaired'—no vague *by someone!)."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Review the tense conversion chart and non-'by' passives in your Grammar Notebook, then complete the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 21 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Core Passive Formula & Transitivity",
+        "ruleSummary": "Only transitive verbs (with objects) can become passive. Match 'be' to the active verb's tense/aspect and follow with Past Participle V3.",
+        "formulaOrPattern": "Simple: is/was + V3 | Continuous: is/was BEING + V3 | Perfect: has/had BEEN + V3 | Modal: modal + BE + V3",
+        "example": "They are cleaning the hall → The hall is being cleaned."
+      },
+      {
+        "heading": "When to Keep vs. Omit 'By + Agent'",
+        "ruleSummary": "Omit 'by + agent' when the doer is unknown ('someone'), generic ('people, we'), or obvious ('the police'). Keep 'by + agent' when naming the specific doer adds vital information.",
+        "formulaOrPattern": "Tea is grown in Assam (agent omitted) vs. Gitanjali was written by Tagore (agent kept).",
+        "example": "Two laptops were stolen from the lab last night."
+      },
+      {
+        "heading": "Questions, Imperatives & Non-'By' Passives",
+        "ruleSummary": "'Who...?' becomes 'By whom + aux + S + V3?'. Keep phrasal particles/prepositions ('laughed at'). Use fixed prepositions after stative passives ('known to', 'filled with', 'surprised at').",
+        "formulaOrPattern": "Please help him → You are requested to help him | Let + Obj + be + V3",
+        "example": "Her courage is known to everyone; the child was well looked after."
+      }
+    ],
+    "memoryAids": [
+      "Camera Switch: Active focuses on DOER; Passive focuses on RECEIVER—never drop 'BEING' in continuous or 'BEEN' in perfect!",
+      "Intransitive Stop Sign: verbs with NO object (happen, arrive, sleep, die, fall) can NEVER go passive (*was happened is impossible!)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The bridge is repairing right now, and a storm was occurred last night.",
+        "correctSentence": "The bridge is being repaired right now, and a storm occurred last night.",
+        "whyItHappens": "Continuous passive needs 'is being repaired', and intransitive 'occur' cannot take passive voice.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "His kindness is known by all, and the prisoner was made wait.",
+        "correctSentence": "His kindness is known to all, and the witness was made to wait.",
+        "whyItHappens": "'Known' pairs with 'to' (not 'by'), and passive 'was made' restores 'to' before the infinitive.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Imperative passives use 'Let + object + be + V3' ('Let the lamp be lit') or 'You are requested/ordered/advised to...' (especially for requests with 'please' or intransitive commands like 'Stand up')."
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 11 (Voice), Punjab IX Ch. 6 (Voice), and Odisha X Ch. 9 (The Passive)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M21_Q01",
+        "subtopicId": "passive_tense_rules",
+        "subtopicTitle": "Simple Past passive",
+        "difficulty": "EASY",
+        "questionText": "Change into Passive Voice: \"The village artisans wove these bamboo baskets.\"",
+        "options": [
+          "These bamboo baskets are woven by the village artisans.",
+          "These bamboo baskets were woven by the village artisans.",
+          "These bamboo baskets were weaving by the village artisans.",
+          "These bamboo baskets had been woven by the village artisans."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Active verb 'wove' is Simple Past → plural subject 'These bamboo baskets' takes 'were' + V3 'woven'.",
+        "distractorRationales": [
+          "Shifts to present tense 'are'.",
+          "Correct: Simple Past plural passive 'were woven'.",
+          "Uses active '-ing' instead of V3.",
+          "Shifts to Past Perfect."
+        ],
+        "grammarRule": "Simple Past Active (V2) → Passive (was/were + V3).",
+        "lessonStepRef": "m21_step_02_core_formula_and_tenses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q02",
+        "subtopicId": "passive_tense_rules",
+        "subtopicTitle": "Past Continuous passive",
+        "difficulty": "MEDIUM",
+        "questionText": "Change into Passive Voice: \"The gardeners were watering the saplings at dawn.\"",
+        "options": [
+          "The saplings were watered by the gardeners at dawn.",
+          "The saplings were being watered by the gardeners at dawn.",
+          "The saplings are being watered by the gardeners at dawn.",
+          "The saplings had been watered by the gardeners at dawn."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Past Continuous ('were watering') preserves progressive aspect with 'were being + V3' ('were being watered').",
+        "distractorRationales": [
+          "Omits 'being', changing aspect to Simple Past.",
+          "Correct: Past Continuous passive 'were being watered'.",
+          "Shifts past to present 'are'.",
+          "Shifts to Past Perfect."
+        ],
+        "grammarRule": "Past Continuous Active (was/were + V-ing) → Passive (was/were + being + V3).",
+        "lessonStepRef": "m21_step_02_core_formula_and_tenses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q03",
+        "subtopicId": "passive_tense_rules",
+        "subtopicTitle": "Intransitive verbs cannot passivise",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence CANNOT be converted into Passive Voice because its verb is intransitive?",
+        "options": [
+          "The librarian arranged the encyclopaedias.",
+          "A sudden rainbow appeared above the hills.",
+          "Someone delivered two telegrams.",
+          "The chef baked warm saffron buns."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Appeared' has no direct object ('above the hills' is a place phrase), so it is intransitive and cannot become passive (*was appeared is impossible).",
+        "distractorRationales": [
+          "Has object 'the encyclopaedias'.",
+          "Correct: 'appeared' is intransitive (no object).",
+          "Has object 'two telegrams'.",
+          "Has object 'warm saffron buns'."
+        ],
+        "grammarRule": "Only transitive verbs with objects can be turned into the passive voice.",
+        "lessonStepRef": "m21_step_02_core_formula_and_tenses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q04",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Omitting vague agents",
+        "difficulty": "EASY",
+        "questionText": "Which passive transformation sounds MOST natural for: \"Someone has swept the courtyard cleanly\"?",
+        "options": [
+          "The courtyard has been swept cleanly by someone.",
+          "The courtyard has been swept cleanly.",
+          "The courtyard is swept cleanly by someone.",
+          "The courtyard was being swept cleanly."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Drop indefinite agents like 'by someone' or 'by people' in natural passive sentences while preserving Present Perfect ('has been swept').",
+        "distractorRationales": [
+          "Unnecessary vague 'by someone'.",
+          "Correct: Present Perfect passive with vague agent omitted.",
+          "Changes tense and keeps 'by someone'.",
+          "Changes tense to Past Continuous."
+        ],
+        "grammarRule": "Omit 'by someone / by people / by them' when the agent is unknown or unimportant.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q05",
+        "subtopicId": "passive_tense_rules",
+        "subtopicTitle": "Modal passive",
+        "difficulty": "EASY",
+        "questionText": "Convert into Passive Voice: \"Every citizen must obey traffic signals.\"",
+        "options": [
+          "Traffic signals must obeyed by every citizen.",
+          "Traffic signals must be obeyed by every citizen.",
+          "Traffic signals are must obeyed by every citizen.",
+          "Traffic signals must have obeyed by every citizen."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Modals form the passive with 'modal + be + V3' ('must be obeyed').",
+        "distractorRationales": [
+          "Missing 'be' between 'must' and 'obeyed'.",
+          "Correct: 'must be obeyed'.",
+          "Wrong auxiliary order.",
+          "Missing 'been' and shifts to past deduction."
+        ],
+        "grammarRule": "Modal Active (modal + V1) → Modal Passive (modal + be + V3).",
+        "lessonStepRef": "m21_step_02_core_formula_and_tenses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q06",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Passive of imperatives with Please",
+        "difficulty": "MEDIUM",
+        "questionText": "Change into formal Passive Voice: \"Please return library books within seven days.\"",
+        "options": [
+          "Let library books be please returned within seven days.",
+          "You are requested to return library books within seven days.",
+          "Library books are requested to return within seven days.",
+          "You were ordered to return library books within seven days."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Polite imperative requests beginning with 'Please' convert naturally to 'You are requested to + V1'.",
+        "distractorRationales": [
+          "Awkward 'be please returned'.",
+          "Correct: 'You are requested to...'.",
+          "Books cannot be requested to act.",
+          "Turns polite 'Please' into past 'were ordered'."
+        ],
+        "grammarRule": "Convert polite 'Please + V1' imperatives into 'You are requested to + V1'.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q07",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Non-'by' stative prepositions",
+        "difficulty": "HARD",
+        "questionText": "Choose the accurate passive preposition: \"Her disciplined voice is known ____ everyone, and we were surprised ____ the sudden outcome.\"",
+        "options": [
+          "by / by",
+          "to / at",
+          "with / to",
+          "for / in"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In standard secondary grammar, 'known' takes 'to' ('known to everyone') and 'surprised/astonished/amazed' take 'at' ('surprised at').",
+        "distractorRationales": [
+          "Overuses 'by' instead of idiomatic 'to' and 'at'.",
+          "Correct: 'known to' + 'surprised at'.",
+          "Wrong pair.",
+          "Wrong pair."
+        ],
+        "grammarRule": "Use idiomatic prepositions in stative passives: known TO, surprised AT, interested IN, filled WITH.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M21_Q08",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Ditransitive (Two-object) passive",
+        "difficulty": "MEDIUM",
+        "questionText": "Which TWO passives are BOTH valid conversions of \"The principal awarded Meera a scholarship\"?",
+        "options": [
+          "'Meera was awarded a scholarship by the principal' and 'A scholarship was awarded to Meera by the principal'",
+          "'A scholarship awarded Meera' and 'Meera awarded a scholarship'",
+          "'The principal was awarded Meera' and 'Meera was awarded by scholarship'",
+          "'Meera has been awarded' and 'A scholarship is awarded'"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "In SVOO, either the Indirect Object ('Meera') or Direct Object ('A scholarship') can become the passive subject.",
+        "distractorRationales": [
+          "Correct: both person-subject and thing-subject passives preserve meaning and tense.",
+          "Active verbs, not passive.",
+          "Distorts who awarded whom.",
+          "Changes Simple Past tense to Present Perfect/Present."
+        ],
+        "grammarRule": "Ditransitive (SVOO) clauses allow two passives by promoting either the Indirect or Direct Object.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q09",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Retaining prepositions in phrasal passives",
+        "difficulty": "MEDIUM",
+        "questionText": "Turn into Passive Voice: \"Nobody laughed at the beginner's accent.\"",
+        "options": [
+          "The beginner's accent was not laughed.",
+          "The beginner's accent was not laughed at.",
+          "The beginner's accent did not laughed at.",
+          "The beginner's accent wasn't laughing at."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Keep the verb's preposition ('at') attached after V3 ('was not laughed at'), and reflect 'Nobody' via negative 'was not'.",
+        "distractorRationales": [
+          "Drops required preposition 'at'.",
+          "Correct: negative passive retaining 'at'.",
+          "Wrong auxiliary 'did'.",
+          "Uses active '-ing'."
+        ],
+        "grammarRule": "Never drop particles or prepositions belonging to phrasal/prepositional verbs in the passive.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q10",
+        "subtopicId": "passive_tense_rules",
+        "subtopicTitle": "Future Perfect passive",
+        "difficulty": "HARD",
+        "questionText": "Convert into Passive Voice: \"The engineers will have tested the turbine before Friday.\"",
+        "options": [
+          "The turbine will be tested before Friday by the engineers.",
+          "The turbine will have been tested by the engineers before Friday.",
+          "The turbine will have being tested by the engineers before Friday.",
+          "The turbine would have been tested by the engineers before Friday."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Future Perfect ('will have tested') converts to 'will have been + V3' ('will have been tested').",
+        "distractorRationales": [
+          "Simple Future loses 'have been'.",
+          "Correct: Future Perfect passive 'will have been tested'.",
+          "Never use *have being.",
+          "Changes 'will' to 'would'."
+        ],
+        "grammarRule": "Future Perfect Active (will have + V3) → Passive (will have been + V3).",
+        "lessonStepRef": "m21_step_02_core_formula_and_tenses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q11",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Passive to Active reversal",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert back into natural ACTIVE Voice: \"Three solar panels were installed on the school roof yesterday.\"",
+        "options": [
+          "The school roof installed three solar panels yesterday.",
+          "Technicians (or Someone) installed three solar panels on the school roof yesterday.",
+          "Three solar panels have installed technicians yesterday.",
+          "Technicians were installed three solar panels yesterday."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When reversing an agentless passive ('were installed') back to Active Voice, supply a logical agent ('Technicians' / 'Workers' / 'Someone') as the Subject with Simple Past 'installed'.",
+        "distractorRationales": [
+          "Roofs cannot install panels.",
+          "Correct: supplies logical subject + Simple Past active verb.",
+          "Wrong meaning and tense.",
+          "Leaves verb passive."
+        ],
+        "grammarRule": "When changing an agentless passive to active, supply an appropriate subject (e.g., someone, workers, people) matching the verb tense.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q12",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Passive infinitive ('to be + V3')",
+        "difficulty": "HARD",
+        "questionText": "Passivise the infinitive cleanly: \"There is no time to lose.\"",
+        "options": [
+          "There is no time to be losing.",
+          "There is no time to be lost.",
+          "No time is being lost there.",
+          "There is no time lost."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'There is + Noun + to + V1' converts into 'There is + Noun + to be + V3' ('There is no time to be lost').",
+        "distractorRationales": [
+          "Continuous passive infinitive is unidiomatic here.",
+          "Correct: passive infinitive 'to be lost'.",
+          "Changes meaning to ongoing loss.",
+          "Drops the modal/future 'to be' meaning."
+        ],
+        "grammarRule": "Passive infinitives follow the pattern 'to be + V3' ('work to be done', 'rules to be followed').",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M21_Q13",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Passive with 'was made to'",
+        "difficulty": "HARD",
+        "questionText": "Convert into Passive Voice: \"The captain made the lazy sentry march twice around the yard.\"",
+        "options": [
+          "The lazy sentry was made march twice around the yard by the captain.",
+          "The lazy sentry was made to march twice around the yard by the captain.",
+          "The lazy sentry made to march twice around the yard.",
+          "The lazy sentry was making to march twice around the yard."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Although active 'made + object' uses bare 'march', passive 'was made' requires the 'to'-infinitive: 'was made to march'.",
+        "distractorRationales": [
+          "Passive 'was made' cannot drop 'to'.",
+          "Correct: restores 'to' before 'march'.",
+          "Missing 'was'.",
+          "Active 'was making' instead of passive 'was made'."
+        ],
+        "grammarRule": "Active 'make + obj + V1' becomes Passive 'be made + to + V1'.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q14",
+        "subtopicId": "passive_patterns_agent",
+        "subtopicTitle": "Why passive voice is appropriate",
+        "difficulty": "EASY",
+        "questionText": "In scientific lab reports and formal notices (e.g., \"Copper is heated in a test tube\"), why is Passive Voice preferred?",
+        "options": [
+          "Because the process or result matters more than naming who held the test tube",
+          "Because active voice is always ungrammatical in science",
+          "Because passive voice has no verbs",
+          "Because passive sentences cannot use past tense"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Passive voice keeps scientific writing objective by spotlighting the material and process rather than repeating 'I' or 'we'.",
+        "distractorRationales": [
+          "Correct: emphasises process/object objectively.",
+          "Active voice is grammatical, just more personal.",
+          "Passive sentences have full verb groups.",
+          "Passive works across past, present, and future."
+        ],
+        "grammarRule": "Choose passive voice when the receiver, process, or result is more important than the doer.",
+        "lessonStepRef": "m21_step_05_patterns_and_agent",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M21_Q15",
+        "subtopicId": "passive_tense_rules",
+        "subtopicTitle": "Yes/No active-to-passive question",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya checks the final courtroom record.",
+        "questionText": "Convert into Passive Voice: \"Have the scouts pitched the blue tent?\"",
+        "options": [
+          "Has the blue tent been pitched by the scouts?",
+          "Have the blue tent been pitched by the scouts?",
+          "Was the blue tent pitched by the scouts?",
+          "Is the blue tent being pitched by the scouts?"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Plural active 'Have the scouts' flips to singular passive subject 'the blue tent', so auxiliary 'Have' must change to 'Has' ('Has the blue tent been pitched...?').",
+        "distractorRationales": [
+          "Correct: singular 'Has' + 'the blue tent' + 'been pitched'.",
+          "'Have' disagrees with singular 'the blue tent'.",
+          "Changes Present Perfect to Simple Past.",
+          "Changes Present Perfect to Present Continuous."
+        ],
+        "grammarRule": "Always adjust the passive auxiliary ('is/are', 'has/have', 'was/were') to match the NEW passive subject.",
+        "lessonStepRef": "m21_step_02_core_formula_and_tenses",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

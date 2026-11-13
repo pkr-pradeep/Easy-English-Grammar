@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_03",
+  "worldId": "WORLD_1",
+  "title": "Types of Sentences and Sentence Structure",
+  "storyTitle": "The Royal Petition Sorting Office",
+  "estimatedMinutes": 20,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m03_step_01_intro",
+      "stepTitle": "Scene 1: Four Stamps, Three Blueprints",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Mailroom • Morning",
+      "settingDescription": "Hundreds of royal petitions pile up on four sorting trays while Chikoo frantically stamps every envelope with the wrong seal.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "shocked",
+          "line": "Chikoo! Why did you stamp 'Where is the missing fountain pen?' as an ORDER? And why did you stamp 'What a brilliant goal!' as a QUESTION?"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "oops",
+          "line": "They all looked like sentences to me, Your Majesty! I did not know sentences have moods AND secret clause skeletons!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "explaining",
+          "line": "Sentences are sorted two ways: by PURPOSE (Declarative, Interrogative, Imperative, Exclamatory) and by CLAUSE STRUCTURE (Simple, Compound, Complex)."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Master both sorting tables, and you can build crisp reports or rich multi-clause arguments whenever you want!"
+        }
+      ],
+      "storyCallout": "Goal: Classify sentences by communicative purpose AND by Simple, Compound, and Complex clause structure."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m03_step_02_kinds_by_purpose",
+      "stepTitle": "Discover: Kinds of Sentences (By Purpose)",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "kinds_of_sentences",
+      "subtopicTitle": "Kinds of Sentences by Communicative Function",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Sentences wear four hats: the Reporter (Statement), the Detective (Question), the Coach (Command/Request), and the Cheerleader (Exclamation).",
+      "formalDefinition": "By communicative function, sentences are classified into four kinds: Declarative (assertive statements), Interrogative (questions), Imperative (commands, requests, or advice), and Exclamatory (strong sudden feelings).",
+      "simpleExplanation": "Look at both the speaker's intention and the grammatical pattern: Declaratives state facts or opinions and end with '.'; Interrogatives invert auxiliary and subject and end with '?'; Imperatives start with a base verb (or 'Please / Don't') with implied subject 'you'; Exclamatives often open with 'What a...' or 'How...' and end with '!'.",
+      "structurePatterns": [
+        {
+          "formName": "Declarative (Assertive)",
+          "formula": "Subject + Finite Verb + ...",
+          "sample": "Our school won the inter-district quiz. / The library is not open on Sundays."
+        },
+        {
+          "formName": "Interrogative",
+          "formula": "(Wh-word) + Auxiliary + Subject + Verb ... ?",
+          "sample": "Did you bring the geometry box? / Why is the bus delayed?"
+        },
+        {
+          "formName": "Imperative",
+          "formula": "(Please / Don't) + Base Verb (V1) + ...",
+          "sample": "Turn left at the clock tower. / Please pass the salt."
+        },
+        {
+          "formName": "Exclamatory",
+          "formula": "What (a/an) + Noun Phrase / How + Adj/Adv + Subject + Verb!",
+          "sample": "How swiftly the goalkeeper dived! / What a peaceful morning it is!"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Check your spelling before submitting the form.",
+          "contextNote": "Imperative giving helpful advice.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "What an inspiring speech Dr. Bose delivered!",
+          "contextNote": "Exclamatory starting with 'What an...' + noun phrase.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "How beautiful is the sunset!",
+          "correctSentence": "How beautiful the sunset is!",
+          "whyItHappens": "In an exclamatory sentence beginning with 'How...' or 'What...', keep normal Subject + Verb order ('the sunset is') rather than question inversion ('is the sunset').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Polite requests dressed as questions ('Could you close the window?') use interrogative grammar to perform a polite request."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m03_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Stamp the Royal Petitions",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD03_CP1",
+      "subtopicId": "kinds_of_sentences",
+      "subtopicTitle": "Declarative, Interrogative, Imperative & Exclamatory",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya holds up an urgent scroll: \"Do not feed bananas to the royal pigeons!\"",
+      "questionPrompt": "Which kind of sentence is this?",
+      "options": [
+        "Declarative (Assertive)",
+        "Interrogative",
+        "Imperative",
+        "Exclamatory"
+      ],
+      "acceptedAnswers": ["Imperative"],
+      "hint": "Look at the opening ('Do not feed...')—is it asking a question, stating a fact, or giving an instruction/prohibition?",
+      "feedbackCorrect": "Maharaj Vakya: \"Correct! Negative commands starting with 'Do not + base verb' are Imperative sentences—even when they end with an exclamation mark!\"",
+      "feedbackWrongDefault": "Look past the exclamation mark at the grammar: 'Do not feed...' gives a direct command to an understood 'you'.",
+      "feedbackWrongByOption": {
+        "Exclamatory": "Careful! Punctuation alone doesn't make it Exclamatory—commands spoken forcefully can take '!', yet remain Imperative."
+      },
+      "simplerExample": "Please stay quiet. / Don't touch the wet paint. (Both are Imperatives).",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m03_step_04_structure_types",
+      "stepTitle": "Discover: Simple, Compound and Complex Sentences",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "simple_compound_complex",
+      "subtopicTitle": "Simple, Compound and Complex Sentence Structures",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A Simple sentence is a solo bicycle (1 main clause). A Compound sentence is a tandem bike where two equal riders pedal side by side (linked by FANBOYS). A Complex sentence is a scooter towing a sidecar (1 main clause + 1 or more dependent subordinate clauses).",
+      "formalDefinition": "By clause structure: a Simple sentence has exactly one independent (main) clause; a Compound sentence joins two or more independent clauses of equal rank using coordinating conjunctions (and, but, or, nor, for, yet, so); a Complex sentence contains one main clause and at least one subordinate (dependent) clause introduced by a subordinator or relative word.",
+      "simpleExplanation": "Count the FINITE verbs to count the clauses! A Simple sentence has just ONE finite verb (though it may have compound subjects or non-finite phrases like 'to win'). Compound sentences link independent halves that can stand alone. Complex sentences join a main clause with a dependent clause ('because...', 'when...', 'although...', 'who...').",
+      "structurePatterns": [
+        {
+          "formName": "Simple Sentence (1 Main Clause, 1 Finite Verb)",
+          "formula": "Subject + 1 Finite Verb (+ phrases)",
+          "sample": "In spite of the heavy rain, the match continued."
+        },
+        {
+          "formName": "Compound Sentence (2+ Independent Clauses)",
+          "formula": "Main Clause + Coordinating Conjunction (for, and, nor, but, or, yet, so) + Main Clause",
+          "sample": "It rained heavily, yet the match continued."
+        },
+        {
+          "formName": "Complex Sentence (1 Main + 1+ Subordinate Clause)",
+          "formula": "Main Clause + Subordinating Conjunction / Relative + Subordinate Clause",
+          "sample": "Although it rained heavily, the match continued."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Hearing the bell, the students hurried to class.",
+          "contextNote": "Simple sentence! 'Hearing' is a non-finite participle; 'hurried' is the ONLY finite verb.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "The bell rang, and the students hurried to class.",
+          "contextNote": "Compound sentence: two equal main clauses joined by 'and'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "When the bell rang, the students hurried to class.",
+          "contextNote": "Complex sentence: dependent time clause ('When the bell rang') + main clause.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Although I studied hard, but I found the puzzle tricky.",
+          "correctSentence": "Although I studied hard, I found the puzzle tricky.",
+          "whyItHappens": "Never combine a subordinator ('Although') AND a coordinator ('but') in the same two-clause sentence—pick one structure (Complex with 'Although' OR Compound with 'but').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "A Compound-Complex sentence combines at least two independent clauses and at least one dependent clause ('When the bell rang, Aarav packed his bag, and Meera locked the lab')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m03_step_05_cp2",
+      "stepTitle": "Checkpoint 2: Simple, Compound, or Complex?",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD03_CP2",
+      "subtopicId": "simple_compound_complex",
+      "subtopicTitle": "Identifying Sentence Structure",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani tests your eye on a tricky sentence: \"Walking through the spice market, Ananya bought fresh turmeric.\"",
+      "questionPrompt": "What is the structure of Vaani's sentence?",
+      "options": [
+        "Simple sentence",
+        "Compound sentence",
+        "Complex sentence",
+        "Compound-Complex sentence"
+      ],
+      "acceptedAnswers": ["Simple sentence"],
+      "hint": "Count the finite verbs! Is 'Walking' a finite verb with a subject, or a non-finite participial phrase?",
+      "feedbackCorrect": "Vaani: \"Sharp eyes! 'Walking through the spice market' is a participial phrase—there is only ONE finite verb ('bought'), so it is a Simple sentence.\"",
+      "feedbackWrongDefault": "Count the finite verbs: only 'bought' is finite. No coordinating or subordinating clause connector appears.",
+      "feedbackWrongByOption": {
+        "Complex sentence": "Watch out for the trap! 'Walking...' is a phrase (no subject + finite verb), not a subordinate clause."
+      },
+      "simplerExample": "Despite feeling tired (phrase), Kiran finished her drawing (1 finite verb = Simple).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m03_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Fix Chikoo's Double-Connector Clash",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD03_CP3",
+      "subtopicId": "simple_compound_complex",
+      "subtopicTitle": "Correcting Subordinator + Coordinator Clash",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "CHIKOO_BANDAR",
+      "storyPrompt": "Chikoo submits a complaint: \"Because the bridge was slippery, therefore we took the longer road.\"",
+      "questionPrompt": "Choose the grammatically clean Complex (or Compound) correction:",
+      "options": [
+        "Because the bridge was slippery, so we took the longer road.",
+        "Because the bridge was slippery, we took the longer road.",
+        "Although the bridge was slippery, therefore we took the longer road.",
+        "Because the bridge was slippery; and we took the longer road."
+      ],
+      "acceptedAnswers": ["Because the bridge was slippery, we took the longer road."],
+      "hint": "English does NOT use 'because ... so' or 'because ... therefore' together. Keep only one connector!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Cleanly fixed! One subordinator ('Because') is all a Complex sentence needs.\"",
+      "feedbackWrongDefault": "Remove the extra 'so / therefore / and' when 'Because' already introduces the reason clause.",
+      "simplerExample": "Because it was late, we went home. (OR: It was late, so we went home.)",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m03_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Build a Complex Sentence",
+      "provenance": "ADDITIONAL_EXAMPLE",
+      "checkpointId": "MOD03_CP4",
+      "subtopicId": "main_subordinate_clauses",
+      "subtopicTitle": "Main and Subordinate Clauses",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Assemble the mailroom label to explain why the celebration continued indoors.",
+      "questionPrompt": "Tap the tiles in order to form a well-punctuated Complex sentence:",
+      "wordTokens": [
+        "we shifted the games",
+        "since the sky darkened,",
+        "into the hall."
+      ],
+      "acceptedAnswers": ["since the sky darkened, we shifted the games into the hall."],
+      "hint": "Notice the comma at the end of 'since the sky darkened,'—that subordinate clause comes first!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Spot on! Subordinate clause first, comma, then the main clause.\"",
+      "feedbackWrongDefault": "Place the dependent 'since' clause (which ends with a comma) before the main clause ('we shifted the games into the hall.').",
+      "simplerExample": "Since it grew dark, we lit the lanterns.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m03_step_08_outro",
+      "stepTitle": "Scene 2: Mailroom Mastered",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Mailroom • Sunset",
+      "settingDescription": "Every petition is neatly sorted into Statements, Questions, Commands, and Exclamations—and tagged Simple, Compound, or Complex.",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "smiling",
+          "line": "Look how smooth the sorting desk looks now! Not a single 'Although... but...' collision left."
+        },
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "approving",
+          "line": "How clearly our citizens write! (Exclamatory, Simple!) Proceed to the Grammar Notebook and Final Assessment!"
+        }
+      ],
+      "storyCallout": "Module 3 Story Complete! Review your Grammar Notebook or attempt the 15-question assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Four Kinds by Function",
+        "ruleSummary": "Declarative (states facts/opinions), Interrogative (asks questions), Imperative (commands/requests with implied 'you'), Exclamatory (strong emotion, often 'What a...' / 'How...').",
+        "formulaOrPattern": "Statement (.) | Question (?) | Command (./!) | Exclamation (!)",
+        "example": "How bright the stars look tonight! (Exclamatory)"
+      },
+      {
+        "heading": "Simple, Compound, Complex",
+        "ruleSummary": "Simple = 1 independent clause (1 finite verb); Compound = 2+ independent clauses joined by FANBOYS or ';'; Complex = 1 main clause + 1+ subordinate clauses.",
+        "formulaOrPattern": "Simple (1 MC) | Compound (MC + coord + MC) | Complex (MC + sub + SC)",
+        "example": "Simple: Working hard, Ira won. | Compound: Ira worked hard, and she won. | Complex: Because Ira worked hard, she won."
+      }
+    ],
+    "memoryAids": [
+      "Four hats: Reporter (.), Detective (?), Coach (Command), Cheerleader (!).",
+      "Three rides: Solo bike (Simple), Tandem bike (Compound — FANBOYS), Scooter + Sidecar (Complex)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Although he ran fast, yet he missed the bus.",
+        "correctSentence": "Although he ran fast, he missed the bus.",
+        "whyItHappens": "Do not use both 'although/though' and 'but/yet' together.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "How clever is Detective Ira!",
+        "correctSentence": "How clever Detective Ira is!",
+        "whyItHappens": "Exclamatory sentences keep Subject + Verb order instead of question inversion.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Forceful imperatives ('Stop right there!') may end with '!' while remaining grammatically Imperative, not Exclamatory."
+    ],
+    "textbookNotes": [
+      "Covers Kinds of Sentences and Simple, Compound, and Complex analysis across Classes IX–X."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M03_Q01",
+        "subtopicId": "kinds_of_sentences",
+        "subtopicTitle": "Kinds of sentences",
+        "difficulty": "EASY",
+        "questionText": "Classify: \"Please keep your library books dry during the monsoon.\"",
+        "options": [
+          "Declarative",
+          "Interrogative",
+          "Imperative",
+          "Exclamatory"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "A polite request starting with 'Please + base verb' (with understood subject 'you') is an Imperative sentence.",
+        "distractorRationales": [
+          "Does not state a fact.",
+          "Does not ask a question.",
+          "Correct: polite request = Imperative.",
+          "Does not express sudden exclamation."
+        ],
+        "grammarRule": "Requests, instructions, and commands are Imperative sentences.",
+        "lessonStepRef": "m03_step_02_kinds_by_purpose",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q02",
+        "subtopicId": "kinds_of_sentences",
+        "subtopicTitle": "Exclamatory word order",
+        "difficulty": "MEDIUM",
+        "questionText": "Which is the grammatically standard Exclamatory sentence?",
+        "options": [
+          "How fast did the cheetah run!",
+          "How fast the cheetah ran!",
+          "What fast the cheetah ran!",
+          "Did the cheetah run how fast!"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'How + adverb/adjective + Subject + Verb!' keeps declarative word order without 'did'-inversion.",
+        "distractorRationales": [
+          "Uses question inversion ('did... run').",
+          "Correct: 'How fast' + Subject ('the cheetah') + Verb ('ran').",
+          "'What' modifies noun phrases ('What a fast cheetah!'), not bare adverbs.",
+          "Broken order."
+        ],
+        "grammarRule": "Exclamatives with 'How' and 'What' keep Subject-before-Verb order.",
+        "lessonStepRef": "m03_step_02_kinds_by_purpose",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q03",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Simple sentence recognition",
+        "difficulty": "EASY",
+        "questionText": "Which sentence is a SIMPLE sentence?",
+        "options": [
+          "I opened the window, and a cool breeze blew in.",
+          "When I opened the window, a cool breeze blew in.",
+          "Opening the window, I felt a cool breeze.",
+          "I opened the window because the room was warm."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Opening the window' is a non-finite participial phrase; 'felt' is the single finite verb, making it a Simple sentence.",
+        "distractorRationales": [
+          "Compound ('and' joins two main clauses).",
+          "Complex ('When...' subordinate clause).",
+          "Correct: 1 finite verb ('felt') + participial phrase.",
+          "Complex ('because...' subordinate clause)."
+        ],
+        "grammarRule": "A Simple sentence contains exactly one finite clause.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q04",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Compound sentence recognition",
+        "difficulty": "EASY",
+        "questionText": "Identify the COMPOUND sentence:",
+        "options": [
+          "Though it was foggy, the flight landed safely.",
+          "It was foggy, yet the flight landed safely.",
+          "Despite the fog, the flight landed safely.",
+          "Landing safely in the fog, the pilot smiled."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Coordinating conjunction 'yet' joins two equal independent clauses: 'It was foggy' and 'the flight landed safely'.",
+        "distractorRationales": [
+          "Complex ('Though' subordinator).",
+          "Correct: two independent clauses joined by 'yet'.",
+          "Simple ('Despite the fog' is a prepositional phrase).",
+          "Simple (participial phrase + 1 main clause)."
+        ],
+        "grammarRule": "Compound sentences join independent clauses with coordinators (FANBOYS).",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q05",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Complex sentence recognition",
+        "difficulty": "EASY",
+        "questionText": "Which of the following is a COMPLEX sentence?",
+        "options": [
+          "Sunil and Kabir went to the book fair together.",
+          "Sunil bought a dictionary, and Kabir bought an atlas.",
+          "Sunil bought a dictionary that contains clear usage notes.",
+          "Sunil went to the book fair to buy a dictionary."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'that contains clear usage notes' is a dependent relative clause modifying 'dictionary', making the sentence Complex.",
+        "distractorRationales": [
+          "Simple sentence with a compound subject.",
+          "Compound sentence (two main clauses + 'and').",
+          "Correct: main clause + subordinate relative clause.",
+          "Simple sentence ('to buy a dictionary' is an infinitive phrase)."
+        ],
+        "grammarRule": "A main clause + a relative or adverb/noun subordinate clause forms a Complex sentence.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M03_Q06",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Avoiding double conjunctions",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the error-free sentence:",
+        "options": [
+          "Because he practised daily, therefore he mastered the tabla.",
+          "Since he practised daily, so he mastered the tabla.",
+          "He practised daily, so he mastered the tabla.",
+          "As he practised daily, hence he mastered the tabla."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Use either a subordinator alone ('Since he practised daily, he mastered...') OR a coordinator alone ('..., so he mastered...'), never both.",
+        "distractorRationales": [
+          "Uses both 'Because' and 'therefore'.",
+          "Uses both 'Since' and 'so'.",
+          "Correct: clean Compound sentence with 'so'.",
+          "Uses both 'As' and 'hence'."
+        ],
+        "grammarRule": "Do not pair 'because/since/as' with 'so/therefore/hence' for the same two clauses.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q07",
+        "subtopicId": "main_subordinate_clauses",
+        "subtopicTitle": "Main vs subordinate clause",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"Before the curtains rose, the stagehands checked every microphone\", which is the MAIN clause?",
+        "options": [
+          "Before the curtains rose",
+          "the stagehands checked every microphone",
+          "checked every microphone",
+          "Before the curtains"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'the stagehands checked every microphone' can stand independently as a complete sentence, whereas 'Before the curtains rose' depends on it.",
+        "distractorRationales": [
+          "Subordinate adverbial time clause.",
+          "Correct: independent main clause.",
+          "Predicate only (missing subject).",
+          "Prepositional fragment."
+        ],
+        "grammarRule": "The main clause expresses the independent core proposition.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q08",
+        "subtopicId": "kinds_of_sentences",
+        "subtopicTitle": "Imperative vs Exclamatory",
+        "difficulty": "MEDIUM",
+        "questionText": "Why is \"Look out for that falling branch!\" classified as Imperative rather than Exclamatory?",
+        "options": [
+          "It ends with a question mark.",
+          "Its verb is in base imperative form directed at understood 'you' to warn/command.",
+          "It begins with 'What' or 'How'.",
+          "It has two subordinate clauses."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Sentence classification depends on grammatical structure and function—'Look out...' is a base-verb command/warning to 'you'.",
+        "distractorRationales": [
+          "It ends with '!'.",
+          "Correct: base-verb directive = Imperative.",
+          "It does not begin with 'What' or 'How'.",
+          "It is a single clause."
+        ],
+        "grammarRule": "An exclamation mark on a command does not convert an Imperative into an Exclamatory sentence.",
+        "lessonStepRef": "m03_step_02_kinds_by_purpose",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q09",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Compound subject vs Compound sentence",
+        "difficulty": "MEDIUM",
+        "questionText": "Why is \"Meera and Tarun cleaned the science lab\" a SIMPLE sentence rather than Compound?",
+        "options": [
+          "Because 'and' joins two nouns inside ONE subject, not two separate clauses with two finite verbs.",
+          "Because it has no object.",
+          "Because 'cleaned' is in the past tense.",
+          "Because it is a question."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "A Compound sentence needs at least two independent clauses (each with its own finite verb). Here there is only one finite verb: 'cleaned'.",
+        "distractorRationales": [
+          "Correct: compound subject + single finite verb = Simple sentence.",
+          "'The science lab' is the object.",
+          "Tense doesn't decide simple vs. compound.",
+          "It is a declarative statement."
+        ],
+        "grammarRule": "A compound subject or compound object inside one clause still makes a Simple sentence.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q10",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Simple vs Complex conversion",
+        "difficulty": "HARD",
+        "questionText": "Which COMPLEX sentence accurately matches the Simple sentence \"On seeing the police, the pickpocket fled\"?",
+        "options": [
+          "The pickpocket saw the police and fled.",
+          "As soon as the pickpocket saw the police, he fled.",
+          "The pickpocket fled on seeing the police.",
+          "Seeing the police, the pickpocket fled."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'As soon as the pickpocket saw the police' is a subordinate finite time clause attached to 'he fled'.",
+        "distractorRationales": [
+          "Compound sentence ('and' joins two predicates/clauses).",
+          "Correct: Complex sentence with 'As soon as'.",
+          "Still Simple ('on seeing' is a phrase).",
+          "Still Simple ('Seeing' is a participle phrase)."
+        ],
+        "grammarRule": "Convert a participial/prepositional time phrase into a finite clause with 'when/as soon as' to form a Complex sentence.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q11",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Compound-Complex structure",
+        "difficulty": "HARD",
+        "questionText": "Identify the sentence that is COMPOUND-COMPLEX:",
+        "options": [
+          "When the bell rang, the students left.",
+          "The bell rang, and the students left.",
+          "When the bell rang, the students packed their bags, and the teacher locked the door.",
+          "Packing their bags quickly, the students left the classroom."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "It contains 1 subordinate clause ('When the bell rang') and 2 independent clauses ('the students packed their bags' + 'the teacher locked the door').",
+        "distractorRationales": [
+          "Complex only.",
+          "Compound only.",
+          "Correct: 1 dependent + 2 independent clauses.",
+          "Simple sentence."
+        ],
+        "grammarRule": "Compound-Complex = 2+ independent clauses + 1+ dependent clause.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q12",
+        "subtopicId": "kinds_of_sentences",
+        "subtopicTitle": "Negative declarative",
+        "difficulty": "EASY",
+        "questionText": "What kind of sentence is \"None of the clues pointed to Detective Ira\"?",
+        "options": [
+          "Declarative (negative)",
+          "Interrogative",
+          "Imperative",
+          "Exclamatory"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Declarative (assertive) sentences include both affirmative and negative statements.",
+        "distractorRationales": [
+          "Correct: negative statement is still Declarative.",
+          "Not a question.",
+          "Not a command.",
+          "Not an exclamation."
+        ],
+        "grammarRule": "Both affirmative and negative statements are Declarative sentences.",
+        "lessonStepRef": "m03_step_02_kinds_by_purpose",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q13",
+        "subtopicId": "main_subordinate_clauses",
+        "subtopicTitle": "Counting clauses by finite verbs",
+        "difficulty": "HARD",
+        "questionText": "How many finite clauses are in \"To reach the summit before noon, the trekkers started early and carried extra water\"?",
+        "options": [
+          "One (it is a Simple sentence with a compound verb)",
+          "Two (because 'To reach' is a clause)",
+          "Three",
+          "Zero"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'To reach' is a non-finite infinitive phrase; 'started and carried' share one subject ('the trekkers') in a single finite predicate (or compound predicate in one Simple sentence).",
+        "distractorRationales": [
+          "Correct: infinitive phrase does not add a clause.",
+          "'To reach' is non-finite.",
+          "Not three clauses.",
+          "It has finite verbs 'started' and 'carried'."
+        ],
+        "grammarRule": "Non-finite infinitives and participles form phrases, not finite clauses.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M03_Q14",
+        "subtopicId": "kinds_of_sentences",
+        "subtopicTitle": "Exclamatory 'What a...'",
+        "difficulty": "MEDIUM",
+        "questionText": "Turn \"It is a very clever solution\" into a natural Exclamatory sentence:",
+        "options": [
+          "What a clever solution it is!",
+          "How a clever solution it is!",
+          "What clever solution is it!",
+          "Is it what a clever solution!"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Use 'What a/an + adjective + singular countable noun + Subject + Verb!' for noun-focused exclamations.",
+        "distractorRationales": [
+          "Correct: 'What a clever solution it is!'",
+          "'How' does not take 'a + noun'; use 'How clever the solution is!'.",
+          "Missing 'a' and inverted 'is it'.",
+          "Ungrammatical question-like order."
+        ],
+        "grammarRule": "Use 'What + (a/an) + Noun Phrase + S + V!' and 'How + Adj/Adv + S + V!'.",
+        "lessonStepRef": "m03_step_02_kinds_by_purpose",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M03_Q15",
+        "subtopicId": "simple_compound_complex",
+        "subtopicTitle": "Comma splice error",
+        "difficulty": "HARD",
+        "questionText": "Which fix repairs the comma splice in \"The bell rang, the students cheered\"?",
+        "options": [
+          "The bell rang, and the students cheered.",
+          "The bell rang the students cheered.",
+          "The bell rang because, the students cheered.",
+          "The bell ringing, the students cheered."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Two independent clauses cannot be joined by a comma alone; add a coordinating conjunction ('and'), a semicolon, or a subordinator.",
+        "distractorRationales": [
+          "Correct: comma + coordinating conjunction 'and' forms a valid Compound sentence.",
+          "Creates a fused run-on sentence.",
+          "Wrong comma placement after 'because'.",
+          "Wait—actually 'The bell ringing' is an absolute phrase, whereas 'and' directly repairs the Compound sentence cleanly."
+        ],
+        "grammarRule": "Join two independent clauses with ', + FANBOYS' or a semicolon—never a bare comma.",
+        "lessonStepRef": "m03_step_04_structure_types",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

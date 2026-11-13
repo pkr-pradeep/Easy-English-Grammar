@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_04",
+  "worldId": "WORLD_1",
+  "title": "Phrases and Clauses",
+  "storyTitle": "The Sentence Puzzle House",
+  "estimatedMinutes": 22,
+  "charactersInvolved": [
+    "DETECTIVE_IRA",
+    "ACHARYA_VIDYADHAR",
+    "CHIKOO_BANDAR",
+    "VAANI"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m04_step_01_intro",
+      "stepTitle": "Scene 1: The Locked Puzzle Rooms",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "The Sentence Puzzle House • Afternoon",
+      "settingDescription": "Detective Ira and Chikoo stand inside a grand hall with four locked doors labelled PHRASE, NOUN CLAUSE, RELATIVE CLAUSE, and ADVERBIAL CLAUSE.",
+      "dialogues": [
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "investigating",
+          "line": "Each door opens only when we identify the exact building block carved on its brass plate!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "overconfident",
+          "line": "Easy! Both 'in the dusty attic' and 'because the key was rusty' are groups of words—so both are phrases! Let me push Door 1!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "amused",
+          "line": "Careful, Chikoo—the door won't budge! 'In the dusty attic' has NO subject and NO finite verb, so it is a Phrase. 'Because the key was rusty' HAS a subject ('the key') and finite verb ('was'), making it a Clause!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "warm",
+          "line": "And once you spot a subordinate clause, you can tell whether it acts like a Noun, an Adjective (Relative), or an Adverb!"
+        }
+      ],
+      "storyCallout": "Goal: Distinguish Phrases from Clauses and identify Noun, Adjective/Relative, and Adverbial Clauses."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m04_step_02_phrase_vs_clause",
+      "stepTitle": "Discover: Phrase vs. Clause",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "phrase_vs_clause",
+      "subtopicTitle": "Phrase and Clause Distinction & Phrase Types",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A Phrase is a team of words WITHOUT a Subject–Finite-Verb heartbeat; a Clause is a mini-sentence WITH its own Subject + Finite Verb engine.",
+      "formalDefinition": "A phrase is a grammatically related group of words that lacks a subject–finite-verb pair and functions as a single part of speech (noun, adjective, adverb, or prepositional unit). A clause is a group of words containing a subject and a finite verb.",
+      "simpleExplanation": "Always check for a finite verb with a subject! 'At the crack of dawn' = Phrase (no finite verb). 'When the sun rose' = Clause ('the sun' + finite verb 'rose'). Phrases act as noun phrases ('a stack of old letters'), adjective phrases ('full of clues'), or adverb phrases ('with great care').",
+      "structurePatterns": [
+        {
+          "formName": "Noun Phrase",
+          "formula": "Acts as Subject, Object, or Complement",
+          "sample": "[The brass compass on the desk] points north."
+        },
+        {
+          "formName": "Adjective Phrase",
+          "formula": "Modifies a noun/pronoun",
+          "sample": "The boy [wearing a yellow kurta] solved the riddle."
+        },
+        {
+          "formName": "Adverb Phrase",
+          "formula": "Modifies a verb/adjective (how, where, when)",
+          "sample": "Detective Ira inspected the lock [with extreme care]."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "To solve this mystery quickly is our top priority.",
+          "contextNote": "'To solve this mystery quickly' is an infinitive Noun Phrase acting as Subject (no finite verb inside it).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "We waited until the rain stopped.",
+          "contextNote": "'until the rain stopped' is an Adverb Clause because 'the rain' (subject) + 'stopped' (finite verb) appear inside it.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Calling 'before sunset' a clause because it has 'before'.",
+          "correctSentence": "'before sunset' = Prepositional Phrase; 'before the sun set' = Clause.",
+          "whyItHappens": "Words like 'before', 'after', and 'until' act as prepositions before a noun phrase ('before sunset') and as subordinators before a subject + finite verb ('before the sun set').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Participial ('running fast') and infinitive ('to win the race') groups are non-finite phrases, not finite clauses."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m04_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Unlock Door 1 (Phrase or Clause?)",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD04_CP1",
+      "subtopicId": "phrase_vs_clause",
+      "subtopicTitle": "Phrase vs. Clause",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Door 1 displays four inscriptions. Only ONE is a CLAUSE (containing a subject and finite verb).",
+      "questionPrompt": "Select the inscription that is a CLAUSE:",
+      "options": [
+        "behind the painted wooden cupboard",
+        "to discover the hidden staircase",
+        "while the grandfather clock struck twelve",
+        "covered in thick silver dust"
+      ],
+      "acceptedAnswers": ["while the grandfather clock struck twelve"],
+      "hint": "Look for a subject doing a tensed action (a finite verb) inside the group of words.",
+      "feedbackCorrect": "Detective Ira: \"Click! Door 1 swings open! 'the grandfather clock' is the subject and 'struck' is the finite verb.\"",
+      "feedbackWrongDefault": "Check whether the group has a real Subject + Finite Verb pair. Prepositions, 'to'-infinitives, and '-ed' participles alone form phrases.",
+      "feedbackWrongByOption": {
+        "behind the painted wooden cupboard": "Prepositional phrase—no verb at all.",
+        "to discover the hidden staircase": "Infinitive phrase—'to discover' is non-finite.",
+        "covered in thick silver dust": "Participial phrase—lacks a subject and finite auxiliary."
+      },
+      "simplerExample": "'after dinner' = Phrase | 'after we ate dinner' = Clause.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m04_step_04_three_subordinate_clauses",
+      "stepTitle": "Discover: Noun, Adjective (Relative) & Adverbial Clauses",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "subordinate_clause_types",
+      "subtopicTitle": "Noun Clauses, Adjective/Relative Clauses & Adverbial Clauses",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Subordinate clauses are master disguisers: a Noun Clause wears a 'WHAT/THAT' badge and sits in a noun's chair; a Relative Clause clings right behind a noun like a sticky bio-tag ('who/which/that'); an Adverbial Clause tells the verb WHEN, WHERE, WHY, or IF.",
+      "formalDefinition": "Subordinate (dependent) clauses perform three major grammatical functions: Noun Clauses replace noun phrases (as subject, object, complement, or object of preposition); Adjective/Relative Clauses post-modify a noun/pronoun; Adverbial Clauses modify a verb, adjective, or main clause (expressing time, place, reason, condition, purpose, result, or concession).",
+      "simpleExplanation": "Use quick replacement tests! (1) Replace the clause with 'SOMETHING / IT': if the sentence stays grammatical ('I know SOMETHING' ← 'I know [that Ira is right]'), it is a NOUN clause! (2) Check if it follows and describes a noun ('the detective [who found the clue]'): RELATIVE/ADJECTIVE clause! (3) Check if it answers 'when/why/where/under what condition': ADVERBIAL clause!",
+      "structurePatterns": [
+        {
+          "formName": "Noun Clause (Ask 'What?')",
+          "formula": "that / what / whether / if / wh-word + S + V",
+          "sample": "[What Chikoo said] surprised everyone. / We wondered [whether the gate was locked]."
+        },
+        {
+          "formName": "Adjective / Relative Clause (Describes a Noun)",
+          "formula": "Noun + who / whom / whose / which / that + Clause",
+          "sample": "The key [that opened the chest] was hidden inside a book."
+        },
+        {
+          "formName": "Adverbial Clause (Time, Reason, Condition, Concession)",
+          "formula": "when, while, because, since, if, unless, although, so that + S + V",
+          "sample": "Stay inside [until the thunderstorm passes]."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Tell me where you found the brass seal.",
+          "contextNote": "Noun Clause as Direct Object ('Tell me SOMETHING'). Notice statement word order ('you found', NOT 'did you find').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "The student whose essay won the medal lives in Shillong.",
+          "contextNote": "Relative (Adjective) Clause describing 'The student'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "I don't know where did Chikoo hide the bananas.",
+          "correctSentence": "I don't know where Chikoo hid the bananas.",
+          "whyItHappens": "Inside a Noun Clause embedded within a statement, use normal Subject + Verb order ('Chikoo hid'), NOT question inversion ('did Chikoo hide').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Don't confuse Noun vs. Relative clauses both starting with 'where' or 'who': 'I know [where he lives]' (Noun Clause, no antecedent noun) vs. 'I visited the village [where he lives]' (Relative Clause modifying 'the village')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m04_step_05_cp2",
+      "stepTitle": "Checkpoint 2: Identify the Subordinate Clause",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD04_CP2",
+      "subtopicId": "subordinate_clause_types",
+      "subtopicTitle": "Noun vs. Relative vs. Adverbial Clause",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "VAANI",
+      "storyPrompt": "Door 2 shows a riddle: \"Detective Ira examined the map [that lay on the table].\"",
+      "questionPrompt": "What type of subordinate clause is \"that lay on the table\"?",
+      "options": [
+        "Noun Clause",
+        "Adjective (Relative) Clause",
+        "Adverbial Clause of Place",
+        "Prepositional Phrase"
+      ],
+      "acceptedAnswers": ["Adjective (Relative) Clause"],
+      "hint": "Look right before 'that lay on the table'—which noun is it describing?",
+      "feedbackCorrect": "Vaani: \"Door 2 unlocks! It sits immediately after the noun 'map' and tells us WHICH map, so it is an Adjective/Relative Clause.\"",
+      "feedbackWrongDefault": "Notice two clues: it has a finite verb ('lay'), and it describes the noun 'the map'.",
+      "feedbackWrongByOption": {
+        "Noun Clause": "Try replacing it with 'something': 'Detective Ira examined the map SOMETHING' makes no sense!",
+        "Adverbial Clause of Place": "It doesn't tell where Ira examined; it describes WHICH map."
+      },
+      "simplerExample": "The book [that I borrowed] is exciting. (Describes 'book' = Relative Clause).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m04_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Fix Chikoo's Embedded Noun Clause",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD04_CP3",
+      "subtopicId": "noun_clauses",
+      "subtopicTitle": "Noun Clause Word Order",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Chikoo whispers to the guard: \"Please tell me what time does the puzzle house close.\"",
+      "questionPrompt": "Choose the grammatically accurate Noun Clause version:",
+      "options": [
+        "Please tell me what time does the puzzle house closes.",
+        "Please tell me what time the puzzle house closes.",
+        "Please tell me what time is closing the puzzle house.",
+        "Please tell me does what time the puzzle house close."
+      ],
+      "acceptedAnswers": ["Please tell me what time the puzzle house closes."],
+      "hint": "Inside an embedded Noun Clause, drop the question auxiliary 'does' and put Subject + Verb in statement order.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Door 3 opens! Inside a Noun Clause object, keep Subject ('the puzzle house') before Verb ('closes').\"",
+      "feedbackWrongDefault": "Remove 'does' and place the subject before the verb: 'what time the puzzle house closes'.",
+      "simplerExample": "Do you know where Rohan lives? (NOT: where does Rohan live?)",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m04_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Unlock the Final Clause Door",
+      "provenance": "ADDITIONAL_EXAMPLE",
+      "checkpointId": "MOD04_CP4",
+      "subtopicId": "adverbial_clauses",
+      "subtopicTitle": "Adverbial Clause Construction",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Door 4 shows a conditional clue: \"You cannot open the treasure box ______ you find the matching relative pronoun.\"",
+      "questionPrompt": "Type the single best subordinating conjunction meaning 'if not' (one word):",
+      "sentenceTemplate": "You cannot open the treasure box ______ you find the matching relative pronoun.",
+      "acceptedAnswers": ["unless"],
+      "hint": "Which 6-letter conjunction means 'if you do not'?",
+      "feedbackCorrect": "Detective Ira: \"Door 4 clicks open! 'Unless' introduces a negative conditional Adverbial Clause ('if you do not find...').\"",
+      "feedbackWrongDefault": "Think of the single subordinating conjunction that replaces 'if ... not' without adding 'not' again.",
+      "feedbackWrongByOption": {
+        "if": "'If you find...' would contradict 'cannot open'!",
+        "until": "Close in context, though 'unless' specifically means 'if not' as a condition."
+      },
+      "simplerExample": "You will miss the train unless you hurry.",
+      "xpReward": 25
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m04_step_08_outro",
+      "stepTitle": "Scene 2: World 1 Cleared!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Puzzle House Courtyard • Evening",
+      "settingDescription": "All four brass doors stand wide open, revealing the golden crest of The Sentence Kingdom.",
+      "dialogues": [
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "eureka",
+          "line": "Every phrase and clause clicked neatly into place—no fragment or mislabelled clause can fool us now."
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "cheering",
+          "line": "I know [that we make a great team] (Noun Clause!) because [we solved every clue together] (Adverbial Clause!)!"
+        }
+      ],
+      "storyCallout": "Module 4 Story Complete! Check your Grammar Notebook and conquer the World 1 Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Phrase vs. Clause",
+        "ruleSummary": "A Phrase is a related word group WITHOUT a Subject + Finite Verb pair. A Clause contains a Subject + Finite Verb.",
+        "formulaOrPattern": "Phrase (no finite verb) vs. Clause (Subject + Finite Verb)",
+        "example": "Phrase: 'during the storm' | Clause: 'while the storm raged'"
+      },
+      {
+        "heading": "Noun Clause",
+        "ruleSummary": "Acts as a noun (Subject, Direct Object, Complement, or Object of Preposition); passes the 'SOMETHING / IT' replacement test.",
+        "formulaOrPattern": "that / what / whether / if / wh-word + Subject + Verb",
+        "example": "What you suggested (Subject) helped everyone."
+      },
+      {
+        "heading": "Adjective (Relative) Clause",
+        "ruleSummary": "Follows and describes a noun/pronoun (the antecedent), introduced by who, whom, whose, which, that, where, or when.",
+        "formulaOrPattern": "Antecedent Noun + Relative Word + Clause",
+        "example": "The notebook [that I lost] turned up in the lab."
+      },
+      {
+        "heading": "Adverbial Clause",
+        "ruleSummary": "Modifies a verb, adjective, or main clause to express time, place, reason, condition, purpose, comparison, or concession.",
+        "formulaOrPattern": "when, while, because, since, if, unless, although, so that + S + V",
+        "example": "Although the trail was steep, we reached the top."
+      }
+    ],
+    "memoryAids": [
+      "Phrase = no heartbeat (no finite verb); Clause = has a Subject + Finite Verb engine.",
+      "Noun Clause = 'SOMETHING' replacement test; Relative Clause = sticky bio-tag behind a noun; Adverbial Clause = answers when/why/where/if."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Tell me where did you keep the key.",
+        "correctSentence": "Tell me where you kept the key.",
+        "whyItHappens": "Embedded Noun Clauses use statement word order (Subject before Verb), never question 'do/did' inversion.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "Unless you do not work hard, you will fail.",
+        "correctSentence": "Unless you work hard, you will fail.",
+        "whyItHappens": "'Unless' already means 'if not', so adding 'not' creates an illogical double negative.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Relative clauses with 'where/when' always follow a noun ('the day when we met'), whereas Noun clauses with 'where/when' stand in for a noun slot ('I remember when we met')."
+    ],
+    "textbookNotes": [
+      "Consolidated coverage of Phrases, Main/Subordinate Clauses, Noun, Relative, and Adverbial Clauses."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M04_Q01",
+        "subtopicId": "phrase_vs_clause",
+        "subtopicTitle": "Phrase vs Clause",
+        "difficulty": "EASY",
+        "questionText": "Which group of words is a PHRASE (not a clause)?",
+        "options": [
+          "because the lights flickered",
+          "when the bell rang",
+          "across the crowded courtyard",
+          "that she won first prize"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'across the crowded courtyard' has no subject and no finite verb, so it is a prepositional phrase.",
+        "distractorRationales": [
+          "Has subject 'the lights' + finite verb 'flickered'.",
+          "Has subject 'the bell' + finite verb 'rang'.",
+          "Correct: preposition + noun phrase, zero finite verb.",
+          "Has subject 'she' + finite verb 'won'."
+        ],
+        "grammarRule": "A phrase contains no subject–finite-verb pair.",
+        "lessonStepRef": "m04_step_02_phrase_vs_clause",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q02",
+        "subtopicId": "phrase_vs_clause",
+        "subtopicTitle": "Phrase types",
+        "difficulty": "EASY",
+        "questionText": "In \"The athlete ran with remarkable speed\", what type of phrase is \"with remarkable speed\"?",
+        "options": [
+          "Noun phrase",
+          "Adverb phrase",
+          "Adjective phrase",
+          "Noun clause"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "It modifies the verb 'ran' by telling HOW the athlete ran (= remarkably fast), functioning as an Adverb phrase.",
+        "distractorRationales": [
+          "Does not occupy a noun slot.",
+          "Correct: modifies 'ran' (manner).",
+          "Does not modify a noun.",
+          "Contains no finite verb."
+        ],
+        "grammarRule": "A prepositional phrase modifying a verb functions as an Adverb phrase.",
+        "lessonStepRef": "m04_step_02_phrase_vs_clause",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q03",
+        "subtopicId": "subordinate_clause_types",
+        "subtopicTitle": "Noun clause",
+        "difficulty": "EASY",
+        "questionText": "Identify the clause type of \"[that the parcel arrived safely]\" in \"We are glad [that the parcel arrived safely].\"",
+        "options": [
+          "Noun clause",
+          "Adjective (Relative) clause",
+          "Adverbial clause of time",
+          "Main clause"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "A 'that'-clause completing an adjective ('glad') or verb ('know/think') functions as a Noun clause (nominal complement).",
+        "distractorRationales": [
+          "Correct: nominal 'that'-clause.",
+          "There is no noun antecedent for 'that' to describe.",
+          "Does not express time.",
+          "Depends on 'We are glad'."
+        ],
+        "grammarRule": "'That'-clauses serving as subject, object, or adjective/verb complement are Noun clauses.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q04",
+        "subtopicId": "subordinate_clause_types",
+        "subtopicTitle": "Relative / Adjective clause",
+        "difficulty": "EASY",
+        "questionText": "In \"The bridge [which crosses the Brahmaputra] is illuminated at night\", what is \"which crosses the Brahmaputra\"?",
+        "options": [
+          "Noun clause",
+          "Adjective (Relative) clause",
+          "Adverbial clause",
+          "Prepositional phrase"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "It follows and defines the noun 'The bridge', acting as an Adjective/Relative clause.",
+        "distractorRationales": [
+          "Cannot replace with 'something'.",
+          "Correct: modifies noun 'The bridge'.",
+          "Does not modify the verb 'is illuminated'.",
+          "Contains finite verb 'crosses', so it is a clause."
+        ],
+        "grammarRule": "A clause introduced by who/which/that modifying an antecedent noun is an Adjective/Relative clause.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M04_Q05",
+        "subtopicId": "adverbial_clauses",
+        "subtopicTitle": "Adverbial clause",
+        "difficulty": "EASY",
+        "questionText": "In \"Stay under the shelter until the hailstorm stops\", what kind of clause is \"until the hailstorm stops\"?",
+        "options": [
+          "Noun clause",
+          "Relative clause",
+          "Adverbial clause of time",
+          "Adjective phrase"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'until the hailstorm stops' has subject + finite verb and tells WHEN/HOW LONG to stay.",
+        "distractorRationales": [
+          "Does not occupy a noun position.",
+          "Does not describe 'shelter'.",
+          "Correct: Adverbial clause of time.",
+          "Contains finite verb 'stops'."
+        ],
+        "grammarRule": "Clauses introduced by when, while, before, after, until, since (time) are Adverbial clauses of time.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q06",
+        "subtopicId": "noun_clauses",
+        "subtopicTitle": "Noun clause as Subject",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"[Whoever finishes first] will ring the brass bell\", what role does the bracketed clause play?",
+        "options": [
+          "Noun clause acting as Subject",
+          "Relative clause modifying 'bell'",
+          "Adverbial clause of condition",
+          "Phrase"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Whoever finishes first' occupies the Subject slot right before the main verb 'will ring' (Test: 'HE/SOMEONE will ring...').",
+        "distractorRationales": [
+          "Correct: Noun clause in Subject position.",
+          "It sits before the main verb, not after 'bell'.",
+          "Does not express 'if...'.",
+          "Contains finite verb 'finishes'."
+        ],
+        "grammarRule": "A Noun clause can serve directly as the Subject of a main verb.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q07",
+        "subtopicId": "noun_clauses",
+        "subtopicTitle": "Embedded noun clause word order",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the grammatically correct sentence:",
+        "options": [
+          "Can you explain why did the experiment fail?",
+          "Can you explain why the experiment failed?",
+          "Can you explain why failed the experiment?",
+          "Can you explain did why the experiment fail?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Can you explain' already performs the question inversion; the embedded Noun clause keeps normal order: 'why the experiment failed'.",
+        "distractorRationales": [
+          "Double inversion ('did ... fail') inside embedded clause.",
+          "Correct: Subject ('the experiment') + Verb ('failed').",
+          "Verb precedes subject.",
+          "Broken order."
+        ],
+        "grammarRule": "Embedded wh-noun clauses use statement word order, not question inversion.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q08",
+        "subtopicId": "adverbial_clauses",
+        "subtopicTitle": "Unless vs If not",
+        "difficulty": "MEDIUM",
+        "questionText": "Fix the error in: \"You won't catch the morning bus unless you do not leave now.\"",
+        "options": [
+          "You won't catch the morning bus unless you leave now.",
+          "You won't catch the morning bus if you leave now.",
+          "You won't catch the morning bus unless you won't leave now.",
+          "No error"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Unless' already means 'if ... not', so adding 'do not' reverses the meaning into a double negative.",
+        "distractorRationales": [
+          "Correct: 'unless' + affirmative verb ('leave').",
+          "Reverses the intended warning.",
+          "Uses 'will' inside conditional clause plus double negative.",
+          "Contains a double negative error."
+        ],
+        "grammarRule": "Use an affirmative verb after 'unless' (= 'if not').",
+        "lessonStepRef": "m04_step_07_cp4",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q09",
+        "subtopicId": "subordinate_clause_types",
+        "subtopicTitle": "Noun vs Relative 'where'",
+        "difficulty": "HARD",
+        "questionText": "In which sentence is \"where the river bends\" a RELATIVE (Adjective) clause?",
+        "options": [
+          "Nobody knows where the river bends.",
+          "Where the river bends is a calm spot for herons.",
+          "We camped at the meadow where the river bends.",
+          "Ask the guide where the river bends."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In option C, 'where the river bends' directly follows and modifies the noun 'the meadow', making it a Relative clause.",
+        "distractorRationales": [
+          "Direct object of 'knows' (Noun clause).",
+          "Subject of 'is' (Noun clause).",
+          "Correct: modifies antecedent noun 'meadow'.",
+          "Direct object of 'Ask' (Noun clause)."
+        ],
+        "grammarRule": "A 'where/when' clause modifying a preceding noun is Relative; without an antecedent noun, it is usually a Noun or Adverbial clause.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q10",
+        "subtopicId": "phrase_vs_clause",
+        "subtopicTitle": "Preposition vs Subordinator",
+        "difficulty": "MEDIUM",
+        "questionText": "Compare (1) \"before the final whistle\" and (2) \"before the referee blew the whistle\". Which statement is accurate?",
+        "options": [
+          "Both are clauses.",
+          "(1) is a phrase and (2) is a clause.",
+          "(1) is a clause and (2) is a phrase.",
+          "Both are noun phrases."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "(1) has only a noun phrase after 'before' (no finite verb), whereas (2) has subject 'the referee' + finite verb 'blew'.",
+        "distractorRationales": [
+          "(1) lacks a finite verb.",
+          "Correct: Phrase vs. Clause.",
+          "Reversed.",
+          "(2) is an adverbial clause."
+        ],
+        "grammarRule": "Preposition + NP = Phrase; Subordinator + S + Finite Verb = Clause.",
+        "lessonStepRef": "m04_step_02_phrase_vs_clause",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q11",
+        "subtopicId": "subordinate_clause_types",
+        "subtopicTitle": "Relative pronouns who vs whom vs whose",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the right relative word: \"The artist ______ painting won the state award is my aunt.\"",
+        "options": [
+          "who",
+          "whom",
+          "whose",
+          "which"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Whose' shows possession linking 'The artist' to 'painting' ('the artist's painting').",
+        "distractorRationales": [
+          "'Who' cannot modify 'painting' as a possessive.",
+          "'Whom' is an object pronoun, not possessive.",
+          "Correct: possessive relative determiner 'whose'.",
+          "'Which' does not express possession here."
+        ],
+        "grammarRule": "Use 'whose' in relative clauses to show possession.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q12",
+        "subtopicId": "adverbial_clauses",
+        "subtopicTitle": "Adverbial clause of concession",
+        "difficulty": "MEDIUM",
+        "questionText": "Which conjunction introduces an Adverbial Clause of CONCESSION (unexpected contrast)?",
+        "options": [
+          "because",
+          "although",
+          "so that",
+          "wherever"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Although / though / even though' introduces a fact that contrasts surprisingly with the main clause (concession).",
+        "distractorRationales": [
+          "Introduces reason/cause.",
+          "Correct: concession/contrast.",
+          "Introduces purpose.",
+          "Introduces place."
+        ],
+        "grammarRule": "Concessive adverbial clauses use although, though, even though, or even if.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q13",
+        "subtopicId": "phrase_vs_clause",
+        "subtopicTitle": "Adjective phrase identification",
+        "difficulty": "HARD",
+        "questionText": "In \"The mango tree laden with ripe fruit shaded the bench\", what is \"laden with ripe fruit\"?",
+        "options": [
+          "Adjective phrase modifying 'tree'",
+          "Adverbial clause",
+          "Noun clause",
+          "Main verb group"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Laden with ripe fruit' has no finite verb (it's a participial/adjective phrase) and describes 'The mango tree'.",
+        "distractorRationales": [
+          "Correct: post-modifying adjective phrase.",
+          "No finite verb, so not a clause.",
+          "Not a noun slot and no finite verb.",
+          "The main finite verb is 'shaded'."
+        ],
+        "grammarRule": "An adjective/participial phrase following a noun modifies that noun without adding a finite clause.",
+        "lessonStepRef": "m04_step_02_phrase_vs_clause",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M04_Q14",
+        "subtopicId": "noun_clauses",
+        "subtopicTitle": "Noun clause with 'whether'",
+        "difficulty": "HARD",
+        "questionText": "Identify the function of the Noun Clause in \"Everything depends on [whether the monsoon arrives on time].\"",
+        "options": [
+          "Subject of the sentence",
+          "Object of the preposition 'on'",
+          "Relative modifier of 'Everything'",
+          "Adverbial clause of reason"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "It follows the preposition 'on' and passes the replacement test: 'Everything depends on THAT/IT'.",
+        "distractorRationales": [
+          "'Everything' is the Subject.",
+          "Correct: Noun clause serving as object of preposition 'on'.",
+          "Does not describe 'Everything' as a relative clause.",
+          "Answers 'depends on WHAT?', not 'why?'."
+        ],
+        "grammarRule": "A Noun clause can serve as the object of a preposition.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M04_Q15",
+        "subtopicId": "adverbial_clauses",
+        "subtopicTitle": "Adverbial clause of purpose",
+        "difficulty": "HARD",
+        "questionText": "Complete the sentence with an Adverbial Clause of PURPOSE: \"Detective Ira carried a torch ______.\"",
+        "options": [
+          "which was very bright",
+          "so that she could inspect the dark cellar",
+          "because the power failed",
+          "where the cellar began"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'so that she could inspect the dark cellar' explains the intended purpose/goal of carrying the torch.",
+        "distractorRationales": [
+          "Relative clause describing 'torch'.",
+          "Correct: 'so that + modal' expresses purpose.",
+          "Adverbial clause of reason, not purpose.",
+          "Place clause."
+        ],
+        "grammarRule": "Adverbial clauses of purpose commonly use 'so that / in order that + subject + can/could/may/might'.",
+        "lessonStepRef": "m04_step_04_three_subordinate_clauses",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

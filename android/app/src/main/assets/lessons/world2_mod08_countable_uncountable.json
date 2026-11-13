@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_08",
+  "worldId": "WORLD_2",
+  "title": "Countable and Uncountable Nouns",
+  "storyTitle": "The Great Kitchen & Luggage Audit",
+  "estimatedMinutes": 15,
+  "charactersInvolved": [
+    "CHIKOO_BANDAR",
+    "DETECTIVE_IRA",
+    "ACHARYA_VIDYADHAR",
+    "VAANI",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m08_step_01_intro",
+      "stepTitle": "Scene 1: The Confused Storekeeper",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Kitchen & Guest Pavilion • Morning",
+      "settingDescription": "Chikoo Bandar has been put in charge of the bazaar's festival storehouse—and his inventory slate is bursting with impossible plurals.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "proud",
+          "line": "Audit complete, Detective Ira! We packed ten luggages, six breads, many informations, and bought brand-new furnitures!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "suspicious",
+          "line": "Hold on! You cannot count 'luggage', 'bread', 'information', or 'furniture' like apples! Try putting 'one, two, three' directly before 'information'!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "helpful",
+          "line": "Even 'hairs' vs 'hair' and 'a glass' vs 'glass' change meaning depending on whether we view them as a whole substance or individual items."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Let us learn how Countable and Uncountable nouns behave—and how partitives like 'a piece of' or 'two loaves of' count the uncountable cleanly."
+        }
+      ],
+      "storyCallout": "Goal: Separate countable vs. uncountable nouns, use partitives correctly, and avoid common Indian-learner plural traps."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m08_step_02_count_vs_uncount",
+      "stepTitle": "Discover: Countable vs. Uncountable Behaviour",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "countable_uncountable_core",
+      "subtopicTitle": "Grammar Rules for Countable & Uncountable Nouns",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Countable nouns are marbles you can line up and number (one marble, three marbles); Uncountable nouns are buckets of sand or wisdom—you don't count 'two sands', you count 'two buckets/grains/pieces of' them!",
+      "formalDefinition": "Countable nouns denote discrete entities that take singular/plural forms, indefinite articles ('a/an'), numerals, and 'many/few'. Uncountable (mass) nouns denote continuous substances, collections, or abstract concepts that have no plural '-s', cannot take 'a/an' or numbers directly, take singular verbs, and pair with 'much/little/some'.",
+      "simpleExplanation": "Memorise the Top-12 uncountable nouns frequently tested in Classes IX–X: advice, information, luggage, baggage, furniture, equipment, news, scenery, poetry, traffic, homework, and bread. You must NEVER write *advices, *informations, *luggages, *furnitures, or *a bread. Instead, measure them with partitive phrases: 'a piece of advice', 'two pieces of luggage', 'a loaf/slice of bread', 'an item of furniture', 'a stroke of luck'.",
+      "structurePatterns": [
+        {
+          "formName": "Countable Noun Toolkit",
+          "formula": "a / an / one / two / many / a few / several + Countable Noun (+ Plural Verb if plural)",
+          "sample": "a biscuit • three suitcases • many poems • a few chairs"
+        },
+        {
+          "formName": "Uncountable Noun Toolkit",
+          "formula": "much / little / a little / some / a lot of + Uncountable Noun (NO -s, Singular Verb)",
+          "sample": "much luggage • little news • some furniture • a little advice"
+        },
+        {
+          "formName": "Partitive Counters",
+          "formula": "Number + Measure Word (piece / loaf / blade / sheet / cup) + of + Uncountable Noun",
+          "sample": "two loaves of bread • three sheets of paper • a blade of grass"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The station master gave us helpful information about the delayed train.",
+          "contextNote": "'Information' stays singular without 'an' or '-s'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "She gave me two pieces of practical advice before the science quiz.",
+          "contextNote": "Use 'two pieces of advice', never *two advices.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "How many luggages did you bring, and did the porter give you an advice?",
+          "correctSentence": "How much luggage did you bring, and did the guide give you a piece of advice?",
+          "whyItHappens": "Both 'luggage' and 'advice' are uncountable—they require 'much' (not 'many'), no '-s', and no 'a/an' without a counter like 'a piece of'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Notice countable equivalents for uncountable groups: 'luggage' (uncountable) vs. 'suitcases/bags' (countable); 'poetry' (uncountable) vs. 'poems' (countable); 'traffic' (uncountable) vs. 'vehicles' (countable)."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m08_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Fix Chikoo's Inventory",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD08_CP1",
+      "subtopicId": "countable_uncountable_core",
+      "subtopicTitle": "Uncountable Noun Plurals & Articles",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira underlines Chikoo's note: \"We unloaded heavy furnitures and received an urgent news.\"",
+      "questionPrompt": "Pick the grammatically accurate correction:",
+      "options": [
+        "We unloaded heavy furniture and received urgent news.",
+        "We unloaded a heavy furniture and received urgent news.",
+        "We unloaded heavy furniture and received urgent newses.",
+        "We unloaded many heavy furniture and received a urgent news."
+      ],
+      "acceptedAnswers": ["We unloaded heavy furniture and received urgent news."],
+      "hint": "Both 'furniture' and 'news' are uncountable—no '-s' on 'furniture', and no 'a/an' before 'news'!",
+      "feedbackCorrect": "Detective Ira: \"Audit approved! Both 'furniture' and 'news' stay uncountable without 'a/an' or '-s'.\"",
+      "feedbackWrongDefault": "Drop the plural '-s' on 'furniture' and remove 'an' before 'news'.",
+      "feedbackWrongByOption": {
+        "We unloaded a heavy furniture and received urgent news.": "'Furniture' cannot take 'a' directly—use 'a piece of furniture' or bare 'furniture'."
+      },
+      "simplerExample": "Good news travels fast; old furniture fills the attic.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m08_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Count It with a Partitive",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD08_CP2",
+      "subtopicId": "partitives",
+      "subtopicTitle": "Partitive Counters for Uncountable Nouns",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani packs breakfast hampers for the volunteers: \"Please place three ____ of fresh bread on the tray.\"",
+      "questionPrompt": "Type the standard countable plural unit word ('loaves' or 'slices'):",
+      "sentenceTemplate": "Please place three ________ of fresh bread on the tray.",
+      "acceptedAnswers": ["loaves", "slices"],
+      "hint": "Bread is uncountable, so we count whole 'loaves' (singular: loaf) or cut 'slices'!",
+      "feedbackCorrect": "Vaani: \"Delicious precision! Counting 'loaves of bread' or 'slices of bread' avoids the impossible *three breads.\"",
+      "feedbackWrongDefault": "Remember the plural of 'loaf' is 'loaves' (or use 'slices').",
+      "simplerExample": "Two bars of soap • Two loaves of bread • Three pieces of chalk.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m08_step_05_dual_and_traps",
+      "stepTitle": "Discover: Dual Nouns & Quantifier Traps",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "dual_nouns_quantifiers",
+      "subtopicTitle": "Dual-Behaviour Nouns & Quantifier Agreement",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Dual nouns are quick-change actors: 'paper' is uncountable when it means blank sheets on a desk ('some paper'), yet 'a paper' becomes countable when it means a newspaper or exam question paper!",
+      "formalDefinition": "Several English nouns operate as uncountable when denoting material or general activity, and countable when denoting specific objects, servings, or instances (e.g., glass / a glass, hair / two grey hairs, iron / an iron, work / works of art). Quantifiers must match the intended sense.",
+      "simpleExplanation": "Look carefully at meaning shifts: (1) 'Hair' on a person's head as a mass is uncountable ('Her hair is black'—NOT *hairs are); individual stray strands are countable ('I found two grey hairs on my coat'). (2) 'Glass' (material) vs. 'a glass' (drinking tumbler) vs. 'glasses' (spectacles!). (3) 'Work' (effort/job: 'a lot of work', 'a piece of work') vs. 'works' (literary/engineering creations: 'the complete works of Tagore'). (4) Always match 'much/little' with uncountable, and 'many/few' with plural countable nouns.",
+      "structurePatterns": [
+        {
+          "formName": "Uncountable (Mass) vs. Countable (Object/Instance)",
+          "formula": "Material/General → No a/an, Singular Verb | Specific Unit → a/an or Plural",
+          "sample": "Windows made of glass vs. a glass of milk • Smooth paper vs. a morning paper"
+        },
+        {
+          "formName": "Work vs. Works / Hair vs. Hairs",
+          "formula": "Daily Tasks = work (U) | Stray Strands = two hairs (C)",
+          "sample": "I have much homework to finish. / Grandpa noticed three white hairs."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Her long hair shines cleanly, though there is a stray hair on her shoulder.",
+          "contextNote": "First 'hair' = whole head of hair (uncountable); 'a stray hair' = one single strand (countable).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "This statue is sculpted from iron, while the tailor uses a steam iron.",
+          "contextNote": "'Iron' (metal) vs. 'an iron' (pressing appliance).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "She has a curly hairs and carries too many baggage.",
+          "correctSentence": "She has curly hair and carries too much baggage.",
+          "whyItHappens": "Do not put 'a' before plural *hairs for a full head of hair, and pair uncountable 'baggage' with 'much', not 'many'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Collective nouns for money/time/distance ('Ten kilometres is a long walk', 'Five hundred rupees is enough') take a singular verb when viewed as a single total."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m08_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Match the Dual-Meaning Noun",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD08_CP3",
+      "subtopicId": "dual_nouns_quantifiers",
+      "subtopicTitle": "Countable vs. Uncountable Sense Shifts",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar challenges you with two blanks: \"Our library needs ____ new equipment, and please bring ____ clean glass for the water.\"",
+      "questionPrompt": "Pick the option that completes both blanks accurately:",
+      "options": [
+        "a / some",
+        "some / a",
+        "many / many",
+        "an / an"
+      ],
+      "acceptedAnswers": ["some / a"],
+      "hint": "'Equipment' is ALWAYS uncountable (cannot take 'a/an' or 'many'); 'glass' as a drinking cup IS countable ('a glass').",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Spot on! Uncountable 'equipment' takes 'some', while countable drinking 'glass' takes 'a'.\"",
+      "feedbackWrongDefault": "Remember: 'equipment' never takes 'a/an' or 'many'; a drinking tumbler is 'a glass'.",
+      "feedbackWrongByOption": {
+        "a / some": "'Equipment' is uncountable—you can say 'some equipment' or 'a piece of equipment', never *an equipment."
+      },
+      "simplerExample": "We bought some furniture and a wooden chair.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m08_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Repair the Speech",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD08_CP4",
+      "subtopicId": "dual_nouns_quantifiers",
+      "subtopicTitle": "Quantifier + Noun Agreement",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya asks you to choose the cleanest sentence for the Bazaar Ledger.",
+      "questionPrompt": "Which sentence is 100% grammatically accurate?",
+      "options": [
+        "There is a little traffic today, so we have few time to waste.",
+        "The sceneries of Sikkim attracted many tourist.",
+        "Few tourists complained because the accommodation was spotless.",
+        "He gave me many informations and several good advices."
+      ],
+      "acceptedAnswers": ["Few tourists complained because the accommodation was spotless."],
+      "hint": "Check every noun: 'time', 'scenery', 'accommodation', 'information', and 'advice' are uncountable!",
+      "feedbackCorrect": "Maharaj Vakya: \"Zero errors! 'Few' pairs with plural countable 'tourists', and 'accommodation' stays singular uncountable with 'was'.\"",
+      "feedbackWrongDefault": "Check whether 'few/many' are matched only with plural countables and uncountables stay singular.",
+      "feedbackWrongByOption": {
+        "There is a little traffic today, so we have few time to waste.": "'Time' is uncountable, so it needs 'little time', not 'few time'."
+      },
+      "simplerExample": "Few visitors noticed the mistake; little noise escaped the hall.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m08_step_08_outro",
+      "stepTitle": "Scene 2: Ledger Balanced!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Storehouse • Afternoon",
+      "settingDescription": "Chikoo crosses off every impossible plural and proudly labels 'three loaves of bread', 'much luggage', and 'two pieces of advice'.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "grinning",
+          "line": "Aha! Some luggage, two suitcases, a piece of advice, and a bunch of ripe bananas—no more *informations or *furnitures from me!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "approving",
+          "line": "Case closed! Review your Grammar Notebook notes and take the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 8 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "High-Frequency Uncountable Nouns",
+        "ruleSummary": "Advice, information, luggage, baggage, furniture, equipment, news, scenery, poetry, accommodation, bread, traffic, and homework stay singular (no '-s', no 'a/an') and take singular verbs.",
+        "formulaOrPattern": "much / little / a little / some / a lot of + Uncountable Noun + Singular Verb",
+        "example": "The news is encouraging, and our luggage has arrived."
+      },
+      {
+        "heading": "Counting with Partitives",
+        "ruleSummary": "To express exact numbers of uncountable nouns, insert a countable measure phrase before 'of'.",
+        "formulaOrPattern": "a piece of advice • two loaves of bread • three sheets of paper • an item of furniture",
+        "example": "She offered two pieces of helpful advice."
+      },
+      {
+        "heading": "Dual-Sense Nouns & Quantifier Matching",
+        "ruleSummary": "Words like hair, paper, glass, iron, and work switch between uncountable (substance/general) and countable (specific object/unit). Always pair many/few with plural countables and much/little with uncountables.",
+        "formulaOrPattern": "glass (material) vs. a glass (cup) | hair (on head) vs. two grey hairs (strands)",
+        "example": "Do not waste much water; bring a few bottles instead."
+      }
+    ],
+    "memoryAids": [
+      "Countables are loose marbles (1, 2, 3); uncountables are buckets of sand—you need a scoop ('a piece of', 'a loaf of') to count them!",
+      "Never pluralise the 'BIG 6' traps: *informations, *advices, *luggages, *furnitures, *sceneries, *equipments."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "He gave me an advice and carried two baggages.",
+        "correctSentence": "He gave me a piece of advice and carried two bags (or two pieces of baggage).",
+        "whyItHappens": "'Advice' and 'baggage' are uncountable mass nouns in English.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "My hairs have turned white and the sceneries are lovely.",
+        "correctSentence": "My hair has turned white and the scenery is lovely.",
+        "whyItHappens": "Hair on the head as a whole and natural 'scenery' are uncountable with singular verbs.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "'News' ends in '-s' yet is strictly uncountable and singular ('No news is good news').",
+      "'Work' (job/labour) is uncountable, whereas 'works' means literary/artistic creations or factory premises ('ironworks')."
+    ],
+    "textbookNotes": [
+      "Grounded in Odisha Class IX Ch. 7 (Countables and Uncountables): mass vs. count behaviour, partitives, and quantifier pairing."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M08_Q01",
+        "subtopicId": "countable_uncountable_core",
+        "subtopicTitle": "Identifying uncountable nouns",
+        "difficulty": "EASY",
+        "questionText": "Which group contains ONLY uncountable nouns?",
+        "options": [
+          "chair, suitcase, poem, loaf",
+          "advice, furniture, luggage, scenery",
+          "news, table, bottle, apple",
+          "information, book, equipment, rupee"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Advice', 'furniture', 'luggage', and 'scenery' are all uncountable in English and never take a plural '-s'.",
+        "distractorRationales": [
+          "All four are countable nouns.",
+          "Correct: all four are standard uncountable nouns.",
+          "'Table', 'bottle', and 'apple' are countable.",
+          "'Book' and 'rupee' are countable."
+        ],
+        "grammarRule": "Advice, furniture, luggage, and scenery are uncountable mass nouns.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q02",
+        "subtopicId": "countable_uncountable_core",
+        "subtopicTitle": "Singular verb with uncountable nouns",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate verb: \"No news ____ good news when waiting for storm updates.\"",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Despite ending in '-s', 'news' is an uncountable singular noun and takes the singular verb 'is'.",
+        "distractorRationales": [
+          "Plural verb mismatched with uncountable 'news'.",
+          "Plural past verb.",
+          "Correct: 'news' takes singular 'is'.",
+          "Plural verb."
+        ],
+        "grammarRule": "'News' is uncountable and always takes a singular verb.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q03",
+        "subtopicId": "partitives",
+        "subtopicTitle": "Using partitives",
+        "difficulty": "EASY",
+        "questionText": "How do you express the number 'two' for 'information' grammatically?",
+        "options": [
+          "two informations",
+          "two information",
+          "two pieces of information",
+          "a two information"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Use a countable partitive ('pieces of') before uncountable 'information'.",
+        "distractorRationales": [
+          "Never add '-s' to 'information'.",
+          "Cannot put a numeral directly before 'information'.",
+          "Correct: numeral + countable 'pieces of' + uncountable noun.",
+          "Ungrammatical combination."
+        ],
+        "grammarRule": "Count uncountable nouns using 'pieces/items/slices/loaves of + noun'.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q04",
+        "subtopicId": "countable_uncountable_core",
+        "subtopicTitle": "Poetry vs Poems",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the grammatically accurate sentence:",
+        "options": [
+          "Rabindranath Tagore wrote many great poetries.",
+          "Rabindranath Tagore wrote many great poems.",
+          "We read a poetry in class yesterday.",
+          "These poetries are easy to memorise."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Poetry' is uncountable (no *poetries, no *a poetry); individual compositions are countable 'poems'.",
+        "distractorRationales": [
+          "'Poetry' has no plural *poetries.",
+          "Correct: 'poems' is countable and matches 'many'.",
+          "Cannot write *a poetry.",
+          "'Poetries' is ungrammatical."
+        ],
+        "grammarRule": "Use 'poetry' as uncountable, and 'poem / poems' when counting individual works.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q05",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Hair vs Hairs",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence uses 'hair' accurately?",
+        "options": [
+          "Grandmother's hairs are silver-white.",
+          "Waiter, there are two hairs in my soup!",
+          "He combed his black hairs neatly.",
+          "She has a long hair."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Individual countable strands spotted separately take 'two hairs'; hair on the head as a whole is uncountable ('Grandmother's hair is...', 'long hair').",
+        "distractorRationales": [
+          "Hair on a head is uncountable: 'hair is'.",
+          "Correct: individual stray strands are countable ('two hairs').",
+          "Say 'his black hair' (uncountable).",
+          "Say 'long hair' without 'a'."
+        ],
+        "grammarRule": "'Hair' as a whole is uncountable; individual visible strands are countable.",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q06",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Quantifier matching",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in both blanks accurately: \"There wasn't ____ traffic on the bridge, though ____ buses ran late.\"",
+        "options": [
+          "many / a little",
+          "much / a few",
+          "few / much",
+          "several / little"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Traffic' is uncountable ('much traffic'), while 'buses' is plural countable ('a few buses').",
+        "distractorRationales": [
+          "Reversed countable and uncountable quantifiers.",
+          "Correct: 'much' + uncountable; 'a few' + plural countable.",
+          "Reversed both.",
+          "Reversed both."
+        ],
+        "grammarRule": "Use 'much / little' with uncountables and 'many / few' with plural countables.",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q07",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Paper vs A paper",
+        "difficulty": "HARD",
+        "questionText": "In which sentence does 'paper' act as a COUNTABLE noun?",
+        "options": [
+          "Origami requires thin coloured paper.",
+          "Our school recycles waste paper every month.",
+          "Can you hand me a newspaper—or today's paper?",
+          "There isn't much paper left in the printer."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Today's paper' / 'a paper' meaning a newspaper (or an exam paper / essay) is countable; paper as raw material is uncountable.",
+        "distractorRationales": [
+          "Uncountable material.",
+          "Uncountable material.",
+          "Correct: 'a paper' = newspaper (countable).",
+          "'Much paper' = uncountable."
+        ],
+        "grammarRule": "Material 'paper' is uncountable; a newspaper, essay, or exam paper is countable ('a paper').",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q08",
+        "subtopicId": "partitives",
+        "subtopicTitle": "Correct partitive selection",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the natural partitive pair: \"He drank ____ water and ate ____ chalk-white paneer.\"",
+        "options": [
+          "a slice of / a glass of",
+          "a glass of / a cube of",
+          "a loaf of / a drop of",
+          "a sheet of / a blade of"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Liquids pair naturally with 'a glass/cup/bottle of'; paneer/cheese fits 'a cube/slice/piece of'.",
+        "distractorRationales": [
+          "Wrong order.",
+          "Correct: natural measure words.",
+          "'Loaf' is for bread; 'drop' is for liquid.",
+          "'Sheet' is for paper; 'blade' is for grass."
+        ],
+        "grammarRule": "Match partitives idiomatically to the noun (glass of water, loaf of bread, blade of grass, sheet of paper).",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M08_Q09",
+        "subtopicId": "countable_uncountable_core",
+        "subtopicTitle": "Avoiding 'a/an' with uncountables",
+        "difficulty": "EASY",
+        "questionText": "Spot the sentence that contains an error with an uncountable noun:",
+        "options": [
+          "She submitted her homework on time.",
+          "We enjoyed the scenic beauty of Munnar.",
+          "He gave me a good advice before the race.",
+          "Clean drinking water is essential for health."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Advice' is uncountable and cannot follow 'a' directly—write 'some good advice' or 'a piece of good advice'.",
+        "distractorRationales": [
+          "'Homework' is correctly singular.",
+          "'Beauty' is correctly uncountable.",
+          "Correct error spotted: *a good advice is ungrammatical.",
+          "'Water' and 'health' are correctly uncountable."
+        ],
+        "grammarRule": "Never place 'a' or 'an' directly before uncountable nouns like advice, news, or work.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q10",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Glass vs Glasses",
+        "difficulty": "HARD",
+        "questionText": "What do these three uses mean respectively: \"made of glass\", \"a glass of lassi\", \"a pair of glasses\"?",
+        "options": [
+          "material (uncountable) → drinking vessel (countable) → spectacles (plural noun)",
+          "all three are uncountable",
+          "spectacles → material → drinking vessel",
+          "drinking vessel → material → mirrors"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Glass' shifts cleanly between uncountable material, countable tumbler, and plural-only 'glasses' (spectacles).",
+        "distractorRationales": [
+          "Correct sequence of meanings.",
+          "Only the first is uncountable.",
+          "Wrong order.",
+          "Wrong meanings."
+        ],
+        "grammarRule": "Check context for glass (material), a glass (cup), and glasses (spectacles).",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M08_Q11",
+        "subtopicId": "countable_uncountable_core",
+        "subtopicTitle": "Luggage vs Suitcases",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate sentence for the railway platform:",
+        "options": [
+          "Are all your luggages already inside the coach?",
+          "How many luggage are you carrying?",
+          "All our luggage is safely stored under the berth.",
+          "We packed three heavy baggages."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Luggage' and 'baggage' are uncountable and take singular verbs ('is safely stored') and 'much', never '-s' or 'many'.",
+        "distractorRationales": [
+          "*Luggages + 'Are' is wrong.",
+          "Cannot use 'many' before 'luggage'.",
+          "Correct: uncountable 'luggage' + singular 'is'.",
+          "*Baggages is wrong; say 'three heavy bags'."
+        ],
+        "grammarRule": "Use 'luggage/baggage + singular verb', or count 'bags/suitcases' instead.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q12",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Work vs Works",
+        "difficulty": "HARD",
+        "questionText": "Pick the sentence where 'work(s)' is used accurately:",
+        "options": [
+          "I have two urgent works to complete tonight.",
+          "I have two urgent tasks (or much work) to complete tonight.",
+          "She has a lot of homeworks today.",
+          "Every student did many works in the garden."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Work' meaning chores/tasks/homework is uncountable—use 'much work', 'a lot of work', or countable 'two tasks / two jobs'.",
+        "distractorRationales": [
+          "Classic error: do not say *two works for tasks.",
+          "Correct: uncountable 'work' or countable 'tasks'.",
+          "'Homework' never adds '-s'.",
+          "'Many works' is wrong for ordinary chores."
+        ],
+        "grammarRule": "'Work' (labour/chores) and 'homework' are uncountable; count 'tasks', 'jobs', or 'pieces of work'.",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M08_Q13",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Pluralia tantum with 'a pair of'",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate verb: \"A pair of sharp scissors ____ lying on the craft table.\"",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Scissors' alone takes 'are' ('The scissors are blunt'), whereas 'A PAIR of scissors' has the singular head noun 'pair' and takes 'is'!",
+        "distractorRationales": [
+          "Agrees with 'scissors' rather than 'A pair'.",
+          "Plural verb.",
+          "Correct: head noun is singular 'pair'.",
+          "Plural verb."
+        ],
+        "grammarRule": "Paired items take plural verbs ('trousers are'), EXCEPT after 'a pair of' ('a pair of trousers is').",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M08_Q14",
+        "subtopicId": "dual_nouns_quantifiers",
+        "subtopicTitle": "Less vs Fewer",
+        "difficulty": "HARD",
+        "questionText": "Which sentence applies standard grammar for 'less' vs 'fewer'?",
+        "options": [
+          "There are less mistakes in your second draft.",
+          "There are fewer mistakes in your second draft.",
+          "Drink fewer water during cold weather? No—drink more!",
+          "He spent fewer time practising today."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Fewer' pairs with plural countable nouns ('fewer mistakes'); 'less' pairs with uncountable nouns ('less water', 'less time').",
+        "distractorRationales": [
+          "'Mistakes' is countable plural, preferring 'fewer'.",
+          "Correct: 'fewer' + plural countable 'mistakes'.",
+          "'Water' is uncountable ('less water').",
+          "'Time' is uncountable ('less time')."
+        ],
+        "grammarRule": "Use 'fewer' with plural countables and 'less' with uncountables.",
+        "lessonStepRef": "m08_step_05_dual_and_traps",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M08_Q15",
+        "subtopicId": "countable_uncountable_core",
+        "subtopicTitle": "Uncountable bread & stationery",
+        "difficulty": "EASY",
+        "storyContext": "Chikoo reads his updated kitchen list aloud.",
+        "questionText": "Which phrase is 100% grammatical?",
+        "options": [
+          "three fresh breads and two chalks",
+          "three loaves of fresh bread and two pieces of chalk",
+          "much fresh biscuits and a few milk",
+          "many sugar and little spoons"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Both 'bread' and 'chalk' are uncountable, cleanly counted via 'loaves of bread' and 'pieces of chalk'.",
+        "distractorRationales": [
+          "Pluralises uncountable 'bread' and 'chalk'.",
+          "Correct: accurate partitives for both.",
+          "'Much biscuits' and 'a few milk' mismatch countability.",
+          "'Many sugar' and 'little spoons' mismatch countability."
+        ],
+        "grammarRule": "Count 'bread' in loaves/slices and 'chalk' in pieces/sticks.",
+        "lessonStepRef": "m08_step_02_count_vs_uncount",
+        "provenance": "SOURCE_TEXTBOOK"
+      }
+    ]
+  }
+}

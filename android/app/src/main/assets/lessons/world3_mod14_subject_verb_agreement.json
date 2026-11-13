@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_14",
+  "worldId": "WORLD_3",
+  "title": "Subject–Verb Agreement",
+  "storyTitle": "The Noisy Concord Courtroom",
+  "estimatedMinutes": 20,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "CHIKOO_BANDAR",
+    "DETECTIVE_IRA",
+    "ACHARYA_VIDYADHAR",
+    "VAANI"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m14_step_01_intro",
+      "stepTitle": "Scene 1: Quarrel in the Concord Courtroom",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Concord Court • Afternoon",
+      "settingDescription": "Subjects and finite verbs are shouting across the courtroom because prepositional phrases, 'either...or', and 'one of' fooled the clerk!",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "defensive",
+          "line": "Look at the word right next to the verb! In 'The basket of sweet mangoes are heavy', 'mangoes' is plural—so I picked 'are'! And 'One of my friends live nearby'!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "pointing",
+          "line": "Trap alert! 'Of sweet mangoes' is only a prepositional disguise! What is actually heavy—the mangoes individually or ONE basket?"
+        },
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "stern",
+          "line": "Every finite verb must obey its TRUE grammatical subject in number and person—not whichever bystander noun happens to stand closest!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Let us settle every tricky agreement case: head nouns, compound subjects, 'either/neither', 'as well as', and 'one of the'!"
+        }
+      ],
+      "storyCallout": "Goal: Locate true subject heads across phrases, compound subjects, correlatives, and indefinite constructions."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m14_step_02_head_noun_and_compounds",
+      "stepTitle": "Discover: True Head Noun & Compound Subjects",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "head_and_compound_agreement",
+      "subtopicTitle": "Head Noun Agreement, 'As well as' & Correlative Proximity",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Subject–Verb Agreement is a wedding match: 'A + and + B' joins two equal partners (Plural verb), 'with / as well as' brings an extra guest behind the FIRST VIP (Verb matches the FIRST!), while 'Either...or / Neither...nor' lets the CLOSEST partner step to the microphone!",
+      "formalDefinition": "A finite verb agrees in number and person with the head noun of its subject noun phrase—ignoring intervening prepositional modifiers ('the colour of these flowers IS...'). Subjects joined by 'and' normally take a plural verb unless they form one single unit/idea or share one determiner. Subjects joined by 'with, along with, as well as, besides' agree with the first subject; correlatives ('either...or, neither...nor, not only...but also') agree with the nearer subject.",
+      "simpleExplanation": "Follow four courtroom laws:\n1) Cross out 'of / in / with' tails to find the true Head Noun: 'The quality of these apples IS good' (Head = 'quality' → singular 'is').\n2) 'And' vs. Single Unit: Two distinct people/items take plural ('Rohan and Meera ARE here'), EXCEPT blended food/ideas ('Slow and steady wins the race', 'Bread and butter IS my breakfast') or ONE shared determiner ('My friend and mentor HAS arrived' = one person).\n3) 'As well as / along with / together with / in addition to': Ignore the trailing phrase—match the FIRST noun ('The captain, along with his players, WAS cheered').\n4) 'Either...or / Neither...nor / Not only...but also': Match the CLOSER subject ('Neither the teacher nor the students WERE late', 'Neither the students nor the teacher WAS late').",
+      "structurePatterns": [
+        {
+          "formName": "Head Noun Rule (Ignore 'of ...')",
+          "formula": "[Head Noun] + (of / in / with + trailing nouns) → Verb matches [Head Noun]",
+          "sample": "The cost of all these repairs IS high. / The pages of this book ARE torn."
+        },
+        {
+          "formName": "'As well as / Along with' Rule",
+          "formula": "[Subject 1] + as well as / along with + [Subject 2] → Verb matches [Subject 1]",
+          "sample": "The king, as well as his ministers, IS attending."
+        },
+        {
+          "formName": "Proximity Rule (Or / Nor)",
+          "formula": "Either A or B / Neither A nor B / Not only A but also B → Verb matches B (Closer)",
+          "sample": "Either Priya or her cousins ARE bringing the lanterns."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The coach, together with the twelve athletes, has boarded the morning train.",
+          "contextNote": "Ignore 'together with the twelve athletes'; match singular first subject 'The coach' → 'has'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Neither the heavy rains nor the broken bridge was able to stop the volunteers.",
+          "contextNote": "Closer subject 'the broken bridge' is singular → 'was'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The bunch of fresh bananas are sweet, and Chikoo as well as his cousins are hungry.",
+          "correctSentence": "The bunch of fresh bananas is sweet, and Chikoo as well as his cousins is hungry.",
+          "whyItHappens": "'Bunch' is singular ('is'), and with 'as well as', the verb matches the first subject ('Chikoo' → 'is').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "When 'each' or 'every' stands before joined singular nouns, the verb MUST stay singular: 'Every boy and every girl WAS given a badge.'"
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m14_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Find the True Subject Head",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD14_CP1",
+      "subtopicId": "head_and_compound_agreement",
+      "subtopicTitle": "Ignoring Intervening Prepositional Phrases",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira underlines the courtroom docket: \"A box of rare brass compasses ____ lying open on the bench.\"",
+      "questionPrompt": "Type the correct present-tense verb ('is' or 'are'):",
+      "sentenceTemplate": "A box of rare brass compasses ________ lying open on the bench.",
+      "acceptedAnswers": ["is"],
+      "hint": "Cover 'of rare brass compasses' with your hand! What is lying open—'A box' (singular) or 'compasses'?",
+      "feedbackCorrect": "Detective Ira: \"Case locked! 'A box' is the singular head noun, so 'is' agrees with it.\"",
+      "feedbackWrongDefault": "Ignore 'of rare brass compasses' and match the head noun 'A box'.",
+      "simplerExample": "A bouquet of red roses IS on the table.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m14_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Proximity vs. Trailing Partner",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD14_CP2",
+      "subtopicId": "head_and_compound_agreement",
+      "subtopicTitle": "Neither...nor vs. As well as",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani presents two courtroom decrees side by side.",
+      "questionPrompt": "Which sentence applies BOTH 'neither...nor' and 'as well as' agreement rules accurately?",
+      "options": [
+        "Neither the keys nor the map were found, and Ira as well as Vaani are searching.",
+        "Neither the keys nor the map was found, and Ira as well as Vaani is searching.",
+        "Neither the keys nor the map was found, and Ira as well as Vaani are searching.",
+        "Neither the keys nor the map were found, and Ira as well as Vaani is searching."
+      ],
+      "acceptedAnswers": ["Neither the keys nor the map was found, and Ira as well as Vaani is searching."],
+      "hint": "Rule 1: 'Neither keys nor map' → match CLOSER noun ('the map' = singular 'was'). Rule 2: 'Ira as well as Vaani' → match FIRST noun ('Ira' = singular 'is')!",
+      "feedbackCorrect": "Vaani: \"Double bullseye! Proximity gives 'map → was', while 'as well as' matches first subject 'Ira → is'.\"",
+      "feedbackWrongDefault": "Match 'neither...nor' to the noun AFTER 'nor', and match 'as well as' to the noun BEFORE 'as well as'.",
+      "feedbackWrongByOption": {
+        "Neither the keys nor the map were found, and Ira as well as Vaani is searching.": "Check 'nor the map'—'the map' is closer to the verb and is singular!"
+      },
+      "simplerExample": "Neither you nor she IS late. / She, as well as you, IS ready.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m14_step_05_indefinite_special_clauses",
+      "stepTitle": "Discover: Indefinites, 'One of the', Totals & Clauses",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "indefinite_and_special_agreement",
+      "subtopicTitle": "Indefinite Pronouns, 'A/The number of', Totals & Relative Clauses",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "'THE number of' is ONE statistical number sitting on a clipboard (Singular verb: 'The number of entries IS fifty'); 'A number of' simply means 'MANY' (Plural verb: 'A number of students ARE here')!",
+      "formalDefinition": "Indefinite pronouns like everyone, somebody, nobody, each, and either/neither take singular verbs. In 'one of + plural noun', the main verb agrees with singular 'one', whereas in 'one of the [plural N] who/that...', the verb inside the relative clause agrees with the plural antecedent (unless preceded by 'the only one of'). Single-unit totals of money, distance, and time, as well as '-ics' subjects and news, take singular verbs.",
+      "simpleExplanation": "Lock down these four high-scoring Class IX–X traps:\n1) 'Each / Everyone / Someone / Neither of / One of': ALWAYS take a SINGULAR verb ('One of my cousins LIVES in Pune'—NOT *live; 'Neither of the answers IS correct').\n2) 'One of the + Plural Noun + who/that': Watch WHERE the verb sits! 'Riya is one of the students who STUDY hard' → who studies hard? ALL those students → plural 'study'! Yet if 'the only' appears ('Riya is THE ONLY one of the students who STUDIES hard'), only ONE person qualifies → singular 'studies'!\n3) 'A number of' (+ plural verb) vs. 'The number of' (+ singular verb).\n4) Single-unit measurements & '-s' singular nouns: 'Fifty kilometres IS a long walk', 'Three hundred rupees IS enough', 'Physics IS interesting', 'The news IS encouraging'. Contrast: 'There IS a pen' vs. 'There ARE three pens' (dummy 'there' agrees with the real subject AFTER the verb!).",
+      "structurePatterns": [
+        {
+          "formName": "One of the ... vs. One of the ... who ...",
+          "formula": "One of the [Plural N] + SINGULAR Verb | ... one of the [Plural N] who + PLURAL Verb",
+          "sample": "One of the lamps IS flickering. / He is one of the players who TRAIN daily."
+        },
+        {
+          "formName": "A number of vs. The number of",
+          "formula": "A number of + Plural N + Plural V | The number of + Plural N + Singular V",
+          "sample": "A number of birds ARE nesting here. / The number of visitors IS rising."
+        },
+        {
+          "formName": "Dummy 'There' & Measurement Totals",
+          "formula": "There + Verb matches following Noun | Distance/Money/Time Total + Singular V",
+          "sample": "There ARE two clues on the desk. / Ten thousand rupees IS a fair prize."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Each of the participants has received a certificate, and the number of winners is ten.",
+          "contextNote": "'Each of' → singular 'has'; 'the number of' → singular 'is'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Thirty minutes is enough time to revise, though there are three hard questions left.",
+          "contextNote": "'Thirty minutes' as one duration takes 'is'; 'there are' agrees with plural 'three hard questions'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "One of my classmates play the tabla, and the number of volunteers are growing.",
+          "correctSentence": "One of my classmates plays the tabla, and the number of volunteers is growing.",
+          "whyItHappens": "'One of my classmates' has singular head 'One' ('plays'), and 'the number of' refers to one count ('is growing').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Fractions and quantifiers like 'some, half, most, all, none of' look THROUGH 'of' at the noun: 'Half of the cake IS gone' (uncountable/singular) vs. 'Half of the mangoes ARE ripe' (plural)."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m14_step_06_cp3",
+      "stepTitle": "Checkpoint 3: 'A number of' vs. 'One of the'",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD14_CP3",
+      "subtopicId": "indefinite_and_special_agreement",
+      "subtopicTitle": "'One of' vs. 'A number of'",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar writes two courtroom rulings: \"One of our lanterns ____ missing, while a number of torches ____ burning brightly.\"",
+      "questionPrompt": "Pick the exact pair of verbs:",
+      "options": [
+        "are / is",
+        "is / are",
+        "are / are",
+        "is / is"
+      ],
+      "acceptedAnswers": ["is / are"],
+      "hint": "'One of...' focuses on ONE item ('is'); 'A number of...' means 'several/many' ('are')!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Spot on! Singular 'One of...' takes 'is', while 'a number of' means 'many' and takes 'are'.\"",
+      "feedbackWrongDefault": "Remember: 'One of' = singular; 'a number of' = plural.",
+      "feedbackWrongByOption": {
+        "are / is": "Reverses both rules! Watch 'One' (singular) vs. 'a number of' (many)."
+      },
+      "simplerExample": "One of the books is torn; a number of pages are dog-eared.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m14_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Master the Relative Clause Concord",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD14_CP4",
+      "subtopicId": "indefinite_and_special_agreement",
+      "subtopicTitle": "Agreement in Relative Clauses & Totals",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya challenges the court clerk's sentence: \"Meera is one of the students who always helps others, and twenty kilometres are a long walk.\"",
+      "questionPrompt": "Choose the sentence that fixes BOTH agreement errors cleanly:",
+      "options": [
+        "Meera is one of the students who always help others, and twenty kilometres is a long walk.",
+        "Meera is one of the students who always helps others, and twenty kilometres is a long walk.",
+        "Meera is one of the students who always help others, and twenty kilometres are a long walk.",
+        "Meera is the only one of the students who always help others, and twenty kilometres is a long walk."
+      ],
+      "acceptedAnswers": ["Meera is one of the students who always help others, and twenty kilometres is a long walk."],
+      "hint": "'Who' refers to the plural group 'the students' ('who help'); and 'twenty kilometres' as a single distance takes 'is'!",
+      "feedbackCorrect": "Maharaj Vakya: \"Supreme Concord Judgement! 'Students who help' takes plural 'help', and single distance total 'twenty kilometres' takes 'is'.\"",
+      "feedbackWrongDefault": "Match 'who' to its plural antecedent 'students' ('help'), and treat 'twenty kilometres' as one single distance ('is').",
+      "feedbackWrongByOption": {
+        "Meera is one of the students who always helps others, and twenty kilometres is a long walk.": "Wait—without 'the only', 'who' refers to 'the students' (plural), so they 'help', not 'helps'!"
+      },
+      "simplerExample": "Arjun is one of the scouts who know first aid. / Five hundred rupees is enough.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m14_step_08_outro",
+      "stepTitle": "Scene 2: Concord Restored Across Time!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Concord Court • Closing",
+      "settingDescription": "With every subject and finite verb bowing in harmony, World 3: The Time Machine runs at full strength.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "cheering",
+          "line": "Order in court! Neither Maharaj Vakya nor the guards are confused anymore—wait, the guards ARE plural so 'are' fits! Hooray!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "You have mastered all five chapters of World 3! Review your Grammar Notebook and prove your skill in the final 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 14 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "True Head Noun & Trailing Phrases",
+        "ruleSummary": "Ignore intervening prepositional phrases ('of', 'in', 'with') when choosing the verb. With 'as well as, along with, together with, besides', match the FIRST subject.",
+        "formulaOrPattern": "Head Noun + (of ...) → matches Head | Subject 1 + as well as + Subject 2 → matches Subject 1",
+        "example": "The quality of these mangoes IS excellent; the coach along with his players IS ready."
+      },
+      {
+        "heading": "Compound Subjects & Proximity Rule",
+        "ruleSummary": "A + and + B takes plural UNLESS forming one idea ('Bread and butter is...') or sharing one determiner ('The poet and singer is...'). Correlatives ('either...or, neither...nor, not only...but also') agree with the CLOSER subject.",
+        "formulaOrPattern": "Either A or B / Neither A nor B → Verb agrees with B (Closer)",
+        "example": "Neither the boy nor his parents WERE informed."
+      },
+      {
+        "heading": "Indefinites, 'Number of', Totals & Relative Clauses",
+        "ruleSummary": "Each, everyone, nobody, neither of, one of + plural N, 'the number of', and single totals of money/distance/time take SINGULAR verbs. 'A number of' and 'one of the [plural N] who...' take PLURAL verbs (unless preceded by 'the only').",
+        "formulaOrPattern": "One of the Ns + Singular V | The number of Ns + Singular V | A number of Ns + Plural V",
+        "example": "One of the singers is ill; she is one of the students who practise daily."
+      }
+    ],
+    "memoryAids": [
+      "Wedding match rule: 'and' joins two (Plural), 'as well as / along with' follows the FIRST VIP, and 'or / nor' listens to the CLOSER speaker!",
+      "THE number = ONE statistic (Singular); A number = MANY items (Plural)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The cost of all school uniforms have risen, and everyone are worried.",
+        "correctSentence": "The cost of all school uniforms has risen, and everyone is worried.",
+        "whyItHappens": "Head noun 'cost' is singular ('has risen'), and indefinite 'everyone' always takes a singular verb ('is').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "Neither Riya nor her sisters has arrived, though five kilometres are short.",
+        "correctSentence": "Neither Riya nor her sisters have arrived, though five kilometres is a short distance.",
+        "whyItHappens": "In 'neither...nor', match closer plural 'sisters' ('have'); treat 'five kilometres' as a single unit ('is').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Fractions/quantifiers ('half of, some of, all of, most of') take singular verbs with uncountable/singular nouns and plural verbs with plural nouns.",
+      "With dummy 'There / Here', the verb agrees with the real subject following the verb ('There are two reasons')."
+    ],
+    "textbookNotes": [
+      "Grounded in Odisha Class X Ch. 3 (Subject Verb Agreement): head nouns, compounds, indefinites, collective nouns, and clause concord."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M14_Q01",
+        "subtopicId": "head_and_compound_agreement",
+        "subtopicTitle": "Head noun despite prepositional phrase",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate verb: \"The colour of these autumn leaves ____ vibrant gold.\"",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "The true subject head is singular 'The colour' (not 'leaves' inside the prepositional phrase 'of these autumn leaves'), requiring 'is'.",
+        "distractorRationales": [
+          "Wrongly agrees with 'leaves'.",
+          "Plural past verb.",
+          "Correct: singular 'is' matches 'colour'.",
+          "Plural verb."
+        ],
+        "grammarRule": "Ignore prepositional modifiers after 'of' when matching the verb to the head noun.",
+        "lessonStepRef": "m14_step_02_head_noun_and_compounds",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q02",
+        "subtopicId": "head_and_compound_agreement",
+        "subtopicTitle": "'As well as / Along with'",
+        "difficulty": "EASY",
+        "questionText": "Fill in cleanly: \"The captain, along with all eleven teammates, ____ honoured at the assembly.\"",
+        "options": [
+          "were",
+          "are",
+          "was",
+          "have been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Subjects linked by 'along with, as well as, together with' agree with the FIRST subject ('The captain' → singular 'was').",
+        "distractorRationales": [
+          "Wrongly agrees with 'teammates'.",
+          "Plural verb.",
+          "Correct: matches first singular noun 'The captain'.",
+          "Plural verb."
+        ],
+        "grammarRule": "With 'as well as / along with / together with', match the verb to the first subject.",
+        "lessonStepRef": "m14_step_02_head_noun_and_compounds",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q03",
+        "subtopicId": "head_and_compound_agreement",
+        "subtopicTitle": "Proximity rule (Neither...nor)",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the accurate sentence:",
+        "options": [
+          "Neither the coach nor the players was informed about the rain.",
+          "Neither the coach nor the players were informed about the rain.",
+          "Neither the players nor the coach were informed about the rain.",
+          "Either the students or their teacher are locking the lab."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'neither...nor / either...or', the verb agrees with the CLOSER subject: 'the players' → 'were informed'.",
+        "distractorRationales": [
+          "Closer subject 'players' is plural, needing 'were'.",
+          "Correct: 'were' agrees with closer plural 'the players'.",
+          "Closer subject 'the coach' is singular, needing 'was'.",
+          "Closer subject 'their teacher' is singular, needing 'is'."
+        ],
+        "grammarRule": "With 'either...or' and 'neither...nor', the verb agrees with the subject nearer to it.",
+        "lessonStepRef": "m14_step_02_head_noun_and_compounds",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q04",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "Indefinite pronouns",
+        "difficulty": "EASY",
+        "questionText": "Complete accurately: \"Neither of the two routes ____ paved before winter.\"",
+        "options": [
+          "were",
+          "are",
+          "was",
+          "have been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Neither of' (meaning 'not one or the other') is grammatically singular and requires 'was'.",
+        "distractorRationales": [
+          "Wrongly matches plural 'routes'.",
+          "Plural verb.",
+          "Correct: 'Neither of' + singular 'was'.",
+          "Plural verb."
+        ],
+        "grammarRule": "Each, every, either, neither, everyone, somebody, and nobody take singular verbs.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q05",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "'One of the' without relative clause",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the right verb: \"One of my grandmother's oldest stories ____ my favourite.\"",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "have always been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'One of + plural noun', the subject is singular 'One', so it takes 'is'.",
+        "distractorRationales": [
+          "Wrongly agrees with 'stories'.",
+          "Plural verb.",
+          "Correct: singular 'One' → 'is'.",
+          "Plural verb."
+        ],
+        "grammarRule": "In 'one of the [plural noun]', the verb agrees with singular 'one'.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q06",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "'One of the ... who' relative clause",
+        "difficulty": "HARD",
+        "questionText": "Pick the grammatically standard sentence:",
+        "options": [
+          "Arjun is one of the climbers who has reached the ridge.",
+          "Arjun is one of the climbers who have reached the ridge.",
+          "Arjun is the only one of the climbers who have reached the ridge.",
+          "One of the climbers have reached the ridge."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'one of the climbers who...', 'who' refers to all 'the climbers' (plural antecedent) → 'have reached'. (Contrast 'the only one... who has'.)",
+        "distractorRationales": [
+          "With 'one of the climbers who', the relative clause applies to the plural climbers.",
+          "Correct: plural 'climbers' → 'who have reached'.",
+          "'The only one' restricts the antecedent to ONE person → 'who has'.",
+          "Main-clause subject 'One' requires singular 'has'."
+        ],
+        "grammarRule": "Match 'one of the [plural N] who...' with a plural verb; match 'the only one of the [plural N] who...' with a singular verb.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M14_Q07",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "'The number of' vs 'A number of'",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in both blanks accurately: \"A number of saplings ____ planted yesterday, and the number of tall trees in the park ____ growing.\"",
+        "options": [
+          "was / are",
+          "were / is",
+          "was / is",
+          "were / are"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'A number of' (= many) takes plural 'were'; 'the number of' (= one total figure) takes singular 'is'.",
+        "distractorRationales": [
+          "Reversed both rules.",
+          "Correct: 'A number of' → 'were'; 'the number of' → 'is'.",
+          "'A number of' needs plural 'were'.",
+          "'The number of' needs singular 'is'."
+        ],
+        "grammarRule": "'A number of + plural noun' takes a plural verb; 'the number of + plural noun' takes a singular verb.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q08",
+        "subtopicId": "head_and_compound_agreement",
+        "subtopicTitle": "Single idea & shared determiner with 'and'",
+        "difficulty": "MEDIUM",
+        "questionText": "Why is \"Idli and sambar is a classic breakfast\" singular even though 'and' joins two words?",
+        "options": [
+          "Because 'sambar' is closest to the verb.",
+          "Because together they refer to one single dish/breakfast idea.",
+          "Because 'breakfast' is plural.",
+          "It is actually ungrammatical."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Two nouns joined by 'and' that represent a single dish or unified concept ('idli and sambar', 'bread and butter', 'slow and steady') take a singular verb.",
+        "distractorRationales": [
+          "Not proximity—'and' normally makes plurals unless unified.",
+          "Correct: single unified dish/idea.",
+          "'Breakfast' is singular.",
+          "Completely grammatical."
+        ],
+        "grammarRule": "Compound pairs naming one single dish or concept take a singular verb.",
+        "lessonStepRef": "m14_step_02_head_noun_and_compounds",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q09",
+        "subtopicId": "head_and_compound_agreement",
+        "subtopicTitle": "'Each' and 'Every' before 'and'",
+        "difficulty": "HARD",
+        "questionText": "Complete cleanly: \"Every desk and every chair in the hall ____ polished before the ceremony.\"",
+        "options": [
+          "were",
+          "are",
+          "was",
+          "have been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Even when joined by 'and', subjects preceded by 'each' or 'every' ALWAYS take a singular verb ('was polished').",
+        "distractorRationales": [
+          "'Every' forces singular agreement despite 'and'.",
+          "Plural verb.",
+          "Correct: 'Every... and every...' takes singular 'was'.",
+          "Plural verb."
+        ],
+        "grammarRule": "'Each X and each Y' or 'Every X and every Y' always takes a singular verb.",
+        "lessonStepRef": "m14_step_02_head_noun_and_compounds",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M14_Q10",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "Measurement, money & time totals",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate sentence:",
+        "options": [
+          "Ten thousand rupees are a large amount for a student fund.",
+          "Ten thousand rupees is a large amount for a student fund.",
+          "Three hours are too long to wait in the sun.",
+          "Fifty miles were a difficult distance before bridges existed."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Amounts of money, periods of time, weights, and distances considered as ONE total take a singular verb ('is').",
+        "distractorRationales": [
+          "A single sum takes 'is'.",
+          "Correct: single sum 'Ten thousand rupees is'.",
+          "A single duration takes 'is'.",
+          "A single distance takes 'was'."
+        ],
+        "grammarRule": "Plural sums of money, distance, weight, and time take singular verbs when treated as one unit.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q11",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "Dummy 'There' agreement",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in accurately: \"There ____ several valid reasons for planting native trees.\"",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "has been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'There + be' sentences, the verb agrees with the real post-verbal subject: plural 'several valid reasons' → 'are'.",
+        "distractorRationales": [
+          "Mismatches plural 'reasons'.",
+          "Singular past verb.",
+          "Correct: 'are' agrees with 'several valid reasons'.",
+          "Singular verb."
+        ],
+        "grammarRule": "With introductory 'There', match the verb to the real noun phrase following the verb.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q12",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "Fractions and quantifiers with 'of'",
+        "difficulty": "HARD",
+        "questionText": "Choose the accurate pair: \"Two-thirds of the forest ____ cleared years ago, yet half of the saplings ____ survived.\"",
+        "options": [
+          "were / has",
+          "was / have",
+          "was / has",
+          "were / have"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "With fractions/half/most + 'of', match the noun after 'of': singular 'the forest' → 'was'; plural 'the saplings' → 'have'.",
+        "distractorRationales": [
+          "Reversed both.",
+          "Correct: 'forest → was'; 'saplings → have'.",
+          "'Saplings' is plural, needing 'have'.",
+          "'Forest' is singular, needing 'was'."
+        ],
+        "grammarRule": "With fractions, 'half of', 'most of', and 'all of', match the verb to the noun after 'of'.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M14_Q13",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "Nouns ending in -ics / -s",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence uses an '-s' noun accurately?",
+        "options": [
+          "Physics are taught in Room 12.",
+          "Measles are spreading slowly in the hostel.",
+          "Economics requires careful reading of charts.",
+          "The news about the flood were alarming."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Academic subjects ending in '-ics' ('Economics', 'Physics'), diseases ('measles'), and 'news' look plural but take singular verbs ('requires').",
+        "distractorRationales": [
+          "Subject 'Physics' takes 'is'.",
+          "Illness 'Measles' takes 'is'.",
+          "Correct: 'Economics requires' (singular).",
+          "'The news' takes singular 'was'."
+        ],
+        "grammarRule": "Subjects (-ics), 'news', and illnesses like 'measles' take singular verbs despite ending in '-s'.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M14_Q14",
+        "subtopicId": "head_and_compound_agreement",
+        "subtopicTitle": "Gerund/clause as subject",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"Reading maps and checking compasses ____ essential for trekkers, whereas reading one compass ____ easy.\"",
+        "options": [
+          "is / is",
+          "are / is",
+          "are / are",
+          "is / are"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Two separate gerund phrases joined by 'and' ('Reading maps and checking compasses') take plural 'are'; a single gerund phrase ('reading one compass') takes singular 'is'.",
+        "distractorRationales": [
+          "Two distinct activities joined by 'and' take 'are'.",
+          "Correct: two gerunds → 'are'; single gerund → 'is'.",
+          "Single gerund takes 'is'.",
+          "Reversed both."
+        ],
+        "grammarRule": "One gerund/infinitive/clause subject takes a singular verb; two distinct ones joined by 'and' take a plural verb.",
+        "lessonStepRef": "m14_step_02_head_noun_and_compounds",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M14_Q15",
+        "subtopicId": "indefinite_and_special_agreement",
+        "subtopicTitle": "Collective nouns with members acting separately",
+        "difficulty": "HARD",
+        "storyContext": "Maharaj Vakya closes the Concord Courtroom.",
+        "questionText": "Choose the most accurate sentence:",
+        "options": [
+          "The jury has argued among themselves for hours without reaching a verdict.",
+          "The jury have been unable to agree among themselves on a single verdict.",
+          "The audience was clapping their hands in different corners.",
+          "Our cricket eleven have won the trophy as one team."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When a collective noun acts as divided individuals ('unable to agree among themselves'), plural verb ('have been') aligns consistently with 'themselves'.",
+        "distractorRationales": [
+          "Mixes singular 'has' with plural 'themselves'.",
+          "Correct: consistent plural 'have been' + 'themselves' for divided members.",
+          "Mixes singular 'was' with plural 'their hands'.",
+          "'As one team' calls for singular 'has won'."
+        ],
+        "grammarRule": "Keep collective noun verbs and pronouns consistent: singular (it/is) as one unit; plural (they/are) as divided individuals.",
+        "lessonStepRef": "m14_step_05_indefinite_special_clauses",
+        "provenance": "SOURCE_TEXTBOOK"
+      }
+    ]
+  }
+}

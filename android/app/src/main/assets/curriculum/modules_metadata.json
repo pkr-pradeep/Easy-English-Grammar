@@ -1,0 +1,1339 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "MOD_01",
+      "moduleNumber": 1,
+      "worldId": "WORLD_1",
+      "title": "Sentence Basics and Word Order",
+      "summary": "What makes a group of words a complete sentence, core word order, and basic sentence construction.",
+      "storyPremise": "Royal Messengers are delivering jumbled proclamations in Maharaj Vakya's court.",
+      "estimatedMinutes": 15,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": [],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "What is a sentence?",
+        "Meaningful word groups",
+        "Sentence structure and word order",
+        "Sentence elements",
+        "Basic sentence construction"
+      ],
+      "learningObjectives": [
+        "Distinguish complete sentences from meaningless fragments.",
+        "Arrange words into grammatically standard English word order.",
+        "Identify core sentence elements in simple statements."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Sentence",
+          "sourceTerm": "Sentence",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Parts of a Sentence",
+          "sourceTerm": "Parts of a Sentence",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_02",
+      "moduleNumber": 2,
+      "worldId": "WORLD_1",
+      "title": "Subject, Predicate, Adjuncts and Complements",
+      "summary": "Identify subjects, predicate structure, complements, and optional adjuncts in sentences.",
+      "storyPremise": "Maharaj Vakya inspects the royal blueprint to separate essential actors from extra details.",
+      "estimatedMinutes": 18,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_01"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Subject and predicate",
+        "Predicate structure",
+        "Complements",
+        "Adjuncts",
+        "Forms of complement",
+        "Identifying sentence parts"
+      ],
+      "learningObjectives": [
+        "Divide any standard clause into subject and predicate.",
+        "Differentiate required complements from optional adjuncts."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Sentence",
+          "sourceTerm": "Subject, Predicate, Adjuncts, Complements",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 8,
+          "originalChapterTitle": "Analysis",
+          "sourceTerm": "Analysis",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Parts of a Sentence",
+          "sourceTerm": "Parts of a Sentence",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_03",
+      "moduleNumber": 3,
+      "worldId": "WORLD_1",
+      "title": "Types of Sentences and Sentence Structure",
+      "summary": "Explore kinds of sentences and simple, compound, and complex sentence structures.",
+      "storyPremise": "Sort royal petitions by sentence function and complexity inside the Sentence Palace.",
+      "estimatedMinutes": 20,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_01", "MOD_02"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Kinds of sentences",
+        "Simple, compound and complex sentences",
+        "Main and subordinate clauses",
+        "Sentence analysis",
+        "Sentence structure patterns"
+      ],
+      "learningObjectives": [
+        "Classify sentences by communicative purpose and clause structure.",
+        "Recognise main and subordinate clauses in compound and complex sentences."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Sentence",
+          "sourceTerm": "Kinds of sentences / Complex and compound",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 8,
+          "originalChapterTitle": "Analysis",
+          "sourceTerm": "Analysis",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 5,
+          "originalChapterTitle": "Simple and Complex Sentences",
+          "sourceTerm": "Simple and Complex Sentences",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 2,
+          "originalChapterTitle": "Types of Sentences",
+          "sourceTerm": "Types of Sentences",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_04",
+      "moduleNumber": 4,
+      "worldId": "WORLD_1",
+      "title": "Phrases and Clauses",
+      "summary": "Distinguish phrases from clauses and master noun, adjective/relative, and adverbial clauses.",
+      "storyPremise": "Unlock rooms in The Sentence Puzzle House by identifying main and subordinate clauses.",
+      "estimatedMinutes": 22,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_02", "MOD_03"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Phrase and clause distinction",
+        "Phrase types and functions",
+        "Main and subordinate clauses",
+        "Noun clauses",
+        "Adjective/relative clauses",
+        "Adverbial clauses",
+        "Clause analysis"
+      ],
+      "learningObjectives": [
+        "Explain why a phrase lacks a finite verb subject-predicate pair whereas a clause has one.",
+        "Identify noun, relative/adjective, and adverb clauses in context."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 2,
+          "originalChapterTitle": "Phrases and Clauses",
+          "sourceTerm": "Phrases and Clauses",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 7,
+          "originalChapterTitle": "Clauses",
+          "sourceTerm": "Clauses",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 7,
+          "originalChapterTitle": "Noun Clauses and Relative Clauses",
+          "sourceTerm": "Noun Clauses and Relative Clauses",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 8,
+          "originalChapterTitle": "Adverb Clauses",
+          "sourceTerm": "Adverb Clauses",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_05",
+      "moduleNumber": 5,
+      "worldId": "WORLD_2",
+      "title": "Parts of Speech and Nouns",
+      "summary": "Explore parts of speech and the kinds, number, gender, and case of nouns.",
+      "storyPremise": "The Grammar Kingdom has lost its identity cards—help restore labels for people, places, animals, and things.",
+      "estimatedMinutes": 18,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_01"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Parts of speech",
+        "Nouns and their kinds",
+        "Number",
+        "Gender",
+        "Case",
+        "Noun usage"
+      ],
+      "learningObjectives": [
+        "Classify nouns by kind, number, gender, and grammatical case.",
+        "Recognise how words function across parts of speech in context."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 4,
+          "originalChapterTitle": "Nouns",
+          "sourceTerm": "Nouns",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_06",
+      "moduleNumber": 6,
+      "worldId": "WORLD_2",
+      "title": "Pronouns",
+      "summary": "Understand pronoun categories, clear pronoun reference, and accurate pronoun selection.",
+      "storyPremise": "The Royal Court is exhausted from repeating everyone's full names—introduce pronouns to save the day.",
+      "estimatedMinutes": 16,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Pronoun types and usage",
+        "Pronoun reference",
+        "Correct pronoun choice"
+      ],
+      "learningObjectives": [
+        "Replace noun phrases cleanly with appropriate personal, reflexive, demonstrative, or relative pronouns.",
+        "Avoid ambiguous pronoun antecedents."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 5,
+          "originalChapterTitle": "Pronouns",
+          "sourceTerm": "Pronouns",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    },
+    {
+      "id": "MOD_07",
+      "moduleNumber": 7,
+      "worldId": "WORLD_2",
+      "title": "Determiners and Articles",
+      "summary": "Master articles, demonstratives, possessives, numerals, quantifiers, and wh-determiners.",
+      "storyPremise": "Inside a bustling royal shopping bazaar, pick the exact articles and quantities for every order.",
+      "estimatedMinutes": 20,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05", "MOD_08"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Articles: a, an, the",
+        "Demonstratives",
+        "Possessives",
+        "Numerals",
+        "Quantifiers",
+        "Wh-determiners",
+        "Other determinative forms",
+        "Determiner position and usage"
+      ],
+      "learningObjectives": [
+        "Select definite, indefinite, and zero articles accurately.",
+        "Place determiners properly before nouns and modifiers."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 6,
+          "originalChapterTitle": "Determinatives",
+          "sourceTerm": "Determinatives",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Determiners",
+          "sourceTerm": "Determiners",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 8,
+          "originalChapterTitle": "Determiners",
+          "sourceTerm": "Determiners",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_08",
+      "moduleNumber": 8,
+      "worldId": "WORLD_2",
+      "title": "Countable and Uncountable Nouns",
+      "summary": "Distinguish countable from uncountable nouns and pair them with accurate quantifiers and verbs.",
+      "storyPremise": "Audit The Great Kitchen Inventory where Chikoo confuses 'many breads' with 'much information'.",
+      "estimatedMinutes": 15,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05"],
+      "applicableClasses": [9],
+      "subtopics": [
+        "Countable nouns",
+        "Uncountable nouns",
+        "Singular and plural usage",
+        "Quantifiers with countable/uncountable nouns",
+        "Common errors"
+      ],
+      "learningObjectives": [
+        "Identify countable and uncountable nouns accurately in everyday Indian and academic contexts.",
+        "Choose appropriate quantifiers such as much/many and little/few."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 7,
+          "originalChapterTitle": "Countables and Uncountables",
+          "sourceTerm": "Countables and Uncountables",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    },
+    {
+      "id": "MOD_09",
+      "moduleNumber": 9,
+      "worldId": "WORLD_2",
+      "title": "Adjectives",
+      "summary": "Learn adjective functions, kinds, position, order, and comparison within noun phrases.",
+      "storyPremise": "Judge a royal fashion competition where vague nouns demand crisp, ordered descriptions.",
+      "estimatedMinutes": 16,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Adjective functions",
+        "Kinds of adjectives",
+        "Position and order",
+        "Comparison where covered by the source material",
+        "Adjectives in noun phrases"
+      ],
+      "learningObjectives": [
+        "Use adjectives in both attributive and predicative positions.",
+        "Apply natural adjective ordering and degrees of comparison."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 9,
+          "originalChapterTitle": "Adjectives",
+          "sourceTerm": "Adjectives",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": null,
+          "originalChapterTitle": "Adjectives coverage noted in overview (chapter unverified)",
+          "sourceTerm": "Adjectives",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_10",
+      "moduleNumber": 10,
+      "worldId": "WORLD_3",
+      "title": "Verbs and Verb Groups",
+      "summary": "Explore main verbs, verb forms, verb groups, and regular vs. irregular verb behaviour.",
+      "storyPremise": "Repair the Grammar Kingdom's stalled Action Engine by restoring missing main verb forms.",
+      "estimatedMinutes": 16,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_01"],
+      "applicableClasses": [9],
+      "subtopics": [
+        "Main verbs",
+        "Verb forms",
+        "Verb groups",
+        "Regular and irregular forms",
+        "Use of verbs in sentences"
+      ],
+      "learningObjectives": [
+        "Identify main verbs and multi-word verb groups inside clauses.",
+        "Use regular and irregular base, past, and participle forms correctly."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 2,
+          "originalChapterTitle": "Verbs",
+          "sourceTerm": "Verbs",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    },
+    {
+      "id": "MOD_11",
+      "moduleNumber": 11,
+      "worldId": "WORLD_3",
+      "title": "Finite and Non-finite Verbs",
+      "summary": "Distinguish finite verbs from infinitives, participles, and gerunds across clauses.",
+      "storyPremise": "Sort time-bound engines from timeless verbal helpers in the Time Machine workshop.",
+      "estimatedMinutes": 20,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_10", "MOD_04"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Finite verbs",
+        "Non-finite verbs",
+        "Infinitives",
+        "Participles",
+        "Gerunds where covered in the source material",
+        "Verb forms in phrases and clauses"
+      ],
+      "learningObjectives": [
+        "Identify whether a verb form is finite (marked for tense/person/number) or non-finite.",
+        "Use to-infinitives, bare infinitives, participles, and gerunds naturally."
+      ],
+      "sourceMappings": [
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 8,
+          "originalChapterTitle": "Non-finites",
+          "sourceTerm": "Non-finites",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 4,
+          "originalChapterTitle": "Non-finite Verb Forms",
+          "sourceTerm": "Non-finite Verb Forms",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_12",
+      "moduleNumber": 12,
+      "worldId": "WORLD_3",
+      "title": "Auxiliaries, Modals and Special Verbs",
+      "summary": "Master primary auxiliaries, modals for ability/permission/obligation, and special verb classes.",
+      "storyPremise": "Staff the Royal Permission Office to express ability, obligation, advice, and special verb patterns.",
+      "estimatedMinutes": 22,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_10"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Primary auxiliaries",
+        "Modal auxiliaries",
+        "Ability, permission, possibility, obligation and advice",
+        "Special verbs",
+        "Non-conclusive verbs",
+        "Inchoative verbs",
+        "Group verbs",
+        "Appropriate verb patterns"
+      ],
+      "learningObjectives": [
+        "Differentiate primary auxiliaries (be, do, have) from modal auxiliaries.",
+        "Select accurate modals for necessity, advice, permission, and possibility.",
+        "Recognise board-specific special verb categories (non-conclusive, inchoative, group verbs)."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 10,
+          "originalChapterTitle": "Special Verbs",
+          "sourceTerm": "Special Verbs",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 2,
+          "originalChapterTitle": "Modals",
+          "sourceTerm": "Modals",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 4,
+          "originalChapterTitle": "Auxiliaries",
+          "sourceTerm": "Auxiliaries",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_13",
+      "moduleNumber": 13,
+      "worldId": "WORLD_3",
+      "title": "Tense, Time and Aspect",
+      "summary": "Separate grammatical tense from real-world time; master present, past, future expressions, and all four aspects.",
+      "storyPremise": "The Great Tense Robbery: Maharaj Vakya's crown is missing and the Time Machine has scrambled past, present, and future clues.",
+      "estimatedMinutes": 25,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": true,
+      "prerequisiteIds": ["MOD_10", "MOD_12"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Difference between time and tense",
+        "Present and past tense forms",
+        "Ways of expressing future time",
+        "Simple, progressive, perfect and perfect progressive aspects",
+        "Verb forms and tense structures",
+        "Uses of different tense forms",
+        "Sequence/concord of tenses where covered"
+      ],
+      "learningObjectives": [
+        "Explain the distinction between chronological time and grammatical tense.",
+        "Form and interpret Simple, Progressive, Perfect, and Perfect Progressive aspects accurately.",
+        "Express future time using modals, going to, present progressive, and simple present.",
+        "Spot and fix common Indian-learner tense errors."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 9,
+          "originalChapterTitle": "Tense",
+          "sourceTerm": "Tense",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 9,
+          "originalChapterTitle": "Tenses (Concord and Sequence)",
+          "sourceTerm": "Tenses (Concord and Sequence)",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 3,
+          "originalChapterTitle": "Time and Tense",
+          "sourceTerm": "Time and Tense",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 1,
+          "originalChapterTitle": "Tense Revisited",
+          "sourceTerm": "Tense Revisited",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_14",
+      "moduleNumber": 14,
+      "worldId": "WORLD_3",
+      "title": "Subject–Verb Agreement",
+      "summary": "Match finite verbs to true head subjects across compound, collective, and indefinite constructions.",
+      "storyPremise": "Settle noisy courtroom disputes where subjects and verbs refuse to agree in number and person.",
+      "estimatedMinutes": 20,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05", "MOD_13"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Agreement in person and number",
+        "Singular and plural subjects",
+        "Compound subjects",
+        "Indefinite expressions",
+        "Collective and special noun cases",
+        "Agreement in clauses",
+        "Common errors"
+      ],
+      "learningObjectives": [
+        "Locate the true head noun of a subject phrase despite intervening prepositional phrases.",
+        "Apply agreement rules to compound, collective, and indefinite subjects."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 3,
+          "originalChapterTitle": "Subject Verb Agreement",
+          "sourceTerm": "Subject Verb Agreement",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_15",
+      "moduleNumber": 15,
+      "worldId": "WORLD_4",
+      "title": "Noun Phrases and Pre/Post Modifiers",
+      "summary": "Build and analyse expanded noun phrases around a head noun using pre-modifiers and post-modifiers.",
+      "storyPremise": "Compete in The Royal Description Contest to identify suspects using layered noun phrase clues.",
+      "estimatedMinutes": 18,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05", "MOD_06", "MOD_07", "MOD_09"],
+      "applicableClasses": [9],
+      "subtopics": [
+        "Noun phrase structure",
+        "Head noun",
+        "Pre-modifiers",
+        "Post-modifiers",
+        "Determiners, adjectives, participles and nouns as modifiers",
+        "Expanding and identifying noun phrases"
+      ],
+      "learningObjectives": [
+        "Pinpoint the head noun inside a complex noun phrase.",
+        "Combine pre-modifiers and post-modifiers smoothly without clutter."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 5,
+          "originalChapterTitle": "The Noun Phrase",
+          "sourceTerm": "The Noun Phrase",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 6,
+          "originalChapterTitle": "Pre and Post Modifiers in the Noun Phrase",
+          "sourceTerm": "Pre and Post Modifiers in the Noun Phrase",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    },
+    {
+      "id": "MOD_16",
+      "moduleNumber": 16,
+      "worldId": "WORLD_4",
+      "title": "Predicate Phrases",
+      "summary": "Analyse the internal structure of predicate phrases: verbs, objects, complements, and adjuncts.",
+      "storyPremise": "Trace action blueprints at the Detective Agency to see what follows the main verb.",
+      "estimatedMinutes": 16,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_02", "MOD_10"],
+      "applicableClasses": [9],
+      "subtopics": [
+        "Predicate phrase structure",
+        "Verb and other predicate elements",
+        "Complements and adjuncts",
+        "Identifying predicate patterns"
+      ],
+      "learningObjectives": [
+        "Break a predicate phrase into verb group, objects/complements, and adverbials.",
+        "Recognise valid predicate patterns for transitive, intransitive, and linking verbs."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 12,
+          "originalChapterTitle": "The Predicate Phrase",
+          "sourceTerm": "The Predicate Phrase",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    },
+    {
+      "id": "MOD_17",
+      "moduleNumber": 17,
+      "worldId": "WORLD_4",
+      "title": "Adverbs and Adverbials",
+      "summary": "Use adverbs, adverbial phrases, and adverbial clauses to show manner, time, place, frequency, and emphasis.",
+      "storyPremise": "Deliver live championship cricket and football commentary using accurate adverbial placement.",
+      "estimatedMinutes": 18,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_10", "MOD_04"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Adverbs and adverbials",
+        "Types and functions",
+        "Position of adverbials",
+        "Adverbial phrases and clauses",
+        "Meaning and emphasis"
+      ],
+      "learningObjectives": [
+        "Distinguish single-word adverbs from multi-word adverbial phrases and clauses.",
+        "Place manner, place, and time adverbials in natural English order."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 13,
+          "originalChapterTitle": "Adverbials",
+          "sourceTerm": "Adverbials",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 10,
+          "originalChapterTitle": "Adverbs and Adverbials",
+          "sourceTerm": "Adverbs and Adverbials",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 8,
+          "originalChapterTitle": "Adverb Clauses",
+          "sourceTerm": "Adverb Clauses",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_18",
+      "moduleNumber": 18,
+      "worldId": "WORLD_4",
+      "title": "Prepositions and Prepositional Objects",
+      "summary": "Choose accurate prepositions of space, time, and relation, and master preposition positioning.",
+      "storyPremise": "Track down the missing royal diamond by decoding Detective Ira's spatial and time clues.",
+      "estimatedMinutes": 20,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05", "MOD_15"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Prepositions and their objects",
+        "Position of prepositions",
+        "Prepositional phrases",
+        "Appropriate preposition choice",
+        "Prepositions used with adjectives and nouns",
+        "Common usage patterns"
+      ],
+      "learningObjectives": [
+        "Select precise prepositions for time, space, direction, and agency.",
+        "Identify prepositional objects and handle end-positioned prepositions in questions/relative clauses."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 14,
+          "originalChapterTitle": "Position of Prepositions",
+          "sourceTerm": "Position of Prepositions",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 3,
+          "originalChapterTitle": "Prepositions",
+          "sourceTerm": "Prepositions",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 5,
+          "originalChapterTitle": "Prepositions",
+          "sourceTerm": "Prepositions",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_19",
+      "moduleNumber": 19,
+      "worldId": "WORLD_4",
+      "title": "Conjunctions and Connecting Words",
+      "summary": "Link words, phrases, and clauses cleanly using coordinating, subordinating, correlative, and relative connectors.",
+      "storyPremise": "Rebuild the broken bridge between two Grammar Kingdom villages using logical connectors.",
+      "estimatedMinutes": 18,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_03", "MOD_04"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Coordinating conjunctions",
+        "Subordinating conjunctions",
+        "Conjunctives and relatives",
+        "Correlative forms",
+        "Connecting clauses and ideas"
+      ],
+      "learningObjectives": [
+        "Join equal clauses with coordinating/correlative conjunctions and unequal clauses with subordinators.",
+        "Distinguish conjunctives from relative pronouns/adverbs."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 12,
+          "originalChapterTitle": "Conjunctives and Relatives",
+          "sourceTerm": "Conjunctives and Relatives",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 4,
+          "originalChapterTitle": "Conjunctions",
+          "sourceTerm": "Conjunctions",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_20",
+      "moduleNumber": 20,
+      "worldId": "WORLD_5",
+      "title": "Negatives and Interrogatives",
+      "summary": "Form accurate negative statements and yes/no or wh-interrogatives with proper auxiliary inversion.",
+      "storyPremise": "Step into The Interrogation Room to ask sharp questions and refute false alibis cleanly.",
+      "estimatedMinutes": 16,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_12", "MOD_13"],
+      "applicableClasses": [9],
+      "subtopics": [
+        "Negative sentence formation",
+        "Interrogative sentence formation",
+        "Question words and auxiliaries",
+        "Negative forms",
+        "Double negatives where addressed in source material",
+        "Correct question structures"
+      ],
+      "learningObjectives": [
+        "Insert 'do/does/did' accurately when forming negatives and questions without existing auxiliaries.",
+        "Avoid word-order errors in wh-questions and double negatives."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ODISHA",
+          "classLabel": "IX",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 11,
+          "originalChapterTitle": "Negatives and Interrogatives",
+          "sourceTerm": "Negatives and Interrogatives",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    },
+    {
+      "id": "MOD_21",
+      "moduleNumber": 21,
+      "worldId": "WORLD_5",
+      "title": "Active and Passive Voice",
+      "summary": "Transform sentences between active and passive voice across tenses and know when to omit the agent.",
+      "storyPremise": "Present the same courtroom incident from the witness's focus and the victim's focus.",
+      "estimatedMinutes": 22,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_12", "MOD_13"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Active voice",
+        "Passive voice",
+        "Form and transformation",
+        "Tense changes in passive constructions",
+        "Passive in different sentence patterns",
+        "Passive with and without an agent",
+        "Appropriate use of passive"
+      ],
+      "learningObjectives": [
+        "Convert transitive active sentences into grammatically accurate passive forms across tenses.",
+        "Decide when the 'by + agent' phrase should be kept or omitted."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 11,
+          "originalChapterTitle": "Voice",
+          "sourceTerm": "Voice",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 6,
+          "originalChapterTitle": "Voice",
+          "sourceTerm": "Voice",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 9,
+          "originalChapterTitle": "The Passive",
+          "sourceTerm": "The Passive",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_22",
+      "moduleNumber": 22,
+      "worldId": "WORLD_5",
+      "title": "Direct, Indirect and Reported Speech",
+      "summary": "Report statements, questions, commands, and exclamations with accurate tense, pronoun, and time shifts.",
+      "storyPremise": "Anchor the Royal News Channel and broadcast exact witness quotes as accurate news reports.",
+      "estimatedMinutes": 24,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_13", "MOD_20"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Direct speech",
+        "Indirect/reported speech",
+        "Reporting verbs",
+        "Statements, questions, commands and requests",
+        "Exclamations and wishes",
+        "Changes in tense, pronouns and time/place expressions",
+        "Reporting context and time"
+      ],
+      "learningObjectives": [
+        "Transform direct quotes into indirect speech for statements, questions, commands, and exclamations.",
+        "Adjust pronouns, verb tenses, and time/place expressions based on reporting context."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 15,
+          "originalChapterTitle": "Reported Speech",
+          "sourceTerm": "Reported Speech",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": 7,
+          "originalChapterTitle": "Narration",
+          "sourceTerm": "Narration",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 10,
+          "originalChapterTitle": "Direct and Indirect Speech",
+          "sourceTerm": "Direct and Indirect Speech",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_23",
+      "moduleNumber": 23,
+      "worldId": "WORLD_5",
+      "title": "Sentence Transformation and Conditional Structures",
+      "summary": "Reshape sentences across affirmative/negative, simple/compound/complex, conditionals, and concession without losing meaning.",
+      "storyPremise": "Enter the Royal Transformation Chamber where Maharaj Vakya demands identical meaning in new forms.",
+      "estimatedMinutes": 24,
+      "topicStatus": "source_specific",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_03", "MOD_04", "MOD_21"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Affirmative and negative transformation",
+        "Interrogative and other sentence transformations where covered",
+        "Active/passive transformation",
+        "Changing parts of speech without changing meaning",
+        "Simple, compound and complex transformations",
+        "Conditional sentences",
+        "Concession and contrast",
+        "Miscellaneous transformations"
+      ],
+      "learningObjectives": [
+        "Rewrite sentences across affirmative, negative, interrogative, and clause structures while preserving meaning.",
+        "Form accurate conditional and concessive clauses."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 3,
+          "originalChapterTitle": "Transformation of Sentences",
+          "sourceTerm": "Transformation of Sentences",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 16,
+          "originalChapterTitle": "Transformation of Sentences (continued)",
+          "sourceTerm": "Transformation of Sentences (continued)",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 7,
+          "originalChapterTitle": "Clauses",
+          "sourceTerm": "Clauses (conditional/concessive transformation)",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_24",
+      "moduleNumber": 24,
+      "worldId": "WORLD_6",
+      "title": "Punctuation and Word Formation",
+      "summary": "Master capitalisation, sentence punctuation, word formation, one-word substitutions, and diminutives.",
+      "storyPremise": "Help Vaani fix misprinted carnival posters where missing commas change the whole meaning.",
+      "estimatedMinutes": 18,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_01", "MOD_05"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Punctuation",
+        "Capitalisation and sentence punctuation",
+        "Word formation",
+        "Substitution of single words",
+        "Diminutives"
+      ],
+      "learningObjectives": [
+        "Apply commas, apostrophes, quotation marks, colons, and end marks accurately.",
+        "Form derived words, diminutives, and concise single-word substitutions."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 17,
+          "originalChapterTitle": "Punctuation",
+          "sourceTerm": "Punctuation",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 22,
+          "originalChapterTitle": "Substitution of single words",
+          "sourceTerm": "Substitution of single words",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 23,
+          "originalChapterTitle": "Diminutives",
+          "sourceTerm": "Diminutives",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": null,
+          "originalChapterTitle": "Vocabulary: word formation",
+          "sourceTerm": "Word formation",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        }
+      ]
+    },
+    {
+      "id": "MOD_25",
+      "moduleNumber": 25,
+      "worldId": "WORLD_6",
+      "title": "Vocabulary, Idioms, Phrasal Verbs and Confusing Words",
+      "summary": "Decode synonyms, antonyms, homonyms, confusing pairs, idioms, and phrasal verbs in real context.",
+      "storyPremise": "Explore Vaani's Vocabulary Carnival and crack Detective Ira's secret phrasal-verb codes.",
+      "estimatedMinutes": 22,
+      "topicStatus": "shared",
+      "lessonStatus": "drafted",
+      "isDemoAvailable": false,
+      "prerequisiteIds": ["MOD_05", "MOD_10", "MOD_18"],
+      "applicableClasses": [9, 10],
+      "subtopics": [
+        "Synonyms",
+        "Antonyms",
+        "Homonyms",
+        "Words with similar pronunciation but different meanings",
+        "Contextual meaning",
+        "Simple phrases and idioms",
+        "Phrasal verbs",
+        "Vocabulary in context"
+      ],
+      "learningObjectives": [
+        "Distinguish commonly confused homonyms and similarly pronounced word pairs in context.",
+        "Interpret idioms and phrasal verbs accurately in everyday sentences."
+      ],
+      "sourceMappings": [
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 18,
+          "originalChapterTitle": "Synonyms",
+          "sourceTerm": "Synonyms",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 19,
+          "originalChapterTitle": "Antonyms",
+          "sourceTerm": "Antonyms",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 20,
+          "originalChapterTitle": "Similarly pronounced words distinguished in meanings",
+          "sourceTerm": "Confusing word pairs",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ASSAM",
+          "classLabel": "IX-X",
+          "textbookTitle": "A New Method English Grammar",
+          "originalChapterNumber": 21,
+          "originalChapterTitle": "Simple phrases and idioms",
+          "sourceTerm": "Simple phrases and idioms",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        },
+        {
+          "board": "PUNJAB",
+          "classLabel": "IX",
+          "textbookTitle": "A Practice Book of English Grammar & Composition",
+          "originalChapterNumber": null,
+          "originalChapterTitle": "Vocabulary: synonyms, antonyms, homonyms, context meaning",
+          "sourceTerm": "Vocabulary",
+          "pageRange": "not_verified",
+          "coverageStatus": "shared"
+        },
+        {
+          "board": "ODISHA",
+          "classLabel": "X",
+          "textbookTitle": "Learn and Practise Grammar",
+          "originalChapterNumber": 6,
+          "originalChapterTitle": "Phrasal Verbs",
+          "sourceTerm": "Phrasal Verbs",
+          "pageRange": "not_verified",
+          "coverageStatus": "source_specific"
+        }
+      ]
+    }
+  ]
+}

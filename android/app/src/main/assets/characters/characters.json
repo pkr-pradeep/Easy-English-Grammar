@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "characters": [
+    {
+      "id": "ACHARYA_VIDYADHAR",
+      "name": "Acharya Vidyadhar",
+      "role": "Main Grammar Teacher & Mentor",
+      "personality": "Intelligent, humorous, knowledgeable, slightly eccentric; explains rules with memorable analogies and never humiliates a learner.",
+      "dialogueStyle": "Calm, witty, encouraging, and crystal clear.",
+      "signatureQuote": "A verb is the engine of a sentence. Without it, your sentence is a parked vehicle.",
+      "visualIdentity": {
+        "outfit": "Modern indigo kurta-jacket with subtle woven border, round spectacles, pocket notebook",
+        "accentColorHex": "#1E3A5F",
+        "secondaryColorHex": "#F4A261",
+        "expressions": ["neutral", "explaining", "amused", "encouraging"]
+      }
+    },
+    {
+      "id": "CHIKOO_BANDAR",
+      "name": "Chikoo Bandar",
+      "role": "Mischievous Monkey & Comic Learner",
+      "personality": "Overconfident, playful, energetic, and frequently makes deliberate grammar mistakes for learners to fix.",
+      "dialogueStyle": "Dramatic claims, funny excuses, and enthusiastic misunderstandings.",
+      "signatureQuote": "Yesterday I eat ten bananas! I am sure my grammar is delicious!",
+      "visualIdentity": {
+        "outfit": "Bright saffron vest, teal scarf, small canvas satchel",
+        "accentColorHex": "#E76F51",
+        "secondaryColorHex": "#E9C46A",
+        "expressions": ["overconfident", "oops", "cheering", "thinking"]
+      }
+    },
+    {
+      "id": "DETECTIVE_IRA",
+      "name": "Detective Ira",
+      "role": "Grammar Mystery Investigator",
+      "personality": "Curious, logical, observant, and adventurous; leads mystery clues, puzzles, and error-detection challenges.",
+      "dialogueStyle": "Crisp clues, sharp questions, and step-by-step deductions.",
+      "signatureQuote": "Every misplaced word leaves a clue. Let us inspect the timeline.",
+      "visualIdentity": {
+        "outfit": "Mustard trench-vest over crisp teal shirt, magnifying glass, clue notepad",
+        "accentColorHex": "#2A9D8F",
+        "secondaryColorHex": "#264653",
+        "expressions": ["investigating", "eureka", "skeptical", "encouraging"]
+      }
+    },
+    {
+      "id": "MAHARAJ_VAKYA",
+      "name": "Maharaj Vakya",
+      "role": "King of the Grammar Kingdom",
+      "personality": "Dramatic, strict about sentence discipline, theatrical, and secretly funny when sentences misbehave.",
+      "dialogueStyle": "Royal proclamations, exaggerated reactions, and witty courtroom verdicts.",
+      "signatureQuote": "Order in the court! A subject and a verb must never quarrel in my kingdom!",
+      "visualIdentity": {
+        "outfit": "Deep maroon achkan with subtle gold trim and a clean modern royal badge",
+        "accentColorHex": "#7B2CBF",
+        "secondaryColorHex": "#E9C46A",
+        "expressions": ["royal", "shocked", "approving", "dramatic"]
+      }
+    },
+    {
+      "id": "VAANI",
+      "name": "Vaani",
+      "role": "Vocabulary, Idioms & Expression Expert",
+      "personality": "Warm, expressive, articulate, and fascinated by word origins, idioms, and subtle nuances.",
+      "dialogueStyle": "Rich wordplay, vivid everyday Indian comparisons, and warm encouragement.",
+      "signatureQuote": "Words are like spices—choose the right one and the whole sentence comes alive.",
+      "visualIdentity": {
+        "outfit": "Emerald handloom stole over cream tunic, silver jhumkas, word-card fan",
+        "accentColorHex": "#0F766E",
+        "secondaryColorHex": "#F59E0B",
+        "expressions": ["warm", "excited", "explaining", "smiling"]
+      }
+    }
+  ]
+}

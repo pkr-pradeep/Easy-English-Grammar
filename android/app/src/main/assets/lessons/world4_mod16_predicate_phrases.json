@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_16",
+  "worldId": "WORLD_4",
+  "title": "Predicate Phrases",
+  "storyTitle": "Action Blueprints at the Detective Agency",
+  "estimatedMinutes": 16,
+  "charactersInvolved": [
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "VAANI",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m16_step_01_intro",
+      "stepTitle": "Scene 1: Decoding the Action Blueprints",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Detective Ira's Blueprint Room • Morning",
+      "settingDescription": "Large chalk diagrams on Detective Ira's wall split every clue sentence into two halves: Subject on the left, and the entire Predicate Phrase on the right.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "squinting",
+          "line": "Wait! I thought 'Predicate' meant ONLY the verb! Why did you underline TEN words after 'The messenger'?"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "explaining",
+          "line": "In 'The messenger quietly handed Maharaj Vakya a sealed parcel at dawn', 'The messenger' is the Subject—and EVERYTHING from the finite verb onwards is the Predicate Phrase!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Inside that Predicate Phrase, the main verb acts like a strict architect: some verbs forbid objects ('slept'), some demand one or two objects ('handed'), and some demand complements ('became')!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "eager",
+          "line": "Let us map out all the core Predicate Phrase blueprints so no verb ever loses its required companions."
+        }
+      ],
+      "storyCallout": "Goal: Break Predicate Phrases into verb groups, objects, complements, and optional adjuncts across standard clause patterns."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m16_step_02_predicate_structure",
+      "stepTitle": "Discover: Inside the Predicate Phrase",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "predicate_structure",
+      "subtopicTitle": "Verb Group + Required Complements vs. Optional Adjuncts",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "If a sentence is a two-piece bicycle, the Subject is the front wheel and the PREDICATE PHRASE is the entire back half—pedals (Verb), mandatory cargo rack (Objects / Complements), and optional bell or streamers (Adjuncts)!",
+      "formalDefinition": "The predicate phrase (or verb phrase at clause level) comprises the finite verb group together with all elements governed by or modifying it: direct and indirect objects, subject or object complements, and adverbial adjuncts.",
+      "simpleExplanation": "Every Predicate Phrase starts with its Verb Group. What comes NEXT depends on the verb:\n1) Mandatory Elements (must stay or the sentence breaks): Direct Object ('She broke the seal'), Indirect + Direct Object ('He gave me a map'), Subject Complement ('The clue looks genuine'), Object Complement ('We elected Riya captain'), or Obligatory Place Adverbial ('Put the key on the desk'—you can't stop at *Put the key!).\n2) Optional Adjuncts (can be removed cleanly): Extra time, place, or manner details ('early in the morning', 'carefully').\nNote: Fronted adverbs ('Yesterday, she arrived') still belong functionally to the predicate even when moved to the front for emphasis.",
+      "structurePatterns": [
+        {
+          "formName": "Predicate = Verb + Required Parts + Optional Adjuncts",
+          "formula": "[Verb Group] + [Object(s) / Complement / Obligatory Place] + (Optional Adjuncts)",
+          "sample": "Ira [inspected] [the footprints] (with a magnifying glass at noon)."
+        },
+        {
+          "formName": "Intransitive vs. Copular vs. Monotransitive",
+          "formula": "SV (Birds fly) | SVC (Milk tastes sweet) | SVO (Kiran solved the puzzle)",
+          "sample": "Note: In 'She became a pilot', 'a pilot' is a Complement (renames 'She'), NOT an Object!"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The clever watchmaker repaired the broken pendulum within two hours.",
+          "contextNote": "Predicate Phrase = 'repaired (V) + the broken pendulum (DO) + within two hours (Optional Time Adjunct)'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Keep your umbrella beside the door.",
+          "contextNote": "'Beside the door' is OBLIGATORY after 'keep/put' here—removing it leaves *Keep your umbrella (different/incomplete sense).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Chikoo placed the golden key carefully.",
+          "correctSentence": "Chikoo placed the golden key carefully inside the drawer.",
+          "whyItHappens": "Verbs of placement like 'put' and 'place' require a destination/location phrase inside the predicate, not just a manner adverb.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Passivising an SVO sentence promotes the Direct Object to Subject and turns the original Subject into an optional 'by'-adjunct ('The puzzle was solved by Kiran')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m16_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Mark the Complete Predicate Phrase",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD16_CP1",
+      "subtopicId": "predicate_structure",
+      "subtopicTitle": "Splitting Subject from Predicate Phrase",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira underlines the Subject in: \"All the Grade IX explorers quickly mapped the canyon before dusk.\"",
+      "questionPrompt": "Which span makes up the COMPLETE Predicate Phrase?",
+      "options": [
+        "mapped",
+        "mapped the canyon",
+        "quickly mapped the canyon before dusk",
+        "the canyon before dusk"
+      ],
+      "acceptedAnswers": ["quickly mapped the canyon before dusk"],
+      "hint": "Once you set aside the full Subject Noun Phrase ('All the Grade IX explorers'), EVERYTHING else—including 'quickly' and 'before dusk'—forms the Predicate Phrase!",
+      "feedbackCorrect": "Detective Ira: \"Exact! Every word outside the subject ('quickly mapped the canyon before dusk') belongs to the Predicate Phrase.\"",
+      "feedbackWrongDefault": "Select the span containing the adverb 'quickly', the verb 'mapped', the object, and the time adjunct.",
+      "feedbackWrongByOption": {
+        "mapped the canyon": "Don't drop the manner adverb 'quickly' or the time adjunct 'before dusk'!"
+      },
+      "simplerExample": "In 'Our school team | practised steadily after class', the second half is the full Predicate Phrase.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m16_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Direct Object or Complement?",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD16_CP2",
+      "subtopicId": "predicate_patterns",
+      "subtopicTitle": "Distinguishing SVO from SVC",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani writes two predicate blueprints with identical word counts: (1) \"Neha met a famous botanist.\" (2) \"Neha became a famous botanist.\"",
+      "questionPrompt": "What is the exact grammatical role of \"a famous botanist\" in (1) vs. (2)?",
+      "options": [
+        "Subject Complement in (1); Direct Object in (2)",
+        "Direct Object in (1); Subject Complement in (2)",
+        "Direct Object in both sentences",
+        "Optional Adjunct in both sentences"
+      ],
+      "acceptedAnswers": ["Direct Object in (1); Subject Complement in (2)"],
+      "hint": "In (1), Neha and the botanist are TWO different people ('met' is transitive); in (2), Neha IS the botanist ('became' is linking)!",
+      "feedbackCorrect": "Vaani: \"Sharp eye! Transitive 'met' takes a Direct Object (someone else), whereas linking 'became' takes a Subject Complement (renaming Neha).\"",
+      "feedbackWrongDefault": "Test whether 'Neha = a famous botanist'. If equal, it's a Subject Complement; if two separate people, it's a Direct Object.",
+      "feedbackWrongByOption": {
+        "Direct Object in both sentences": "Remember: linking verbs ('is, seem, become') never take objects—they take Complements!"
+      },
+      "simplerExample": "Rohan saw a doctor (Object) vs. Rohan became a doctor (Complement).",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m16_step_05_patterns_svoc_svoo",
+      "stepTitle": "Discover: Complex Predicate Patterns (SVOO, SVOC, SVA)",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "predicate_patterns",
+      "subtopicTitle": "SVOO vs. SVOC & Verb Pattern Compatibility",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Spot the difference between SVOO and SVOC with an Equals Sign (=)! In 'They gave Dev a medal' (Dev ≠ medal → SVOO, two different things). In 'They declared Dev captain' (Dev = captain → SVOC, object + its new label)!",
+      "formalDefinition": "Predicate phrases follow seven canonical clause patterns: SV, SVA (obligatory adverbial), SVC, SVO, SVOA, SVOO (ditransitive), and SVOC (complex transitive with object complement). In SVOC, an adjective or noun phrase describes or renames the direct object.",
+      "simpleExplanation": "Practise telling SVOO from SVOC—a favourite Class IX exam puzzle:\n- SVOO (Verb + Indirect Object + Direct Object): Can be rewritten with 'to' or 'for': 'She baked Kabir a cake' = 'She baked a cake FOR Kabir' (Kabir ≠ cake).\n- SVOC (Verb + Direct Object + Object Complement): Cannot use 'to/for'; instead, you can insert 'to be' between O and C: 'The class elected Priya (to be) monitor', 'The news made everyone (to be) happy', 'He painted the fence green'.\nAlso remember verb restrictions: 'explain' and 'suggest' do NOT allow *explain me the rule or *suggest me a book — they demand SVO + 'to'-phrase ('explain the rule TO me')!",
+      "structurePatterns": [
+        {
+          "formName": "SVOO (Ditransitive) vs. SVOC (Object Complement)",
+          "formula": "SVOO: O1 ≠ O2 (rewritable with to/for) | SVOC: O = C (Noun/Adj describes O)",
+          "sample": "Mother bought me a compass (SVOO) vs. The sun turned the leaves brown (SVOC)."
+        },
+        {
+          "formName": "No-SVOO Verb Trap ('explain / suggest / describe')",
+          "formula": "explain / suggest / describe + [Direct Object] + to + [Person]",
+          "sample": "Acharya explained the rule to us. (NEVER *explained us the rule)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The judges named Vaani best speaker of the festival.",
+          "contextNote": "Predicate = 'named' (V) + 'Vaani' (DO) + 'best speaker of the festival' (Object Complement: Vaani = best speaker).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Could you suggest a good dictionary to our study group?",
+          "contextNote": "'Suggest' takes Direct Object + 'to'-phrase, never *suggest our group a dictionary.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Please explain me this predicate pattern, and he suggested us a short break.",
+          "correctSentence": "Please explain this predicate pattern to me, and he suggested a short break to us.",
+          "whyItHappens": "'Explain' and 'suggest' do not allow the Indirect Object directly after the verb—place the Direct Object first and add 'to + person'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Ditransitive verbs differ on preposition when flipped: 'give/send/lend/show' take 'to' ('gave the key to me'), while 'buy/make/cook/find' take 'for' ('bought a pen for me')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m16_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Classify SVOO vs. SVOC",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD16_CP3",
+      "subtopicId": "predicate_patterns",
+      "subtopicTitle": "SVOO vs. SVOC Blueprints",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar points to a blueprint: \"Good training made the young sprinter unstoppable.\"",
+      "questionPrompt": "Which predicate blueprint describes \"made the young sprinter unstoppable\"?",
+      "options": [
+        "Verb + Indirect Object + Direct Object (SVOO)",
+        "Verb + Direct Object + Object Complement (SVOC)",
+        "Linking Verb + Subject Complement (SVC)",
+        "Verb + Optional Adjunct (SVA)"
+      ],
+      "acceptedAnswers": ["Verb + Direct Object + Object Complement (SVOC)"],
+      "hint": "'Unstoppable' is an adjective describing what 'the young sprinter' (the Direct Object) became—not a second thing handed to the sprinter!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Exact blueprint! 'The young sprinter' is the Direct Object, and 'unstoppable' is the Object Complement describing him/her.\"",
+      "feedbackWrongDefault": "Notice 'unstoppable' describes 'the young sprinter' directly (O = C).",
+      "feedbackWrongByOption": {
+        "Verb + Indirect Object + Direct Object (SVOO)": "An Indirect + Direct Object requires two nouns, not an adjective like 'unstoppable'!"
+      },
+      "simplerExample": "The joke made everyone cheerful (SVOC).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m16_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Fix the Verb Pattern Trap",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD16_CP4",
+      "subtopicId": "predicate_patterns",
+      "subtopicTitle": "Using 'explain' and 'put' Accurately",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo scribbles a detective memo: \"Kindly explain me the riddle, and please put the lantern!\"",
+      "questionPrompt": "Choose the clean sentence fixing BOTH predicate pattern errors:",
+      "options": [
+        "Kindly explain the riddle to me, and please put the lantern on the desk.",
+        "Kindly explain me the riddle, and please put the lantern on the desk.",
+        "Kindly explain the riddle to me, and please put the lantern.",
+        "Kindly explain to me the riddle, and please put carefully the lantern."
+      ],
+      "acceptedAnswers": ["Kindly explain the riddle to me, and please put the lantern on the desk."],
+      "hint": "'Explain' requires 'explain [something] to [someone]', and 'put' requires a place/destination ('on the desk')!",
+      "feedbackCorrect": "Maharaj Vakya: \"Flawless predicate architecture! 'Explain the riddle to me' and 'put the lantern on the desk' satisfy every requirement of both verbs.\"",
+      "feedbackWrongDefault": "Remember: 'explain + Direct Object + to + person', and 'put + Object + Place'.",
+      "feedbackWrongByOption": {
+        "Kindly explain the riddle to me, and please put the lantern.": "'Put the lantern' feels cut off—where should it be placed?"
+      },
+      "simplerExample": "Explain the formula to us, and put your bag under the bench.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m16_step_08_outro",
+      "stepTitle": "Scene 2: Blueprints Cleared for Action!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Detective Ira's Blueprint Room • Afternoon",
+      "settingDescription": "With every predicate phrase neatly colour-coded into Verb Groups, Objects, Complements, and Adjuncts, Detective Ira locks the blueprint cabinet.",
+      "dialogues": [
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "satisfied",
+          "line": "No more orphan verbs missing their places or objects! Even Chikoo fixed 'explain the riddle to me'."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Review your Grammar Notebook patterns and tackle the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 16 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Predicate Phrase Boundary",
+        "ruleSummary": "Every clause divides into Subject + Predicate Phrase. The Predicate Phrase contains the verb group plus all objects, complements, and adverbial adjuncts.",
+        "formulaOrPattern": "Clause = [Subject NP] + [Verb Group + Required Complements + Optional Adjuncts]",
+        "example": "The courier [delivered the sealed letter at dawn]."
+      },
+      {
+        "heading": "Seven Canonical Predicate Patterns",
+        "ruleSummary": "Intransitive (SV), Obligatory Adverbial (SVA), Linking (SVC), Monotransitive (SVO), Object+Place (SVOA), Ditransitive (SVOO), and Complex Transitive (SVOC).",
+        "formulaOrPattern": "SVC: S = C | SVOO: O1 ≠ O2 | SVOC: O = C (Adj/Noun)",
+        "example": "They elected Priya captain (SVOC) vs. They gave Priya a badge (SVOO)."
+      },
+      {
+        "heading": "Verbs Requiring Special Predicate Patterns",
+        "ruleSummary": "Explain, suggest, describe, and introduce take [Direct Object + to + person], never *explain me something. Put and place require a destination/location phrase.",
+        "formulaOrPattern": "explain/suggest + Thing + to + Person | put + Thing + Place",
+        "example": "She suggested a quieter route to the hikers."
+      }
+    ],
+    "memoryAids": [
+      "Bicycle Rule: Subject = front wheel; Predicate Phrase = everything else (pedals + mandatory rack + optional streamers).",
+      "Equals Sign Test: 'They named Dev captain' (Dev = captain → SVOC); 'They gave Dev a pen' (Dev ≠ pen → SVOO)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The teacher explained us the theorem and suggested us two exercises.",
+        "correctSentence": "The teacher explained the theorem to us and suggested two exercises to us.",
+        "whyItHappens": "'Explain' and 'suggest' forbid placing the indirect person right before the direct object.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "She put her umbrella.",
+        "correctSentence": "She put her umbrella in the corner.",
+        "whyItHappens": "'Put' requires an obligatory place adverbial (SVOA) to complete its predicate meaning.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "When converting SVOO to a prepositional pattern, 'give/lend/send/show' use 'to', whereas 'buy/make/cook/get' use 'for' ('bought a map for me')."
+    ],
+    "textbookNotes": [
+      "Grounded in Odisha Class IX Ch. 12 (The Predicate Phrase): internal verb patterns, complements, and adjuncts."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M16_Q01",
+        "subtopicId": "predicate_structure",
+        "subtopicTitle": "Predicate phrase scope",
+        "difficulty": "EASY",
+        "questionText": "In \"The evening breeze cooled the courtyard quickly\", which span is the Predicate Phrase?",
+        "options": [
+          "The evening breeze",
+          "cooled",
+          "cooled the courtyard quickly",
+          "the courtyard quickly"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Once the subject 'The evening breeze' is separated, the remaining verb group + object + manner adverb ('cooled the courtyard quickly') forms the Predicate Phrase.",
+        "distractorRationales": [
+          "That is the Subject.",
+          "Verb alone omits object and adjunct.",
+          "Correct: complete Predicate Phrase.",
+          "Omits the verb 'cooled'."
+        ],
+        "grammarRule": "The predicate phrase includes the finite verb together with its objects, complements, and adjuncts.",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q02",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "SV vs SVC",
+        "difficulty": "EASY",
+        "questionText": "Which sentence follows the SVC (Subject + Linking Verb + Subject Complement) pattern?",
+        "options": [
+          "The alarm rang loudly.",
+          "The brass bell sounded clear.",
+          "Kiran rang the bell twice.",
+          "They left early."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'The brass bell sounded clear', 'sounded' is a linking verb and 'clear' is an adjective Subject Complement describing the bell.",
+        "distractorRationales": [
+          "SVA (intransitive verb + adverb).",
+          "Correct: SVC.",
+          "SVO + Adjunct.",
+          "SVA (intransitive + adverb)."
+        ],
+        "grammarRule": "SVC connects a subject via a linking verb to an adjective or noun describing/renaming the subject.",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q03",
+        "subtopicId": "predicate_structure",
+        "subtopicTitle": "Mandatory complement vs optional adjunct",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"She placed the glass jar on the wooden shelf before dinner\", which element inside the predicate is OPTIONAL (an adjunct that can be omitted cleanly)?",
+        "options": [
+          "placed",
+          "the glass jar",
+          "on the wooden shelf",
+          "before dinner"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "'Placed' requires both 'the glass jar' (DO) and 'on the wooden shelf' (obligatory place); only 'before dinner' is an optional time adjunct.",
+        "distractorRationales": [
+          "Main finite verb cannot be removed.",
+          "Direct object is required by 'placed'.",
+          "Location is obligatory after 'placed'.",
+          "Correct: 'before dinner' is an optional adjunct."
+        ],
+        "grammarRule": "An adjunct adds extra time/manner/place info that can be omitted without making the verb incomplete.",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q04",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "SVOO vs SVOC",
+        "difficulty": "MEDIUM",
+        "questionText": "Identify the sentence built on the SVOC (Verb + Object + Object Complement) pattern:",
+        "options": [
+          "Grandfather bought Meera a bicycle.",
+          "The monsoon rain made the soil fertile.",
+          "Detective Ira sent Vaani a telegram.",
+          "The children sang folk songs cheerfully."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'made the soil fertile', 'the soil' is the Direct Object and 'fertile' is the Object Complement describing what the soil became.",
+        "distractorRationales": [
+          "SVOO (Meera ≠ bicycle).",
+          "Correct: SVOC (soil = fertile).",
+          "SVOO (Vaani ≠ telegram).",
+          "SVO + Adverb adjunct."
+        ],
+        "grammarRule": "In SVOC, the final adjective or noun phrase describes or renames the Direct Object.",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q05",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Explain / Suggest verb pattern",
+        "difficulty": "EASY",
+        "questionText": "Choose the grammatically accurate sentence:",
+        "options": [
+          "Could you explain me the second clue?",
+          "Could you explain the second clue to me?",
+          "Could you suggest me a mystery novel?",
+          "Could you describe me the suspect?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Explain', 'suggest', and 'describe' do not take an indirect object right after the verb; place the Direct Object first and add 'to + person'.",
+        "distractorRationales": [
+          "*Explain me + thing is ungrammatical.",
+          "Correct: 'explain [thing] to [person]'.",
+          "*Suggest me + thing is ungrammatical.",
+          "*Describe me + thing is ungrammatical."
+        ],
+        "grammarRule": "Use 'explain / suggest / describe + Object + to + Person' (never SVOO).",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M16_Q06",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "SVOO with 'for' vs 'to'",
+        "difficulty": "MEDIUM",
+        "questionText": "Rewrite \"Chef Kabir cooked the guests hot jalebis\" using a prepositional phrase cleanly:",
+        "options": [
+          "Chef Kabir cooked hot jalebis to the guests.",
+          "Chef Kabir cooked hot jalebis for the guests.",
+          "Chef Kabir cooked for the guests hot jalebis.",
+          "Chef Kabir cooked to the guests hot jalebis."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Beneficiary verbs like 'cook, bake, buy, make, build' flip to 'Direct Object + FOR + recipient' (not 'to').",
+        "distractorRationales": [
+          "'Cook' uses 'for', not 'to'.",
+          "Correct: 'cooked [DO] for [beneficiary]'.",
+          "Misplaces 'for the guests' before DO.",
+          "Wrong preposition and order."
+        ],
+        "grammarRule": "Beneficiary SVOO verbs (buy, cook, make, find) alternate with [DO + for + Person].",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M16_Q07",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Obligatory place adverbial (SVA)",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence has a GRAMMATICALLY COMPLETE predicate?",
+        "options": [
+          "The museum lies.",
+          "Please put the microscope.",
+          "The museum lies opposite the botanical garden.",
+          "She handed."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Verbs of location ('lie', 'live', 'stay') in locative sense and 'put' need an obligatory place phrase; 'hand' needs objects.",
+        "distractorRationales": [
+          "'Lies' meaning 'is situated' requires a location (unlike 'Never lie').",
+          "'Put' requires both an object and a place.",
+          "Correct: complete SVA pattern with location.",
+          "'Handed' requires direct/indirect object."
+        ],
+        "grammarRule": "Some verbs require an obligatory adverbial of place (SVA / SVOA) to be complete.",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q08",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Identifying SVOC noun complement",
+        "difficulty": "HARD",
+        "questionText": "In \"The school council appointed Ananya chief editor\", what is 'chief editor'?",
+        "options": [
+          "Direct Object",
+          "Indirect Object",
+          "Object Complement",
+          "Adjunct of Manner"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Ananya' is the Direct Object, and 'chief editor' names the role/status Ananya was appointed to (= Object Complement).",
+        "distractorRationales": [
+          "'Ananya' is the Direct Object.",
+          "Ananya isn't receiving a separate object.",
+          "Correct: noun phrase renaming the Object.",
+          "Not an adverbial."
+        ],
+        "grammarRule": "Verbs like appoint, elect, name, call, and make often take [Direct Object + Object Complement].",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q09",
+        "subtopicId": "predicate_structure",
+        "subtopicTitle": "Subject complement vs adverbial",
+        "difficulty": "HARD",
+        "questionText": "Compare: (A) \"The watchman remained calm.\" (B) \"The watchman remained at the gate.\" What are 'calm' and 'at the gate' respectively?",
+        "options": [
+          "Subject Complement, then Obligatory Adverbial",
+          "Direct Object, then Indirect Object",
+          "Adjunct, then Direct Object",
+          "Object Complement, then Subject"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Calm' is an adjective describing the watchman (Subject Complement: SVC); 'at the gate' is a locative phrase telling WHERE he remained (Obligatory Adverbial: SVA).",
+        "distractorRationales": [
+          "Correct: adjective Complement (SVC) vs. place Adverbial (SVA).",
+          "Neither is an object.",
+          "'Calm' is obligatory here, not an optional adjunct.",
+          "Wrong roles."
+        ],
+        "grammarRule": "After linking verbs like 'be' and 'remain', adjectives/NPs act as Complements (SVC), whereas place phrases act as Adverbials (SVA).",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q10",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Transitive verbs with no preposition",
+        "difficulty": "HARD",
+        "questionText": "Which predicate uses a transitive verb accurately WITHOUT an unnecessary preposition?",
+        "options": [
+          "The committee discussed about the budget.",
+          "The students entered into the auditorium quietly.",
+          "The committee discussed the budget thoroughly.",
+          "We ordered for three plates of dosas."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Discuss', 'enter' (a room/hall), and 'order' (food/goods) are directly transitive and take NO preposition (*discuss about, *enter into a room, *order for).",
+        "distractorRationales": [
+          "Drop 'about' after 'discuss'.",
+          "Drop 'into' after 'enter' for physical spaces (keep 'enter into' only for agreements).",
+          "Correct: direct object 'the budget' with no 'about'.",
+          "Drop 'for' after 'ordered'."
+        ],
+        "grammarRule": "Do not insert extra prepositions after transitive verbs like discuss, order, enter (a room), and describe.",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M16_Q11",
+        "subtopicId": "predicate_structure",
+        "subtopicTitle": "Compound predicate",
+        "difficulty": "EASY",
+        "questionText": "Which sentence has ONE subject sharing a COMPOUND predicate (two joined predicate actions)?",
+        "options": [
+          "Vaani wrote the script, and Kabir designed the posters.",
+          "Vaani wrote the script and designed the posters.",
+          "Because Vaani wrote the script, everyone cheered.",
+          "Both Vaani and Kabir applauded loudly."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Vaani' is one single subject performing two coordinated predicate actions: 'wrote the script' AND 'designed the posters'.",
+        "distractorRationales": [
+          "Two separate clauses with two subjects.",
+          "Correct: one subject + two joined predicates.",
+          "Complex sentence with two subjects.",
+          "Compound subject ('Vaani and Kabir'), single predicate."
+        ],
+        "grammarRule": "A compound predicate joins two or more verb phrases sharing the same subject.",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M16_Q12",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Verb 'consider / find' in SVOC",
+        "difficulty": "MEDIUM",
+        "questionText": "Identify the pattern of \"Most teenagers find this puzzle challenging\":",
+        "options": [
+          "SVOO",
+          "SVOC",
+          "SVC",
+          "SV"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'This puzzle' is the Direct Object, and 'challenging' is the Object Complement describing 'this puzzle' (SVOC).",
+        "distractorRationales": [
+          "'Challenging' is an adjective, not a second object.",
+          "Correct: V ('find') + O ('this puzzle') + C ('challenging').",
+          "'Find' is transitive here, not linking.",
+          "Has an object and complement."
+        ],
+        "grammarRule": "Cognition verbs like 'find, consider, think' often take [Object + Adjective Complement] (SVOC).",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q13",
+        "subtopicId": "predicate_structure",
+        "subtopicTitle": "Infinitive as object inside predicate",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"The climbers promised to return before sunset\", what role does \"to return before sunset\" play inside the predicate?",
+        "options": [
+          "Object of the verb 'promised'",
+          "Subject of the sentence",
+          "Indirect Object",
+          "Subject Complement"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Ask 'Promised WHAT?' → 'to return before sunset'. The to-infinitive phrase acts as the Direct Object of 'promised'.",
+        "distractorRationales": [
+          "Correct: answers 'promised what?'.",
+          "'The climbers' is the Subject.",
+          "No recipient person.",
+          "'Promised' is not a linking verb."
+        ],
+        "grammarRule": "A to-infinitive or gerund phrase can fill the Direct Object slot inside a predicate.",
+        "lessonStepRef": "m16_step_02_predicate_structure",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q14",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Two objects vs object + adjunct",
+        "difficulty": "HARD",
+        "questionText": "Which sentence has ONLY ONE object plus an adjunct (SVOA), rather than two objects (SVOO)?",
+        "options": [
+          "The librarian lent Ravi an encyclopaedia.",
+          "Grandmother knitted Arjun a warm muffler.",
+          "The postman left a parcel near the porch.",
+          "Aunt Maya sent us sweet laddoos."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In Option C, 'a parcel' is the single Direct Object and 'near the porch' is a Place Adverbial/Adjunct (not an Indirect Object recipient).",
+        "distractorRationales": [
+          "Two objects: Ravi (IO) + encyclopaedia (DO).",
+          "Two objects: Arjun (IO) + muffler (DO).",
+          "Correct: one DO ('a parcel') + place adverbial ('near the porch').",
+          "Two objects: us (IO) + laddoos (DO)."
+        ],
+        "grammarRule": "Check whether the second element is a recipient noun/pronoun (IO) or a prepositional place/time modifier (Adjunct).",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M16_Q15",
+        "subtopicId": "predicate_patterns",
+        "subtopicTitle": "Matching pattern summary",
+        "difficulty": "EASY",
+        "storyContext": "Detective Ira seals the final blueprint drawer.",
+        "questionText": "Which sentence matches the SVOO pattern: Subject + Verb + Indirect Object + Direct Object?",
+        "options": [
+          "The stars twinkled above the ridge.",
+          "Detective Ira handed Chikoo a magnifying glass.",
+          "Chikoo painted the signboard bright yellow.",
+          "The morning tea tastes refreshing."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Detective Ira' (S) + 'handed' (V) + 'Chikoo' (IO) + 'a magnifying glass' (DO) matches SVOO.",
+        "distractorRationales": [
+          "SVA pattern.",
+          "Correct: SVOO.",
+          "SVOC pattern ('signboard' = 'bright yellow').",
+          "SVC pattern."
+        ],
+        "grammarRule": "SVOO places the recipient Indirect Object directly before the Direct Object.",
+        "lessonStepRef": "m16_step_05_patterns_svoc_svoo",
+        "provenance": "SOURCE_TEXTBOOK"
+      }
+    ]
+  }
+}

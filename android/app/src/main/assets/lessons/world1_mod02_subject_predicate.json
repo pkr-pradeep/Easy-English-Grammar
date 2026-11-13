@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_02",
+  "worldId": "WORLD_1",
+  "title": "Subject, Predicate, Adjuncts and Complements",
+  "storyTitle": "The Royal Blueprint Inspection",
+  "estimatedMinutes": 18,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m02_step_01_intro",
+      "stepTitle": "Scene 1: Two Halves of Every Sentence",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Drafting Hall • Afternoon",
+      "settingDescription": "Maharaj Vakya unrolls a huge architectural chart of a sentence while Chikoo accidentally tears off the ending of several sentences.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "dramatic",
+          "line": "Guards! Chikoo has sliced my sentences! Look: 'The captain of the palace guards...'—nothing else! And over here: '...became very suspicious at midnight.'"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "explaining",
+          "line": "Look closely, Chikoo—you sliced every sentence cleanly between its Subject and its Predicate! One names WHO or WHAT we talk about; the other tells WHAT is said about them."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "investigating",
+          "line": "Inside the predicate, we also need to separate Complements (essential pieces that complete the verb's meaning) from Adjuncts (extra time, place, or manner details you can remove without breaking the core)."
+        }
+      ],
+      "storyCallout": "Mission: Master Subject vs. Predicate, then separate required Complements from optional Adjuncts."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m02_step_02_subject_predicate",
+      "stepTitle": "Discover: Subject and Predicate",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "subject_predicate",
+      "subtopicTitle": "Subject, Predicate & Predicate Structure",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "The Subject is the spotlighted star on stage; the Predicate is the entire performance—what the star does, feels, or becomes.",
+      "formalDefinition": "A clause divides into two primary parts: the Subject (the noun phrase or pronoun naming the topic/doer) and the Predicate (the verb group plus all objects, complements, and adjuncts stating something about the subject).",
+      "simpleExplanation": "To find the Subject, locate the finite verb and ask 'Who?' or 'What?' before it. Everything else about the action or state belongs to the Predicate. Remember: a Subject can be one word ('Lightning') or a whole phrase ('The tall boy in the blue jersey').",
+      "structurePatterns": [
+        {
+          "formName": "Simple Subject vs. Complete Subject",
+          "formula": "[Head Noun + Modifiers] | [Verb + Rest of Clause]",
+          "sample": "[The fastest runner in Class IX] (Subject) | [crossed the finish line first.] (Predicate)"
+        },
+        {
+          "formName": "Predicate Structure",
+          "formula": "Verb Group + (Object / Complement) + (Adjuncts)",
+          "sample": "[painted] [the gate] [bright green] [yesterday.]"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Heavy monsoon clouds covered the valley.",
+          "contextNote": "Subject: 'Heavy monsoon clouds' | Predicate: 'covered the valley'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Swimming in cold river water builds stamina.",
+          "contextNote": "Gerund phrase 'Swimming in cold river water' acts as the complete Subject.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Subject of 'The basket of fresh apples is heavy' = 'apples'.",
+          "correctSentence": "Complete Subject = 'The basket of fresh apples' (Head Subject = 'basket').",
+          "whyItHappens": "Don't mistake a noun inside a 'of'-phrase ('apples') for the head subject—the whole noun phrase before 'is' is the Subject, and 'basket' governs 'is'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "In 'There is a book on the desk', 'There' fills the grammatical subject slot while 'a book' is the notional subject."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m02_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Separate Subject & Predicate",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD02_CP1",
+      "subtopicId": "subject_predicate",
+      "subtopicTitle": "Identifying Subject and Predicate",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar points to a sentence on the drafting table: \"All the students from Section B cheered loudly after the match.\"",
+      "questionPrompt": "What is the COMPLETE SUBJECT of that sentence?",
+      "options": [
+        "students",
+        "All the students from Section B",
+        "cheered loudly",
+        "Section B"
+      ],
+      "acceptedAnswers": ["All the students from Section B"],
+      "hint": "Ask: 'WHO cheered loudly after the match?' Include every modifier attached to the star noun.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Exact! 'Students' is the head noun, and 'All the students from Section B' is the complete subject.\"",
+      "feedbackWrongDefault": "Find the finite verb ('cheered') and take the entire noun phrase before it.",
+      "feedbackWrongByOption": {
+        "students": "'Students' is only the head word; the complete subject includes its determiners and 'from Section B'.",
+        "cheered loudly": "That is part of the Predicate, not the Subject.",
+        "Section B": "'Section B' is inside the prepositional modifier 'from Section B'."
+      },
+      "simplerExample": "In 'The little brown puppy barked', Complete Subject = 'The little brown puppy'.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m02_step_04_complements_adjuncts",
+      "stepTitle": "Discover: Complements vs. Adjuncts",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "complements_adjuncts",
+      "subtopicTitle": "Complements, Forms of Complement & Adjuncts",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A Complement is a missing puzzle piece the verb begs for to make sense ('She became... WHAT?'). An Adjunct is a decorative sticker—nice extra info (where, when, how), yet the sentence still stands if you peel it off!",
+      "formalDefinition": "A Complement is an obligatory element required by a linking or complex-transitive verb to complete the subject's or object's identity/description. An Adjunct is an optional adverbial modifier (adverb, prepositional phrase, or clause) adding circumstantial detail such as time, place, manner, or reason.",
+      "simpleExplanation": "Try deleting the phrase! If deleting it breaks the sentence ('Maharaj Vakya looks ____' → broken without 'happy'), it is a Complement. If deleting it leaves a complete grammatical sentence ('We met in the garden' → 'We met'), 'in the garden' is an Adjunct.",
+      "structurePatterns": [
+        {
+          "formName": "Subject Complement (after be, become, seem, feel, look)",
+          "formula": "Subject + Linking Verb + Noun Phrase / Adjective / Clause",
+          "sample": "Vaani became [a celebrated poet]. / The mango tastes [sweet]."
+        },
+        {
+          "formName": "Object Complement (describes/renames the Object)",
+          "formula": "Subject + Verb + Object + Noun / Adjective",
+          "sample": "The class elected [Rohan] [captain]. / Paint the wall [white]."
+        },
+        {
+          "formName": "Adjunct (Optional Time / Place / Manner / Frequency)",
+          "formula": "Adverb / Prepositional Phrase / Noun Phrase of Time",
+          "sample": "Detective Ira solved the puzzle [with great patience] [last night]."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The committee appointed Dr. Sen chairperson.",
+          "contextNote": "'Dr. Sen' = Object; 'chairperson' = Object Complement (renames the object).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Our team practises at the stadium every morning.",
+          "contextNote": "'At the stadium' (Place) and 'every morning' (Time) are both Adjuncts.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The soup smells deliciously.",
+          "correctSentence": "The soup smells delicious.",
+          "whyItHappens": "After a linking verb ('smells', 'looks', 'feels'), a Subject Complement is an ADJECTIVE ('delicious') describing 'soup', not an '-ly' adverb.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "With 'be' + place ('The keys are on the table'), 'on the table' acts as an obligatory adverbial complement because 'The keys are' feels incomplete."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m02_step_05_cp2",
+      "stepTitle": "Checkpoint 2: Complement or Adjunct?",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD02_CP2",
+      "subtopicId": "complements_adjuncts",
+      "subtopicTitle": "Distinguishing Complements and Adjuncts",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira writes: \"The tired traveller felt cheerful after a cup of hot tea.\"",
+      "questionPrompt": "Identify the grammatical role of \"cheerful\" and \"after a cup of hot tea\":",
+      "options": [
+        "'cheerful' = Subject Complement; 'after a cup of hot tea' = Adjunct",
+        "'cheerful' = Adjunct; 'after a cup of hot tea' = Subject Complement",
+        "Both are Direct Objects",
+        "Both are Adjuncts"
+      ],
+      "acceptedAnswers": ["'cheerful' = Subject Complement; 'after a cup of hot tea' = Adjunct"],
+      "hint": "Try deleting each piece: 'The tired traveller felt' (incomplete!) vs 'The tired traveller felt cheerful' (complete!).",
+      "feedbackCorrect": "Detective Ira: \"Bullseye! 'Felt' is a linking verb needing 'cheerful' as Subject Complement, while 'after a cup of hot tea' is an optional time Adjunct.\"",
+      "feedbackWrongDefault": "Use the deletion test: what happens if you drop 'cheerful' after 'felt'?",
+      "feedbackWrongByOption": {
+        "'cheerful' = Adjunct; 'after a cup of hot tea' = Subject Complement": "Flip them! Without 'cheerful', 'The tired traveller felt' is incomplete.",
+        "Both are Direct Objects": "Linking verb 'felt' (in the sense of state/emotion) does not take a Direct Object."
+      },
+      "simplerExample": "She seemed calm (Complement) during the storm (Adjunct).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m02_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Spot the Object Complement",
+      "provenance": "ADDITIONAL_EXAMPLE",
+      "checkpointId": "MOD02_CP3",
+      "subtopicId": "complements_adjuncts",
+      "subtopicTitle": "Object Complement",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya declares a royal promotion: \"The council named Detective Ira Chief Investigator.\"",
+      "questionPrompt": "In that sentence, what is the role of \"Chief Investigator\"?",
+      "options": [
+        "Subject Complement",
+        "Object Complement",
+        "Indirect Object",
+        "Adjunct of Place"
+      ],
+      "acceptedAnswers": ["Object Complement"],
+      "hint": "Does 'Chief Investigator' describe/rename the Subject ('The council') or the Object ('Detective Ira')?",
+      "feedbackCorrect": "Maharaj Vakya: \"Royally deduced! 'Chief Investigator' renames the Object 'Detective Ira', making it an Object Complement.\"",
+      "feedbackWrongDefault": "Check which noun phrase 'Chief Investigator' equals: Detective Ira = Chief Investigator.",
+      "feedbackWrongByOption": {
+        "Subject Complement": "The council is NOT Chief Investigator; Detective Ira (the Object) is.",
+        "Indirect Object": "Nobody is receiving 'Chief Investigator' as a transferred item—it is a title renaming the object."
+      },
+      "simplerExample": "They kept the classroom (Object) spotless (Object Complement).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m02_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Fix Chikoo's Complement Error",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD02_CP4",
+      "subtopicId": "complements_adjuncts",
+      "subtopicTitle": "Forms of Complement",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "CHIKOO_BANDAR",
+      "storyPrompt": "Chikoo samples the royal mango pudding and announces: \"This pudding tastes wonderfully!\"",
+      "questionPrompt": "Choose the grammatically accurate sentence:",
+      "options": [
+        "This pudding tastes wonderfully!",
+        "This pudding tastes wonderful!",
+        "This pudding wonderfully tastes!",
+        "Wonderful tastes this pudding!"
+      ],
+      "acceptedAnswers": ["This pudding tastes wonderful!"],
+      "hint": "'Tastes' acts as a linking verb here, so it requires an adjective Subject Complement.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Deliciously fixed—or rather, wonderful! After linking verbs like 'taste', 'smell', 'look', and 'seem', use an adjective.\"",
+      "feedbackWrongDefault": "Linking verb 'tastes' describes the subject ('pudding'), so pick the adjective 'wonderful', not the '-ly' adverb.",
+      "simplerExample": "The jasmine flowers smell sweet (NOT sweetly).",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m02_step_08_outro",
+      "stepTitle": "Scene 2: Blueprint Approved!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Drafting Hall • Evening",
+      "settingDescription": "Maharaj Vakya stamps the royal seal onto the clean diagram of Subject, Predicate, Complements, and Adjuncts.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "approving",
+          "line": "Every subject stands tall, every predicate pulls its weight, and not a single adjunct pretends to be a complement!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "cheering",
+          "line": "I feel smart today! ('Smart' = Subject Complement, 'today' = Adjunct!)"
+        }
+      ],
+      "storyCallout": "Module 2 Story Complete! Review your Grammar Notebook or take the 15-question Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Subject and Predicate",
+        "ruleSummary": "Every standard clause splits into a Subject (who/what the clause is about) and a Predicate (the verb and everything that describes/completes the action or state).",
+        "formulaOrPattern": "[Complete Subject] + [Finite Verb + Objects / Complements / Adjuncts]",
+        "example": "[The school robotics team] [won first prize in Pune last week.]"
+      },
+      {
+        "heading": "Subject & Object Complements",
+        "ruleSummary": "Complements are required to complete the meaning of linking verbs (be, become, seem, feel, taste) or object-renaming verbs (name, elect, make, call, paint).",
+        "formulaOrPattern": "S + V(link) + SC (Noun/Adj) | S + V + O + OC (Noun/Adj)",
+        "example": "Riya became captain (SC). / We painted the bench blue (OC)."
+      },
+      {
+        "heading": "Adjuncts",
+        "ruleSummary": "Adjuncts are optional adverbials showing time, place, manner, frequency, or reason; removing an adjunct leaves a grammatically complete core.",
+        "formulaOrPattern": "Adverb / Prepositional Phrase / Time Noun Phrase",
+        "example": "They sang cheerfully (manner) in the courtyard (place) yesterday (time)."
+      }
+    ],
+    "memoryAids": [
+      "Subject = star on stage; Predicate = the star's entire performance.",
+      "Complement = puzzle piece the verb needs; Adjunct = optional sticker you can peel off."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The flowers smell sweetly.",
+        "correctSentence": "The flowers smell sweet.",
+        "whyItHappens": "Sense linking verbs ('smell', 'taste', 'look', 'feel') describe the Subject, so they take adjectives—not '-ly' adverbs.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Obligatory place adverbials after 'be' ('The library is on the second floor') function as complements rather than removable adjuncts."
+    ],
+    "textbookNotes": [
+      "Covers Subject, Predicate, Adjuncts, and Complements as presented in secondary grammar syllabi."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M02_Q01",
+        "subtopicId": "subject_predicate",
+        "subtopicTitle": "Subject and predicate",
+        "difficulty": "EASY",
+        "questionText": "In \"The new science teacher explained the experiment clearly\", what is the complete subject?",
+        "options": [
+          "teacher",
+          "The new science teacher",
+          "explained the experiment",
+          "the experiment"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The complete subject includes the head noun 'teacher' and all its pre-modifiers ('The new science').",
+        "distractorRationales": [
+          "Only the head noun.",
+          "Correct: entire noun phrase before the verb.",
+          "Part of the predicate.",
+          "Direct object inside the predicate."
+        ],
+        "grammarRule": "The complete subject consists of the head noun plus all its modifiers.",
+        "lessonStepRef": "m02_step_02_subject_predicate",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q02",
+        "subtopicId": "subject_predicate",
+        "subtopicTitle": "Predicate identification",
+        "difficulty": "EASY",
+        "questionText": "Identify the predicate in \"Golden autumn leaves fell gently on the path.\"",
+        "options": [
+          "Golden autumn leaves",
+          "fell gently on the path",
+          "on the path",
+          "autumn leaves fell"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The predicate starts at the finite verb ('fell') and includes all modifiers/adjuncts following it ('gently on the path').",
+        "distractorRationales": [
+          "That is the complete subject.",
+          "Correct: finite verb + adverbial adjuncts.",
+          "Only the place adjunct.",
+          "Mixes part of subject and verb."
+        ],
+        "grammarRule": "The predicate contains the verb group and everything linked to it in the clause.",
+        "lessonStepRef": "m02_step_02_subject_predicate",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q03",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Subject complement",
+        "difficulty": "EASY",
+        "questionText": "In \"Arjun became a skilled violinist\", what is 'a skilled violinist'?",
+        "options": [
+          "Direct Object",
+          "Subject Complement",
+          "Object Complement",
+          "Adjunct"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Became' is a linking verb; 'a skilled violinist' identifies the subject 'Arjun' and is required to complete the meaning.",
+        "distractorRationales": [
+          "'Become' is a linking verb, not transitive.",
+          "Correct: renames/completes the Subject after linking verb 'became'.",
+          "There is no direct object.",
+          "It cannot be deleted without breaking the sentence."
+        ],
+        "grammarRule": "Noun phrases or adjectives following linking verbs ('be', 'become', 'seem') are Subject Complements.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q04",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Adjunct identification",
+        "difficulty": "EASY",
+        "questionText": "Which underlined-style phrase in \"The choir sang melodiously before the guests\" is an Adjunct of manner?",
+        "options": [
+          "The choir",
+          "sang",
+          "melodiously",
+          "before the guests"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Melodiously' answers 'HOW did the choir sing?' and can be removed without making the verb ungrammatical.",
+        "distractorRationales": [
+          "Subject.",
+          "Main verb.",
+          "Correct: optional manner adverbial.",
+          "Adjunct of place/time/audience, not manner."
+        ],
+        "grammarRule": "Manner adjuncts tell how an action occurs and are optional.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q05",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Object complement",
+        "difficulty": "MEDIUM",
+        "questionText": "Identify the Object Complement in \"The heat turned the milk sour.\"",
+        "options": [
+          "The heat",
+          "turned",
+          "the milk",
+          "sour"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "'Sour' describes the resulting state of the direct object ('the milk'), making it an Object Complement.",
+        "distractorRationales": [
+          "Subject.",
+          "Verb.",
+          "Direct Object.",
+          "Correct: adjective completing/describing the Direct Object."
+        ],
+        "grammarRule": "Adjectives or nouns describing the resulting state/title of an object are Object Complements.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M02_Q06",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Linking verb error correction",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the grammatically accurate sentence:",
+        "options": [
+          "The fresh jasmine flowers smell sweetly.",
+          "The fresh jasmine flowers smell sweet.",
+          "The fresh jasmine flowers are smelling sweetly.",
+          "Sweetly smell the fresh jasmine flowers."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Smell' here links the subject ('flowers') to a quality, so it takes the adjective 'sweet' as Subject Complement.",
+        "distractorRationales": [
+          "Uses '-ly' adverb instead of adjective complement.",
+          "Correct: Subject + Linking Verb + Adjective Complement.",
+          "Flowers do not actively sniff; also uses adverb.",
+          "Uses adverb instead of adjective."
+        ],
+        "grammarRule": "Use adjectives—not '-ly' adverbs—as Subject Complements after sense linking verbs.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q07",
+        "subtopicId": "subject_predicate",
+        "subtopicTitle": "Head subject in long noun phrase",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"The row of colourful kites above the rooftops looks breathtaking\", what is the head word of the Subject?",
+        "options": [
+          "kites",
+          "rooftops",
+          "row",
+          "colourful"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "The prepositional phrases 'of colourful kites' and 'above the rooftops' modify the singular head noun 'row' (which agrees with 'looks').",
+        "distractorRationales": [
+          "Object of preposition 'of'.",
+          "Object of preposition 'above'.",
+          "Correct: 'row' is the head noun.",
+          "Adjective modifying 'kites'."
+        ],
+        "grammarRule": "The head noun of a subject precedes post-modifying prepositional phrases.",
+        "lessonStepRef": "m02_step_02_subject_predicate",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M02_Q08",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Complement vs. Adjunct test",
+        "difficulty": "MEDIUM",
+        "questionText": "Why is 'honest' in \"Everyone considers Sneha honest\" a Complement rather than an Adjunct?",
+        "options": [
+          "Because it appears at the end of the sentence.",
+          "Because it is required to complete the meaning of 'considers' and describes 'Sneha'.",
+          "Because it tells us the time of the action.",
+          "Because it is a preposition."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Removing 'honest' leaves 'Everyone considers Sneha'—an incomplete/altered idea—and 'honest' describes the object 'Sneha'.",
+        "distractorRationales": [
+          "Adjuncts also often sit at the end of sentences.",
+          "Correct: obligatory meaning + describes the object.",
+          "Honest describes character, not time.",
+          "Honest is an adjective."
+        ],
+        "grammarRule": "Complements are obligatory to the verb's sense and refer to Subject or Object.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q09",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Forms of complement",
+        "difficulty": "HARD",
+        "questionText": "In \"My wish is to visit the planetarium\", what form is the Subject Complement?",
+        "options": [
+          "An adjective",
+          "A to-infinitive phrase",
+          "A time adjunct",
+          "An indirect object"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Subject complements can be noun phrases, adjectives, or even infinitive/clause structures—here 'to visit the planetarium' identifies 'My wish'.",
+        "distractorRationales": [
+          "'To visit...' is verbal/infinitival, not an adjective.",
+          "Correct: to-infinitive phrase acting as Subject Complement.",
+          "Does not indicate time.",
+          "'Is' does not take indirect objects."
+        ],
+        "grammarRule": "A Subject Complement may take the form of a noun phrase, adjective, infinitive phrase, or clause.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q10",
+        "subtopicId": "subject_predicate",
+        "subtopicTitle": "Gerund phrase as subject",
+        "difficulty": "MEDIUM",
+        "questionText": "Identify the Subject in \"Reading detective novels sharpens observation skills.\"",
+        "options": [
+          "detective novels",
+          "Reading detective novels",
+          "observation skills",
+          "sharpens"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The entire gerund phrase 'Reading detective novels' performs the Subject role before the finite verb 'sharpens'.",
+        "distractorRationales": [
+          "'Detective novels' is the object of the gerund 'Reading'.",
+          "Correct: gerund phrase functioning as Subject.",
+          "Direct object of 'sharpens'.",
+          "Main finite verb."
+        ],
+        "grammarRule": "A gerund or infinitive phrase can occupy the Subject position.",
+        "lessonStepRef": "m02_step_02_subject_predicate",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M02_Q11",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Distinguishing Object vs Subject Complement",
+        "difficulty": "HARD",
+        "questionText": "In which sentence is the final noun phrase an OBJECT Complement (not a Subject Complement or Direct Object)?",
+        "options": [
+          "Kavita became a doctor.",
+          "The team made Kavita captain.",
+          "The teacher praised Kavita.",
+          "Kavita bought a stethoscope."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Captain' follows and renames the direct object 'Kavita' after the verb 'made'.",
+        "distractorRationales": [
+          "'A doctor' renames the Subject (Subject Complement).",
+          "Correct: 'Kavita' = Object, 'captain' = Object Complement.",
+          "'Kavita' is just a Direct Object.",
+          "'A stethoscope' is a Direct Object."
+        ],
+        "grammarRule": "Verify Object Complements by testing: [Object] = [Complement].",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q12",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Multiple adjuncts",
+        "difficulty": "EASY",
+        "questionText": "How many Adjuncts are in \"The scouts pitched their tents near the river before sunset\"?",
+        "options": [
+          "Zero",
+          "One",
+          "Two ('near the river' and 'before sunset')",
+          "Three"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Both 'near the river' (place) and 'before sunset' (time) are optional circumstantial adjuncts; 'their tents' is the Direct Object.",
+        "distractorRationales": [
+          "There are optional place and time modifiers.",
+          "There are two separate adjuncts.",
+          "Correct: one place adjunct + one time adjunct.",
+          "'Their tents' is a Direct Object, not an adjunct."
+        ],
+        "grammarRule": "A single predicate may contain multiple optional adjuncts (manner, place, time).",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M02_Q13",
+        "subtopicId": "subject_predicate",
+        "subtopicTitle": "Fronted adverbial before subject",
+        "difficulty": "HARD",
+        "questionText": "In \"Early this morning, the postman delivered a parcel\", what is the Subject?",
+        "options": [
+          "Early this morning",
+          "morning",
+          "the postman",
+          "a parcel"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Early this morning' is a fronted time Adjunct. Ask 'WHO delivered a parcel?' → 'the postman' is the Subject.",
+        "distractorRationales": [
+          "Time adjunct placed at the start for emphasis.",
+          "Part of the time adjunct.",
+          "Correct: performer of 'delivered'.",
+          "Direct Object."
+        ],
+        "grammarRule": "An adjunct placed at the beginning of a sentence still belongs functionally to the predicate/clause frame, not the Subject.",
+        "lessonStepRef": "m02_step_02_subject_predicate",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q14",
+        "subtopicId": "complements_adjuncts",
+        "subtopicTitle": "Adverbial complement after 'be'",
+        "difficulty": "HARD",
+        "questionText": "In \"The science lab is on the first floor\", why is 'on the first floor' treated as a Complement rather than a removable Adjunct?",
+        "options": [
+          "Because 'The science lab is' alone feels incomplete in this location sense.",
+          "Because it contains a number.",
+          "Because 'is' is a transitive verb.",
+          "Because it is a Direct Object."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "When 'be' expresses location, the place phrase is required to complete the predicate ('Where is it?').",
+        "distractorRationales": [
+          "Correct: 'be' of location requires a place complement.",
+          "Numbers don't determine complement status.",
+          "'Be' is intransitive/linking, not transitive.",
+          "Prepositional phrases are not direct objects."
+        ],
+        "grammarRule": "Place phrases required after 'be', 'live', or 'put' act as obligatory complements.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M02_Q15",
+        "subtopicId": "subject_predicate",
+        "subtopicTitle": "Identifying sentence parts",
+        "difficulty": "MEDIUM",
+        "questionText": "Label the four parts of \"Vaani / keeps / her diary / neat\":",
+        "options": [
+          "S + V + O + Adjunct",
+          "S + V + O + Object Complement",
+          "S + V + IO + DO",
+          "S + V + Subject Complement + Adjunct"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Vaani' (S) + 'keeps' (V) + 'her diary' (O) + 'neat' (Object Complement describing the state of 'her diary').",
+        "distractorRationales": [
+          "'Neat' is an adjective describing 'her diary', not an optional place/time adjunct.",
+          "Correct: SVO + OC.",
+          "'Neat' is an adjective, not a second noun object.",
+          "'Keeps' here has an object ('her diary')."
+        ],
+        "grammarRule": "Test 'her diary is neat' to confirm SVOC structure.",
+        "lessonStepRef": "m02_step_04_complements_adjuncts",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

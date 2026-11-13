@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_05",
+  "worldId": "WORLD_2",
+  "title": "Parts of Speech and Nouns",
+  "storyTitle": "The Missing Nameplates of the Word Bazaar",
+  "estimatedMinutes": 18,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m05_step_01_intro",
+      "stepTitle": "Scene 1: Chaos at the Word Bazaar",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "The Word Bazaar • Early Morning",
+      "settingDescription": "Overnight gusts of wind blew every stall nameplate off the booths in the Word Bazaar. Traders are arguing over whose basket holds nouns, verbs, or adjectives.",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "alert",
+          "line": "Look at the spice stall! Someone pinned 'Nouns' onto the verb basket and labelled 'team' as a plural verb!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "guilty",
+          "line": "In my defence, 'fast' looked like a noun in 'Keep a fast', then ran away like a verb in 'Run fast'! Words keep changing costumes!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Chikoo has stumbled onto a golden truth: a word's Part of Speech depends on the JOB it performs inside a sentence—not on its spelling alone."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "investigating",
+          "line": "Let us sort the eight Parts of Speech first, then restore every Noun badge—kind, number, gender, and case—before Maharaj Vakya opens the market."
+        }
+      ],
+      "storyCallout": "Goal: Identify parts of speech by sentence function and master noun kinds, number, gender, and possessive case."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m05_step_02_pos_and_noun_kinds",
+      "stepTitle": "Discover: Parts of Speech & Kinds of Nouns",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "parts_of_speech_kinds",
+      "subtopicTitle": "Parts of Speech & Five Kinds of Nouns",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Parts of Speech are job uniforms in the Word Bazaar: the same word 'iron' wears a Noun badge on a laundry stall ('an electric iron') and a Verb apron when pressing shirts ('iron the uniform').",
+      "formalDefinition": "English words are traditionally classified into eight parts of speech—noun, pronoun, verb, adjective, adverb, preposition, conjunction, and interjection—according to their grammatical function in a clause. Nouns name people, places, things, qualities, or ideas and fall into five classic kinds: Proper, Common, Collective, Material, and Abstract.",
+      "simpleExplanation": "Never guess a word's part of speech in isolation. Ask what it DOES in that sentence: does it name something (Noun), show action/state (Verb), describe a noun (Adjective), or modify a verb/adjective (Adverb)? Within nouns, Proper nouns name specific entities (Brahmaputra, Tuesday), Collective nouns name groups acting as units (jury, flock, committee), Material nouns name substances (gold, cotton, water), and Abstract nouns name qualities, states, or ideas (honesty, childhood, courage).",
+      "structurePatterns": [
+        {
+          "formName": "Same Word, Different Roles ('light')",
+          "formula": "Noun (a thing) | Verb (an action) | Adjective (describing a noun)",
+          "sample": "Switch on the light (N). / Light the lamp (V). / Carry a light bag (Adj)."
+        },
+        {
+          "formName": "Proper vs. Common vs. Collective",
+          "formula": "Specific Name (Capitalised) | General Class | Group Unit",
+          "sample": "Kaveri (Proper) • river (Common) • fleet / choir / jury (Collective)"
+        },
+        {
+          "formName": "Material vs. Abstract Noun",
+          "formula": "Physical Substance | Intangible Quality / State / Action",
+          "sample": "brass, silk, clay (Material) • wisdom, brotherhood, laughter (Abstract)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The committee reached a unanimous decision on the science fair.",
+          "contextNote": "'Committee' is a Collective Noun; 'decision' is an Abstract Noun; 'science fair' functions as a Common Noun phrase.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Patience and silver do not share the same shelf: one is a virtue, the other is a metal.",
+          "contextNote": "'Patience' and 'virtue' are Abstract Nouns; 'silver' is a Material Noun.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The braves deserve respect in every society.",
+          "correctSentence": "The brave deserve respect, or bravery deserves respect.",
+          "whyItHappens": "Abstract qualities ('bravery') do not take '-s' like common count nouns; when 'the + adjective' ('the brave') means a whole class of people, it takes no '-s' either.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Collective nouns usually take a singular verb when the group acts as one body ('The jury is united'), and a plural verb when members act individually ('The jury are divided in their opinions')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m05_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Detect the Word's Job",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD05_CP1",
+      "subtopicId": "parts_of_speech_kinds",
+      "subtopicTitle": "Parts of Speech in Context",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira points to the word 'round' on a market chalkboard: \"The referee signalled the final round of the boxing match.\"",
+      "questionPrompt": "What part of speech is \"round\" in THAT sentence?",
+      "options": [
+        "Noun",
+        "Verb",
+        "Adjective",
+        "Preposition"
+      ],
+      "acceptedAnswers": ["Noun"],
+      "hint": "Notice that 'round' comes right after the determiner 'the' and adjective 'final'—it names a stage of the match.",
+      "feedbackCorrect": "Detective Ira: \"Sharp eyes! Here 'round' is a Noun modified by 'the final'. In 'a round table' it is an Adjective, and in 'walk round the park' it is a Preposition!\"",
+      "feedbackWrongDefault": "Check the words around 'round': 'the final [round]' sits in a noun slot!",
+      "feedbackWrongByOption": {
+        "Adjective": "Watch closely: 'final' is the adjective describing 'round', not the other way round!",
+        "Verb": "'Signalled' is the verb of this sentence; 'the final round' is its object.",
+        "Preposition": "In 'round the corner' it is a preposition, but here 'round' names a stage of the bout."
+      },
+      "simplerExample": "In 'Give me a drink', 'drink' is a Noun; in 'Drink water', 'drink' is a Verb.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m05_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Classify the Noun Kind",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD05_CP2",
+      "subtopicId": "parts_of_speech_kinds",
+      "subtopicTitle": "Abstract vs. Collective vs. Material Nouns",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani holds up four stall tags from the Word Bazaar: honesty, flock, copper, river.",
+      "questionPrompt": "Which sentence contains BOTH an Abstract Noun and a Collective Noun?",
+      "options": [
+        "Copper utensils shine brightly in the morning sun.",
+        "The team showed remarkable discipline during the tournament.",
+        "Meera crossed the broad river in a wooden boat.",
+        "These cotton kurtas were woven in Guwahati."
+      ],
+      "acceptedAnswers": ["The team showed remarkable discipline during the tournament."],
+      "hint": "Look for one word naming a group ('team', 'crowd', 'fleet') and one naming a quality ('discipline', 'courage').",
+      "feedbackCorrect": "Vaani: \"Spot on! 'Team' is a Collective Noun and 'discipline' is an Abstract Noun.\"",
+      "feedbackWrongDefault": "Test each sentence for one group noun and one intangible quality.",
+      "feedbackWrongByOption": {
+        "Copper utensils shine brightly in the morning sun.": "'Copper' is a Material Noun, and 'utensils'/'sun' are Common Nouns.",
+        "Meera crossed the broad river in a wooden boat.": "'Meera' is Proper; 'river' and 'boat' are Common Nouns.",
+        "These cotton kurtas were woven in Guwahati.": "'Cotton' is Material, 'kurtas' is Common, and 'Guwahati' is Proper."
+      },
+      "simplerExample": "The choir (Collective) sang with great joy (Abstract).",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m05_step_05_number_gender_case",
+      "stepTitle": "Discover: Number, Gender & Case",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "noun_number_gender_case",
+      "subtopicTitle": "Noun Number, Gender & Possessive Case",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Possessive apostrophe ('s) is a mini ownership flag: one owner plants the flag BEFORE the s (student's desk), while a plural crowd ending in -s parks the flag AFTER the s (students' hostel).",
+      "formalDefinition": "English nouns exhibit Number (singular vs. plural, including irregular, compound, and invariant forms), natural Gender (masculine, feminine, common, neuter), and Case (nominative/subjective, objective/accusative, and possessive/genitive).",
+      "simpleExplanation": "Watch three high-frequency noun areas in Classes IX–X: (1) Compound plurals attach '-s' to the main head noun ('brothers-in-law', 'passers-by', 'commanders-in-chief'). (2) Common-gender nouns ('doctor', 'cousin', 'teacher', 'student') cover both sexes, while inanimate things and abstract ideas are neuter. (3) In Possessive Case, use `'s` for living beings and time/distance expressions ('a day's journey', 'children's library'), `'` alone after plural nouns ending in `-s` ('girls' hostel'), and `'of'` for most non-living objects ('the roof of the house', not *the house's roof).",
+      "structurePatterns": [
+        {
+          "formName": "Compound & Irregular Plurals",
+          "formula": "Head Noun + -s | Vowel Change / Classical Plural",
+          "sample": "brother-in-law → brothers-in-law • criterion → criteria • phenomenon → phenomena"
+        },
+        {
+          "formName": "Always Plural vs. Looks Plural (Singular)",
+          "formula": "Paired Tools / Garments (Plural) | Subjects / Diseases (Singular)",
+          "sample": "scissors, trousers, spectacles (are) • mathematics, news, innings (is)"
+        },
+        {
+          "formName": "Possessive Case Rules",
+          "formula": "Singular: noun's | Regular Plural: nouns' | Irregular Plural: children's | Non-living: of + noun",
+          "sample": "the teacher's pen • the boys' team • men's hostel • the leg of the chair"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Three passers-by helped lift the fallen cyclist near the girls' school.",
+          "contextNote": "'Passers-by' pluralises the head noun 'passer'; 'girls'' places the apostrophe after plural 'girls'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Two weeks' holiday gave the eighth-grade students fresh energy.",
+          "contextNote": "Time expressions may take the possessive apostrophe ('two weeks' holiday').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "My brother-in-laws brought two dozens mangoes.",
+          "correctSentence": "My brothers-in-law brought two dozen mangoes.",
+          "whyItHappens": "In 'brother-in-law', 'brother' is the head word that pluralises; unit words like 'dozen', 'hundred', 'thousand' stay singular after a specific number.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Some nouns have identical singular and plural forms: 'sheep', 'deer', 'aircraft', 'series', 'species'.",
+        "Joint possession uses one apostrophe on the second owner ('Riya and Ananya's project'); separate ownership uses two ('Riya's and Ananya's bags')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m05_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Forge the Compound Plural",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD05_CP3",
+      "subtopicId": "noun_number_gender_case",
+      "subtopicTitle": "Compound & Irregular Plurals",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar inspects the bazaar guestbook: \"Several ____ stood watching the street play from the pavement.\"",
+      "questionPrompt": "Type the correct plural form of \"passer-by\":",
+      "sentenceTemplate": "Several ________ stood watching the street play from the pavement.",
+      "acceptedAnswers": ["passers-by"],
+      "hint": "Which part is the main noun—'passer' or 'by'? Add '-s' to the main noun.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Exact! 'Passers-by' pluralises the head noun 'passer', just like 'sisters-in-law' and 'mothers-in-law'.\"",
+      "feedbackWrongDefault": "Add '-s' to 'passer', keeping '-by' unchanged with the hyphen.",
+      "simplerExample": "One sister-in-law → two sisters-in-law (NOT *sister-in-laws).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m05_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Fix the Possessive Signboard",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD05_CP4",
+      "subtopicId": "noun_number_gender_case",
+      "subtopicTitle": "Possessive Case Apostrophe & Non-living 'of'",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo painted a wooden signboard above the hostel lane: \"The childrens' hostel stands near the table's broken leg.\"",
+      "questionPrompt": "Choose the sentence that fixes BOTH possessive case errors accurately:",
+      "options": [
+        "The children's hostel stands near the broken leg of the table.",
+        "The childrens hostel stands near the tables' broken leg.",
+        "The children's hostel stands near the tables broken leg.",
+        "The childrens's hostel stands near the leg of table's."
+      ],
+      "acceptedAnswers": ["The children's hostel stands near the broken leg of the table."],
+      "hint": "'Children' is already plural without ending in -s (takes 's), and non-living 'table' prefers 'of the table'.",
+      "feedbackCorrect": "Maharaj Vakya: \"Royal craftsmanship! Irregular plurals without -s take 's ('children's'), and non-living things normally use 'of' ('the leg of the table').\"",
+      "feedbackWrongDefault": "Check two rules: 'children' → 'children's', and non-living 'table' → 'the broken leg of the table'.",
+      "feedbackWrongByOption": {
+        "The childrens hostel stands near the tables' broken leg.": "'Childrens' needs an apostrophe ('children's'), and 'table' is a single non-living noun."
+      },
+      "simplerExample": "Women's college (irregular plural + 's) • The cover of the book (non-living + 'of').",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m05_step_08_outro",
+      "stepTitle": "Scene 2: The Bazaar Opens in Order",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "The Word Bazaar • Grand Opening",
+      "settingDescription": "Every stall displays crisp Parts of Speech badges, spotless compound plurals, and accurate possessive apostrophes.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "proud",
+          "line": "Not a misplaced apostrophe in sight! Even the spice merchant's twin brothers-in-law applauded our signboards!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Review your Grammar Notebook and unlock the 15-question assessment to earn your World 2 Explorer badge."
+        }
+      ],
+      "storyCallout": "Module 5 Story Complete! Open your Grammar Notebook or launch the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Parts of Speech Depend on Function",
+        "ruleSummary": "The same English word can act as a noun, verb, adjective, or preposition depending on its grammatical role in the sentence.",
+        "formulaOrPattern": "Determiner + [Word] → Noun | Subject + [Word] + Object → Verb | [Word] + Noun → Adjective",
+        "example": "A fast (Noun) • Trains run fast (Adverb) • A fast runner (Adjective)."
+      },
+      {
+        "heading": "Five Noun Kinds & Special Plurals",
+        "ruleSummary": "Proper (specific), Common (class), Collective (group unit), Material (substance), Abstract (quality/idea). Compound nouns pluralise their head noun; unit words stay singular after numbers.",
+        "formulaOrPattern": "passer-by → passers-by | brother-in-law → brothers-in-law | two dozen eggs",
+        "example": "The jury (Collective) praised her honesty (Abstract)."
+      },
+      {
+        "heading": "Possessive (Genitive) Case",
+        "ruleSummary": "Use 's for singular nouns and irregular plurals not ending in -s; add ' after regular plurals ending in -s; use 'of' for most inanimate objects.",
+        "formulaOrPattern": "boy's bag | boys' hostel | children's park | the handle of the door",
+        "example": "We stayed at the girls' hostel for three days' training."
+      }
+    ],
+    "memoryAids": [
+      "Parts of Speech are job uniforms—check the work a word does in THAT sentence before labelling it.",
+      "Apostrophe ownership flag: single owner or irregular plural puts ' before s (boy's, men's); regular plural ending in -s puts ' after s (girls')."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The sceneries of Darjeeling is breathtaking and the news are good.",
+        "correctSentence": "The scenery of Darjeeling is breathtaking and the news is good.",
+        "whyItHappens": "'Scenery' is uncountable (no plural '-s'), while 'news' ends in '-s' yet is grammatically singular.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "My father-in-laws live near the womens' hospital.",
+        "correctSentence": "My fathers-in-law live near the women's hospital.",
+        "whyItHappens": "Pluralise the head noun ('fathers-in-law'), and write 'women's' because 'women' does not end in -s.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Pluralia tantum tools/garments ('scissors', 'spectacles', 'trousers') take plural verbs unless preceded by 'a pair of'.",
+      "Time, weight, and personified nouns may take `'s`: 'a stone's throw', 'India's heritage', 'a week's leave'."
+    ],
+    "textbookNotes": [
+      "Covers Parts of Speech and Nouns (kinds, number, gender, case) for secondary Classes IX–X."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M05_Q01",
+        "subtopicId": "parts_of_speech_kinds",
+        "subtopicTitle": "Parts of speech in context",
+        "difficulty": "EASY",
+        "questionText": "Identify the part of speech of 'water' in: \"Volunteers water the saplings every evening.\"",
+        "options": [
+          "Noun",
+          "Verb",
+          "Adjective",
+          "Adverb"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Water' sits right after the subject 'Volunteers' and takes the object 'the saplings', functioning as a transitive Verb.",
+        "distractorRationales": [
+          "In 'Drink clean water', it is a noun.",
+          "Correct: expresses the action done to the saplings.",
+          "In 'water bottle', it modifies a noun.",
+          "Does not modify a verb/adjective."
+        ],
+        "grammarRule": "Identify a word's part of speech from its role inside the sentence.",
+        "lessonStepRef": "m05_step_02_pos_and_noun_kinds",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q02",
+        "subtopicId": "parts_of_speech_kinds",
+        "subtopicTitle": "Kinds of nouns",
+        "difficulty": "EASY",
+        "questionText": "Which word in \"The pride of lions rested under the acacia tree\" is a Collective Noun?",
+        "options": [
+          "pride",
+          "lions",
+          "acacia",
+          "tree"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Pride' here names a group of lions as a single unit, making it a Collective Noun.",
+        "distractorRationales": [
+          "Correct: 'pride' is the collective term for a group of lions.",
+          "'Lions' is a plural Common Noun.",
+          "'Acacia' modifies 'tree' here.",
+          "'Tree' is a singular Common Noun."
+        ],
+        "grammarRule": "Collective nouns denote a collection of people, animals, or things spoken of as one whole.",
+        "lessonStepRef": "m05_step_02_pos_and_noun_kinds",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M05_Q03",
+        "subtopicId": "parts_of_speech_kinds",
+        "subtopicTitle": "Abstract nouns",
+        "difficulty": "EASY",
+        "questionText": "Which of the following is an Abstract Noun?",
+        "options": [
+          "silver",
+          "courage",
+          "classroom",
+          "crew"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Courage' names an intangible quality that cannot be touched physically, making it an Abstract Noun.",
+        "distractorRationales": [
+          "'Silver' is a Material Noun.",
+          "Correct: 'courage' is an abstract quality.",
+          "'Classroom' is a concrete Common Noun.",
+          "'Crew' is a Collective Noun."
+        ],
+        "grammarRule": "Abstract nouns denote qualities, actions, or states rather than physical objects.",
+        "lessonStepRef": "m05_step_02_pos_and_noun_kinds",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q04",
+        "subtopicId": "parts_of_speech_kinds",
+        "subtopicTitle": "Same word, multiple parts of speech",
+        "difficulty": "MEDIUM",
+        "questionText": "In which sentence does 'above' function as a Noun?",
+        "options": [
+          "The eagle soared above the pine trees.",
+          "Read the rules mentioned above.",
+          "Blessings come from above.",
+          "The above statement needs proof."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'from above', 'above' acts as the object of the preposition 'from', functioning as a Noun.",
+        "distractorRationales": [
+          "Preposition before 'the pine trees'.",
+          "Adverb modifying 'mentioned'.",
+          "Correct: object of the preposition 'from'.",
+          "Adjective modifying 'statement'."
+        ],
+        "grammarRule": "An object following a preposition ('from above') behaves as a noun or pronoun.",
+        "lessonStepRef": "m05_step_02_pos_and_noun_kinds",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q05",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Noun number (compound plurals)",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the correctly formed plural of 'commander-in-chief':",
+        "options": [
+          "commander-in-chiefs",
+          "commanders-in-chief",
+          "commanders-in-chiefs",
+          "commander-ins-chief"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Compound nouns joined by prepositions pluralise the principal head noun ('commanders-in-chief').",
+        "distractorRationales": [
+          "Wrongly attaches '-s' to 'chief'.",
+          "Correct: pluralises the main noun 'commander'.",
+          "Double pluralisation is incorrect.",
+          "Preposition 'in' never pluralises."
+        ],
+        "grammarRule": "Pluralise the head noun in hyphenated compounds (e.g., daughters-in-law).",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q06",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Irregular & invariant plurals",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence uses noun number accurately?",
+        "options": [
+          "Three deers ran across the forest trail.",
+          "Mathematics are my cousin's favourite subject.",
+          "Where did you keep my spectacles?",
+          "Our school bought new furnitures for the lab."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Spectacles' is always plural; 'deer' never takes '-s', 'Mathematics' takes a singular verb ('is'), and 'furniture' is uncountable.",
+        "distractorRationales": [
+          "Plural of 'deer' is 'deer', not *deers.",
+          "Academic subjects ending in '-ics' ('Mathematics') take singular 'is'.",
+          "Correct: 'spectacles' is a plural noun.",
+          "'Furniture' does not take '-s'."
+        ],
+        "grammarRule": "Paired instruments/garments ('spectacles', 'scissors') are plural; 'deer' and 'sheep' have identical singular/plural forms.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q07",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Greek/Latin plurals",
+        "difficulty": "HARD",
+        "questionText": "Select the sentence with the correct singular/plural match:",
+        "options": [
+          "This criteria is too strict for beginners.",
+          "Solar eclipses are fascinating natural phenomenon.",
+          "Every bacterium visible under this lens is harmless.",
+          "We collected several valuable datas during the survey."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Bacterium' is singular (plural: 'bacteria'), matching 'Every' and 'is'. 'Criteria' and 'data' are plural; 'phenomenon' is singular.",
+        "distractorRationales": [
+          "'Criteria' is plural; singular is 'criterion'.",
+          "'Eclipses' (plural) requires 'phenomena' (plural).",
+          "Correct: singular 'bacterium' with 'Every ... is'.",
+          "'Data' does not take '-s'."
+        ],
+        "grammarRule": "Match classical noun endings: bacterium/bacteria, criterion/criteria, phenomenon/phenomena.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M05_Q08",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Noun gender",
+        "difficulty": "EASY",
+        "questionText": "Which group consists entirely of Common-Gender nouns?",
+        "options": [
+          "duke, niece, bull, book",
+          "cousin, doctor, parent, student",
+          "empress, hostess, mare, queen",
+          "bench, chalk, river, honesty"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Common-gender nouns ('cousin', 'doctor', 'parent', 'student') can refer to either male or female individuals.",
+        "distractorRationales": [
+          "Mixes masculine, feminine, and neuter.",
+          "Correct: all four apply to either male or female persons.",
+          "All four are feminine-gender nouns.",
+          "All four are neuter (non-living/abstract)."
+        ],
+        "grammarRule": "Common gender denotes living beings that may be either male or female.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q09",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Possessive case apostrophe",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate possessive phrasing for a hostel meant for many girls:",
+        "options": [
+          "the girl's hostel",
+          "the girls' hostel",
+          "the girls's hostel",
+          "the hostel's girls"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Because 'girls' is a plural noun already ending in '-s', add only the apostrophe after the 's' ('girls' hostel').",
+        "distractorRationales": [
+          "Means belonging to one girl only.",
+          "Correct: plural noun ending in '-s' takes ' only.",
+          "Non-standard form for regular plurals.",
+          "Reverses the meaning."
+        ],
+        "grammarRule": "Regular plural nouns ending in '-s' form the possessive with an apostrophe alone (s').",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q10",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Possessive with non-living nouns",
+        "difficulty": "MEDIUM",
+        "questionText": "Which phrase follows standard formal English for non-living things?",
+        "options": [
+          "the building's terrace",
+          "the terrace of the building",
+          "the buildings' terrace's",
+          "the book's page's torn corner"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Non-living objects normally show possession with 'of + noun' ('the terrace of the building') rather than `'s`.",
+        "distractorRationales": [
+          "Informal/avoided in formal grammar for inanimate objects.",
+          "Correct: 'of + noun' is preferred for inanimate things.",
+          "Double broken apostrophes.",
+          "Clumsy chain of inanimate possessives."
+        ],
+        "grammarRule": "Use 'of' rather than `'s` for most non-living objects in formal English.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q11",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Joint vs separate possession",
+        "difficulty": "HARD",
+        "questionText": "Which sentence means Meera and Tanya jointly own ONE science model together?",
+        "options": [
+          "Meera's and Tanya's model won first prize.",
+          "Meera and Tanya's model won first prize.",
+          "Meera's and Tanya model won first prize.",
+          "Meeras and Tanyas' model won first prize."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When two people share a single item, attach `'s` only to the second name ('Meera and Tanya's model').",
+        "distractorRationales": [
+          "Two `'s` marks indicate two separate models.",
+          "Correct: single `'s` on the final name shows joint ownership.",
+          "Incorrect placement on the first name only.",
+          "Misspelled names and misplaced apostrophe."
+        ],
+        "grammarRule": "Joint ownership attaches `'s` to the last noun only; separate ownership attaches `'s` to each.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M05_Q12",
+        "subtopicId": "parts_of_speech_kinds",
+        "subtopicTitle": "Collective noun verb concord",
+        "difficulty": "HARD",
+        "questionText": "Choose the sentence where the collective noun agrees naturally with its verb:",
+        "options": [
+          "The flock of geese are flying south in a single V-formation.",
+          "The jury are unanimous in its verdict.",
+          "The committee were divided in their opinions about the new rule.",
+          "Our cricket team have won the trophy as one unit today."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "When members of a collective noun ('committee') act separately or disagree ('divided in their opinions'), a plural verb ('were') and 'their' fit naturally.",
+        "distractorRationales": [
+          "Acting as one single formation calls for singular 'is flying'.",
+          "'Unanimous' and 'its' show single-unit behaviour, requiring 'is'.",
+          "Correct: divided individuals take plural verb 'were' + 'their'.",
+          "'As one unit' matches singular 'has won'."
+        ],
+        "grammarRule": "Collective nouns take singular verbs when acting as one whole, and plural verbs when individuals act separately.",
+        "lessonStepRef": "m05_step_02_pos_and_noun_kinds",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q13",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Unit nouns after numbers",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in the blank accurately: \"The baker packed three ____ of fresh saffron biscuits.\"",
+        "options": [
+          "dozens",
+          "dozen",
+          "dozen's",
+          "dozens'"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Numerical unit nouns ('dozen', 'hundred', 'thousand') remain singular when preceded by a definite number ('three dozen').",
+        "distractorRationales": [
+          "Use 'dozens of' only without a specific number.",
+          "Correct: 'three dozen' without '-s'.",
+          "No possessive needed.",
+          "No possessive needed."
+        ],
+        "grammarRule": "Words like dozen, score, hundred, and thousand do not take '-s' immediately after a number.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M05_Q14",
+        "subtopicId": "parts_of_speech_kinds",
+        "subtopicTitle": "Material noun vs common noun",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"The ring is made of pure gold, though I misplaced a gold coin\", the first and second uses of 'gold' are:",
+        "options": [
+          "Material Noun, then Adjective (noun modifier)",
+          "Abstract Noun, then Proper Noun",
+          "Collective Noun, then Adverb",
+          "Proper Noun, then Verb"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Pure gold' names the material substance (Material Noun), whereas 'gold' before 'coin' describes what kind of coin it is (modifying Adjective).",
+        "distractorRationales": [
+          "Correct: substance after 'of' is Material Noun; before 'coin' it modifies 'coin'.",
+          "Gold is physical, not abstract or proper.",
+          "Neither a group nor a verb modifier.",
+          "Not a proper name or verb."
+        ],
+        "grammarRule": "Material nouns name substances; before another noun, they function as modifiers.",
+        "lessonStepRef": "m05_step_02_pos_and_noun_kinds",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M05_Q15",
+        "subtopicId": "noun_number_gender_case",
+        "subtopicTitle": "Subjective vs objective case",
+        "difficulty": "EASY",
+        "storyContext": "Vaani labels the final basket at the Word Bazaar.",
+        "questionText": "In \"Vaani handed Detective Ira the clue\", what is the grammatical case of 'the clue'?",
+        "options": [
+          "Nominative (Subjective) Case",
+          "Objective (Direct Object) Case",
+          "Possessive Case",
+          "Vocative Case"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'The clue' receives the action of 'handed' directly, so it is in the Objective Case (Direct Object).",
+        "distractorRationales": [
+          "'Vaani' is in the Nominative/Subjective Case.",
+          "Correct: 'the clue' is the Direct Object.",
+          "No ownership marker.",
+          "Vocative addresses someone directly."
+        ],
+        "grammarRule": "The subject of a verb is in the Nominative Case; its direct or indirect object is in the Objective Case.",
+        "lessonStepRef": "m05_step_05_number_gender_case",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

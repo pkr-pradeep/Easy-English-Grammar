@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_13",
+  "worldId": "WORLD_3",
+  "title": "Tense, Time and Aspect",
+  "storyTitle": "The Great Tense Robbery",
+  "estimatedMinutes": 25,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA",
+    "VAANI"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "step_01_robbery_alarm",
+      "stepTitle": "Scene 1: The Missing Crown",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Treasury • Morning",
+      "settingDescription": "Sirens chime across the Grammar Kingdom. Maharaj Vakya stares at an empty velvet cushion while the Time Machine sparks nearby.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "shocked",
+          "line": "Disaster! My golden crown has disappeared from the treasury!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "overconfident",
+          "line": "Do not worry, Your Majesty! Yesterday the thief steal the crown right under the clock!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "amused",
+          "line": "Chikoo, your sentence has travelled to the past, but your verb is still standing in the present!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "investigating",
+          "line": "To catch the culprit, we must pin down exact timelines: what already happened, what is happening now, and what will happen next."
+        }
+      ],
+      "timelinePanels": [
+        {
+          "timeLabel": "PAST TIME",
+          "exampleSentence": "The thief stole the crown yesterday.",
+          "tenseUsed": "Past Tense (Simple Past)",
+          "explanation": "Action completed at a definite time before now."
+        },
+        {
+          "timeLabel": "PRESENT TIME",
+          "exampleSentence": "Detective Ira is inspecting the clues now.",
+          "tenseUsed": "Present Tense (Present Progressive)",
+          "explanation": "Action currently in progress at the moment of speaking."
+        },
+        {
+          "timeLabel": "FUTURE TIME",
+          "exampleSentence": "The guards will guard the vault tonight.",
+          "tenseUsed": "Future Time Expression (will + base verb)",
+          "explanation": "Action expected or planned after the present moment."
+        }
+      ],
+      "storyCallout": "Mission: Repair the Time Machine by matching real-world time with accurate English verb forms and aspects."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "step_02_time_vs_tense",
+      "stepTitle": "Discover: Time vs. Tense",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "time_vs_tense",
+      "subtopicTitle": "Difference between Time and Tense",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Tense is the verb's time machine. Time is the calendar on the wall; tense is the gear-lever inside the verb.",
+      "formalDefinition": "Time is a universal, non-linguistic concept divided into past, present, and future. Tense is a grammatical category shown by changes in verb form (inflection) to locate situations in time—specifically Present and Past tense in English.",
+      "simpleExplanation": "Real-world time has three zones (past, present, future), but English verbs only change their own spelling for two grammatical tenses: Present (walk / walks) and Past (walked). To talk about Future time, English teams up with modal auxiliaries like 'will/shall' or present forms like 'is going to' and 'leaves tomorrow'.",
+      "structurePatterns": [
+        {
+          "formName": "Present Tense Form",
+          "formula": "Base verb / Base + -s/-es (or am/is/are)",
+          "sample": "The palace train leaves at 6 a.m. tomorrow. (Present tense → Future time)"
+        },
+        {
+          "formName": "Past Tense Form",
+          "formula": "Verb + -ed / irregular V2 (or was/were)",
+          "sample": "The thief unlocked the side gate at midnight. (Past tense → Past time)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Our school cricket match starts at 9:00 a.m. tomorrow.",
+          "contextNote": "Grammatical Present Simple used for a fixed future timetable.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "If I had a time machine, I would visit ancient Nalanda.",
+          "contextNote": "Grammatical Past tense ('had') expressing an imaginary present/future wish.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Yesterday the thief steal the crown.",
+          "correctSentence": "Yesterday the thief stole the crown.",
+          "whyItHappens": "The time adverb 'yesterday' points to past time, so the verb must shift to past tense ('stole').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Note on terminology: Some school exercises informally call 'will + verb' the 'Future Tense', while modern grammar books (including Odisha Class IX/X 'Time and Tense') emphasise that English has two grammatical tenses (Present and Past) and several ways of expressing Future time."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "step_03_checkpoint_1",
+      "stepTitle": "Checkpoint 1: Rescue the Past Tense",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD13_CP1",
+      "subtopicId": "past_simple",
+      "subtopicTitle": "Present and Past Tense Forms",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Detective Ira checks the security log dated yesterday. Chikoo tries to read it aloud to Maharaj Vakya.",
+      "questionPrompt": "Which sentence correctly reports what the thief did yesterday?",
+      "options": [
+        "He steals the crown.",
+        "He stole the crown.",
+        "He stealing the crown.",
+        "He will steal the crown."
+      ],
+      "acceptedAnswers": ["He stole the crown."],
+      "hint": "Look for the irregular past form (V2) of 'steal' that matches 'yesterday'.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Excellent! You have rescued the Past Tense from disaster—'stole' matches yesterday's timeline.\"",
+      "feedbackWrongDefault": "Chikoo Bandar: \"Even my banana-powered grammar sees a timeline clash! Check when the theft happened.\"",
+      "feedbackWrongByOption": {
+        "He steals the crown.": "Chikoo cheered too early! 'Steals' is Simple Present, used for habits or facts—not a completed action yesterday.",
+        "He stealing the crown.": "Watch out! An '-ing' participle cannot act as the main finite verb without an auxiliary like 'was'.",
+        "He will steal the crown.": "'Will steal' points to future time, but the crime already happened yesterday."
+      },
+      "simplerExample": "Simple pattern: Yesterday Riya baked a cake. (bake → baked; steal → stole).",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "step_04_aspects_overview",
+      "stepTitle": "Discover: The Four Aspects",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "four_aspects",
+      "subtopicTitle": "Simple, Progressive, Perfect and Perfect Progressive Aspects",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "If Tense tells us WHEN the camera clicked, Aspect tells us HOW the action looks in the photo: a clean snapshot (Simple), a live video (Progressive), a stamped receipt (Perfect), or a marathon still running (Perfect Progressive).",
+      "formalDefinition": "Aspect expresses how an action or state relates to the flow of time—whether it is habitual/complete (Simple), ongoing/in progress (Progressive/Continuous), completed with relevance to a reference point (Perfect), or ongoing up to a reference point (Perfect Progressive).",
+      "simpleExplanation": "Each tense (Present or Past) combines with aspect helpers: 'be + V-ing' builds Progressive aspect, 'have + V3 (past participle)' builds Perfect aspect, and 'have been + V-ing' builds Perfect Progressive aspect.",
+      "structurePatterns": [
+        {
+          "formName": "Simple Aspect",
+          "formula": "Present: V1/V1+s | Past: V2",
+          "sample": "Guards patrol the palace daily. / Guards patrolled last night."
+        },
+        {
+          "formName": "Progressive (Continuous) Aspect",
+          "formula": "am/is/are + V-ing | was/were + V-ing",
+          "sample": "Detective Ira is examining footprints. / Rain was falling at midnight."
+        },
+        {
+          "formName": "Perfect Aspect",
+          "formula": "has/have + V3 | had + V3",
+          "sample": "Someone has opened the safe. / The thief had escaped before 2 a.m."
+        },
+        {
+          "formName": "Perfect Progressive Aspect",
+          "formula": "has/have been + V-ing | had been + V-ing",
+          "sample": "Ira has been studying the clues since dawn."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Ananya has finished her science project, so she can play badminton now.",
+          "contextNote": "Present Perfect connects a completed action to a present result.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "When the power went out in Guwahati, we were watching the match.",
+          "contextNote": "Past Progressive ('were watching') shows the background action interrupted by a Simple Past event ('went out').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "I am living in Cuttack since 2021.",
+          "correctSentence": "I have been living in Cuttack since 2021.",
+          "whyItHappens": "When an action started in the past and continues into the present with 'since' or 'for', use Present Perfect Progressive—not Present Progressive.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Use 'since' with a specific starting point in time (since 8 a.m., since Monday, since 2020) and 'for' with a duration of time (for two hours, for five years)."
+      ]
+    },
+    {
+      "type": "story_scene",
+      "stepId": "step_05_sequence_clue",
+      "stepTitle": "Scene 2: Two Past Events",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Palace Corridor • Clue #2",
+      "settingDescription": "Detective Ira examines the muddy footprints near the royal gate and compares the guards' arrival time with the thief's escape.",
+      "dialogues": [
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "eureka",
+          "line": "Look at the two timestamps! First the thief took the crown. Later, at 1:15 a.m., the guards arrived."
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "explaining",
+          "line": "Notice the connector 'before'! When two events happen in the past, the EARLIER event takes Past Perfect (had + V3), and the LATER event takes Simple Past (V2)."
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "thinking",
+          "line": "Aha! Like: 'The samosas had vanished before Chikoo reached the kitchen!' Now I remember!"
+        }
+      ],
+      "storyCallout": "Rule of Sequence in the Past: Earlier past action = had + past participle (V3); Later past action = Simple Past (V2)."
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "step_06_checkpoint_2",
+      "stepTitle": "Checkpoint 2: Complete the Escape Clue",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD13_CP2",
+      "subtopicId": "past_perfect_sequence",
+      "subtopicTitle": "Past Perfect & Sequence of Tenses",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Help Detective Ira complete the official crime-report sentence showing which action happened first.",
+      "questionPrompt": "Type the missing two-word verb phrase (Past Perfect of 'steal'):\n\"The thief ________ the crown before the guards arrived.\"",
+      "sentenceTemplate": "The thief ________ the crown before the guards arrived.",
+      "acceptedAnswers": ["had stolen"],
+      "hint": "Use 'had' + the third form (past participle) of 'steal' (steal – stole – ?).",
+      "feedbackCorrect": "Detective Ira: \"Spot on! 'Had stolen' proves the theft occurred BEFORE the guards arrived.\"",
+      "feedbackWrongDefault": "Not quite! Because stealing happened before the guards arrived, use Past Perfect: 'had' + past participle of 'steal'.",
+      "feedbackWrongByOption": {
+        "stole": "'Stole' is Simple Past, which blurs which event happened first. Pair 'arrived' (Simple Past) with Past Perfect ('had stolen').",
+        "has stolen": "'Has stolen' is Present Perfect, which links to NOW—not to a past event ('arrived').",
+        "had stole": "Close! Watch the irregular participle: steal → stole → stolen (not 'had stole')."
+      },
+      "simplerExample": "The bus had left before we reached the stop.",
+      "xpReward": 25
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "step_07_future_time",
+      "stepTitle": "Discover: Expressing Future Time",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "expressing_future",
+      "subtopicTitle": "Ways of Expressing Future Time",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Because English has no dedicated 'future-tense costume' for verbs, verbs borrow different hats—'will', 'going to', or even Present outfits—depending on whether the future is a promise, a plan, or a timetable!",
+      "formalDefinition": "English expresses future time using modal auxiliaries (will/shall + base verb), semi-modal constructions (be going to + base verb), Present Progressive (for pre-arranged personal plans), Simple Present (for fixed schedules/timetables), and Future Progressive/Perfect forms.",
+      "simpleExplanation": "Choose your future-time form by meaning, not guesswork: use 'will' for instant decisions, promises, or predictions; 'going to' for prior intentions or visible evidence; Present Progressive for confirmed appointments; and Simple Present for official timetables.",
+      "structurePatterns": [
+        {
+          "formName": "will / shall + V1",
+          "formula": "Subject + will + base verb",
+          "sample": "I will help you decode the next clue. (Promise / instant decision)"
+        },
+        {
+          "formName": "be going to + V1",
+          "formula": "am/is/are + going to + base verb",
+          "sample": "Look at those dark clouds—it is going to rain! (Present evidence)"
+        },
+        {
+          "formName": "Present Progressive for Future",
+          "formula": "am/is/are + V-ing + future time word",
+          "sample": "Maharaj Vakya is meeting the Chief Minister at 5 p.m. tomorrow. (Fixed arrangement)"
+        },
+        {
+          "formName": "Simple Present for Future",
+          "formula": "V1 / V1+s + future time word",
+          "sample": "The Shatabdi Express departs at 6:15 a.m. tomorrow. (Official timetable)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Our Board examination starts on 15th February.",
+          "contextNote": "Official schedule expressed via Simple Present.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "We are visiting the science museum this Saturday.",
+          "contextNote": "Confirmed arrangement expressed via Present Progressive.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Look at the slipping ladder! Chikoo will falling soon!",
+          "correctSentence": "Look at the slipping ladder! Chikoo is going to fall soon!",
+          "whyItHappens": "First, 'will' must take the bare base verb (not '-ing'). Second, when present evidence shows something is about to happen, 'is going to + base verb' is most natural.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "In conditional ('if') and time ('when', 'until', 'as soon as', 'before') subordinate clauses referring to future time, English uses Simple Present—not 'will': 'We will leave when the rain stops' (NOT 'when the rain will stop')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "step_08_checkpoint_3",
+      "stepTitle": "Checkpoint 3: Timetable Clue",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD13_CP3",
+      "subtopicId": "time_vs_tense",
+      "subtopicTitle": "Time vs. Tense & Future Time",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani intercepts a railway ticket dropped by the suspect: \"The Royal Express leaves Platform 2 at 6:30 a.m. tomorrow.\"",
+      "questionPrompt": "Identify the grammatical tense and the real-world time of the verb 'leaves' in that sentence:",
+      "options": [
+        "Present tense referring to Future time",
+        "Past tense referring to Present time",
+        "Present progressive referring to Present time",
+        "Future tense referring to Past time"
+      ],
+      "acceptedAnswers": ["Present tense referring to Future time"],
+      "hint": "Look at the verb ending ('leaves') AND look at the time word ('tomorrow').",
+      "feedbackCorrect": "Vaani: \"Sharp observation! 'Leaves' wears Present tense morphology, yet expresses Future time because it is a fixed railway timetable.\"",
+      "feedbackWrongDefault": "Look separately at two clues: the form of 'leaves' (Simple Present) and the adverb 'tomorrow' (Future time).",
+      "feedbackWrongByOption": {
+        "Past tense referring to Present time": "'Leaves' is not a past form (past is 'left'), and 'tomorrow' is in the future.",
+        "Present progressive referring to Present time": "Present progressive would be 'is leaving', and 'tomorrow' is future time."
+      },
+      "simplerExample": "The museum opens at 10 a.m. tomorrow. (Present form → Future timetable).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "step_09_checkpoint_4",
+      "stepTitle": "Checkpoint 4: Assemble the Timeline Report",
+      "provenance": "ADDITIONAL_EXAMPLE",
+      "checkpointId": "MOD13_CP4",
+      "subtopicId": "present_perfect_progressive",
+      "subtopicTitle": "Present Perfect Progressive",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "The Time Machine's log printer jammed! Arrange the scrambled phrases to report an investigation that started in the morning and is still continuing now.",
+      "questionPrompt": "Tap the tiles in order to form a grammatically accurate sentence:",
+      "wordTokens": [
+        "since morning.",
+        "has been checking",
+        "Detective Ira",
+        "the clues"
+      ],
+      "acceptedAnswers": ["Detective Ira has been checking the clues since morning."],
+      "hint": "Start with the subject ('Detective Ira'), followed by 'has been checking', the object, and finally the 'since' time phrase.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Perfect word order and perfect aspect! 'Has been checking ... since morning' shows continuous effort from morning until now.\"",
+      "feedbackWrongDefault": "Check the word order: Subject + Auxiliary Verb Group ('has been checking') + Object + Time Phrase ('since morning.').",
+      "simplerExample": "Rohan has been practising the violin since 4 p.m.",
+      "xpReward": 25
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "step_10_stative_and_concord",
+      "stepTitle": "Discover: Stative Exceptions & Sequence of Tenses",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "stative_and_concord",
+      "subtopicTitle": "Non-conclusive / Stative Verbs & Sequence of Tenses",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Some verbs are couch potatoes—verbs of knowing, believing, owning, and loving refuse to put on '-ing' running shoes!",
+      "formalDefinition": "Stative (or non-conclusive) verbs express mental states, possession, or senses rather than deliberate actions and normally resist progressive ('-ing') aspect. Under Sequence of Tenses (concord), a past main clause verb usually pulls a subordinate clause verb into a matching past tense, unless stating a universal truth.",
+      "simpleExplanation": "Say 'I know the answer' or 'I have known him for years'—not 'I am knowing'. And when reporting in the past ('Ira saw that...'), keep the subordinate verb in the past ('...the lock was broken'), except for unchanging scientific/universal truths ('Acharya taught us that water boils at 100°C').",
+      "structurePatterns": [
+        {
+          "formName": "Stative Verbs (Use Simple or Perfect, not Progressive)",
+          "formula": "know, believe, belong, own, prefer, understand, seem",
+          "sample": "This crown belongs to Maharaj Vakya. (NOT: is belonging)"
+        },
+        {
+          "formName": "Sequence of Tenses",
+          "formula": "Past Main Clause → Past Subordinate Clause",
+          "sample": "Chikoo realised that he had left the door open."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "She has owned that bicycle for three years.",
+          "contextNote": "Present Perfect (not Progressive) used for a state lasting up to now.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Our geography teacher explained that the Earth revolves around the Sun.",
+          "contextNote": "Universal truth stays in Simple Present even after a past reporting verb.",
+          "provenance": "SOURCE_TEXTBOOK"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "I am knowing the thief since two days.",
+          "correctSentence": "I have known the thief for two days.",
+          "whyItHappens": "Two classic errors fixed together: (1) 'know' is a stative verb, so use Present Perfect ('have known'), not '-ing'; (2) 'two days' is a duration, so use 'for', not 'since'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Some verbs shift meaning between stative and dynamic use: 'I think you are right' (opinion = stative) vs. 'I am thinking about the puzzle' (mental activity = dynamic); 'The mango tastes sweet' (quality) vs. 'Chikoo is tasting the mango' (action)."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "step_11_checkpoint_5",
+      "stepTitle": "Checkpoint 5: Fix Chikoo's Stative Blunder",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD13_CP5",
+      "subtopicId": "stative_and_concord",
+      "subtopicTitle": "Stative Verbs & Since/For Errors",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo whispers to the King: \"I am knowing the secret code since two hours!\" Maharaj Vakya gasps at the double grammar crime.",
+      "questionPrompt": "Choose the completely corrected sentence:",
+      "options": [
+        "I am knowing the secret code for two hours.",
+        "I have been knowing the secret code since two hours.",
+        "I have known the secret code for two hours.",
+        "I know the secret code since two hours."
+      ],
+      "acceptedAnswers": ["I have known the secret code for two hours."],
+      "hint": "Fix BOTH errors: 'know' avoids '-ing' forms, and 'two hours' is a duration (use 'for', not 'since').",
+      "feedbackCorrect": "Maharaj Vakya: \"Case solved! The thief was only hiding the crown inside Chikoo's own satchel—and your grammar has restored order to the Time Machine!\"",
+      "feedbackWrongDefault": "Remember both fixes: use Present Perfect ('have known') for stative 'know', and pair a duration ('two hours') with 'for'.",
+      "feedbackWrongByOption": {
+        "I am knowing the secret code for two hours.": "You fixed 'for', which is great—now fix 'am knowing' because 'know' is a stative verb.",
+        "I have been knowing the secret code since two hours.": "'Know' resists '-ing' ('been knowing'), and 'two hours' takes 'for', not 'since'.",
+        "I know the secret code since two hours.": "'Since two hours' needs 'for', and duration up to now needs Present Perfect ('have known')."
+      },
+      "simplerExample": "We have known each other for five years.",
+      "xpReward": 25
+    },
+    {
+      "type": "story_scene",
+      "stepId": "step_12_mystery_resolved",
+      "stepTitle": "Scene 3: Case Closed & Crown Restored",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Courtyard • Resolution",
+      "settingDescription": "The Time Machine hums smoothly. Detective Ira opens Chikoo's snack satchel and pulls out the sparkling golden crown—Chikoo had moved it for 'safekeeping' while polishing his bananas!",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "approving",
+          "line": "My crown returns! Even better, every timeline in the kingdom now runs accurately."
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "oops",
+          "line": "Hehe... I had hidden it before the guards arrived—hey, I used Past Perfect correctly!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Well done! Review your Grammar Notebook anytime, then face the 15-question Final Assessment to prove your mastery."
+        }
+      ],
+      "storyCallout": "Chapter Story Complete! Review the Grammar Notebook or attempt the 15-question Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Time vs. Grammatical Tense",
+        "ruleSummary": "Time is real-world past/present/future; English verbs inflect for Present and Past tense, and express Future time using modals or present forms.",
+        "formulaOrPattern": "Present (V1 / V1+s) | Past (V2) | Future Time (will + V1 / going to / Present Prog. / Simple Present)",
+        "example": "Our train leaves at 6:30 a.m. tomorrow. (Present tense expressing future time)"
+      },
+      {
+        "heading": "Simple Aspect",
+        "ruleSummary": "Expresses habits, universal truths, permanent states (Simple Present), or completed past actions at a stated/implied time (Simple Past).",
+        "formulaOrPattern": "Subject + V1/V1+s | Subject + V2",
+        "example": "Water boils at 100°C. / The thief stole the crown yesterday."
+      },
+      {
+        "heading": "Progressive (Continuous) Aspect",
+        "ruleSummary": "Expresses an action actively in progress at the present moment or at a specific moment in the past.",
+        "formulaOrPattern": "am/is/are + V-ing | was/were + V-ing",
+        "example": "Detective Ira was checking footprints when the bell rang."
+      },
+      {
+        "heading": "Perfect Aspect",
+        "ruleSummary": "Connects an earlier completed action to a reference point: Present Perfect links to NOW; Past Perfect marks the EARLIER of two past actions.",
+        "formulaOrPattern": "has/have + V3 | had + V3",
+        "example": "The thief had escaped before the guards arrived."
+      },
+      {
+        "heading": "Perfect Progressive Aspect",
+        "ruleSummary": "Highlights an action's continuous duration starting earlier and continuing up to now (or up to a past point).",
+        "formulaOrPattern": "has/have been + V-ing | had been + V-ing",
+        "example": "We have been practising grammar for forty minutes."
+      }
+    ],
+    "memoryAids": [
+      "Tense is the verb's time machine; Time is the calendar on the wall.",
+      "Aspects are camera modes: Simple = snapshot, Progressive = live video, Perfect = stamped receipt, Perfect Progressive = ongoing marathon.",
+      "Stative verbs (know, own, believe, belong) are couch potatoes—they avoid '-ing' running shoes."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Yesterday the thief steal the crown.",
+        "correctSentence": "Yesterday the thief stole the crown.",
+        "whyItHappens": "Forgetting to change the verb to V2 when a past-time marker ('yesterday', 'last night', 'ago') appears.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "I am knowing him since five years.",
+        "correctSentence": "I have known him for five years.",
+        "whyItHappens": "Combining a stative verb ('know') with '-ing' and confusing 'since' (point of time) with 'for' (duration).",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "We will start as soon as the train will arrive.",
+        "correctSentence": "We will start as soon as the train arrives.",
+        "whyItHappens": "Repeating 'will' inside a future time/conditional subordinate clause.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Universal truths remain in Simple Present even after a past reporting verb ('The teacher said that the Sun rises in the east').",
+      "Do not use 'will' in 'if / when / before / until / as soon as' subordinate clauses for future reference; use Simple Present.",
+      "Verbs like 'think', 'taste', 'have', and 'look' can take '-ing' ONLY when they express a deliberate action rather than a state ('She is tasting the soup' vs. 'The soup tastes salty')."
+    ],
+    "textbookNotes": [
+      "Assam (Classes IX–X, A New Method English Grammar, Ch. 9 'Tense'): page range not_verified (pending source PDF).",
+      "Punjab (Class IX, A Practice Book of English Grammar & Composition, Ch. 9 'Tenses (Concord and Sequence)'): page range not_verified (pending source PDF).",
+      "Odisha Class IX (Learn and Practise Grammar, Ch. 3 'Time and Tense'): page range not_verified (pending source PDF).",
+      "Odisha Class X (Learn and Practise Grammar, Ch. 1 'Tense Revisited'): page range not_verified (pending source PDF)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M13_Q01",
+        "subtopicId": "time_vs_tense",
+        "subtopicTitle": "Difference between Time and Tense",
+        "difficulty": "EASY",
+        "storyContext": "Train timetable outside the Grammar Kingdom station.",
+        "questionText": "In \"The Assam Mail departs at 7:45 a.m. tomorrow\", what tense is 'departs' and what time does it express?",
+        "options": [
+          "Present tense expressing Future time",
+          "Past tense expressing Future time",
+          "Present tense expressing Past time",
+          "Future tense expressing Present time"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Departs' is a Simple Present verb form, used here with 'tomorrow' to express a scheduled future timetable.",
+        "distractorRationales": [
+          "Correct: grammatical form is Present, real-world reference is Future.",
+          "'Departs' is not a past form ('departed').",
+          "'Tomorrow' refers to the future, not the past.",
+          "English does not inflect 'departs' as a future tense."
+        ],
+        "grammarRule": "Simple Present expresses fixed schedules and timetables in future time.",
+        "lessonStepRef": "step_02_time_vs_tense",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q02",
+        "subtopicId": "past_simple",
+        "subtopicTitle": "Present and Past Tense Forms",
+        "difficulty": "EASY",
+        "storyContext": "Chikoo's witness statement.",
+        "questionText": "Choose the correct sentence:",
+        "options": [
+          "Last evening Rohan buys two notebooks from the market.",
+          "Last evening Rohan bought two notebooks from the market.",
+          "Last evening Rohan buying two notebooks from the market.",
+          "Last evening Rohan has bought two notebooks from the market."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "A finished past time marker like 'Last evening' requires Simple Past ('bought'), not Simple Present or Present Perfect.",
+        "distractorRationales": [
+          "'Buys' clashes with 'Last evening'.",
+          "Correct: 'bought' is the Simple Past of 'buy'.",
+          "'Buying' lacks a finite auxiliary verb.",
+          "Present Perfect ('has bought') cannot normally pair with a finished past adverbial like 'last evening'."
+        ],
+        "grammarRule": "Definite past-time expressions ('yesterday', 'last evening', 'ago') take Simple Past.",
+        "lessonStepRef": "step_02_time_vs_tense",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M13_Q03",
+        "subtopicId": "four_aspects",
+        "subtopicTitle": "Simple vs. Progressive Aspect",
+        "difficulty": "EASY",
+        "questionText": "Look! The monsoon clouds ______ over the hills right now.",
+        "options": [
+          "gather",
+          "are gathering",
+          "gathered",
+          "had gathered"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Look!' and 'right now' indicate an action unfolding at the moment of speaking, requiring Present Progressive ('are gathering').",
+        "distractorRationales": [
+          "Simple Present ('gather') expresses habits, not an immediate live action.",
+          "Correct: plural subject 'clouds' + 'are gathering'.",
+          "'Gathered' places the action in the past.",
+          "Past Perfect requires a past reference event."
+        ],
+        "grammarRule": "Present Progressive (am/is/are + V-ing) describes actions occurring right now.",
+        "lessonStepRef": "step_04_aspects_overview",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M13_Q04",
+        "subtopicId": "past_perfect_sequence",
+        "subtopicTitle": "Past Perfect & Sequence of Tenses",
+        "difficulty": "MEDIUM",
+        "storyContext": "The Great Tense Robbery.",
+        "questionText": "When Detective Ira reached the gate, the suspect ______ already.",
+        "options": [
+          "fled",
+          "has fled",
+          "had fled",
+          "is fleeing"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Fleeing happened BEFORE Ira reached the gate (two past events), so the earlier event takes Past Perfect ('had fled').",
+        "distractorRationales": [
+          "Simple Past fails to clarify that the escape occurred prior to Ira's arrival.",
+          "Present Perfect ('has fled') links to the present, not to 'reached'.",
+          "Correct: 'had + V3' marks the earlier of two past actions.",
+          "Present Progressive clashes with the past verb 'reached'."
+        ],
+        "grammarRule": "Use Past Perfect (had + V3) for the earlier of two past events.",
+        "lessonStepRef": "step_05_sequence_clue",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q05",
+        "subtopicId": "four_aspects",
+        "subtopicTitle": "Past Progressive with Interrupted Action",
+        "difficulty": "MEDIUM",
+        "questionText": "Meera ______ her homework when the lights suddenly went out.",
+        "options": [
+          "was doing",
+          "did",
+          "is doing",
+          "has done"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "An ongoing background action in the past interrupted by a sudden Simple Past event ('went out') uses Past Progressive ('was doing').",
+        "distractorRationales": [
+          "Correct: Past Progressive for background action in progress.",
+          "Simple Past would mean she did homework after the lights went out.",
+          "Present Progressive does not match 'went out'.",
+          "Present Perfect cannot pair with the past clause 'when the lights went out'."
+        ],
+        "grammarRule": "Past Progressive (was/were + V-ing) + when + Simple Past shows an interrupted past action.",
+        "lessonStepRef": "step_04_aspects_overview",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M13_Q06",
+        "subtopicId": "present_perfect_progressive",
+        "subtopicTitle": "Present Perfect Progressive (Since vs. For)",
+        "difficulty": "MEDIUM",
+        "questionText": "The students of Class IX ______ for the debate competition ______ Monday.",
+        "options": [
+          "are preparing / since",
+          "have been preparing / since",
+          "have been preparing / for",
+          "prepared / for"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "An action beginning in the past ('Monday', a specific starting point) and continuing into the present uses Present Perfect Progressive + 'since'.",
+        "distractorRationales": [
+          "Present Progressive should not be used with 'since Monday' for duration up to now.",
+          "Correct: 'have been preparing' + 'since' (starting point).",
+          "'For' goes with durations ('for three days'), not starting points like 'Monday'.",
+          "Simple Past + 'for Monday' is ungrammatical."
+        ],
+        "grammarRule": "Use Present Perfect Progressive with 'since' + point of time or 'for' + duration.",
+        "lessonStepRef": "step_04_aspects_overview",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q07",
+        "subtopicId": "expressing_future",
+        "subtopicTitle": "Ways of Expressing Future Time",
+        "difficulty": "MEDIUM",
+        "questionText": "Look at how fast that cyclist is speeding around the wet bend! He ______!",
+        "options": [
+          "falls",
+          "is going to slip",
+          "slipped",
+          "has slipped"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When immediate present evidence predicts a near-future outcome, English uses 'be going to + base verb'.",
+        "distractorRationales": [
+          "Simple Present is for habits/timetables, not visible immediate evidence.",
+          "Correct: present evidence → 'is going to slip'.",
+          "'Slipped' means it already happened.",
+          "'Has slipped' means it has already happened."
+        ],
+        "grammarRule": "'Be going to + V1' expresses predictions based on clear present evidence.",
+        "lessonStepRef": "step_07_future_time",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q08",
+        "subtopicId": "expressing_future",
+        "subtopicTitle": "Future Time Clauses Exception",
+        "difficulty": "HARD",
+        "questionText": "Acharya Vidyadhar will start the quiz as soon as all students ______ in the hall.",
+        "options": [
+          "will gather",
+          "gathered",
+          "gather",
+          "are gathered yesterday"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In future time clauses introduced by 'as soon as', 'when', or 'until', use Simple Present ('gather'), not 'will gather'.",
+        "distractorRationales": [
+          "Do not use 'will' inside an 'as soon as' time clause.",
+          "Simple Past clashes with 'will start'.",
+          "Correct: Simple Present inside a future time clause.",
+          "Contradicts future context with 'yesterday'."
+        ],
+        "grammarRule": "Time/conditional clauses ('when', 'if', 'as soon as') use Simple Present for future reference.",
+        "lessonStepRef": "step_07_future_time",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q09",
+        "subtopicId": "stative_and_concord",
+        "subtopicTitle": "Stative / Non-conclusive Verbs",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya inspects the royal jewels.",
+        "questionText": "Spot the grammatically correct sentence:",
+        "options": [
+          "This emerald necklace is belonging to Queen Kavya.",
+          "I am believing every clue Detective Ira found.",
+          "This emerald necklace belongs to Queen Kavya.",
+          "Chikoo is owning three shiny marbles."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Belong', 'believe', and 'own' are stative (non-conclusive) verbs and do not normally take progressive '-ing' forms.",
+        "distractorRationales": [
+          "'Belong' is stative; 'is belonging' is incorrect.",
+          "'Believe' is stative; 'am believing' is incorrect.",
+          "Correct: Simple Present 'belongs' for possession.",
+          "'Own' is stative; 'is owning' is incorrect."
+        ],
+        "grammarRule": "Stative verbs of possession and belief resist progressive ('-ing') aspect.",
+        "lessonStepRef": "step_10_stative_and_concord",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q10",
+        "subtopicId": "stative_and_concord",
+        "subtopicTitle": "Sequence of Tenses & Universal Truth",
+        "difficulty": "HARD",
+        "questionText": "Our science teacher told us that light ______ faster than sound.",
+        "options": [
+          "travelled",
+          "travels",
+          "is travelling",
+          "had travelled"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Although 'told' is in the past tense, the subordinate clause states an unchanging scientific truth, so it remains in Simple Present ('travels').",
+        "distractorRationales": [
+          "Shifting a universal scientific truth to past tense makes it sound no longer true.",
+          "Correct: universal truth stays Simple Present.",
+          "Progressive implies a temporary ongoing event rather than a permanent physical law.",
+          "Past Perfect implies it stopped being true."
+        ],
+        "grammarRule": "Universal truths and scientific laws keep Simple Present even after a past reporting verb.",
+        "lessonStepRef": "step_10_stative_and_concord",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M13_Q11",
+        "subtopicId": "four_aspects",
+        "subtopicTitle": "Present Perfect vs. Simple Past",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence correctly uses Present Perfect for a life experience without a specific past timestamp?",
+        "options": [
+          "I have visited Kaziranga National Park twice.",
+          "I have visited Kaziranga National Park in 2022.",
+          "I visited Kaziranga National Park since 2022.",
+          "I am visiting Kaziranga National Park twice."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Present Perfect ('have visited') expresses experiences up to now when no finished past timestamp (like 'in 2022') is stated.",
+        "distractorRationales": [
+          "Correct: unspecific life experience up to the present.",
+          "Specific past year 'in 2022' requires Simple Past ('visited'), not Present Perfect.",
+          "Simple Past cannot pair with 'since 2022' in this sense.",
+          "Present Progressive conflicts with 'twice'."
+        ],
+        "grammarRule": "Present Perfect expresses past experiences without a definite finished time marker.",
+        "lessonStepRef": "step_04_aspects_overview",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M13_Q12",
+        "subtopicId": "expressing_future",
+        "subtopicTitle": "Future Perfect Aspect",
+        "difficulty": "HARD",
+        "questionText": "By 8 p.m. tonight, the engineers ______ the Time Machine completely.",
+        "options": [
+          "will repair",
+          "will have repaired",
+          "have repaired",
+          "repaired"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'By 8 p.m. tonight' sets a future deadline before which the action will be finished, requiring Future Perfect ('will have repaired').",
+        "distractorRationales": [
+          "'Will repair' does not emphasise completion before the 8 p.m. deadline.",
+          "Correct: 'by + future time' → Future Perfect (will have + V3).",
+          "Present Perfect does not match 'tonight' as a future deadline.",
+          "Simple Past refers to a completed past event."
+        ],
+        "grammarRule": "Use Future Perfect (will have + V3) for an action completed before a stated future time.",
+        "lessonStepRef": "step_07_future_time",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q13",
+        "subtopicId": "stative_and_concord",
+        "subtopicTitle": "Error Detection — Dynamic vs. Stative Sense",
+        "difficulty": "HARD",
+        "questionText": "Which sentence uses 'taste' INCORRECTLY?",
+        "options": [
+          "This cardamom tea tastes delicious.",
+          "The chef is tasting the curry to check the salt.",
+          "This mango is tasting very sweet today.",
+          "We tasted fresh jalebis at the fair."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Taste' can be progressive when someone deliberately samples food ('is tasting the curry'), but NOT when describing a food's inherent quality ('tastes very sweet').",
+        "distractorRationales": [
+          "Correct stative use describing quality.",
+          "Correct dynamic use describing the chef's deliberate action.",
+          "Correct choice (the erroneous sentence): a mango cannot actively taste itself; use 'tastes'.",
+          "Correct Simple Past action."
+        ],
+        "grammarRule": "Sense verbs (taste, smell, look) take Simple forms for qualities and '-ing' only for deliberate actions.",
+        "lessonStepRef": "step_10_stative_and_concord",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q14",
+        "subtopicId": "past_perfect_sequence",
+        "subtopicTitle": "Error Correction in Tense Sequence",
+        "difficulty": "MEDIUM",
+        "storyContext": "Chikoo writes an apology note to Maharaj Vakya.",
+        "questionText": "Identify the error in: \"Chikoo said that he (A) will return (B) the crown (C) immediately (D).\"",
+        "options": [
+          "(A) said that",
+          "(B) will return → should be 'would return'",
+          "(C) the crown",
+          "No error"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Under Sequence of Tenses, after a past reporting verb ('said'), 'will' in the reported clause shifts to 'would'.",
+        "distractorRationales": [
+          "'Said that' is grammatically fine.",
+          "Correct: past reporting verb 'said' requires 'would return'.",
+          "'The crown' is the proper object noun phrase.",
+          "There is a tense-sequence error at (B)."
+        ],
+        "grammarRule": "When the main reporting verb is in the past tense, 'will' shifts to 'would' in the subordinate clause.",
+        "lessonStepRef": "step_10_stative_and_concord",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M13_Q15",
+        "subtopicId": "four_aspects",
+        "subtopicTitle": "Past Perfect Progressive",
+        "difficulty": "HARD",
+        "questionText": "The guards were exhausted because they ______ the palace courtyard all night.",
+        "options": [
+          "had been patrolling",
+          "have been patrolling",
+          "are patrolling",
+          "patrol"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "An ongoing action ('all night') that led directly up to a past state ('were exhausted') uses Past Perfect Progressive ('had been patrolling').",
+        "distractorRationales": [
+          "Correct: duration leading up to a past point.",
+          "Present Perfect Progressive links to present ('are exhausted'), not 'were exhausted'.",
+          "Present tense clashes with 'were exhausted'.",
+          "Simple Present clashes with 'were exhausted'."
+        ],
+        "grammarRule": "Past Perfect Progressive (had been + V-ing) expresses duration continuing up to a past reference point.",
+        "lessonStepRef": "step_04_aspects_overview",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

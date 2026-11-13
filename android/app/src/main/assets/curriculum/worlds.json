@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "worlds": [
+    {
+      "id": "WORLD_1",
+      "order": 1,
+      "title": "The Sentence Kingdom",
+      "subtitle": "Foundations of Sentence Structure, Clauses & Phrases",
+      "description": "Enter Maharaj Vakya's court to discover how words team up into subjects, predicates, phrases, and clauses.",
+      "leadCharacterId": "MAHARAJ_VAKYA",
+      "accentColorHex": "#1E3A5F",
+      "badgeTitle": "Architect of Sentences",
+      "moduleIds": ["MOD_01", "MOD_02", "MOD_03", "MOD_04"]
+    },
+    {
+      "id": "WORLD_2",
+      "order": 2,
+      "title": "The Word Zoo",
+      "subtitle": "Nouns, Pronouns, Determiners & Adjectives",
+      "description": "Help Acharya Vidyadhar and Chikoo Bandar restore lost name tags, quantifiers, and descriptions across the Word Zoo.",
+      "leadCharacterId": "ACHARYA_VIDYADHAR",
+      "accentColorHex": "#2A9D8F",
+      "badgeTitle": "Keeper of Naming Words",
+      "moduleIds": ["MOD_05", "MOD_06", "MOD_07", "MOD_08", "MOD_09"]
+    },
+    {
+      "id": "WORLD_3",
+      "order": 3,
+      "title": "The Time Machine",
+      "subtitle": "Verbs, Modals, Tense, Aspect & Agreement",
+      "description": "Repair broken timelines and settle subject-verb disputes alongside Acharya Vidyadhar, Chikoo, and Detective Ira.",
+      "leadCharacterId": "ACHARYA_VIDYADHAR",
+      "accentColorHex": "#D97706",
+      "badgeTitle": "Master of Time & Action",
+      "moduleIds": ["MOD_10", "MOD_11", "MOD_12", "MOD_13", "MOD_14"]
+    },
+    {
+      "id": "WORLD_4",
+      "order": 4,
+      "title": "The Word Detective Agency",
+      "subtitle": "Noun & Predicate Phrases, Adverbs, Prepositions & Connectors",
+      "description": "Crack mysteries with Detective Ira using spatial clues, modifiers, adverbials, and connecting clauses.",
+      "leadCharacterId": "DETECTIVE_IRA",
+      "accentColorHex": "#0F766E",
+      "badgeTitle": "Chief Grammar Sleuth",
+      "moduleIds": ["MOD_15", "MOD_16", "MOD_17", "MOD_18", "MOD_19"]
+    },
+    {
+      "id": "WORLD_5",
+      "order": 5,
+      "title": "The Sentence Courtroom",
+      "subtitle": "Questions, Voice, Reported Speech & Transformations",
+      "description": "Present testimony in active and passive voice, file accurate news reports, and transform sentences under royal scrutiny.",
+      "leadCharacterId": "MAHARAJ_VAKYA",
+      "accentColorHex": "#7B2CBF",
+      "badgeTitle": "Royal Advocate of Syntax",
+      "moduleIds": ["MOD_20", "MOD_21", "MOD_22", "MOD_23"]
+    },
+    {
+      "id": "WORLD_6",
+      "order": 6,
+      "title": "The Vocabulary Carnival",
+      "subtitle": "Punctuation, Word Formation, Idioms & Phrasal Verbs",
+      "description": "Join Vaani at the carnival to decode idioms, phrasal verbs, confusing word pairs, and sharp punctuation.",
+      "leadCharacterId": "VAANI",
+      "accentColorHex": "#C2410C",
+      "badgeTitle": "Maestro of Expression",
+      "moduleIds": ["MOD_24", "MOD_25"]
+    }
+  ]
+}

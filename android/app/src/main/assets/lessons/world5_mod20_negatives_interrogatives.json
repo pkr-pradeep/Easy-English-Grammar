@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_20",
+  "worldId": "WORLD_5",
+  "title": "Negatives and Interrogatives",
+  "storyTitle": "The Interrogation Room Alibi Check",
+  "estimatedMinutes": 16,
+  "charactersInvolved": [
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR",
+    "VAANI",
+    "ACHARYA_VIDYADHAR",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m20_step_01_intro",
+      "stepTitle": "Scene 1: Broken Questions in the Interrogation Room",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Interrogation Room • Morning",
+      "settingDescription": "Detective Ira is verifying witnesses' alibis after a missing ledger incident. Chikoo volunteers to read the suspect's questions—and mangles the auxiliaries!",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "dramatic",
+          "line": "Aha! Did you saw anything? Didn't nobody open the cabinet? And why you were standing there, eh?!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "sighing",
+          "line": "Hold everything, Chikoo! You used 'saw' after 'Did', piled 'didn't' onto 'nobody', and forgot to invert 'were' before 'you'!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Negatives and Interrogatives follow crisp rules: bring in 'do/does/did' when no auxiliary is present (returning the main verb to base V1!), avoid double negatives, and invert the first auxiliary before the subject in questions."
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "ready",
+          "line": "Plus, watch out for subject Wh-questions ('Who locked the door?'—no 'did'!) and tricky Question Tags like 'I am right, aren't I?'"
+        }
+      ],
+      "storyCallout": "Goal: Form accurate negatives and yes/no, wh-, and tag questions without double negatives or auxiliary slips."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m20_step_02_negatives_and_double",
+      "stepTitle": "Discover: Forming Negatives & Avoiding Double Negatives",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "negative_formation",
+      "subtopicTitle": "Auxiliary 'not' Placement, Do-Support & Negative Words",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "'Do / Does / Did' is the Emergency Generator for negatives and questions: whenever a sentence has ONLY a bare main verb ('She wrote', 'They play'), call in 'does/do/did' to hold 'not'—and strip '-s' or past tense off the main verb because the generator carries it now ('She didn't write', NEVER *didn't wrote)!",
+      "formalDefinition": "English negatives place 'not' (or 'n't') immediately after the first auxiliary verb (be, have, modal, or inserted do-support for simple present/past main verbs). Polarity items shift in negatives ('some → any', 'already → yet', 'too → either'), and standard English avoids stacking two negative words in the same clause.",
+      "simpleExplanation": "Master three negative rules:\n1) Existing Auxiliary vs. Do-Support: If 'am/is/are/was/were, have/has/had, can/will/must' is present, place 'not' right after the FIRST auxiliary ('She has not been waiting'). Otherwise, insert 'do not / does not / did not' + BARE V1 ('He does not play', 'They did not go'). Watch 'have' as a main verb of possession: 'She doesn't have a key' (or formal 'She hasn't a key'—never *She hasn't to do? Actually 'doesn't have to'!).\n2) One Negative Only: Never combine 'not/n't' with 'nothing, nobody, nowhere, never, hardly, seldom, scarcely' (*I didn't tell nobody → 'I didn't tell anybody' OR 'I told nobody').\n3) Polarity Shifts: In negative sentences, change 'some' → 'any' ('There isn't any milk'), 'already' → 'yet' ('He hasn't arrived yet'), and 'too' → 'either' ('I don't like bitter gourd either').",
+      "structurePatterns": [
+        {
+          "formName": "Do-Support Negative Rule",
+          "formula": "Simple Present: do / does + not + Bare V1 | Simple Past: did + not + Bare V1",
+          "sample": "Riya doesn't know (NOT *knows). / Kabir didn't break (NOT *broke) the lamp."
+        },
+        {
+          "formName": "Single-Negative Equivalence",
+          "formula": "not + anything / anybody / anywhere / either  ≡  nothing / nobody / nowhere / neither",
+          "sample": "We didn't find anything. = We found nothing. (NEVER *didn't find nothing)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Detective Ira did not find any footprints near the window, and Vaani hadn't seen anyone either.",
+          "contextNote": "'Did not find' (base V1) + 'any' + 'anyone' + 'either'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "He rarely speaks during meetings, and neither of his partners knows the password.",
+          "contextNote": "Semi-negative 'rarely' and 'neither' stay positive on the verb ('speaks', 'knows').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Chikoo didn't went to the vault, and he didn't tell nobody nothing!",
+          "correctSentence": "Chikoo didn't go to the vault, and he didn't tell anybody anything!",
+          "whyItHappens": "After 'didn't', return the verb to V1 ('go'), and use only one negative ('didn't... anybody anything' OR 'told nobody anything').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "When 'need' and 'dare' act as modals in negatives, use bare V1 ('You needn't hurry'); as ordinary main verbs, use do-support + 'to' ('You don't need to hurry')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m20_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Fix the Double Negative",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD20_CP1",
+      "subtopicId": "negative_formation",
+      "subtopicTitle": "Do-Support & Single-Negative Grammar",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira spots two slips in Chikoo's interrogation transcript: \"The suspect didn't wrote no message before midnight.\"",
+      "questionPrompt": "Pick the grammatically accurate negative sentence:",
+      "options": [
+        "The suspect didn't write no message before midnight.",
+        "The suspect didn't wrote any message before midnight.",
+        "The suspect didn't write any message before midnight.",
+        "The suspect not wrote any message before midnight."
+      ],
+      "acceptedAnswers": ["The suspect didn't write any message before midnight."],
+      "hint": "After 'didn't', use base verb 'write' (not 'wrote'), and replace 'no' with 'any' so there is only ONE negative!",
+      "feedbackCorrect": "Detective Ira: \"Transcript clean! 'Didn't write' uses V1, and 'any' keeps a single clear negative.\"",
+      "feedbackWrongDefault": "Use V1 ('write') after 'didn't', and change 'no message' to 'any message'.",
+      "feedbackWrongByOption": {
+        "The suspect didn't write no message before midnight.": "Double negative! 'Didn't' + 'no' cancel awkwardly in standard English."
+      },
+      "simplerExample": "He didn't buy any apples (OR: He bought no apples).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m20_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Polarity Word Shift",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD20_CP2",
+      "subtopicId": "negative_formation",
+      "subtopicTitle": "Negative Polarity (yet / any / either)",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani turns \"Someone has already unlocked the safe too\" into the negative: \"Nobody has unlocked the safe ____, and the guard hasn't arrived ____.\"",
+      "questionPrompt": "Type the two negative polarity words separated by ' / ' ('already → ?', 'too → ?'):",
+      "sentenceTemplate": "Nobody has unlocked the safe ________, and the guard hasn't arrived ________.",
+      "acceptedAnswers": ["yet / either", "yet, either"],
+      "hint": "In negatives, 'already' shifts to 'y _ _' and 'too' shifts to 'e _ _ _ _ _'!",
+      "feedbackCorrect": "Vaani: \"Exact polarity shift! 'Already → yet' and 'too → either' sound completely natural in negatives.\"",
+      "feedbackWrongDefault": "Remember the negative twins: already → yet; too/also → either.",
+      "simplerExample": "I haven't finished yet, and my brother hasn't either.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m20_step_05_interrogatives_and_tags",
+      "stepTitle": "Discover: Yes/No, Wh-Questions & Question Tags",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "interrogative_formation",
+      "subtopicTitle": "Auxiliary Inversion, Subject Wh-Questions & Question Tags",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "In ordinary questions, the First Auxiliary jumps in front of the Subject like a polite escort ('Are you coming?', 'Where did she go?'). EXCEPT when 'Who / What / Which' IS the Subject—then it already stands in front, so NO 'do/does/did' jumps in ('Who rang the bell?')!",
+      "formalDefinition": "Interrogatives fall into Yes/No questions (Aux1 + Subject + Main Verb), Wh-questions (Wh-word + Aux1 + Subject + Main Verb, unless the Wh-word itself is the subject), Alternative questions, and Question Tags (short inverted auxiliary + pronoun tags reversing the statement's polarity).",
+      "simpleExplanation": "Lock down three high-scoring interrogative patterns:\n1) Yes/No & Object Wh-Questions: Move ONLY the first auxiliary before the subject ('Have the witnesses arrived?', 'Why did she leave early?'). Keep indirect/embedded questions in STATEMENT order ('Tell me where she went', NOT *where did she go!).\n2) Subject Wh-Questions (NO do-support!): Compare 'Who broke the window?' (Subject = Who → NO 'did') vs. 'Who(m) did you see?' (Object = Who → needs 'did').\n3) Question Tags: Positive statement → Negative tag ('She sings well, doesn't she?'); Negative statement (including 'hardly, seldom, never, nobody') → Positive tag ('He seldom arrives late, does he?'). Special tags: 'I am right, AREN'T I?', 'Let's start, SHALL we?', imperatives 'Open the door, WILL you?', and 'Everyone clapped, DIDN'T THEY?' ('nobody/everyone' takes 'they'!).",
+      "structurePatterns": [
+        {
+          "formName": "Object Wh-Question vs. Subject Wh-Question",
+          "formula": "Object Wh: Wh + do/does/did + Subject + V1 | Subject Wh: Who/What + Finite Verb",
+          "sample": "What did Chikoo find? (Object) vs. What caused the noise? (Subject — NO 'did')"
+        },
+        {
+          "formName": "Question Tags Cheat Sheet",
+          "formula": "Statement (+), Aux n't + Pronoun? | Statement (-), Aux + Pronoun?",
+          "sample": "I am invited, aren't I? • Let's go, shall we? • Nobody called, did they?"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Who unlocked the storeroom, and whom did the watchman question afterwards?",
+          "contextNote": "'Who unlocked' = Subject Wh-question (no 'did'); 'whom did the watchman question' = Object Wh-question (uses 'did').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Everyone remembered the password, didn't they?",
+          "contextNote": "Indefinite 'Everyone' takes plural pronoun 'they' in the question tag.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Where you kept the spare key, and I am on time, amn't I?",
+          "correctSentence": "Where did you keep the spare key, and I am on time, aren't I?",
+          "whyItHappens": "Direct Wh-questions require auxiliary inversion ('did you keep'), and the standard negative tag for 'I am' is 'aren't I?' (never *amn't I).",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Negative Yes/No questions express surprise or seek confirmation: 'Didn't you hear the announcement?' (expected answer 'Yes, I did' or 'No, I didn't' depending on facts—always answer 'Yes' if true, 'No' if false!)."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m20_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Build an Accurate Wh-Question",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD20_CP3",
+      "subtopicId": "interrogative_formation",
+      "subtopicTitle": "Auxiliary Inversion in Wh-Questions",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar helps Chikoo reassemble a proper detective question for the suspect.",
+      "questionPrompt": "Tap the tiles in order to form a grammatical Wh-question:",
+      "wordTokens": [
+        "leave",
+        "the",
+        "did",
+        "Why",
+        "office",
+        "you",
+        "early?"
+      ],
+      "acceptedAnswers": ["Why did you leave the office early?"],
+      "hint": "Follow: Wh-word ('Why') → Auxiliary ('did') → Subject ('you') → Bare V1 ('leave') → Object ('the office') → Adverb ('early?').",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Crisp interrogation! Wh-word + 'did' + Subject + Bare V1 keeps every question razor-sharp.\"",
+      "feedbackWrongDefault": "Place 'did' right after 'Why' and before 'you', followed by base verb 'leave'.",
+      "simplerExample": "When did the train reach the station?",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m20_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Pick the Exact Question Tag",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD20_CP4",
+      "subtopicId": "interrogative_formation",
+      "subtopicTitle": "Special Question Tags",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya challenges you with a classic exam pair: \"Nobody noticed the loose hinge, ____? And I am helpful, ____?\"",
+      "questionPrompt": "Choose the option with BOTH accurate question tags:",
+      "options": [
+        "didn't they / amn't I",
+        "did they / aren't I",
+        "did he / isn't I",
+        "didn't nobody / aren't I"
+      ],
+      "acceptedAnswers": ["did they / aren't I"],
+      "hint": "'Nobody' is ALREADY negative (so tag is POSITIVE) and takes 'they'; positive 'I am' takes the irregular negative tag 'aren't I?'!",
+      "feedbackCorrect": "Maharaj Vakya: \"Royally solved! 'Nobody..., did they?' (positive + plural pronoun) and 'I am..., aren't I?' are exam classics.\"",
+      "feedbackWrongDefault": "Notice 'Nobody' makes the first statement negative (requiring positive 'did they?'), and 'I am' pairs with 'aren't I?'.",
+      "feedbackWrongByOption": {
+        "didn't they / amn't I": "'Nobody' is negative so the tag must be positive ('did they'), and *amn't I is non-standard!"
+      },
+      "simplerExample": "Nothing went wrong, did it? / I am next, aren't I?",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m20_step_08_outro",
+      "stepTitle": "Scene 2: Truth Revealed by Clean Questions!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Interrogation Room • Noon",
+      "settingDescription": "With crisp, unmistakable questions and zero double negatives, Detective Ira verifies that the watchman simply moved the ledger for cleaning.",
+      "dialogues": [
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "smiling",
+          "line": "One clean question—'Who took the ledger to the dusting room?'—solved the whole mystery in two minutes!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Review your Grammar Notebook rules on negatives, subject/object questions, and tags, then unlock the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 20 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Do-Support in Negatives & Questions",
+        "ruleSummary": "When no auxiliary is present, insert do/does/did and restore the main verb to base V1. When auxiliaries already exist, place 'not' after the first auxiliary (or move it before the subject in questions).",
+        "formulaOrPattern": "did not + Bare V1 (NEVER *didn't went) | Wh-word + Aux1 + Subject + Main Verb",
+        "example": "She didn't lock the drawer. / Why did she leave early?"
+      },
+      {
+        "heading": "Single Negative & Polarity Words",
+        "ruleSummary": "Never combine not/n't with nothing, nobody, never, hardly, or seldom. Shift some → any, already → yet, and too → either in negatives.",
+        "formulaOrPattern": "didn't see anyone (≡ saw nobody) | hasn't arrived yet | doesn't know either",
+        "example": "He hardly spoke to anyone during the trip."
+      },
+      {
+        "heading": "Subject Wh-Questions & Special Question Tags",
+        "ruleSummary": "Do NOT insert 'do/does/did' when Who/What/Which is the Subject ('Who called?'). Reverse polarity for Question Tags: 'I am..., aren't I?', 'Let's..., shall we?', 'Nobody..., did they?'.",
+        "formulaOrPattern": "Subject Wh: Who + Verb (no 'do') | Negative statement ('never/nobody/little') → Positive Tag",
+        "example": "Few students forgot the rule, did they?"
+      }
+    ],
+    "memoryAids": [
+      "Emergency Generator: 'Do/Does/Did' carries the tense and '-s' for negatives/questions, so the main verb relaxes back to bare V1!",
+      "Subject-Wh shortcut: 'Who broke it?' needs NO 'did' because 'Who' IS the doer!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Did you saw where did he go? I didn't told nobody.",
+        "correctSentence": "Did you see where he went? I didn't tell anybody (or I told nobody).",
+        "whyItHappens": "Keep V1 ('see') after 'Did', keep embedded questions in statement order ('where he went'), and avoid double negatives.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "Let's check the clues, will we? Everyone is ready, isn't he?",
+        "correctSentence": "Let's check the clues, shall we? Everyone is ready, aren't they?",
+        "whyItHappens": "'Let's' takes 'shall we?', and indefinite 'everyone/everybody/nobody' takes plural 'they' in tags.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Note the tag difference: 'A few students attended, didn't they?' (positive statement → negative tag) vs. 'Few students attended, did they?' (bare 'few' is negative → positive tag!)."
+    ],
+    "textbookNotes": [
+      "Grounded in Odisha Class IX Ch. 11 (Negatives and Interrogatives): auxiliary inversion, do-support, negative polarity, and question formation."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M20_Q01",
+        "subtopicId": "negative_formation",
+        "subtopicTitle": "Do-support + Base V1",
+        "difficulty": "EASY",
+        "questionText": "Choose the grammatically accurate negative of \"Meera knew the shortcut\":",
+        "options": [
+          "Meera did not knew the shortcut.",
+          "Meera did not know the shortcut.",
+          "Meera not knew the shortcut.",
+          "Meera does not knew the shortcut."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Simple past 'knew' inserts 'did not' and returns the main verb to base V1 ('know').",
+        "distractorRationales": [
+          "Keeps past V2 'knew' after 'did not'.",
+          "Correct: 'did not' + base V1 'know'.",
+          "Missing 'did' auxiliary.",
+          "Present 'does' + V2 'knew'."
+        ],
+        "grammarRule": "After 'do/does/did', always use the bare base verb (V1).",
+        "lessonStepRef": "m20_step_02_negatives_and_double",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q02",
+        "subtopicId": "negative_formation",
+        "subtopicTitle": "Avoiding double negatives",
+        "difficulty": "EASY",
+        "questionText": "Select the sentence FREE from a double negative:",
+        "options": [
+          "We didn't see nobody near the boathouse.",
+          "She never goes nowhere without her sketchbook.",
+          "Nobody offered any objection to the new timetable.",
+          "He hadn't hardly finished dinner when the bell rang."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Nobody' (single negative) pairs cleanly with 'any' (non-assertive polarity word).",
+        "distractorRationales": [
+          "*Didn't... nobody is a double negative.",
+          "*Never... nowhere is a double negative.",
+          "Correct: single negative 'Nobody' + 'any'.",
+          "*Hadn't hardly combines 'n't' with negative 'hardly'."
+        ],
+        "grammarRule": "Do not combine two negative words (not, never, nobody, nothing, hardly) in one clause.",
+        "lessonStepRef": "m20_step_02_negatives_and_double",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q03",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Subject vs Object Wh-questions",
+        "difficulty": "MEDIUM",
+        "questionText": "Which question asks about the SUBJECT (and therefore omits 'do/does/did')?",
+        "options": [
+          "Who did you invite to the science fair?",
+          "Which key opened the brass chest?",
+          "Where did the courier leave the parcel?",
+          "What does this ancient symbol mean?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'Which key opened the brass chest?', 'Which key' IS the Subject performing 'opened', so no 'did' is inserted.",
+        "distractorRationales": [
+          "'Who' is the object ('you invited who') → needs 'did'.",
+          "Correct: Subject Wh-question without 'do/did'.",
+          "'Where' asks about place adjunct → needs 'did'.",
+          "'What' is the object of 'mean' → needs 'does'."
+        ],
+        "grammarRule": "Omit do/does/did when Who/What/Which acts as the Subject of the question.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q04",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Question tag with 'I am'",
+        "difficulty": "EASY",
+        "questionText": "Add the standard question tag: \"I am scheduled to speak first, ____?\"",
+        "options": [
+          "amn't I",
+          "aren't I",
+          "isn't I",
+          "am I"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Positive 'I am' always takes the special contracted negative tag 'aren't I?' (whereas 'I am not' takes 'am I?').",
+        "distractorRationales": [
+          "*Amn't I is non-standard.",
+          "Correct: 'aren't I?'.",
+          "*Isn't I disagrees with 'I'.",
+          "Positive tag cannot follow a positive statement here."
+        ],
+        "grammarRule": "Positive 'I am...' uses the irregular question tag 'aren't I?'.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M20_Q05",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Question tags after Let's & Imperatives",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the accurate tags for these two sentences: (1) \"Let's review the notes, ____?\" (2) \"Open the eastern window, ____?\"",
+        "options": [
+          "will we / shall you",
+          "shall we / will you",
+          "don't we / do you",
+          "can we / aren't you"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Let's' (suggestion) takes 'shall we?'; positive imperatives take 'will you?' (or 'won't you?').",
+        "distractorRationales": [
+          "Reversed both tag auxiliaries.",
+          "Correct: 'Let's..., shall we?' and imperative '..., will you?'.",
+          "Wrong auxiliaries.",
+          "Wrong auxiliaries."
+        ],
+        "grammarRule": "Pair 'Let's...' with 'shall we?' and imperatives with 'will you?' / 'won't you?'.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M20_Q06",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Tag after semi-negative (seldom / few / little)",
+        "difficulty": "HARD",
+        "questionText": "Choose the accurate question tag: \"Rohan seldom misses morning assembly, ____?\"",
+        "options": [
+          "doesn't he",
+          "does he",
+          "isn't he",
+          "did he"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Seldom' gives the statement negative force (= almost never), so the tag must be POSITIVE ('does he?').",
+        "distractorRationales": [
+          "Wrongly uses a negative tag after negative 'seldom'.",
+          "Correct: positive tag 'does he?' after semi-negative 'seldom'.",
+          "Wrong auxiliary ('misses' uses 'do/does', not 'be').",
+          "Wrong tense ('misses' is present)."
+        ],
+        "grammarRule": "Statements containing seldom, hardly, scarcely, rarely, little, or few take POSITIVE question tags.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M20_Q07",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Embedded / Indirect question word order",
+        "difficulty": "HARD",
+        "questionText": "Select the grammatically standard sentence:",
+        "options": [
+          "Do you know where does the principal live?",
+          "Do you know where the principal lives?",
+          "Could you tell me what time is it?",
+          "Please explain why did the machine stop."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In embedded questions ('Do you know where...'), invert ONLY the opening 'Do you know', and keep the inner clause in normal Subject + Verb statement order ('where the principal lives').",
+        "distractorRationales": [
+          "Double inversion: 'Do you know' + *where does.",
+          "Correct: statement order 'the principal lives' inside the embedded clause.",
+          "Should be 'what time it is'.",
+          "Should be 'why the machine stopped'."
+        ],
+        "grammarRule": "Embedded Wh-clauses keep Subject + Verb order without auxiliary inversion.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q08",
+        "subtopicId": "negative_formation",
+        "subtopicTitle": "Negating 'used to' and 'has to'",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the natural negative of \"She has to submit the project today\":",
+        "options": [
+          "She hasn't to submit the project today.",
+          "She doesn't have to submit the project today.",
+          "She doesn't has to submit the project today.",
+          "She not has to submit the project today."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Modal-like 'has to' (= must) forms negatives and questions with do-support: 'doesn't have to' / 'Does she have to...?'.",
+        "distractorRationales": [
+          "Standard modern English uses 'doesn't have to' for obligation.",
+          "Correct: 'doesn't' + base 'have to'.",
+          "Uses 'has' instead of base 'have' after 'doesn't'.",
+          "Missing 'does' auxiliary."
+        ],
+        "grammarRule": "Negate 'has/have/had to' (obligation) with 'doesn't / don't / didn't have to'.",
+        "lessonStepRef": "m20_step_02_negatives_and_double",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q09",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "First auxiliary only moves in questions",
+        "difficulty": "MEDIUM",
+        "questionText": "Turn \"The parcel will have been delivered by noon\" into a Yes/No question:",
+        "options": [
+          "Will have been the parcel delivered by noon?",
+          "Will the parcel have been delivered by noon?",
+          "Does the parcel will have been delivered by noon?",
+          "Have the parcel will been delivered by noon?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In multi-word verb groups ('will have been delivered'), ONLY the FIRST auxiliary ('Will') moves before the subject ('the parcel').",
+        "distractorRationales": [
+          "Moves all three auxiliaries ahead of subject.",
+          "Correct: ONLY 'Will' jumps before 'the parcel'.",
+          "Never add 'Does' when modal 'will' exists.",
+          "Scrambled auxiliaries."
+        ],
+        "grammarRule": "Move only the FIRST auxiliary verb in front of the subject when forming questions.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q10",
+        "subtopicId": "negative_formation",
+        "subtopicTitle": "Negative polarity 'some' to 'any'",
+        "difficulty": "EASY",
+        "questionText": "Convert \"We brought some extra torches\" into the negative cleanly:",
+        "options": [
+          "We didn't brought any extra torches.",
+          "We didn't bring some extra torches.",
+          "We didn't bring any extra torches.",
+          "We not brought any extra torches."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Change 'brought' to 'didn't bring' (base V1) and 'some' to 'any' in negative statements.",
+        "distractorRationales": [
+          "Uses V2 'brought' after 'didn't'.",
+          "Retains 'some' instead of shifting to 'any'.",
+          "Correct: 'didn't bring any'.",
+          "Omits 'did'."
+        ],
+        "grammarRule": "Change 'some / something / someone' to 'any / anything / anyone' in standard negatives.",
+        "lessonStepRef": "m20_step_02_negatives_and_double",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q11",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "A few vs Few in question tags",
+        "difficulty": "HARD",
+        "questionText": "Choose the accurate pair of question tags: (1) \"A few members arrived early, ____?\" (2) \"Few members knew the code, ____?\"",
+        "options": [
+          "didn't they / didn't they",
+          "didn't they / did they",
+          "did they / didn't they",
+          "did they / did they"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'A few' is positive (= some), so it takes negative tag 'didn't they?'; bare 'few' is negative (= hardly any), so it takes positive tag 'did they?'.",
+        "distractorRationales": [
+          "Misses negative polarity of bare 'few'.",
+          "Correct: 'A few' → negative tag; bare 'few' → positive tag.",
+          "Reversed both tags.",
+          "Misses positive polarity of 'a few'."
+        ],
+        "grammarRule": "Pair 'a few / a little' (positive) with negative tags, and bare 'few / little' (negative) with positive tags.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M20_Q12",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Answering negative questions accurately",
+        "difficulty": "HARD",
+        "questionText": "If Detective Ira asks \"Didn't you lock the gate?\" and the gate IS actually locked, what is the standard English short answer?",
+        "options": [
+          "Yes, I didn't.",
+          "No, I did.",
+          "Yes, I did.",
+          "Not yes, I locked."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In English, short answers match the REALITY of the action, not whether the question was phrased negatively: if you DID lock it, say 'Yes, I did' (never *Yes, I didn't).",
+        "distractorRationales": [
+          "Never mix 'Yes' with negative 'didn't'.",
+          "Never mix 'No' with positive 'did'.",
+          "Correct: 'Yes, I did' confirms that locking occurred.",
+          "Ungrammatical."
+        ],
+        "grammarRule": "Answer Yes/No and negative questions according to truth ('Yes + positive' if true; 'No + negative' if false).",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M20_Q13",
+        "subtopicId": "negative_formation",
+        "subtopicTitle": "Negating imperatives",
+        "difficulty": "EASY",
+        "questionText": "Which is the grammatically accurate negative command/request?",
+        "options": [
+          "Not touch the fragile compass.",
+          "Do not touching the fragile compass.",
+          "Do not touch the fragile compass.",
+          "Doesn't touch the fragile compass."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Negative imperatives always begin with 'Do not / Don't + Bare V1' (even if 'please' comes first: 'Please don't touch...').",
+        "distractorRationales": [
+          "Missing 'Do' before 'not'.",
+          "Uses '-ing' instead of base V1.",
+          "Correct: 'Do not + Bare V1'.",
+          "Imperatives never use 'Doesn't'."
+        ],
+        "grammarRule": "Form negative imperatives with 'Do not / Don't + Bare V1'.",
+        "lessonStepRef": "m20_step_02_negatives_and_double",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M20_Q14",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Preposition + Whom vs Who + Prep",
+        "difficulty": "MEDIUM",
+        "questionText": "Which TWO questions are both grammatically acceptable ways to ask the same thing? (Pick the single valid option.)",
+        "options": [
+          "'Whom did you speak to?' and 'To whom did you speak?'",
+          "'To who did you speak?' and 'Whom did you speak?'",
+          "'To whom did you speak to?' and 'Who did you spoke to?'",
+          "'Who did speak to you?' and 'To whom you spoke?'"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Option A shows both natural stranded preposition ('Who/Whom did you speak to?') and formal fronted preposition ('To whom did you speak?').",
+        "distractorRationales": [
+          "Correct: both versions are grammatical.",
+          "*To who uses subject case after preposition; missing 'to' in second.",
+          "Duplicates 'to' in first and puts V2 'spoke' after 'did' in second.",
+          "Changes meaning in first and omits inversion in second."
+        ],
+        "grammarRule": "Use 'To whom did you...' (formal) or 'Who(m) did you ... to?' (neutral).",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M20_Q15",
+        "subtopicId": "interrogative_formation",
+        "subtopicTitle": "Tag pronoun for Everyone / Nobody / Something",
+        "difficulty": "MEDIUM",
+        "storyContext": "Detective Ira closes the interrogation register.",
+        "questionText": "Pick the option with accurate tag pronouns for both: \"Everything is ready, ____? Everyone signed the log, ____?\"",
+        "options": [
+          "isn't they / didn't he",
+          "isn't it / didn't they",
+          "aren't they / didn't they",
+          "isn't it / didn't it"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Thing indefinites ('everything, nothing, something') use 'it' in tags ('isn't it?'), whereas person indefinites ('everyone, somebody, nobody') use 'they' ('didn't they?').",
+        "distractorRationales": [
+          "Swapped 'it' and 'they'.",
+          "Correct: 'Everything → it'; 'Everyone → they'.",
+          "'Everything' takes 'is / it', not 'are / they'.",
+          "'Everyone' refers to people ('they'), not 'it'."
+        ],
+        "grammarRule": "In question tags, 'everything/nothing/something' takes 'it', while 'everyone/everybody/nobody' takes 'they'.",
+        "lessonStepRef": "m20_step_05_interrogatives_and_tags",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      }
+    ]
+  }
+}

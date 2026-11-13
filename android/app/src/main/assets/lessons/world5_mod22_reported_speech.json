@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_22",
+  "worldId": "WORLD_5",
+  "title": "Direct, Indirect and Reported Speech",
+  "storyTitle": "Live on the Royal News Channel",
+  "estimatedMinutes": 24,
+  "charactersInvolved": [
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "DETECTIVE_IRA",
+    "ACHARYA_VIDYADHAR",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m22_step_01_intro",
+      "stepTitle": "Scene 1: Teleprompter Tangle at Royal News",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal News Broadcast Desk • Evening",
+      "settingDescription": "Vaani anchors the evening news while Chikoo converts live witness quotes into Reported Speech on the teleprompter—triggering tense and word-order chaos!",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "nervous",
+          "line": "Breaking news! Detective Ira asked me that where did the courier go yesterday! And Acharya said that the sun revolved around the earth? Wait—no, said that the earth moved round the sun!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "stopping tape",
+          "line": "Cut! Hold the broadcast! First, NEVER put 'that' before 'where', and switch reported questions to STATEMENT order ('asked me where the courier had gone')! Second, universal scientific truths NEVER shift to past tense!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Reported Speech transforms direct quotation marks into smooth indirect clauses by adjusting four gears: Reporting Verbs, Pronouns, Verb Tenses (when reporting verb is past), and Time/Place words."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "focused",
+          "line": "Statements, questions, commands, requests, and exclamations each follow their own reporting pattern. Let us fix the teleprompter before going live!"
+        }
+      ],
+      "storyCallout": "Goal: Report statements, questions, commands, and exclamations with accurate backshift, pronoun, and time/place shifts."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m22_step_02_statements_backshift",
+      "stepTitle": "Discover: Statements, Backshift & Exceptions",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "reported_statements_tense",
+      "subtopicTitle": "Reporting Verbs, Pronoun/Time Shifts & Tense Backshift",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "When the Reporting Verb is in the Past ('said / told'), imagine stepping into a mirror one step further back in time: Present steps back to Past ('am → was'), Simple Past steps back to Past Perfect ('went → had gone'), and 'tomorrow/yesterday' step into reported distance ('the next day / the previous day')! Only Eternal Truths stay untouched!",
+      "formalDefinition": "Indirect (reported) speech conveys a speaker's words without exact quotation marks. When the reporting verb is past ('said, told, explained'), quoted tenses normally backshift (Present → Past, Simple Past / Present Perfect → Past Perfect, will/can/may → would/could/might), alongside first/second-person pronoun adjustments and deictic time/place shifts (now → then, today → that day, here → there, tomorrow → the next day, yesterday → the previous day).",
+      "simpleExplanation": "Check these four statement rules:\n1) 'Say' vs. 'Tell': Use 'said (that)...' OR 'said TO me (that)...'; use 'told ME (that)...' (NEVER *told to me or *said me!).\n2) Tense Backshift (when reporting verb is PAST): is/are → was/were • write → wrote • wrote / have written → had written • was writing → had been writing • will/can/may → would/could/might.\n3) When NOT to Backshift: (a) If the reporting verb is Present or Future ('She says / will say that she IS busy'); (b) Universal truths & eternal facts ('The teacher said that water BOILS at 100°C'); (c) When the situation is STILL true right now (optional in modern English, though exam drills backshift ordinary statements).\n4) Time & Place Shifts: this → that • these → those • here → there • now → then • today → that day • yesterday → the day before / the previous day • tomorrow → the next day / the following day • ago → before.",
+      "structurePatterns": [
+        {
+          "formName": "Reporting Verb Rule",
+          "formula": "said (to + Obj) + that | told + Obj + that (NO 'to' after 'told')",
+          "sample": "He told me (NOT *told to me) that he was ready."
+        },
+        {
+          "formName": "Backshift Ladder (Past Reporting Verb)",
+          "formula": "V1 → V2 | is V-ing → was V-ing | V2 / has V3 → had V3 | will/can → would/could",
+          "sample": "Riya said, \"I finished yesterday.\" → Riya said that she had finished the previous day."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Vaani told the crew that she would interview the winner the next day.",
+          "contextNote": "Direct: Vaani said to the crew, \"I will interview the winner tomorrow.\" ('will → would', 'tomorrow → the next day').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Acharya reminded us that honesty is the best policy.",
+          "contextNote": "Proverbs and universal truths stay in Simple Present ('is') even after past 'reminded'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Chikoo told to me that he will come tomorrow.",
+          "correctSentence": "Chikoo told me that he would come the next day.",
+          "whyItHappens": "Drop 'to' after 'told', shift 'will → would' after past 'told', and shift 'tomorrow → the next day'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Past modals 'would, could, should, might, ought to' do NOT change further in indirect speech ('He said, \"You should rest\"' → 'He said that I should rest').",
+        "If 'here' or 'today' is reported on the very same day/place, speakers sometimes keep 'today/here', though standard textbook conversion shifts them when context changes."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m22_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Report the Statement Accurately",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD22_CP1",
+      "subtopicId": "reported_statements_tense",
+      "subtopicTitle": "Tense, Pronoun & Time Backshift",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani converts a witness quote for the evening news: Kabir said to Meera, \"I lost my brass compass here yesterday.\"",
+      "questionPrompt": "Which Reported Speech sentence converts EVERY pronoun, tense, and time/place word accurately?",
+      "options": [
+        "Kabir told to Meera that he lost his brass compass here yesterday.",
+        "Kabir told Meera that he had lost his brass compass there the previous day.",
+        "Kabir said Meera that he has lost his brass compass there yesterday.",
+        "Kabir told Meera that I had lost my brass compass there the previous day."
+      ],
+      "acceptedAnswers": ["Kabir told Meera that he had lost his brass compass there the previous day."],
+      "hint": "Check 5 changes: 'said to Meera → told Meera', 'I/my → he/his', Simple Past 'lost → had lost', 'here → there', 'yesterday → the previous day'!",
+      "feedbackCorrect": "Vaani: \"Teleprompter gold! All five conversions ('told Meera', 'he/his', 'had lost', 'there', 'the previous day') fired cleanly.\"",
+      "feedbackWrongDefault": "Check all five parts: no 'to' after 'told', third-person 'he/his', Past Perfect 'had lost', 'there', and 'the previous day'.",
+      "feedbackWrongByOption": {
+        "Kabir told to Meera that he lost his brass compass here yesterday.": "Never write *told to Meera, and don't leave 'here/yesterday' unshifted!"
+      },
+      "simplerExample": "Dev said, \"I wrote a letter yesterday.\" → Dev said that he had written a letter the previous day.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m22_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Universal Truth & Present Reporting",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD22_CP2",
+      "subtopicId": "reported_statements_tense",
+      "subtopicTitle": "When Tenses Do NOT Backshift",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar reminds Chikoo: \"The science teacher explained, 'Water boils at 100 degrees Celsius.'\" → \"The science teacher explained that water ____ at 100 degrees Celsius.\"",
+      "questionPrompt": "Type the exact verb form of 'boil' for this scientific fact:",
+      "sentenceTemplate": "The science teacher explained that water ________ at 100 degrees Celsius.",
+      "acceptedAnswers": ["boils"],
+      "hint": "Is water boiling at 100°C only a past event, or an eternal scientific law?",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Exact! Universal scientific truths, proverbs, and mathematical facts stay in Simple Present ('boils').\"",
+      "feedbackWrongDefault": "Keep Simple Present ('boils') for timeless scientific laws!",
+      "simplerExample": "Galileo proved that the earth moves around the sun.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m22_step_05_questions_commands_exclamations",
+      "stepTitle": "Discover: Reporting Questions, Commands & Exclamations",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "reported_questions_commands",
+      "subtopicTitle": "Reported Questions (No Inversion!), Commands & Exclamations",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "When a Direct Question enters Reported Speech, its Question Mark melts into a Full Stop—and its auxiliary jumps BACK behind the subject so it stands like a calm statement ('asked where I lived', NEVER *asked where did I live)!",
+      "formalDefinition": "Reported questions replace 'said' with 'asked / inquired / wanted to know', omit 'that', switch to declarative Subject + Verb word order, drop do-support ('do/does/did'), and introduce Yes/No questions with 'if' or 'whether'. Reported imperatives use reporting verbs ('ordered, requested, advised, warned') + Object + (not) to + V1. Reported exclamations use 'exclaimed with joy/sorrow/wonder' + declarative clause.",
+      "simpleExplanation": "Follow three special-clause recipes:\n1) Reporting Questions: NEVER use 'that' before 'if/whether' or a Wh-word (*asked that if / *asked that where — WRONG!). Drop question marks and switch back to Subject + Verb order: 'She asked me, \"Where do you live?\"' → 'She asked me where I lived.' Yes/No: 'He asked, \"Did you see the key?\"' → 'He asked if (or whether) I had seen the key.'\n2) Reporting Commands & Requests: Choose a verb matching the tone ('requested' for please, 'ordered' for strict command, 'advised' for advice, 'forbade' or 'told... not to' for negative commands): 'The guard said, \"Don't touch the bell!\"' → 'The guard warned/told us not to touch the bell' (OR 'forbade us to touch the bell'—NO 'not' after 'forbade'!).\n3) Reporting Exclamations & Wishes: Turn 'Hurrah! / Alas! / What a...! / How...!' into 'exclaimed with joy / sorrow / surprise that + Subject + Verb': 'She said, \"What a clever clue this is!\"' → 'She exclaimed with wonder that it was a very clever clue.'",
+      "structurePatterns": [
+        {
+          "formName": "Reported Yes/No & Wh-Questions",
+          "formula": "asked (+ Obj) + if / whether / Wh-word + SUBJECT + VERB (Statement Order, NO '?')",
+          "sample": "Ira asked Chikoo why he had hidden (NOT *why had he hidden) the key."
+        },
+        {
+          "formName": "Reported Commands, Requests & Prohibitions",
+          "formula": "requested / ordered / advised + Obj + (not) to + V1 | forbade + Obj + to + V1",
+          "sample": "Acharya advised us to revise daily. / Mother told me not to stay out late."
+        },
+        {
+          "formName": "Reported Exclamations",
+          "formula": "exclaimed (with joy/sorrow/surprise) + that + Subject + Verb (replace What/How with 'very/great')",
+          "sample": "He said, \"How fast she runs!\" → He exclaimed that she ran very fast."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Detective Ira asked the watchman whether he had locked the western gate at dusk.",
+          "contextNote": "Yes/No question uses 'whether' + Subject ('he') + Past Perfect ('had locked') + full stop.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Maharaj Vakya requested the citizens to keep the plaza clean and told them not to litter.",
+          "contextNote": "Positive request ('requested... to keep') and negative command ('told... not to litter').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "She asked me that where did I keep the ledger, and told me to not open it.",
+          "correctSentence": "She asked me where I had kept the ledger, and told me not to open it.",
+          "whyItHappens": "Drop 'that' before 'where', remove 'did' and use statement order ('I had kept'), and place 'not' BEFORE 'to' ('not to open').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Let's...' suggestions report cleanly with 'suggested / proposed + that + we/they + should + V1' (or 'suggested + V-ing'): 'He said, \"Let's go home\"' → 'He suggested that they should go home' (or 'suggested going home')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m22_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Report the Question Without Inversion",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD22_CP3",
+      "subtopicId": "reported_questions_commands",
+      "subtopicTitle": "Converting Direct Wh-Questions",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira asked the clerk, \"Why are you trembling?\"",
+      "questionPrompt": "Pick the grammatically accurate Reported Question:",
+      "options": [
+        "Detective Ira asked the clerk that why was he trembling.",
+        "Detective Ira asked the clerk why was he trembling?",
+        "Detective Ira asked the clerk why he was trembling.",
+        "Detective Ira told the clerk why he is trembling."
+      ],
+      "acceptedAnswers": ["Detective Ira asked the clerk why he was trembling."],
+      "hint": "Drop 'that', use statement word order (Subject 'he' BEFORE 'was'), backshift 'are → was', and end with a full stop!",
+      "feedbackCorrect": "Detective Ira: \"Bullseye! 'Why he was trembling.' uses statement order, past backshift, and no stray 'that' or '?'!\"",
+      "feedbackWrongDefault": "Check three locks: NO 'that' before 'why', Subject ('he') BEFORE 'was', and full stop at the end.",
+      "feedbackWrongByOption": {
+        "Detective Ira asked the clerk that why was he trembling.": "Two slips: never put 'that' before 'why', and put 'he' before 'was'!",
+        "Detective Ira asked the clerk why was he trembling?": "Reported questions turn into statements—put 'he' before 'was' and drop '?'."
+      },
+      "simplerExample": "He asked, \"Where is the map?\" → He asked where the map was.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m22_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Report a Negative Request",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD22_CP4",
+      "subtopicId": "reported_questions_commands",
+      "subtopicTitle": "Negative Commands & 'not to + V1'",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Report Maharaj Vakya's gentle order: \"Please do not reveal the verdict early, Chikoo.\"",
+      "questionPrompt": "Tap the tiles in order to form the accurate Reported Request:",
+      "wordTokens": [
+        "early.",
+        "to",
+        "Maharaj Vakya",
+        "the",
+        "reveal",
+        "not",
+        "Chikoo",
+        "requested",
+        "verdict"
+      ],
+      "acceptedAnswers": ["Maharaj Vakya requested Chikoo not to reveal the verdict early."],
+      "hint": "Notice where 'not' sits relative to 'to': requested + Chikoo + NOT + TO + reveal + the verdict early.",
+      "feedbackCorrect": "Maharaj Vakya: \"Royally reported! Always place 'not' BEFORE 'to + V1' ('not to reveal')!\"",
+      "feedbackWrongDefault": "Follow: Maharaj Vakya requested Chikoo + not + to + reveal + the verdict early.",
+      "simplerExample": "She asked us not to shout.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m22_step_08_outro",
+      "stepTitle": "Scene 2: Smooth Live Broadcast!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal News Broadcast Desk • Night",
+      "settingDescription": "Vaani delivers the closing news bulletin effortlessly, reporting every quote, question, request, and exclamation with zero teleprompter glitches.",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "smiling",
+          "line": "Earlier tonight, Detective Ira asked why the clerk was worried, Maharaj Vakya requested everyone not to panic, and Chikoo exclaimed with joy that the mystery was solved!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "Broadcast perfection! Review your Grammar Notebook and conquer the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 22 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Reporting Verbs & Statement Backshift",
+        "ruleSummary": "Use 'said (that)' or 'told + Object + (that)' (never *told to me). When the reporting verb is past, shift Present → Past, Simple Past / Present Perfect → Past Perfect, and will/can/may → would/could/might.",
+        "formulaOrPattern": "today → that day | yesterday → the previous day | tomorrow → the next day | here → there",
+        "example": "She said, \"I am leaving tomorrow.\" → She said that she was leaving the next day."
+      },
+      {
+        "heading": "When Tenses Stay Unchanged",
+        "ruleSummary": "Do NOT backshift when the reporting verb is present or future ('says / will say'), or when quoting universal truths, scientific facts, or proverbs.",
+        "formulaOrPattern": "Past Reporting Verb + Universal Truth → Keep Simple Present",
+        "example": "Our teacher told us that light travels faster than sound."
+      },
+      {
+        "heading": "Questions, Commands & Exclamations",
+        "ruleSummary": "Questions drop 'that', drop 'do/does/did', use 'if/whether' (Yes/No) or Wh-word, and return to Subject + Verb order. Commands use verb + Object + (not) to + V1. Exclamations use 'exclaimed with joy/sorrow/wonder that...'.",
+        "formulaOrPattern": "asked + (if/Wh) + Subject + Verb | told/requested + Obj + NOT to + V1",
+        "example": "He asked me where I lived and told me not to worry."
+      }
+    ],
+    "memoryAids": [
+      "Mirror Step-Back: Past reporting verbs step tenses one notch back—EXCEPT Eternal Truths, which never age!",
+      "Melt the Question Mark: in Reported Questions, drop 'did' and put the Subject BEFORE the verb ('asked where he went')."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "He asked me that where did I buy this map yesterday.",
+        "correctSentence": "He asked me where I had bought that map the previous day.",
+        "whyItHappens": "Never place 'that' before 'where', remove 'did' and restore Subject + Verb order, backshift past to 'had bought', and change 'this/yesterday'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "The guard told to us to not enter.",
+        "correctSentence": "The guard told us not to enter.",
+        "whyItHappens": "Drop 'to' directly after 'told', and place 'not' before 'to' ('not to enter').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "'Forbade' already means 'ordered NOT to', so write 'The librarian forbade us to talk' (never *forbade us not to talk).",
+      "In 'Let's...' suggestions, use 'suggested + that + they/we should + V1' or 'suggested + V-ing'."
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 15 (Reported Speech), Punjab IX Ch. 7 (Narration), and Odisha X Ch. 10 (Direct and Indirect Speech)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M22_Q01",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Say vs Tell + Backshift",
+        "difficulty": "EASY",
+        "questionText": "Convert into Indirect Speech: \"Neha said to Arjun, 'I am practising the flute now.'\"",
+        "options": [
+          "Neha told to Arjun that she is practising the flute now.",
+          "Neha told Arjun that she was practising the flute then.",
+          "Neha told Arjun that she had practised the flute then.",
+          "Neha said Arjun that I was practising the flute now."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Said to Arjun' → 'told Arjun'; 'I' → 'she'; 'am practising' → 'was practising'; 'now' → 'then'.",
+        "distractorRationales": [
+          "*Told to Arjun + misses backshift and 'now → then'.",
+          "Correct: all four shifts applied.",
+          "Changes Continuous to Past Perfect.",
+          "*Said Arjun + leaves pronoun 'I' and 'now'."
+        ],
+        "grammarRule": "Change 'said to + object' to 'told + object', backshift Present Continuous to Past Continuous, and shift 'now → then'.",
+        "lessonStepRef": "m22_step_02_statements_backshift",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q02",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Universal truth (no backshift)",
+        "difficulty": "EASY",
+        "questionText": "Report accurately: \"Our geography teacher said, 'The Himalayas lie to the north of India.'\"",
+        "options": [
+          "Our geography teacher said that the Himalayas lay to the north of India.",
+          "Our geography teacher said that the Himalayas lie to the north of India.",
+          "Our geography teacher told that the Himalayas had lain to the north of India.",
+          "Our geography teacher said that the Himalayas were lying to the north of India."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Permanent geographical truths remain in Simple Present ('lie') even after a past reporting verb.",
+        "distractorRationales": [
+          "Backshifting implies the Himalayas moved elsewhere!",
+          "Correct: retains Simple Present for permanent truth.",
+          "Missing object after 'told' + wrong backshift.",
+          "Progressive is wrong for permanent geography."
+        ],
+        "grammarRule": "Keep Simple Present unchanged when reporting universal truths, laws of nature, or permanent facts.",
+        "lessonStepRef": "m22_step_02_statements_backshift",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q03",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Present reporting verb (no backshift)",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert accurately: \"Kabir says, 'I will join the chess club tomorrow.'\"",
+        "options": [
+          "Kabir says that he would join the chess club the next day.",
+          "Kabir says that he will join the chess club tomorrow.",
+          "Kabir said that he will join the chess club tomorrow.",
+          "Kabir says that I will join the chess club tomorrow."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When the reporting verb is Present ('says') or Future ('will say'), do NOT backshift the verb tense ('will join') and time reference stays current ('tomorrow'), though pronouns still update ('I → he').",
+        "distractorRationales": [
+          "Do not backshift 'will → would' after present 'says'.",
+          "Correct: pronoun 'he' updated, tense 'will join' preserved.",
+          "Changes reporting verb 'says' to 'said'.",
+          "Fails to update 'I → he'."
+        ],
+        "grammarRule": "Do not backshift quoted verbs when the reporting verb is Present or Future.",
+        "lessonStepRef": "m22_step_02_statements_backshift",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q04",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Reporting Yes/No questions",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert into Indirect Speech: \"Father asked me, 'Have you packed your raincoats?'\"",
+        "options": [
+          "Father asked me that if I had packed my raincoats.",
+          "Father asked me if had I packed my raincoats.",
+          "Father asked me whether I had packed my raincoats.",
+          "Father asked me whether I have packed my raincoats."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Yes/No questions use 'if' or 'whether' (never *that if), switch to Subject + Verb order ('I had packed'), and backshift 'have → had'.",
+        "distractorRationales": [
+          "Never write *that if.",
+          "Keeps question inversion 'had I'.",
+          "Correct: 'whether + Subject + Past Perfect'.",
+          "Fails to backshift 'have → had'."
+        ],
+        "grammarRule": "Report Yes/No questions using 'asked (+ obj) + if/whether + Subject + Verb'.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q05",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Reporting Wh-questions",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert into Indirect Speech: \"The librarian asked Dev, 'Which atlas did you borrow last week?'\"",
+        "options": [
+          "The librarian asked Dev which atlas did he borrow the previous week.",
+          "The librarian asked Dev which atlas he had borrowed the previous week.",
+          "The librarian asked Dev that which atlas had he borrowed last week.",
+          "The librarian asked Dev which atlas he borrowed last week."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Drop 'did', put Subject 'he' first, backshift Simple Past → Past Perfect ('had borrowed'), and shift 'last week → the previous week'.",
+        "distractorRationales": [
+          "Keeps 'did' and question order.",
+          "Correct: statement order + Past Perfect + time shift.",
+          "Includes 'that' + keeps inversion + leaves 'last week'.",
+          "Misses Past Perfect backshift and 'last week' shift."
+        ],
+        "grammarRule": "Drop 'do/does/did' in reported Wh-questions and backshift Simple Past to Past Perfect.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q06",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Reporting polite requests",
+        "difficulty": "EASY",
+        "questionText": "Report accurately: \"Priya said to her brother, 'Please pass me the salt.'\"",
+        "options": [
+          "Priya ordered her brother to please pass her the salt.",
+          "Priya requested her brother to pass her the salt.",
+          "Priya requested to her brother that pass her the salt.",
+          "Priya asked her brother that he pass me the salt."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Please' maps to reporting verb 'requested + Object + to + V1', dropping 'please' and updating 'me → her'.",
+        "distractorRationales": [
+          "'Ordered' + 'please' contradicts tone.",
+          "Correct: 'requested her brother to pass her'.",
+          "*Requested to + *that pass are ungrammatical.",
+          "Keeps pronoun 'me' and misses 'to'."
+        ],
+        "grammarRule": "Drop 'please' and report polite requests with 'requested + Object + to + V1'.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q07",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Negative commands with 'forbade' vs 'not to'",
+        "difficulty": "HARD",
+        "questionText": "Which TWO reported sentences accurately convey: \"The gardener said to the boys, 'Do not pluck the marigolds.'\"? (Choose the single valid option.)",
+        "options": [
+          "'The gardener forbade the boys to pluck the marigolds' and 'The gardener told the boys not to pluck the marigolds'",
+          "'The gardener forbade the boys not to pluck the marigolds' and 'The gardener told the boys to not pluck'",
+          "'The gardener asked the boys don't pluck the marigolds' and 'The gardener forbade them plucking'",
+          "'The gardener said the boys not pluck the marigolds' and 'The gardener ordered not pluck'"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Forbade + Object + to + V1' carries negative meaning by itself (no 'not'), and 'told/warned + Object + not to + V1' places 'not' before 'to'.",
+        "distractorRationales": [
+          "Correct: both 'forbade... to pluck' and 'told... not to pluck' are standard.",
+          "*Forbade... not to is a double negative.",
+          "Keeps 'don't' directly.",
+          "Missing 'to' and object."
+        ],
+        "grammarRule": "Use either 'told/warned + obj + not to + V1' OR 'forbade + obj + to + V1' (without 'not').",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M22_Q08",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Reporting exclamations",
+        "difficulty": "MEDIUM",
+        "questionText": "Report accurately: \"Ananya said, 'What a peaceful valley this is!'\"",
+        "options": [
+          "Ananya exclaimed that what a peaceful valley that was.",
+          "Ananya exclaimed with wonder that that was a very peaceful valley (or it was a very peaceful valley).",
+          "Ananya asked if that was a peaceful valley.",
+          "Ananya said that it is a what peaceful valley."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Exclamatory 'What a + Adj + Noun!' converts into a declarative clause replacing 'What' with 'very/great', backshifting 'is → was', and shifting 'this → that/it'.",
+        "distractorRationales": [
+          "Cannot keep exclamatory 'what' after 'that'.",
+          "Correct: 'exclaimed... that' + statement order + 'very'.",
+          "Turns exclamation into a question.",
+          "Ungrammatical and keeps 'is'."
+        ],
+        "grammarRule": "Convert 'What a / How + Adj' exclamations into declarative statements using 'very / great'.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q09",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Reporting 'Let's' suggestions",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert into Indirect Speech: \"Rohan said to his teammates, 'Let's practise relay baton passing.'\"",
+        "options": [
+          "Rohan ordered his teammates to let practise relay baton passing.",
+          "Rohan suggested to his teammates that they should practise relay baton passing.",
+          "Rohan told his teammates that let's practise relay baton passing.",
+          "Rohan asked his teammates if they let practise."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Let's + V1' proposals use 'suggested / proposed (to + obj) + that + they/we + should + V1' (or 'suggested + V-ing'). Note: 'suggest' CAN take 'to + object'.",
+        "distractorRationales": [
+          "Misuses 'to let practise'.",
+          "Correct: 'suggested to... that they should practise'.",
+          "Keeps direct 'let's'.",
+          "Distorts meaning."
+        ],
+        "grammarRule": "Report 'Let's...' with 'suggested (to + obj) that + they/we should + V1' or 'suggested + V-ing'.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q10",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Time shifts: ago, tomorrow, today",
+        "difficulty": "EASY",
+        "questionText": "Which set of Indirect Speech time conversions is 100% accurate?",
+        "options": [
+          "today → that day | yesterday → the previous day | ago → before",
+          "today → yesterday | tomorrow → the previous day | now → soon",
+          "yesterday → the next day | here → there | ago → later",
+          "tomorrow → that day | this → that | now → ago"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Standard deictic shifts: today → that day, yesterday → the previous day / the day before, tomorrow → the next day / the following day, ago → before.",
+        "distractorRationales": [
+          "Correct: all three standard conversions match.",
+          "Confuses yesterday and tomorrow.",
+          "Swaps yesterday with next day.",
+          "Confuses tomorrow with that day."
+        ],
+        "grammarRule": "Shift time/place words away from the speaker's immediate 'here and now' when reporting past utterances.",
+        "lessonStepRef": "m22_step_02_statements_backshift",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q11",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Modals in Reported Speech (Must / Should)",
+        "difficulty": "HARD",
+        "questionText": "Convert accurately: \"The doctor said to me, 'You must take this medicine for three days.'\"",
+        "options": [
+          "The doctor told me that I had to take that medicine for three days.",
+          "The doctor told me that I must to take this medicine for three days.",
+          "The doctor said me that I should had taken that medicine.",
+          "The doctor told me that I will have to take that medicine."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "When 'must' expresses past obligation/necessity, standard Indirect Speech converts it to 'had to' (and 'this → that').",
+        "distractorRationales": [
+          "Correct: obligation 'must → had to' and 'this → that'.",
+          "*Must to take is ungrammatical.",
+          "*Said me + *should had taken are wrong.",
+          "Uses future 'will'."
+        ],
+        "grammarRule": "Convert obligation 'must' to 'had to' in past reported speech (keep 'should/would/could/might' unchanged).",
+        "lessonStepRef": "m22_step_02_statements_backshift",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M22_Q12",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Converting Indirect back to Direct Speech",
+        "difficulty": "HARD",
+        "questionText": "Convert back into Direct Speech: \"Suman asked Kabir if he had visited Kaziranga the previous winter.\"",
+        "options": [
+          "Suman said to Kabir, \"Do you visit Kaziranga last winter?\"",
+          "Suman said to Kabir, \"Did you visit Kaziranga last winter?\"",
+          "Suman asked Kabir, \"Will you visit Kaziranga last winter?\"",
+          "Suman said Kabir, \"Have you visiting Kaziranga yesterday?\""
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'If he had visited' + 'the previous winter' reverses cleanly to a past Yes/No question with 'last winter': \"Did you visit Kaziranga last winter?\".",
+        "distractorRationales": [
+          "'Do you visit' mismatches 'last winter'.",
+          "Correct: 'Did you visit... last winter?'.",
+          "'Will' clashes with 'last winter'.",
+          "*Said Kabir + *Have you visiting are ungrammatical."
+        ],
+        "grammarRule": "When reversing Indirect to Direct speech, restore quotation marks, question inversion, 'I/you', and original time words.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q13",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Reporting wishes & greetings",
+        "difficulty": "MEDIUM",
+        "questionText": "How should we report: \"Grandmother said to me, 'May you achieve all your dreams!'\"?",
+        "options": [
+          "Grandmother ordered me to achieve all my dreams.",
+          "Grandmother wished (or prayed) that I might achieve all my dreams.",
+          "Grandmother asked me if I may achieve all my dreams.",
+          "Grandmother told me that may I achieve all my dreams."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Optative wishes beginning with 'May + Subject + V1' convert to 'wished / prayed that + Subject + might + V1'.",
+        "distractorRationales": [
+          "Not a command.",
+          "Correct: 'wished that I might achieve'.",
+          "Not a question.",
+          "Keeps question-style 'may I' after 'that'."
+        ],
+        "grammarRule": "Report 'May + Subject + V1!' wishes using 'wished/prayed that + Subject + might + V1'.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q14",
+        "subtopicId": "reported_statements_tense",
+        "subtopicTitle": "Pronoun shifts with first & second person",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert carefully: \"Meera said to me, 'You helped my brother yesterday.'\"",
+        "options": [
+          "Meera told me that I had helped her brother the previous day.",
+          "Meera told me that you had helped my brother the previous day.",
+          "Meera told me that she had helped my brother yesterday.",
+          "Meera told me that I helped your brother the previous day."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Since Meera spoke to ME: 'You' = 'I'; 'my brother' = 'her (Meera's) brother'; 'helped' → 'had helped'; 'yesterday' → 'the previous day'.",
+        "distractorRationales": [
+          "Correct: 'You → I', 'my → her', 'helped → had helped', 'yesterday → the previous day'.",
+          "Fails to update 'you' and 'my'.",
+          "Confuses who helped whose brother.",
+          "Fails Past Perfect shift and swaps 'her' for 'your'."
+        ],
+        "grammarRule": "1st-person pronouns (I/my) match the SPEAKER; 2nd-person pronouns (you/your) match the LISTENER.",
+        "lessonStepRef": "m22_step_02_statements_backshift",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M22_Q15",
+        "subtopicId": "reported_questions_commands",
+        "subtopicTitle": "Punctuation in Indirect Speech",
+        "difficulty": "EASY",
+        "storyContext": "Vaani checks the final news ticker.",
+        "questionText": "Which punctuation mark ALWAYS ends a complete Indirect/Reported Question (e.g., \"He asked me what my name was____\")?",
+        "options": [
+          "A question mark (?)",
+          "An exclamation mark (!)",
+          "A full stop (.)",
+          "Quotation marks (\"...\")"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Indirect questions are declarative statements reporting what someone asked, so they drop quotation marks and ALWAYS end with a full stop ('.').",
+        "distractorRationales": [
+          "Reserved for direct questions (or questions beginning 'Did he ask...?').",
+          "Reserved for exclamations.",
+          "Correct: indirect speech ends with a full stop.",
+          "Quotation marks are removed in indirect speech."
+        ],
+        "grammarRule": "Remove quotation marks, question marks, and exclamation marks inside Indirect Speech—end with a full stop.",
+        "lessonStepRef": "m22_step_05_questions_commands_exclamations",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

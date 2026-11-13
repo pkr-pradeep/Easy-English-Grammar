@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_24",
+  "worldId": "WORLD_6",
+  "title": "Punctuation and Word Formation",
+  "storyTitle": "The Misprinted Carnival Posters",
+  "estimatedMinutes": 18,
+  "charactersInvolved": [
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m24_step_01_intro",
+      "stepTitle": "Scene 1: A Comma Saves Chikoo!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Vocabulary Carnival Print Shop • Morning",
+      "settingDescription": "Chikoo has rushed 500 carnival posters to the printer without proofreading. Vaani holds one up in horror—missing commas and stray apostrophes have turned harmless invitations into absurd comedy!",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "shocked",
+          "line": "Chikoo! Your food-stall banner says: \"Let's eat Chikoo!\" Without a comma before your name, it sounds like WE are eating YOU!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "panicked",
+          "line": "Yikes! Put that comma back right now: \"Let's eat, Chikoo!\" And wait—why did you circle \"The carnival open's it's gates\"?"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "observant",
+          "line": "Because verbs like 'opens' NEVER take an apostrophe, and 'its' without an apostrophe shows possession—'it's' means 'it is'!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "And look at your cramped poster slogan: 'a person who writes with both hands, a small river, something impossible to read.' With Word Formation, One-Word Substitutions, and Diminutives, we can make every banner sharp and concise!"
+        }
+      ],
+      "storyCallout": "Goal: Master punctuation and capitalisation rules, build new words with prefixes and suffixes, and use concise one-word substitutions and diminutives."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m24_step_02_punctuation_and_caps",
+      "stepTitle": "Discover: Capitalisation and Essential Punctuation",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "punctuation_rules",
+      "subtopicTitle": "Capitalisation, Commas, Apostrophes, Colons, Semicolons & Quotes",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Punctuation marks are the Traffic Signals of writing: Full stops and Question/Exclamation marks are Red Lights ending a sentence; Commas are Speed Breakers for pauses, lists, and direct address; Semicolons are Twin Bridges joining two complete sentences; Colons are Spotlights saying 'Look! Here comes the list or explanation!'; and Apostrophes are Ownership Badges or Missing-Letter Stickers (NEVER plural badges!).",
+      "formalDefinition": "Standard English punctuation marks boundaries between sentences and clauses (., ?, !, ;, :), separates items, introductory phrases, vocatives, and non-defining modifiers (,), marks possession or contraction ('), and encloses exact speech (\"...\"), while capitalisation marks sentence starts, proper nouns/adjectives, titles, and the pronoun 'I'.",
+      "simpleExplanation": "Master the five high-frequency punctuation zones tested in Class IX–X:\n1) Capitalisation: Capitalise the first word of every sentence and direct quote, proper nouns/adjectives (India, Indian, Tuesday, October, Diwali, English, Mount Everest), the pronoun 'I', and main words in titles.\n2) Comma (,): Use commas to separate items in a list ('pens, notebooks, and rulers'), after introductory clauses ('When the bell rang, we entered'), around non-essential modifiers ('My uncle, who lives in Pune, arrived'), and for direct address/vocatives ('Listen carefully, Chikoo'). NEVER join two independent sentences with only a comma (comma splice: *He ran fast, he missed the bus → use a full stop, semicolon ';', or ', but').\n3) Apostrophe ('): Marks contractions ('don't = do not', 'it's = it is') and noun possession (singular: 'the boy's bag'; plural ending in -s: 'the girls' hostel'; irregular plural: 'children's park'). Possessive pronouns NEVER take apostrophes ('its', 'yours', 'ours', 'theirs', 'whose').\n4) Colon (:) vs Semicolon (;): A colon follows a complete statement to introduce a list or explanation ('Bring three items: a map, a torch, and a rope.'). A semicolon links two closely related complete sentences without a coordinating conjunction ('The lights flickered; the storm had arrived.').\n5) Quotation Marks (\"...\"): Enclose exact spoken words; place the comma or end punctuation inside the closing quote when ending the spoken sentence ('\"Wait for me,\" said Vaani.').",
+      "structurePatterns": [
+        {
+          "formName": "Vocative Comma vs Object",
+          "formula": "Verb + Name (object) ≠ Verb, + Name (direct address)",
+          "sample": "Let's feed Chikoo! (food for Chikoo) vs Let's feed, Chikoo! (inviting Chikoo to eat)"
+        },
+        {
+          "formName": "Possession vs Contraction",
+          "formula": "it's = it is / it has  |  its = belonging to it  |  who's = who is  |  whose = belonging to whom",
+          "sample": "The robot lost its wheel because it's very old."
+        },
+        {
+          "formName": "Colon After Complete Clause",
+          "formula": "Complete Independent Clause : list / explanation",
+          "sample": "We packed two essentials: warm jackets and dry rations."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The students' projects were displayed in the hall; however, the chief guest arrived late.",
+          "contextNote": "Plural possessive 'students'' + semicolon before conjunctive adverb 'however'.",
+          "provenance": "SOURCE_TEXTBOOK"
+        },
+        {
+          "sentence": "\"Where did you leave the ledger, Ira?\" asked Maharaj Vakya.",
+          "contextNote": "Capitalise first word of direct quote, vocative comma before 'Ira', question mark inside quotes.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The dog wagged it's tail, the children's laughed.",
+          "correctSentence": "The dog wagged its tail; the children laughed.",
+          "whyItHappens": "Use 'its' (no apostrophe) for possession, never 'children's' for a simple plural subject, and replace the comma splice with a semicolon or full stop.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Avoid putting a colon directly after a preposition or verb like 'such as' or 'are' (*Our subjects are: Maths, Science... → 'Our subjects are Maths, Science...' OR 'We study three subjects: Maths, Science, and English.')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m24_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Fix the Carnival Poster",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD24_CP1",
+      "subtopicId": "punctuation_rules",
+      "subtopicTitle": "Apostrophes & Comma Splice Correction",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira holds up a misprinted poster: \"The parrot flapped it's wings, all the visitor's cheered loudly.\"",
+      "questionPrompt": "Select the sentence with completely accurate punctuation:",
+      "options": [
+        "The parrot flapped it's wings, all the visitors cheered loudly.",
+        "The parrot flapped its wings; all the visitors cheered loudly.",
+        "The parrot flapped its wing's; all the visitor's cheered loudly.",
+        "The parrot flapped its wings, all the visitors' cheered loudly."
+      ],
+      "acceptedAnswers": ["The parrot flapped its wings; all the visitors cheered loudly."],
+      "hint": "Possessive 'its' has NO apostrophe, plural noun 'visitors' needs NO apostrophe, and two complete sentences need a semicolon (not a comma).",
+      "feedbackCorrect": "Detective Ira: \"Spotless! Possessive 'its', plural 'visitors', and a semicolon joining two independent clauses.\"",
+      "feedbackWrongDefault": "Check three things: 'its' (possessive), 'visitors' (plain plural), and ';' between two complete sentences.",
+      "feedbackWrongByOption": {
+        "The parrot flapped it's wings, all the visitors cheered loudly.": "Two errors: 'it's' means 'it is', and the comma creates a comma splice between two complete sentences."
+      },
+      "simplerExample": "The cat licked its paws; the kittens watched.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m24_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Direct Quotes and Colons",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD24_CP2",
+      "subtopicId": "punctuation_rules",
+      "subtopicTitle": "Quotation Marks, Capitalisation & Colons",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani is editing the official festival schedule and direct announcement quote.",
+      "questionPrompt": "Which sentence is punctuated and capitalised correctly?",
+      "options": [
+        "\"Please collect your passes,\" said Vaani, \"before the parade begins on Tuesday.\"",
+        "\"please collect your passes,\" said vaani, \"Before the parade begins on tuesday.\"",
+        "The schedule includes: magic shows, puppetry, and folk music.",
+        "\"Please collect your passes\", said Vaani \"before the parade begins on Tuesday\"."
+      ],
+      "acceptedAnswers": ["\"Please collect your passes,\" said Vaani, \"before the parade begins on Tuesday.\""],
+      "hint": "Capitalise proper nouns like 'Tuesday', place the comma inside the first closing quote, and keep the second part lowercase since it continues the same sentence.",
+      "feedbackCorrect": "Vaani: \"Textbook split quotation! Comma inside the quote, proper noun capitalised, and lowercase continuation.\"",
+      "feedbackWrongDefault": "Look for proper capitalisation ('Tuesday', 'Vaani'), commas placed cleanly around 'said Vaani,', and avoid putting a colon right after 'includes'.",
+      "feedbackWrongByOption": {
+        "The schedule includes: magic shows, puppetry, and folk music.": "Do not place a colon immediately after the verb 'includes' when no complete list-introducing noun precedes it."
+      },
+      "simplerExample": "\"Hurry up,\" called Rohan, \"the train leaves soon.\"",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m24_step_05_word_formation_substitutions_diminutives",
+      "stepTitle": "Discover: Word Formation, One-Word Substitutions & Diminutives",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "word_formation_vocabulary_craft",
+      "subtopicTitle": "Affixes, One-Word Substitutions & Diminutives",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Word Formation is a Lego Workshop: snap Prefixes onto the front to flip meaning ('un-', 'im-', 'ir-', 'il-', 'dis-'), snap Suffixes onto the back to change part of speech ('-ness', '-tion', '-able', '-ly'), compress a whole phrase into a One-Word Substitution Ninja ('cannot be read' → 'illegible'), or attach a Tiny Sticker to create a Diminutive ('book' → 'booklet', 'river' → 'rivulet')!",
+      "formalDefinition": "Word formation derives new lexical items or shifts word classes via prefixation, suffixation, compounding, and conversion. Single-word substitution replaces a multi-word descriptive phrase with one exact lexical item, while diminutives use suffixes (-let, -ling, -ette, -ock, -ule/-cle) to denote smallness or affection.",
+      "simpleExplanation": "Three essential vocabulary-craft tools:\n1) Word Formation (Prefixes & Suffixes):\n   • Negative prefixes match starting sounds: 'il-' + l ('illegal', 'illegible'), 'im-' + m/p/b ('immoral', 'impossible', 'imbalance'), 'ir-' + r ('irregular', 'irresponsible'), plus 'un-', 'in-', 'dis-', 'mis-'.\n   • Suffixes shift word classes: Verb/Adj → Noun ('decide → decision', 'kind → kindness', 'able → ability', 'grow → growth'); Noun/Verb → Adjective ('danger → dangerous', 'care → careful/careless', 'rely → reliable'); Adj → Verb ('wide → widen', 'pure → purify'); Adj → Adverb ('quick → quickly').\n2) Substitution of Single Words (Assam Ch. 22): Replacing wordy clauses with one exact word:\n   • Handwriting impossible to read = illegible; Unable to be heard = inaudible; Unable to be conquered = invincible.\n   • One who looks at the bright side = optimist (dark side = pessimist).\n   • One who speaks many languages = polyglot; Life story written by oneself = autobiography (by someone else = biography).\n   • Happening once a year = annual; Existing everywhere at once = omnipresent.\n3) Diminutives (Assam Ch. 23): Suffixes showing a smaller version of a noun:\n   • '-let': book → booklet, leaf → leaflet, drop → droplet, stream → streamlet, ring → ringlet.\n   • '-ulet / -ule': river → rivulet, globe → globule.\n   • '-ling': duck → duckling, goose → gosling, seed → seedling, prince → princeling.\n   • '-ock / -ette / -icle': hill → hillock, statue → statuette, cigar → cigarette, part → particle.",
+      "structurePatterns": [
+        {
+          "formName": "Negative Prefix Spelling Rule",
+          "formula": "il- before L | im- before M / P / B | ir- before R | un-/in-/dis- elsewhere",
+          "sample": "il + legible = illegible | im + patient = impatient | ir + relevant = irrelevant"
+        },
+        {
+          "formName": "Common Diminutive Suffixes",
+          "formula": "-let (booklet), -ulet (rivulet), -ling (duckling), -ock (hillock), -ette (kitchenette)",
+          "sample": "A small hill is a hillock; a small stream or river is a streamlet / rivulet."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Her handwriting was completely illegible, so the editor requested a neat summary on a printed leaflet.",
+          "contextNote": "One-word substitution ('illegible') + diminutive ('leaflet' = small printed sheet/leaf).",
+          "provenance": "SOURCE_TEXTBOOK"
+        },
+        {
+          "sentence": "An optimist approaches irregular challenges with remarkable patience and creativity.",
+          "contextNote": "Substitution ('optimist') + prefix ('ir-regular') + suffixes ('remark-able', 'creat-ivity').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The report was *unlegible and filled with *inpossible claims.",
+          "correctSentence": "The report was illegible and filled with impossible claims.",
+          "whyItHappens": "Root words starting with 'l-' take 'il-' ('illegible'), and roots starting with 'p-' take 'im-' ('impossible').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Some 'p-' or 'r-' words break the phonetic rule and use 'un-' instead of 'im-/ir-': 'unpopular', 'unpleasant', 'unreliable', 'unreasonable'."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m24_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Workshop Word Formation",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD24_CP3",
+      "subtopicId": "word_formation_vocabulary_craft",
+      "subtopicTitle": "Derived Nouns and Negative Prefixes",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar asks you to convert the root word in brackets into the right noun form for the carnival notice.",
+      "questionPrompt": "Type the correct noun formed from 'decide': \"The judges' final ____ delighted the audience.\"",
+      "sentenceTemplate": "The judges' final ____ delighted the audience.",
+      "acceptedAnswers": ["decision"],
+      "hint": "Drop '-de' from 'decide' and add the noun suffix '-sion'!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Precise! The verb 'decide' transforms into the noun 'decision'.\"",
+      "feedbackWrongDefault": "Convert the verb 'decide' into a noun ending in '-sion'.",
+      "simplerExample": "divide → division; decide → decision.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m24_step_07_cp4",
+      "stepTitle": "Checkpoint 4: One-Word Substitution & Diminutive Check",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD24_CP4",
+      "subtopicId": "word_formation_vocabulary_craft",
+      "subtopicTitle": "Diminutives & Single-Word Substitution",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani wants to shorten the caption 'a very small river flowing past a small hill' using authentic textbook diminutives.",
+      "questionPrompt": "Which pair accurately gives the diminutive for 'river' and 'hill'?",
+      "options": [
+        "riverlet and hillling",
+        "rivulet and hillock",
+        "riverette and hillicle",
+        "rivule and hilllet"
+      ],
+      "acceptedAnswers": ["rivulet and hillock"],
+      "hint": "'River' takes '-ulet' (like 'streamlet' for stream), and 'hill' takes '-ock'!",
+      "feedbackCorrect": "Vaani: \"Lovely imagery! 'A rivulet beside a hillock' sounds crisp and poetic.\"",
+      "feedbackWrongDefault": "Remember the classic diminutive endings: 'river → rivulet' and 'hill → hillock'.",
+      "feedbackWrongByOption": {
+        "riverlet and hillling": "'Stream' forms 'streamlet', but 'river' forms 'rivulet' and 'hill' forms 'hillock'."
+      },
+      "simplerExample": "book → booklet; river → rivulet; hill → hillock.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m24_step_08_outro",
+      "stepTitle": "Scene 2: Crisp Banners, Bright Carnival",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Vocabulary Carnival Main Gate • Noon",
+      "settingDescription": "The newly printed posters gleam in the sunlight—every comma, apostrophe, colon, prefix, and diminutive is spotless.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "proud",
+          "line": "Well crafted! No guest will be eaten instead of Chikoo today, and every announcement reads with effortless elegance."
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "excited",
+          "line": "Now step inside the carnival tents! Next up: cracking idioms, phrasal verbs, synonyms, antonyms, and sneaky look-alike word pairs!"
+        }
+      ],
+      "storyCallout": "Chapter Complete! Review your Punctuation & Word Formation Notebook or take the 15-question assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Comma Splice & Vocative Rule",
+        "ruleSummary": "Never join two independent clauses with only a comma; always use a vocative comma when addressing someone by name.",
+        "formulaOrPattern": "Clause 1 ; Clause 2  |  Clause 1, + FANBOYS + Clause 2  |  Verb, Name!",
+        "example": "Let's eat, Chikoo! / The rain stopped; the carnival began."
+      },
+      {
+        "heading": "Apostrophe: Possession vs Contraction",
+        "ruleSummary": "Use apostrophes for missing letters and noun possession, never for regular plurals or possessive pronouns.",
+        "formulaOrPattern": "Singular: boy's | -s Plural: boys' | Irregular Plural: children's | Pronoun: its/yours/theirs",
+        "example": "The girls' team won its trophy because it's well trained."
+      },
+      {
+        "heading": "Word Formation & Phonetic Prefixes",
+        "ruleSummary": "Match negative prefixes to root initials (il-+l, im-+m/p/b, ir-+r) and use suffixes to shift parts of speech.",
+        "formulaOrPattern": "il-legal, im-possible, ir-regular | Verb → Noun (-tion/-sion/-ment)",
+        "example": "An irresponsible reply caused widespread disappointment."
+      },
+      {
+        "heading": "One-Word Substitutions & Diminutives",
+        "ruleSummary": "Compress long definitions into exact single words, and use diminutive suffixes (-let, -ulet, -ling, -ock, -ette) to show smallness.",
+        "formulaOrPattern": "cannot be read → illegible | small river → rivulet | small hill → hillock",
+        "example": "The young gosling waddled across the booklet on the grass."
+      }
+    ],
+    "memoryAids": [
+      "\"Let's eat, Grandma\" saves lives—always set off a person's name in direct address with a comma!",
+      "If you can expand it to 'it is' or 'it has', write 'it's'; for ownership, write plain 'its' (just like 'his' and 'hers').",
+      "Phonetic prefix triplets: 'il-' hugs L, 'im-' hugs M/P/B, 'ir-' hugs R."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "All the student's submitted there essays late, the teacher gave extra time.",
+        "correctSentence": "All the students submitted their essays late; the teacher gave extra time.",
+        "whyItHappens": "Simple plural nouns ('students') do not take apostrophes, and two independent clauses cannot be joined by a comma alone.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Despite starting with 'p-' or 'r-', words like 'unpopular', 'unpleasant', and 'unreliable' take 'un-' rather than 'im-' or 'ir-'.",
+      "A colon must not be inserted immediately after a verb or preposition ('includes:', 'such as:')—use it only after a complete introductory statement."
+    ],
+    "textbookNotes": [
+      "Assam Class IX–X (Ch. 17 Punctuation, Ch. 22 Substitution of single words, Ch. 23 Diminutives) & Punjab Class IX (Word Formation): Unverified page numbers marked 'not_verified'."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "MOD24_Q01",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Vocative Comma",
+        "difficulty": "EASY",
+        "questionText": "Which sentence properly addresses Meera directly?",
+        "options": [
+          "Please pass the salt Meera.",
+          "Please pass the salt, Meera.",
+          "Please pass, the salt Meera.",
+          "Please, pass the salt Meera."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use a comma before a person's name (vocative) when addressing them directly at the end of a sentence.",
+        "grammarRule": "Set off nouns of direct address (vocatives) with commas.",
+        "lessonStepRef": "m24_step_02_punctuation_and_caps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q02",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Apostrophes: Its vs It's",
+        "difficulty": "EASY",
+        "questionText": "Choose the correctly punctuated sentence:",
+        "options": [
+          "The peacock spread it's colourful feathers because its proud.",
+          "The peacock spread its' colourful feathers because its' proud.",
+          "The peacock spread its colourful feathers because it's proud.",
+          "The peacock spread its colourful feather's because it's proud."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Its' (no apostrophe) shows possession ('its feathers'), while 'it's' is the contraction of 'it is' ('it's proud').",
+        "grammarRule": "Possessive 'its' takes no apostrophe; contraction 'it's' means 'it is/has'.",
+        "lessonStepRef": "m24_step_02_punctuation_and_caps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q03",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Plural Possessive Apostrophe",
+        "difficulty": "MEDIUM",
+        "questionText": "How should we write a hostel belonging to many boys?",
+        "options": [
+          "The boy's hostel",
+          "The boys's hostel",
+          "The boys' hostel",
+          "The boys hostel's"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "For a plural noun already ending in '-s' ('boys'), add only an apostrophe after the '-s' ('boys'').",
+        "grammarRule": "Plural nouns ending in '-s' form the possessive with a trailing apostrophe (-s').",
+        "lessonStepRef": "m24_step_02_punctuation_and_caps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q04",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Comma Splice Repair",
+        "difficulty": "MEDIUM",
+        "questionText": "Which option fixes the comma splice in \"The bell rang, the students rushed outside\"?",
+        "options": [
+          "The bell rang, the students' rushed outside.",
+          "The bell rang; the students rushed outside.",
+          "The bell rang: the students, rushed outside.",
+          "The bell, rang, the students rushed outside."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "A semicolon cleanly connects two closely related independent clauses without creating a comma splice.",
+        "grammarRule": "Use a semicolon (or full stop / comma + coordinator) between two independent clauses.",
+        "lessonStepRef": "m24_step_03_cp1",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "MOD24_Q05",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Direct Quotation Punctuation",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the sentence with correct quotation and capitalisation punctuation:",
+        "options": [
+          "\"Did you see the comet last Friday?\" asked Aarav.",
+          "\"Did you see the comet last friday?\" Asked Aarav.",
+          "\"did you see the comet last Friday?\", asked Aarav.",
+          "\"Did you see the comet last Friday\", asked Aarav?"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Capitalise the quote start and 'Friday', keep the question mark inside the quote, and keep 'asked' lowercase.",
+        "grammarRule": "End marks belonging to a direct quote stay inside the closing quotation marks.",
+        "lessonStepRef": "m24_step_04_cp2",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q06",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Colon Usage",
+        "difficulty": "HARD",
+        "questionText": "Which sentence uses a colon correctly?",
+        "options": [
+          "My favourite fruits are: mangoes, guavas, and bananas.",
+          "She bought: a notebook, two pens, and a ruler.",
+          "You need to bring three things: a water bottle, a cap, and a notebook.",
+          "Because it rained: we stayed indoors all afternoon."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Only 'You need to bring three things' is a complete independent clause before the colon introducing the list.",
+        "grammarRule": "Place a colon only after a grammatically complete clause.",
+        "lessonStepRef": "m24_step_02_punctuation_and_caps",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "MOD24_Q07",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Capitalisation Rules",
+        "difficulty": "EASY",
+        "questionText": "Which sentence follows standard English capitalisation?",
+        "options": [
+          "Last november, we visited the Himalayas and spoke hindi.",
+          "Last November, we visited the Himalayas and spoke Hindi.",
+          "Last November, We visited the himalayas and spoke Hindi.",
+          "last November, we visited the Himalayas and spoke Hindi."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Sentence starts, months ('November'), proper geographical names ('Himalayas'), and languages ('Hindi') are capitalised.",
+        "grammarRule": "Capitalise months, languages, proper nouns, and sentence initials.",
+        "lessonStepRef": "m24_step_02_punctuation_and_caps",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q08",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "Negative Prefixes",
+        "difficulty": "EASY",
+        "questionText": "Which negative prefix correctly forms the opposite of 'responsible' and 'logical'?",
+        "options": [
+          "unresponsible, unlogical",
+          "inresponsible, inlogical",
+          "irresponsible, illogical",
+          "disresponsible, dislogical"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Roots beginning with 'r-' typically take 'ir-' ('irresponsible'), and roots beginning with 'l-' take 'il-' ('illogical').",
+        "grammarRule": "Use 'ir-' before r- roots and 'il-' before l- roots.",
+        "lessonStepRef": "m24_step_05_word_formation_substitutions_diminutives",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q09",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "Suffixes Shifting Word Class",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete the sentence using the correct derived form of 'pure': \"Clean filters ensure the ____ of drinking water.\"",
+        "options": [
+          "purify",
+          "purely",
+          "purity",
+          "purenessly"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "After 'the ____ of', a noun is required: 'purity' is the standard abstract noun derived from 'pure'.",
+        "grammarRule": "Noun suffixes (-ity, -ness, -tion) create nouns from adjectives or verbs.",
+        "lessonStepRef": "m24_step_06_cp3",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q10",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "Suffixes Forming Verbs",
+        "difficulty": "MEDIUM",
+        "questionText": "Which word is a verb formed by adding a suffix to the adjective 'wide'?",
+        "options": [
+          "width",
+          "widely",
+          "widen",
+          "wideness"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Adding '-en' to 'wide' forms the verb 'widen' ('to make wide'). 'Width' is a noun and 'widely' is an adverb.",
+        "grammarRule": "Verb-forming suffixes include -en (widen), -ify (purify), and -ise (modernise).",
+        "lessonStepRef": "m24_step_05_word_formation_substitutions_diminutives",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q11",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "One-Word Substitution",
+        "difficulty": "EASY",
+        "questionText": "What is the single-word substitution for \"handwriting that cannot be read\"?",
+        "options": [
+          "inaudible",
+          "illegible",
+          "inedible",
+          "invisible"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Illegible' means impossible to read; 'inaudible' = cannot be heard; 'inedible' = unfit to eat; 'invisible' = cannot be seen.",
+        "grammarRule": "Single-word substitutions concisely replace descriptive clauses.",
+        "lessonStepRef": "m24_step_05_word_formation_substitutions_diminutives",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q12",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "One-Word Substitution",
+        "difficulty": "MEDIUM",
+        "questionText": "A person who speaks several languages fluently is called a:",
+        "options": [
+          "monologue",
+          "optimist",
+          "polyglot",
+          "biographer"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Poly-' means many and '-glot' refers to tongue/language, so a polyglot speaks multiple languages.",
+        "grammarRule": "Match Greek/Latin roots (poly-, auto-, bio-, omni-) in one-word substitutions.",
+        "lessonStepRef": "m24_step_05_word_formation_substitutions_diminutives",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q13",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "Diminutives",
+        "difficulty": "EASY",
+        "questionText": "What is the correct diminutive for a young goose and a small book?",
+        "options": [
+          "gooselet and bookling",
+          "gosling and booklet",
+          "gossette and bookock",
+          "gooseling and bookule"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Standard diminutives pair 'goose → gosling' (-ling) and 'book → booklet' (-let).",
+        "grammarRule": "Diminutives express small size or young offspring via -let, -ling, -ulet, -ock, -ette.",
+        "lessonStepRef": "m24_step_07_cp4",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q14",
+        "subtopicId": "word_formation_vocabulary_craft",
+        "subtopicTitle": "Diminutives",
+        "difficulty": "HARD",
+        "questionText": "Which pair consists ONLY of authentic English diminutives?",
+        "options": [
+          "rivulet, hillock, droplet, statuette",
+          "rivering, hillship, dropness, statueful",
+          "leaflet, streamness, ducklet, ringtion",
+          "globule, courage, decision, particle"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Rivulet' (small river), 'hillock' (small hill), 'droplet' (tiny drop), and 'statuette' (small statue) are all diminutives.",
+        "grammarRule": "Diminutive suffixes include -ulet, -ock, -let, -ette, -ling, -cle/-ule.",
+        "lessonStepRef": "m24_step_07_cp4",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD24_Q15",
+        "subtopicId": "punctuation_rules",
+        "subtopicTitle": "Combined Punctuation & Substitution",
+        "difficulty": "HARD",
+        "questionText": "Which sentence combines accurate punctuation and an accurate one-word substitution?",
+        "options": [
+          "\"Have you met the polyglot, Ira?\" asked Vaani; \"she speaks six languages!\"",
+          "\"Have you met the polyglot Ira?\" asked Vaani, \"She speaks six languages!\"",
+          "\"Have you met the annual, Ira?\" asked Vaani; \"she speaks six languages!\"",
+          "\"Have you met the polyglot, Ira?\" Asked Vaani: \"she speaks six languages!\""
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Vocative comma before 'Ira', '?' inside quote, semicolon between two complete clauses ('asked Vaani; \"she...\"'), and 'polyglot' accurately replaces 'one who speaks many languages'.",
+        "grammarRule": "Apply vocative commas, end marks inside quotes, semicolons, and exact substitutions together.",
+        "lessonStepRef": "m24_step_02_punctuation_and_caps",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

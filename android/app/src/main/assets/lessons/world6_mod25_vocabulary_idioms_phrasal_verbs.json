@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_25",
+  "worldId": "WORLD_6",
+  "title": "Vocabulary, Idioms, Phrasal Verbs and Confusing Words",
+  "storyTitle": "The Secret Code at Vaani's Vocabulary Carnival",
+  "estimatedMinutes": 22,
+  "charactersInvolved": [
+    "VAANI",
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m25_step_01_intro",
+      "stepTitle": "Scene 1: Stationary Pens and Spilled Beans",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Vocabulary Carnival Mystery Tent • Afternoon",
+      "settingDescription": "Detective Ira has intercepted a coded message about a surprise finale, while Chikoo has bought 'stationary' pencils that he thinks cannot move—and thinks 'spilling the beans' means dropping dal on the carpet!",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "confused",
+          "line": "Look at Ira's secret note: \"We may have to call off the rehearsal because the weather is unpredictable, and someone nearly spilled the beans!\" Who dropped beans?! And why did she buy stationary?!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "laughing",
+          "line": "Not lunch beans, Chikoo! 'Spill the beans' is an idiom meaning 'reveal a secret'! And paper and pens are 'stationery' with an E—'stationary' with an A means standing still!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "alert",
+          "line": "And 'call off' is a phrasal verb meaning 'cancel'—don't confuse it with 'call on' (visit) or 'call out' (shout)!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "In our grand finale chapter, master synonyms, antonyms, homonyms, look-alike confusing pairs, idioms, and phrasal verbs—all by checking real sentence context!"
+        }
+      ],
+      "storyCallout": "Goal: Choose exact words in context across synonyms, antonyms, homonyms, confusing pairs, idioms, and phrasal verbs."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m25_step_02_synonyms_antonyms_confusing_words",
+      "stepTitle": "Discover: Synonyms, Antonyms, Homonyms & Confusing Word Pairs",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "lexical_precision_and_confusing_pairs",
+      "subtopicTitle": "Synonyms, Antonyms, Homonyms & Similarly Pronounced Pairs",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Confusing Look-Alike Words are Twin Impostors at the Carnival: they sound identical or nearly identical ('stationAry' = parked still like a car vs 'stationEry' = Envelopes & pens; 'advIce' with C = Noun Thing vs 'advIse' with S = Action Verb; 'princiPAL' = your school PAL/main leader vs 'princiPLE' = ruLE)! Always test which Twin fits the grammar slot!",
+      "formalDefinition": "Synonyms share close core meanings while differing in register or nuance; antonyms express opposite meanings (by lexical contrast or negative affixation); homonyms share spelling and/or pronunciation with unrelated meanings; and similarly pronounced pairs (homophones/paronyms) differ in spelling, word class, and meaning.",
+      "simpleExplanation": "Four essential vocabulary pillars for Class IX–X:\n1) Synonyms & Contextual Nuance: Words with similar meanings fit different contexts ('thrifty' = wisely careful with money [positive], 'stingy' = unwilling to spend [negative]; 'ancient' = very old historically, 'obsolete' = out of date). Always check tone and collocation.\n2) Antonyms: Opposites can be distinct roots ('abundant ↔ scarce', 'generous ↔ miserly', 'temporary ↔ permanent', 'expand ↔ contract') or formed by affixes ('literate ↔ illiterate', 'optimistic ↔ pessimistic').\n3) Homonyms: Identical words with multiple meanings resolved by context ('fair' = just / carnival / light-coloured; 'bark' = tree covering / dog sound; 'match' = contest / lighting stick / equal pair).\n4) High-Frequency Confusing Pairs (Assam Ch. 20):\n   • accept (verb: receive willingly) vs except (prep: excluding)\n   • affect (verb: influence) vs effect (noun: result; verb: bring about)\n   • advice (noun: counsel) vs advise (verb: give counsel)\n   • practice (noun) vs practise (verb in BrE/Indian usage)\n   • principal (head of school / main) vs principle (moral rule / law)\n   • stationary (not moving) vs stationery (writing materials: Envelopes)\n   • lose (verb: misplace/be defeated) vs loose (adj: not tight)\n   • compliment (praise) vs complement (something that completes).\n   • weather (climate) vs whether (if/choice).",
+      "structurePatterns": [
+        {
+          "formName": "Noun (-ce / -ct) vs Verb (-se / -ct) Twins",
+          "formula": "advice / practice / effect (Noun)  vs  advise / practise / affect (Verb)",
+          "sample": "Her good advice (N) helped me; she advised (V) me clearly. The storm affected (V) crops; the effect (N) lasted days."
+        },
+        {
+          "formName": "Spelling Memory Anchors",
+          "formula": "stationEry = Envelopes | stationAry = stAnding still | princiPLE = ruLE | princiPAL = PAL/leader",
+          "sample": "The school Principal lives by the principle of honesty."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Everyone accepted the Principal's invitation except Chikoo, who was busy buying stationery before the weather turned stormy.",
+          "contextNote": "'accepted' (received), 'Principal's' (head), 'except' (excluding), 'stationery' (pens/paper), 'weather' (climate).",
+          "provenance": "SOURCE_TEXTBOOK"
+        },
+        {
+          "sentence": "Although food was scarce during the drought, the villagers remained generous rather than stingy.",
+          "contextNote": "Contrast context clues pair 'scarce' (antonym of abundant) with 'generous' (antonym of stingy).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The new rule had a positive affect on students, and the coach adviced daily practise.",
+          "correctSentence": "The new rule had a positive effect on students, and the coach advised daily practice.",
+          "whyItHappens": "After 'a positive', use the noun 'effect' (not verb 'affect'); after 'coach', use verb 'advised'; after 'daily', use noun 'practice'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Effect' can occasionally act as a formal verb meaning 'to bring about' ('to effect a change'), and 'affect' is used as a technical psychology noun, though in standard Class IX–X grammar 'affect' = verb and 'effect' = noun."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m25_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Catch the Twin Impostor",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD25_CP1",
+      "subtopicId": "lexical_precision_and_confusing_pairs",
+      "subtopicTitle": "Similarly Pronounced Word Pairs",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani hands Chikoo a blank carnival supply order form that checks his spelling instincts.",
+      "questionPrompt": "Fill in the right word from (stationary / stationery): \"We bought colourful paper, markers, and envelopes from the ____ shop.\"",
+      "sentenceTemplate": "We bought colourful paper, markers, and envelopes from the ____ shop.",
+      "acceptedAnswers": ["stationery"],
+      "hint": "Think 'E for Envelopes and Erasers'!",
+      "feedbackCorrect": "Vaani: \"Spot on! 'Stationery' with an E is for writing supplies; 'stationary' with an A means not moving.\"",
+      "feedbackWrongDefault": "Paper, markers, and envelopes are 'stationery' (with an 'e').",
+      "simplerExample": "The stationary train waited outside the stationery store.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m25_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Context Clues for Confusing Words & Antonyms",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD25_CP2",
+      "subtopicId": "lexical_precision_and_confusing_pairs",
+      "subtopicTitle": "Contextual Precision & Confusing Pairs",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira inspects four witness statements for word-choice errors.",
+      "questionPrompt": "Which sentence uses every confusing word accurately?",
+      "options": [
+        "Please accept my thanks; nobody except Riya knew the principle behind the puzzle.",
+        "Please except my thanks; nobody accept Riya knew the principal behind the puzzle.",
+        "Do not loose your belt even if the buckle feels lose.",
+        "Her wise advise had a calming affect on everyone."
+      ],
+      "acceptedAnswers": ["Please accept my thanks; nobody except Riya knew the principle behind the puzzle."],
+      "hint": "'Accept' = receive, 'except' = excluding, 'principle' = fundamental rule/law.",
+      "feedbackCorrect": "Detective Ira: \"Every single twin is in the right slot—'accept', 'except', and 'principle'!\"",
+      "feedbackWrongDefault": "Check verb vs noun/preposition roles: 'accept' (verb), 'except' (prep), 'principle' (rule), 'lose' (verb), 'loose' (adj), 'advice' (noun), 'effect' (noun).",
+      "feedbackWrongByOption": {
+        "Her wise advise had a calming affect on everyone.": "Double swap: 'advice' (noun) should follow 'wise', and 'effect' (noun) should follow 'calming'."
+      },
+      "simplerExample": "He accepted all gifts except one.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m25_step_05_idioms_and_phrasal_verbs",
+      "stepTitle": "Discover: Idioms and Phrasal Verbs",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "idioms_and_phrasal_verbs",
+      "subtopicTitle": "Figurative Idioms & Multi-Word Phrasal Verbs",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Idioms and Phrasal Verbs are Team Disguises: words join forces so their literal meanings vanish! 'Break the ice' needs zero hammers, and 'put off' means postpone, 'put out' means extinguish, while 'put up with' means tolerate—change one tiny preposition particle and the entire verb changes costume!",
+      "formalDefinition": "An idiom is a fixed multi-word expression whose figurative meaning cannot be deduced from the literal meanings of its individual words. A phrasal verb combines a base verb with an adverbial or prepositional particle (or both) to create a single idiomatic predicate with specific transitivity and particle-placement rules.",
+      "simpleExplanation": "Learn how to decode Idioms and Phrasal Verbs reliably:\n1) High-Utility Idioms (Assam Ch. 21):\n   • break the ice = ease awkwardness / start friendly conversation\n   • spill the beans = reveal a secret accidentally or prematurely\n   • once in a blue moon = very rarely\n   • a blessing in disguise = something that seems bad at first but brings good\n   • burn the midnight oil = study or work late into the night\n   • hit the nail on the head = describe something with 100% accuracy\n   • under the weather = feeling slightly unwell\n   • piece of cake = very easy task.\n2) High-Utility Phrasal Verbs (Odisha Class X Ch. 6):\n   • call off = cancel ('call off the match') vs call on = visit/appeal to\n   • put off = postpone vs put out = extinguish (a fire/lamp) vs put up with = tolerate\n   • give up = quit/stop trying vs give in = surrender/yield\n   • look after = take care of vs look into = investigate vs look up = search for information vs look forward to (+ noun / V-ing) = eagerly anticipate\n   • turn down = reject/refuse (an offer) or lower volume\n   • break down = stop functioning (machine) or lose emotional control\n   • bring up = raise a child or introduce a topic.\n3) Separable Particle Rule with Pronouns: With transitive separable phrasal verbs ('call off', 'put off', 'turn down', 'give up'), a full noun can go before OR after the particle ('turn down the offer' / 'turn the offer down'), EXCEPT a pronoun ('it/them/him') MUST sit in the middle: 'turn it down' (NEVER *turn down it!).",
+      "structurePatterns": [
+        {
+          "formName": "Separable Phrasal Verb + Pronoun Rule",
+          "formula": "Verb + Noun + Particle  OR  Verb + Particle + Noun  |  Verb + PRONOUN + Particle ONLY",
+          "sample": "Call the meeting off = Call off the meeting.  |  Call IT off! (NEVER *Call off it)"
+        },
+        {
+          "formName": "Prepositional Phrase Ending in 'to' + Gerund",
+          "formula": "look forward to + Noun / V-ing",
+          "sample": "We look forward to meeting (NOT *meet) you at the carnival!"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Detective Ira looked into the missing clues and called off the search once the mystery proved to be a blessing in disguise.",
+          "contextNote": "'looked into' (investigated), 'called off' (cancelled), 'blessing in disguise' (unexpected good).",
+          "provenance": "SOURCE_TEXTBOOK"
+        },
+        {
+          "sentence": "Although Chikoo was feeling under the weather, he refused to give up and looked forward to performing on stage.",
+          "contextNote": "'under the weather' (unwell), 'give up' (quit), 'looked forward to + performing' (gerund after 'to').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The music was too loud, so Vaani asked Chikoo to turn down it; meanwhile, we look forward to see you.",
+          "correctSentence": "The music was too loud, so Vaani asked Chikoo to turn it down; meanwhile, we look forward to seeing you.",
+          "whyItHappens": "Pronouns ('it') go between a separable verb and particle ('turn it down'), and 'look forward to' takes the '-ing' gerund ('seeing').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Inseparable prepositional phrasal verbs like 'look after', 'look into', and 'run into' NEVER split even with pronouns: 'look after him' (NOT *look him after)."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m25_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Pronoun Particle Placement",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD25_CP3",
+      "subtopicId": "idioms_and_phrasal_verbs",
+      "subtopicTitle": "Separable Phrasal Verb Word Order",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "The loudspeaker at the carnival booth is blasting too loudly. Order the words to give Detective Ira's polite instruction using the pronoun 'it'.",
+      "questionPrompt": "Arrange the words into a grammatical sentence:",
+      "wordTokens": ["turn", "Please", "down.", "it"],
+      "acceptedAnswers": ["Please turn it down."],
+      "hint": "With a pronoun ('it'), split the separable phrasal verb: verb + pronoun + particle!",
+      "feedbackCorrect": "Detective Ira: \"Much better on the ears! Pronouns always go between 'turn' and 'down'.\"",
+      "feedbackWrongDefault": "Place 'it' between 'turn' and 'down': 'Please turn it down.'",
+      "simplerExample": "Pick it up. / Put them away.",
+      "xpReward": 25
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m25_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Crack the Idiom & Phrasal Verb Code",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD25_CP4",
+      "subtopicId": "idioms_and_phrasal_verbs",
+      "subtopicTitle": "Meaning of Idioms and Phrasal Verbs",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani decodes the last clue: \"Don't put off your revision—burn the midnight oil tonight so tomorrow's quiz is a piece of cake!\"",
+      "questionPrompt": "What do the three highlighted expressions mean in order?",
+      "options": [
+        "cancel / light a lamp / a dessert",
+        "postpone / work or study late at night / an easy task",
+        "tolerate / extinguish a fire / a difficult puzzle",
+        "quit / visit someone / a secret"
+      ],
+      "acceptedAnswers": ["postpone / work or study late at night / an easy task"],
+      "hint": "'Put off' = delay/postpone; 'burn the midnight oil' = study late; 'piece of cake' = effortless task.",
+      "feedbackCorrect": "Vaani: \"Code cracked! You translated the phrasal verb and both idioms cleanly from context.\"",
+      "feedbackWrongDefault": "Avoid literal meanings ('lamp', 'dessert'); match 'put off' (postpone), 'burn the midnight oil' (study late), and 'piece of cake' (very easy).",
+      "feedbackWrongByOption": {
+        "cancel / light a lamp / a dessert": "'Call off' means cancel, whereas 'put off' means postpone; idioms are figurative, not literal lamps or cake."
+      },
+      "simplerExample": "Never put off till tomorrow what makes today's work a piece of cake.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m25_step_08_finale",
+      "stepTitle": "Scene 2: Grand Finale of the English Grammar Adventure",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Vocabulary Carnival Lantern Stage • Evening",
+      "settingDescription": "Golden lanterns light up the carnival square as all five guides gather for the final celebration across all six Grammar Worlds.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "proud",
+          "line": "From the first sentence blocks of World 1 to the idioms and phrasal verbs of World 6, you have mastered the complete craft of English grammar!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "smiling",
+          "line": "Every clause, tense, passive transformation, punctuation mark, and confusing word pair is now under your command."
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "cheerful",
+          "line": "And I promise never to buy stationary pens or spill literal beans again—wait, I look forward to celebrating!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Open your Grammar Notebook to revise your quick rules, then conquer the final 15-question assessment to earn the Maestro of Expression badge!"
+        }
+      ],
+      "storyCallout": "Final Module Complete! Review your Grammar Notebook and conquer the final assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Synonyms, Antonyms & Homonyms in Context",
+        "ruleSummary": "Choose synonyms matching tone/register, antonyms matching polarity, and decode homonyms ('fair', 'bank', 'match') from surrounding clues.",
+        "formulaOrPattern": "Positive vs Negative Nuance (thrifty ≠ stingy) | Context determines homonym sense",
+        "example": "The fair judge visited the village fair on a fair morning."
+      },
+      {
+        "heading": "Confusing Word Pairs (Look-Alikes & Sound-Alikes)",
+        "ruleSummary": "Separate noun/verb spellings (-ce/-se, affect/effect) and vowel pairs (stationary/stationery, principal/principle) by grammar role.",
+        "formulaOrPattern": "Noun: advice, practice, effect | Verb: advise, practise, affect | accept (V) vs except (Prep)",
+        "example": "Her advice had an immediate effect; everyone stayed except Chikoo."
+      },
+      {
+        "heading": "Idioms (Figurative Expressions)",
+        "ruleSummary": "Treat idioms as fixed figurative units whose meaning differs from the literal words inside them.",
+        "formulaOrPattern": "break the ice | once in a blue moon | spill the beans | blessing in disguise",
+        "example": "Missing the first bus was a blessing in disguise because I met my mentor."
+      },
+      {
+        "heading": "Phrasal Verbs & Particle Placement",
+        "ruleSummary": "Changing a verb's particle transforms its meaning; split separable phrasal verbs when the object is a pronoun, and use V-ing after 'look forward to'.",
+        "formulaOrPattern": "call off (cancel) | put off (postpone) | put out (extinguish) | Verb + Pronoun + Particle",
+        "example": "Please put it out before leaving, and we look forward to seeing you soon."
+      }
+    ],
+    "memoryAids": [
+      "StationEry = Envelopes & Erasers; stationAry = stAnding still.",
+      "PrinciPAL = your school PAL (person/main); princiPLE = a moral ruLE.",
+      "Pronouns are VIPs—slip 'it/them/him' INSIDE separable phrasal verbs ('turn it down', NEVER *turn down it)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "We are looking forward to meet you after we call off it.",
+        "correctSentence": "We are looking forward to meeting you after we call it off.",
+        "whyItHappens": "'Look forward to' ends in the preposition 'to' (requiring gerund '-ing'), and 'it' must split 'call' and 'off'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Inseparable phrasal verbs ('look after', 'look into', 'run into', 'take after') never split even with pronouns ('look after her', NOT *look her after).",
+      "In American English, 'practice' serves as both noun and verb, whereas standard Indian/British curricula distinguish noun 'practice' from verb 'practise'."
+    ],
+    "textbookNotes": [
+      "Assam Class IX–X (Ch. 18–21 Synonyms, Antonyms, Confusing Pairs, Idioms), Punjab Class IX (Vocabulary), & Odisha Class X (Ch. 6 Phrasal Verbs): Unverified page numbers marked 'not_verified'."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "MOD25_Q01",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Confusing Word Pairs",
+        "difficulty": "EASY",
+        "questionText": "Choose the right words to fill the blanks: \"Everyone ____ Rohan decided to ____ the challenge.\"",
+        "options": [
+          "accept / except",
+          "except / accept",
+          "except / except",
+          "accept / accept"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Except' is the preposition meaning 'excluding', and 'accept' is the verb meaning 'receive/take on willingly'.",
+        "grammarRule": "Distinguish verb 'accept' (receive) from preposition 'except' (excluding).",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q02",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Confusing Word Pairs",
+        "difficulty": "EASY",
+        "questionText": "Which word correctly completes: \"Lack of sleep can seriously ____ your concentration\"?",
+        "options": [
+          "effect",
+          "affect",
+          "effective",
+          "affection"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "After modal 'can', a main verb is needed: 'affect' means 'to influence'.",
+        "grammarRule": "Use 'affect' as the action verb meaning 'influence', and 'effect' as the noun meaning 'result'.",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q03",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Confusing Word Pairs",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the sentence that uses 'principal' and 'principle' accurately:",
+        "options": [
+          "Our school principle believes in the principal of honesty.",
+          "Our school principal believes in the principle of honesty.",
+          "Our school principal believes in the principal of honesty.",
+          "Our school principle believes in the principle of honesty."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Principal' refers to the head of a school, while 'principle' refers to a moral rule or fundamental truth.",
+        "grammarRule": "PrinciPAL = leader/main; princiPLE = rule/truth.",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q04",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Confusing Word Pairs",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill the blanks accurately: \"If your shoelaces are ____, you might ____ your balance.\"",
+        "options": [
+          "lose / loose",
+          "loose / lose",
+          "loose / loose",
+          "lose / lose"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Loose' (adjective) means 'not tight', whereas 'lose' (verb) means 'fail to keep / misplace'.",
+        "grammarRule": "Distinguish adjective 'loose' (untight) from verb 'lose' (misplace/fail to keep).",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q05",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Confusing Word Pairs",
+        "difficulty": "MEDIUM",
+        "questionText": "Which pair accurately completes: \"The doctor ____ me to follow her ____ strictly\"?",
+        "options": [
+          "adviced / advise",
+          "advised / advice",
+          "advice / advised",
+          "advised / advise"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use verb 'advised' after the subject 'doctor', and noun 'advice' after 'her'.",
+        "grammarRule": "Use -se ('advise') for the verb and -ce ('advice') for the noun.",
+        "lessonStepRef": "m25_step_04_cp2",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q06",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Synonyms in Context",
+        "difficulty": "EASY",
+        "questionText": "Choose the closest synonym for 'abundant' in \"During the monsoon, water is abundant in the hills\":",
+        "options": [
+          "scarce",
+          "plentiful",
+          "shallow",
+          "fragile"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Abundant' means existing in large quantities, so 'plentiful' is the closest synonym.",
+        "grammarRule": "Verify synonyms by checking whether they preserve sense and tone in the sentence.",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q07",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Antonyms in Context",
+        "difficulty": "EASY",
+        "questionText": "Which word is the clearest antonym of 'generous'?",
+        "options": [
+          "kind",
+          "cheerful",
+          "miserly",
+          "brave"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Miserly' (unwilling to share or spend) directly contrasts with 'generous' (willing to give freely).",
+        "grammarRule": "Antonyms express semantic opposition within the same grammatical category.",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q08",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Homonyms in Context",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"The judge gave a fair verdict after the village fair\", how are the two uses of 'fair' related?",
+        "options": [
+          "Both mean 'an outdoor carnival'",
+          "The first means 'just/impartial' and the second means 'a public festival/gathering'",
+          "The first means 'pale' and the second means 'bright'",
+          "Both are verbs meaning 'to judge'"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Fair' is a classic homonym: as an adjective before 'verdict' it means 'just/unbiased'; as a noun after 'village' it means 'a carnival/market'.",
+        "grammarRule": "Homonyms share identical spelling/sound while carrying distinct meanings determined by context.",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q09",
+        "subtopicId": "idioms_and_phrasal_verbs",
+        "subtopicTitle": "Idioms in Context",
+        "difficulty": "EASY",
+        "questionText": "What does 'once in a blue moon' mean in \"Rohan visits the city once in a blue moon\"?",
+        "options": [
+          "Every full moon night",
+          "Very rarely",
+          "At midnight only",
+          "Without warning"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The idiom 'once in a blue moon' means 'very rarely / almost never'.",
+        "grammarRule": "Interpret idioms figuratively as whole units.",
+        "lessonStepRef": "m25_step_05_idioms_and_phrasal_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q10",
+        "subtopicId": "idioms_and_phrasal_verbs",
+        "subtopicTitle": "Idioms in Context",
+        "difficulty": "MEDIUM",
+        "questionText": "Which idiom best fits: \"Our bus broke down, which proved ____ because we met our guide right at the repair stop\"?",
+        "options": [
+          "under the weather",
+          "a blessing in disguise",
+          "spilling the beans",
+          "breaking the ice"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'A blessing in disguise' describes an apparent misfortune that unexpectedly leads to a good outcome.",
+        "grammarRule": "Match idiom meaning to the surrounding cause-and-effect context.",
+        "lessonStepRef": "m25_step_05_idioms_and_phrasal_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q11",
+        "subtopicId": "idioms_and_phrasal_verbs",
+        "subtopicTitle": "Phrasal Verbs with 'Put'",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the right phrasal verb: \"Firefighters quickly ____ the blaze before it spread.\"",
+        "options": [
+          "put off",
+          "put out",
+          "put up with",
+          "put on"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Put out' means 'extinguish'; 'put off' = postpone; 'put up with' = tolerate; 'put on' = wear.",
+        "grammarRule": "Small particle shifts change phrasal verb meaning completely.",
+        "lessonStepRef": "m25_step_05_idioms_and_phrasal_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q12",
+        "subtopicId": "idioms_and_phrasal_verbs",
+        "subtopicTitle": "Phrasal Verbs with 'Look'",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence uses 'look forward to' grammatically?",
+        "options": [
+          "We look forward to meet the principal tomorrow.",
+          "We look forward to meeting the principal tomorrow.",
+          "We look forward to met the principal tomorrow.",
+          "We are looking forward for meet the principal tomorrow."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'To' in 'look forward to' is a preposition, so it must be followed by a noun or gerund ('meeting').",
+        "grammarRule": "Use gerund (V-ing) or noun after 'look forward to'.",
+        "lessonStepRef": "m25_step_05_idioms_and_phrasal_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q13",
+        "subtopicId": "idioms_and_phrasal_verbs",
+        "subtopicTitle": "Separable Phrasal Verbs",
+        "difficulty": "HARD",
+        "questionText": "Choose the grammatically accurate sentence when replacing 'the concert' with 'it':",
+        "options": [
+          "Because of the storm, they decided to call off it.",
+          "Because of the storm, they decided to call it off.",
+          "Because of the storm, they decided it to call off.",
+          "Because of the storm, they decided to off call it."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "With a separable transitive phrasal verb ('call off'), a pronoun object ('it') must sit between verb and particle ('call it off').",
+        "grammarRule": "Pronoun objects split separable phrasal verbs: Verb + Pronoun + Particle.",
+        "lessonStepRef": "m25_step_06_cp3",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "MOD25_Q14",
+        "subtopicId": "idioms_and_phrasal_verbs",
+        "subtopicTitle": "Phrasal Verbs with 'Give' & 'Turn'",
+        "difficulty": "HARD",
+        "questionText": "What do 'turn down' and 'give up' mean in \"Though his first draft was turned down, he refused to give up\"?",
+        "options": [
+          "accepted / surrender",
+          "rejected / quit trying",
+          "lowered in volume / distribute",
+          "postponed / extinguish"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Turn down' (an application or draft) means 'reject/refuse', and 'give up' means 'quit trying'.",
+        "grammarRule": "Interpret polysemous phrasal verbs using surrounding context ('first draft', 'refused to').",
+        "lessonStepRef": "m25_step_07_cp4",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "MOD25_Q15",
+        "subtopicId": "lexical_precision_and_confusing_pairs",
+        "subtopicTitle": "Combined Nuance & Confusing Pairs",
+        "difficulty": "HARD",
+        "questionText": "Which sentence has zero word-choice, idiom, or phrasal-verb errors?",
+        "options": [
+          "Her warm compliment complemented the team's spirit, and she looked after the stationary neatly.",
+          "Her warm complement complimented the team's spirit, and she looked into the stationery neatly.",
+          "Her warm compliment complemented the team's spirit, and she looked after the stationery neatly.",
+          "Her warm compliment complemented the team's spirit, and she looked up the stationary neatly."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Compliment' (praise) + 'complemented' (completed nicely) + 'looked after' (took care of) + 'stationery' (paper/pens) are all exact.",
+        "grammarRule": "Distinguish compliment (praise) vs complement (complete), look after (care for), and stationery (writing supplies).",
+        "lessonStepRef": "m25_step_02_synonyms_antonyms_confusing_words",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

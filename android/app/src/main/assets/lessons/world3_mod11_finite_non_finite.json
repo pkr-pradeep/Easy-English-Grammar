@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_11",
+  "worldId": "WORLD_3",
+  "title": "Finite and Non-finite Verbs",
+  "storyTitle": "Engines vs. Timeless Helpers",
+  "estimatedMinutes": 20,
+  "charactersInvolved": [
+    "ACHARYA_VIDYADHAR",
+    "CHIKOO_BANDAR",
+    "DETECTIVE_IRA",
+    "VAANI",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m11_step_01_intro",
+      "stepTitle": "Scene 1: The Timeless Blueprints",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Time Machine Workshop • Blueprint Desk",
+      "settingDescription": "Detective Ira changes 'He likes' to 'They liked' on the blackboard—yet half the verb forms in the sentence refuse to change shape!",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "puzzled",
+          "line": "Look! When I swap 'She wants to sing' to 'They wanted to sing', 'wants' changes to 'wanted'—but 'to sing' didn't budge an inch! Is it broken?"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "smiling",
+          "line": "Not broken at all! 'Wants/wanted' is a FINITE verb—chained to tense, person, and number. 'To sing' is a NON-FINITE verb—a timeless helper free from subject and tense!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "eager",
+          "line": "Infinitives ('to read'), Gerunds ('Reading is fun'), and Participles ('a shining lantern') are the three great non-finite families!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "alert",
+          "line": "And watch out for dangling participles like 'Walking to school, the rain fell on me!' Rain doesn't walk to school! Let us inspect every non-finite form."
+        }
+      ],
+      "storyCallout": "Goal: Tell finite verbs apart from infinitives, gerunds, and participles, and avoid bare-infinitive & dangling-participle errors."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m11_step_02_finite_vs_infinitive",
+      "stepTitle": "Discover: Finite Verbs vs. Infinitives (To & Bare)",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "finite_and_infinitives",
+      "subtopicTitle": "Finite Verbs, To-Infinitives & Bare Infinitives",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A Finite verb is a loyal clock-watcher—change the subject ('I → She') or time ('today → yesterday') and it IMMEDIATELY changes uniform! A Non-finite verb wears one all-weather jacket and refuses to budge!",
+      "formalDefinition": "A finite verb is inflected for tense, person, and number and serves as the main verb of an independent or subordinate clause. A non-finite verb—an infinitive (to + V1 or bare V1), participle (-ing or V3), or gerund (-ing acting as noun)—is unmarked for tense or subject agreement.",
+      "simpleExplanation": "Test any verb by swapping 'He' ↔ 'They' and 'today' ↔ 'yesterday'. Whichever verb changes is FINITE; the one staying unchanged is NON-FINITE!\nInside Infinitives, know when to DROP 'to' (Bare Infinitive): (1) After modal auxiliaries ('can swim, must wait'); (2) After 'let, make, bid, see, hear, watch, feel' in ACTIVE voice ('She made me laugh' — NOT *to laugh! Note: Passive restores 'to': 'I was made to laugh'); (3) After 'had better, would rather' ('You had better leave now').",
+      "structurePatterns": [
+        {
+          "formName": "Finite vs. Non-Finite Test",
+          "formula": "Change Subject/Tense: Only the Finite Verb Changes!",
+          "sample": "He tries to win. → They tried to win. ('tries/tried' = Finite; 'to win' = Non-finite)"
+        },
+        {
+          "formName": "To-Infinitive vs. Bare Infinitive",
+          "formula": "want / decide / hope + to V1 | modal / let / make / see / hear + Object + Bare V1",
+          "sample": "They let Chikoo enter (NOT *to enter). / He was made to apologise (Passive takes 'to')."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The coach made the team practise ten extra laps, yet allowed them to rest afterwards.",
+          "contextNote": "'Made' takes bare infinitive ('practise'); 'allowed' takes to-infinitive ('to rest').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "You had better carry an umbrella before the sky turns dark.",
+          "contextNote": "'Had better' is always followed by bare V1 ('carry', never *to carry).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Did you see him to cross the street, and let him to sit down?",
+          "correctSentence": "Did you see him cross the street, and let him sit down?",
+          "whyItHappens": "Active perception verbs ('see, hear, watch') and 'let/make' take a bare infinitive without 'to'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Even though 'to' usually signals an infinitive, certain phrases end in PREPOSITION 'to' and therefore require '-ing' (gerund), NOT V1: 'look forward to meeting', 'used to waking up', 'accustomed to working', 'object to paying'.",
+        "'Help' may take either bare V1 or to-V1 ('She helped me carry / to carry the books')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m11_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Finite or Non-Finite?",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD11_CP1",
+      "subtopicId": "finite_and_infinitives",
+      "subtopicTitle": "Distinguishing Finite from Non-Finite Verbs",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira taps a clue on the board: \"Hoping to catch the morning ferry, Meera hurried towards the pier.\"",
+      "questionPrompt": "Which word in that sentence is the ONLY FINITE verb?",
+      "options": [
+        "Hoping",
+        "to catch",
+        "hurried",
+        "morning"
+      ],
+      "acceptedAnswers": ["hurried"],
+      "hint": "Change 'Meera' and past time into present: 'Hoping to catch the ferry, the boys ____ towards the pier.' Which verb changes?",
+      "feedbackCorrect": "Detective Ira: \"Bullseye! 'Hurried' carries past tense and links to the subject 'Meera'; 'Hoping' (participle) and 'to catch' (infinitive) are non-finite.\"",
+      "feedbackWrongDefault": "Use the Tense/Subject Swap Test—only one word marks past tense for the subject 'Meera'.",
+      "feedbackWrongByOption": {
+        "Hoping": "'Hoping' is a non-finite present participle—it never changes if you change 'Meera' to 'they' or past to future.",
+        "to catch": "'To catch' is a non-finite to-infinitive."
+      },
+      "simplerExample": "Running fast (Non-finite), Dev caught (Finite) the bus.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m11_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Bare Infinitive Rule",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD11_CP2",
+      "subtopicId": "finite_and_infinitives",
+      "subtopicTitle": "Active 'make/let' vs. Passive 'be made'",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar reminds Chikoo: \"The funny puppet show made the whole audience ____ loudly!\"",
+      "questionPrompt": "Type the correct non-finite form of 'laugh' ('laugh' or 'to laugh'):",
+      "sentenceTemplate": "The funny puppet show made the whole audience ________ loudly!",
+      "acceptedAnswers": ["laugh"],
+      "hint": "This sentence is in ACTIVE voice after 'made'. Does active 'make + object' take 'to' or bare V1?",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Exact! Active 'made + object' takes the bare infinitive 'laugh' (whereas passive would say 'The audience was made to laugh').\"",
+      "feedbackWrongDefault": "Drop 'to' after active 'make/let + object'.",
+      "simplerExample": "Let the children play. / Mother made us finish our soup.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m11_step_05_gerunds_participles",
+      "stepTitle": "Discover: Gerunds vs. Participles",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "gerunds_participles",
+      "subtopicTitle": "Gerunds (Verbal Nouns) vs. Participles (Verbal Adjectives)",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Both Gerunds and Present Participles end in '-ing', so check their job! A Gerund is a verb wearing a Noun hat (ask 'WHAT?'—'Swimming is healthy'); a Participle is a verb wearing an Adjective cape describing a noun ('a barking dog', 'tired travellers')!",
+      "formalDefinition": "A gerund is a verb ending in '-ing' functioning grammatically as a noun (subject, object, or object of a preposition). A participle is a non-finite verb form—Present (-ing), Past (V3), or Perfect (having + V3)—functioning as an adjective or forming participial clauses. An introductory participial phrase must share its implied subject with the subject of the main clause.",
+      "simpleExplanation": "Three essential exam checks:\n1) Gerund vs. Participle: In 'Reading expands the mind' and 'She enjoys painting', '-ing' answers 'WHAT?' → Gerund (Noun). In 'A rolling stone' and 'Smiling brightly, she waved', '-ing' describes a noun → Participle (Adjective).\n2) Gerund vs. Infinitive after verbs: Verbs like 'enjoy, avoid, mind, finish, keep, suggest, admit' take GERUNDS ('avoid making mistakes'—NOT *avoid to make); while 'decide, hope, agree, refuse, promise' take TO-INFINITIVES ('decided to wait'). Watch meaning-changers: 'stop smoking' (quit the habit) vs 'stop to smoke' (pause another activity in order to smoke); 'remember locking' (memory of past act) vs 'remember to lock' (don't forget future duty).\n3) Never leave a Dangling Participle! If a sentence opens with 'Walking across the bridge,...', the subject right after the comma MUST be the person walking!",
+      "structurePatterns": [
+        {
+          "formName": "Gerund (Verb-ing as Noun)",
+          "formula": "Subject / Object of Verb / Object of Preposition (including 'look forward to + V-ing')",
+          "sample": "Cycling keeps us fit. / He insisted on paying. / We look forward to seeing you."
+        },
+        {
+          "formName": "Participles (Verb as Adjective)",
+          "formula": "Present (-ing: active) | Past (V3: passive/completed) | Perfect (Having + V3: earlier action)",
+          "sample": "Having finished his work, Kabir locked the lab. (Kabir finished AND Kabir locked!)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "She enjoys solving geometry puzzles and looks forward to joining the maths club.",
+          "contextNote": "'Enjoy' requires a gerund ('solving'); 'look forward to' ends with preposition 'to' + gerund ('joining').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Opening the rusty gate, the explorers spotted an ancient sundial.",
+          "contextNote": "'The explorers' is the subject right after the comma, matching who opened the gate.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Walking through the park, a loud thunderclap frightened Chikoo.",
+          "correctSentence": "While Chikoo was walking through the park, a loud thunderclap frightened him.",
+          "whyItHappens": "Putting 'a loud thunderclap' right after 'Walking through the park,' makes it sound as if the thunderclap was walking!",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "In formal style, use a possessive before a gerund ('I appreciate your helping us', 'Do you mind my opening the window?')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m11_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Gerund or Participle?",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD11_CP3",
+      "subtopicId": "gerunds_participles",
+      "subtopicTitle": "Distinguishing '-ing' Gerunds from Participles",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani compares two '-ing' words: \"Teaching requires patience\" vs. \"The cheering crowd greeted the winners.\"",
+      "questionPrompt": "Identify the grammatical role of 'Teaching' and 'cheering' respectively:",
+      "options": [
+        "Participle, then Gerund",
+        "Gerund, then Participle",
+        "Both are Gerunds",
+        "Both are Finite Verbs"
+      ],
+      "acceptedAnswers": ["Gerund, then Participle"],
+      "hint": "'Teaching' is the subject noun (WHAT requires patience?); 'cheering' describes the noun 'crowd'!",
+      "feedbackCorrect": "Vaani: \"Spot on! 'Teaching' acts as a Noun subject (Gerund), while 'cheering' modifies 'crowd' as an Adjective (Participle).\"",
+      "feedbackWrongDefault": "Ask: Does the '-ing' word act as the name of an activity (Gerund) or describe another noun (Participle)?",
+      "feedbackWrongByOption": {
+        "Participle, then Gerund": "Reversed! 'Teaching' is the subject noun (Gerund), and 'cheering' describes 'crowd' (Participle)."
+      },
+      "simplerExample": "Swimming (Gerund) strengthens lungs; a swimming (Participle) duck crossed the pond.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m11_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Rescue the Dangling Participle",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD11_CP4",
+      "subtopicId": "gerunds_participles",
+      "subtopicTitle": "Fixing Dangling Participles & 'look forward to'",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira spots a hilarious mistake on a tourist poster: \"Climbing the watchtower, the whole valley came into view!\"",
+      "questionPrompt": "Choose the version that fixes the dangling participle accurately:",
+      "options": [
+        "Climbing the watchtower, the whole valley was seen!",
+        "Climbing the watchtower, we saw the whole valley spread below.",
+        "Climbing the watchtower, the valley climbed too.",
+        "To climbing the watchtower, we saw the valley."
+      ],
+      "acceptedAnswers": ["Climbing the watchtower, we saw the whole valley spread below."],
+      "hint": "Who was climbing the watchtower? Put THAT person ('we') as the subject right after the comma!",
+      "feedbackCorrect": "Detective Ira: \"Valleys can't climb watchtowers—'we' can! Putting 'we' right after the comma locks subject and participle cleanly.\"",
+      "feedbackWrongDefault": "Make sure the subject right after the comma is the human agent who performed the climbing.",
+      "feedbackWrongByOption": {
+        "Climbing the watchtower, the whole valley was seen!": "'The whole valley' is still the grammatical subject right after the comma!"
+      },
+      "simplerExample": "Opening the book, Ritu found a bookmark inside. (Ritu opened it!)",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m11_step_08_outro",
+      "stepTitle": "Scene 2: Helpers Aligned!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Time Machine Workshop • Afternoon",
+      "settingDescription": "With finite engines synchronized and every infinitive, gerund, and participle neatly mounted, the blueprints gleam.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "impressed",
+          "line": "Seeing our blueprints restored, I feel proud of our young engineers! Wait—'Seeing' matches 'I'! No dangling participles here!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Open your Grammar Notebook to review 'look forward to + V-ing' and active/passive infinitives, then take the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 11 Story Complete! Review your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Finite vs. Non-Finite Verbs",
+        "ruleSummary": "Finite verbs change for tense, person, and number; non-finite verbs (infinitives, participles, gerunds) stay invariant regardless of subject or tense.",
+        "formulaOrPattern": "Finite = Tense + Subject Agreement | Non-Finite = Infinitive (to V1/V1), Gerund (V-ing as N), Participle (V-ing / V3 / having V3)",
+        "example": "She hopes (Finite) to finish (Non-finite) reading (Non-finite) tonight."
+      },
+      {
+        "heading": "Bare Infinitives & 'to' + Gerund Traps",
+        "ruleSummary": "Omit 'to' after modals, 'had better / would rather', and active 'let / make / see / hear + object' (restore 'to' in passive). Keep '-ing' after preposition 'to' ('look forward to', 'used to').",
+        "formulaOrPattern": "made him run (Active) vs. was made to run (Passive) | look forward to + V-ing",
+        "example": "I am looking forward to meeting you; let us begin."
+      },
+      {
+        "heading": "Dangling Participles & Meaning Pairs",
+        "ruleSummary": "An opening participial phrase must modify the subject immediately after the comma. Distinguish 'stop V-ing' (quit) from 'stop to V1' (pause in order to).",
+        "formulaOrPattern": "Having finished his homework, Arjun went out (NOT *homework was done).",
+        "example": "He stopped chatting to focus on the experiment."
+      }
+    ],
+    "memoryAids": [
+      "Swap 'He' ↔ 'They' and 'today' ↔ 'yesterday': only the Finite verb blinks and changes!",
+      "'-ing' wearing a Noun hat (answers WHAT?) = Gerund; '-ing' wearing an Adjective cape (describes a noun) = Participle."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "I look forward to meet you, and the guard made him to wait.",
+        "correctSentence": "I look forward to meeting you, and the guard made him wait.",
+        "whyItHappens": "In 'look forward to', 'to' is a preposition taking a gerund ('meeting'), whereas active 'make + object' drops 'to' ('made him wait').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "Entering the dark cave, a bat flew past Kabir.",
+        "correctSentence": "As Kabir was entering the dark cave, a bat flew past him.",
+        "whyItHappens": "Putting 'a bat' right after 'Entering the dark cave,' falsely implies the bat was the one entering—avoid dangling participles!",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Passive voice of 'make / see / hear' brings 'to' back: 'The thief was seen to jump over the wall.' ('Let' stays bare: 'He was let go').",
+      "Some verbs ('begin, start, continue, like') accept both gerund and to-infinitive with almost no meaning change."
+    ],
+    "textbookNotes": [
+      "Consolidated across Punjab Class IX Ch. 8 (Non-finites) and Odisha Class X Ch. 4 (Non-finite Verb Forms)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M11_Q01",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Identifying finite verbs",
+        "difficulty": "EASY",
+        "questionText": "In \"Trying hard to solve the riddle, Ananya stayed awake late\", which word is a FINITE verb?",
+        "options": [
+          "Trying",
+          "to solve",
+          "stayed",
+          "awake"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Stayed' marks past tense and agrees with the subject 'Ananya'; 'Trying' (participle) and 'to solve' (infinitive) are non-finite.",
+        "distractorRationales": [
+          "Non-finite participle.",
+          "Non-finite to-infinitive.",
+          "Correct: finite past-tense verb.",
+          "Adjective complement."
+        ],
+        "grammarRule": "A finite verb shows tense and anchors the clause's subject.",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q02",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Bare infinitive after active 'make'",
+        "difficulty": "EASY",
+        "questionText": "Fill in accurately: \"The strict coach made the players ____ two extra rounds.\"",
+        "options": [
+          "to run",
+          "run",
+          "running",
+          "ran"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Active 'make + object' takes a bare infinitive (V1 without 'to'): 'made the players run'.",
+        "distractorRationales": [
+          "Omit 'to' in active voice after 'make'.",
+          "Correct: bare infinitive 'run'.",
+          "Wrong verb form after 'make + object'.",
+          "Do not use past tense 'ran' after 'made'."
+        ],
+        "grammarRule": "Active 'let, make, bid, see, hear + object' take a bare infinitive (without 'to').",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q03",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Passive 'was made to'",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert into the passive voice accurately: \"The officer made the driver show his licence.\"",
+        "options": [
+          "The driver was made show his licence.",
+          "The driver was made to show his licence.",
+          "The driver was made showing his licence.",
+          "The driver made to show his licence."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Although active 'made + object' drops 'to', passive 'was/were made' RESTORES 'to' ('was made to show').",
+        "distractorRationales": [
+          "Passive 'was made' requires 'to'.",
+          "Correct: passive restores 'to-infinitive'.",
+          "Wrong non-finite form.",
+          "Passive auxiliary 'was' is missing."
+        ],
+        "grammarRule": "In passive voice, 'make, see, hear' take a to-infinitive ('was made to wait', 'was seen to leave').",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q04",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Identifying gerunds",
+        "difficulty": "EASY",
+        "questionText": "In which sentence is the underlined/highlighted '-ing' word a GERUND (verbal noun)?",
+        "options": [
+          "The glowing embers warmed the camp.",
+          "Smiling warmly, Grandma welcomed us.",
+          "My cousin is fond of gardening.",
+          "The boy standing near the gate is my classmate."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'fond of gardening', 'gardening' follows the preposition 'of' as a noun object, making it a Gerund.",
+        "distractorRationales": [
+          "'Glowing' describes 'embers' (Participle).",
+          "'Smiling' describes 'Grandma' (Participle).",
+          "Correct: object of preposition 'of' (Gerund).",
+          "'Standing' modifies 'The boy' (Participle)."
+        ],
+        "grammarRule": "A verb ending in '-ing' used as a subject, direct object, or object of a preposition is a Gerund.",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q05",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Preposition 'to' + Gerund",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate completion: \"All the students are looking forward to ____ the planetarium.\"",
+        "options": [
+          "visit",
+          "visiting",
+          "visited",
+          "be visit"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'look forward to', 'to' is a preposition, so it must take a noun or gerund ('visiting').",
+        "distractorRationales": [
+          "Trap: 'to' here is a preposition, not an infinitive marker!",
+          "Correct: preposition 'to' + gerund 'visiting'.",
+          "Wrong participle.",
+          "Ungrammatical."
+        ],
+        "grammarRule": "Follow 'look forward to', 'be used to', 'object to', and 'with a view to' with V-ing.",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M11_Q06",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Verbs followed by Gerund",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the grammatically accurate sentence:",
+        "options": [
+          "You should avoid to waste drinking water.",
+          "She enjoys to read historical biographies.",
+          "We finished preparing the science chart before dusk.",
+          "Would you mind to close the eastern window?"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Finish', 'avoid', 'enjoy', and 'mind' take a GERUND (-ing), never a to-infinitive (*avoid to waste, *enjoy to read).",
+        "distractorRationales": [
+          "'Avoid' requires gerund: 'avoid wasting'.",
+          "'Enjoy' requires gerund: 'enjoys reading'.",
+          "Correct: 'finished' + gerund 'preparing'.",
+          "'Mind' requires gerund: 'mind closing'."
+        ],
+        "grammarRule": "Verbs like avoid, enjoy, finish, mind, suggest, and admit are followed by a gerund (V-ing).",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q07",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Had better / Would rather",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"The sky looks stormy; we had better ____ for shelter now.\"",
+        "options": [
+          "to head",
+          "heading",
+          "head",
+          "headed"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Had better' and 'would rather' always take a bare infinitive ('head', not *to head or *headed).",
+        "distractorRationales": [
+          "Never add 'to' after 'had better'.",
+          "Does not take '-ing'.",
+          "Correct: bare V1 'head'.",
+          "Does not take V2/V3 directly."
+        ],
+        "grammarRule": "Use bare V1 immediately after 'had better' and 'would rather'.",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q08",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Meaning change: stop V-ing vs stop to V1",
+        "difficulty": "HARD",
+        "questionText": "Compare: (1) \"He stopped talking when the principal entered.\" (2) \"On his walk, he stopped to talk to his neighbour.\" What is the difference?",
+        "options": [
+          "(1) means he quit talking; (2) means he paused walking in order to talk.",
+          "Both sentences mean exactly the same thing.",
+          "(1) is ungrammatical.",
+          "(2) means he never spoke to his neighbour again."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Stop + gerund' means cease the activity itself; 'stop + to-infinitive' expresses purpose (pausing in order to do something).",
+        "distractorRationales": [
+          "Correct distinction between gerund and infinitive of purpose.",
+          "Their meanings differ sharply.",
+          "Both are completely grammatical.",
+          "Opposite of sentence (2)."
+        ],
+        "grammarRule": "'Stop doing X' = quit X; 'stop to do X' = pause in order to do X.",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q09",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Dangling participles",
+        "difficulty": "HARD",
+        "questionText": "Which sentence avoids a dangling participle?",
+        "options": [
+          "Having lost my bus pass, walking home was necessary.",
+          "Having lost my bus pass, I had to walk home.",
+          "Walking into the museum, a huge skeleton greeted us.",
+          "Waiting for the train, the heavy rain drenched our bags."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In Option B, 'I' (the person who lost the bus pass) stands immediately after the comma as the main clause subject.",
+        "distractorRationales": [
+          "'Walking home' did not lose the bus pass.",
+          "Correct: 'I' is the subject of both 'Having lost' and 'had to walk'.",
+          "Makes it sound like the skeleton was walking into the museum.",
+          "Makes it sound like the rain was waiting for the train."
+        ],
+        "grammarRule": "Ensure the implied subject of an introductory participle matches the main clause subject after the comma.",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M11_Q10",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Perfect participle (Having + V3)",
+        "difficulty": "HARD",
+        "questionText": "Combine cleanly using a Perfect Participle: \"Rohan completed his lab notes. Then he submitted the register.\"",
+        "options": [
+          "Completing his lab notes, the register was submitted.",
+          "Having completed his lab notes, Rohan submitted the register.",
+          "Having complete his lab notes, Rohan submitted the register.",
+          "To complete his lab notes, Rohan was submitted."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use 'Having + V3' ('Having completed') when one action finished completely BEFORE the second action by the same subject ('Rohan').",
+        "distractorRationales": [
+          "Dangling participle: the register didn't complete the notes.",
+          "Correct: 'Having + V3' + matching subject 'Rohan'.",
+          "Needs V3 'completed', not V1 'complete'.",
+          "Wrong voice and logic."
+        ],
+        "grammarRule": "Use 'Having + V3' to show a completed earlier action performed by the main clause subject.",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q11",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Too ... to / Enough ... to",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete using a natural to-infinitive: \"The suitcase was too heavy ____ upstairs alone.\"",
+        "options": [
+          "for carrying",
+          "to carry",
+          "carry",
+          "carried"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The pattern 'too + adjective + to + V1' takes a to-infinitive ('too heavy to carry').",
+        "distractorRationales": [
+          "'Too... for carrying' is non-standard here.",
+          "Correct: 'too heavy to carry'.",
+          "Missing 'to'.",
+          "Wrong verb form."
+        ],
+        "grammarRule": "Pair 'too + adjective' and 'adjective + enough' with a to-infinitive ('strong enough to lift').",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q12",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Possessive before gerund",
+        "difficulty": "HARD",
+        "questionText": "Choose the formally preferred wording with a gerund: \"The librarian objected to ____ late at night.\"",
+        "options": [
+          "me returning books",
+          "my returning books",
+          "I returning books",
+          "mine returning books"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Because a gerund ('returning') functions as a noun, formal grammar places a possessive determiner ('my', 'his', 'their') before it.",
+        "distractorRationales": [
+          "Colloquial, but formal grammar prefers possessive 'my'.",
+          "Correct: possessive determiner 'my' + gerund 'returning'.",
+          "'I' cannot precede a gerund.",
+          "'Mine' stands alone, never before a noun/gerund."
+        ],
+        "grammarRule": "In formal usage, modify a gerund with a possessive determiner ('my/his/Rohan's coming').",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M11_Q13",
+        "subtopicId": "gerunds_participles",
+        "subtopicTitle": "Participle V3 vs V-ing",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in the right participle: \"The ____ vase lay in tiny pieces beside the shelf.\"",
+        "options": [
+          "breaking",
+          "broken",
+          "broke",
+          "to break"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The vase received the action and is in a completed state ('broken vase', V3 past participle functioning as an adjective).",
+        "distractorRationales": [
+          "'Breaking' means currently shattering.",
+          "Correct: past participle 'broken' shows passive/completed state.",
+          "'Broke' is simple past V2, not a modifier.",
+          "Infinitive does not fit before 'vase' here."
+        ],
+        "grammarRule": "Present participles (-ing) carry active/ongoing meaning; Past participles (V3) carry passive/completed meaning.",
+        "lessonStepRef": "m11_step_05_gerunds_participles",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q14",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Non-finite verb count",
+        "difficulty": "MEDIUM",
+        "questionText": "How many NON-FINITE verbs appear in: \"She wants to learn painting before leaving school\"?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Wants' is the 1 finite verb; 'to learn' (to-infinitive), 'painting' (gerund object of 'learn'), and 'leaving' (gerund after preposition 'before') are 3 non-finite verbs.",
+        "distractorRationales": [
+          "Misses 'painting' and 'leaving'.",
+          "Misses one of the three non-finite forms.",
+          "Correct: 'to learn' + 'painting' + 'leaving' = 3.",
+          "'Wants' is finite, not non-finite."
+        ],
+        "grammarRule": "Count infinitives, gerunds, and participles separately from the finite verb.",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M11_Q15",
+        "subtopicId": "finite_and_infinitives",
+        "subtopicTitle": "Bare infinitive after 'dare not' / 'need not'",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya checks the workshop's final blueprint.",
+        "questionText": "Choose the accurate sentence:",
+        "options": [
+          "You need not to worry about the spare gears.",
+          "You need not worry about the spare gears.",
+          "You need not worrying about the spare gears.",
+          "You needs not worry about the spare gears."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When 'need' and 'dare' act as modal auxiliaries in negatives/questions ('need not', 'dare not'), they take NO '-s' and take a bare infinitive ('worry').",
+        "distractorRationales": [
+          "Modal 'need not' never takes 'to'. (Use 'do not need to' for main-verb 'need'.)",
+          "Correct: modal 'need not' + bare V1 'worry'.",
+          "Wrong form 'worrying'.",
+          "Modal 'need' does not add '-s'."
+        ],
+        "grammarRule": "Modal 'need not' and 'dare not' take a bare infinitive without 'to'.",
+        "lessonStepRef": "m11_step_02_finite_vs_infinitive",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

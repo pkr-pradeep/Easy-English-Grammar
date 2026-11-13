@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_12",
+  "worldId": "WORLD_3",
+  "title": "Auxiliaries, Modals and Special Verbs",
+  "storyTitle": "The Royal Permission & Special Verbs Office",
+  "estimatedMinutes": 22,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "CHIKOO_BANDAR",
+    "VAANI",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m12_step_01_intro",
+      "stepTitle": "Scene 1: Chaos at the Permission Counter",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Permission Office • Morning",
+      "settingDescription": "Visitors are queuing for time-travel passes while Chikoo Bandar hands out impossible modal stamps and continuous-tense slips.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "proud",
+          "line": "Next! 'You must to wear your badge', 'He cans drive fast', and look—'I am knowing the secret password'!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "amused",
+          "line": "Chikoo! Modals NEVER take '-s' or 'to', and stative verbs like 'know' resist '-ing' forms!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Auxiliaries fall into two families: Primary Auxiliaries (be, do, have) and Modal Auxiliaries (can, could, may, might, must, shall, should, will, would). We also examine Special Verbs—non-conclusive verbs, inchoative verbs, and group verbs!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "focused",
+          "line": "Let us inspect how each helper works so every pass issued by this office carries exact grammar and meaning."
+        }
+      ],
+      "storyCallout": "Goal: Master primary auxiliaries, modals (ability, permission, possibility, obligation, advice), and special verb classes."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m12_step_02_primary_and_modals",
+      "stepTitle": "Discover: Primary Auxiliaries & Modals",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "auxiliaries_modals",
+      "subtopicTitle": "Primary Auxiliaries vs. Modal Auxiliaries",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Primary Auxiliaries ('be, do, have') are shape-shifters that change clothes for every person and tense ('am/is/was, do/does/did, have/has/had'). Modals ('can, must, should, might') are stubborn royalty—no '-s', no '-ing', no 'to' after them!",
+      "formalDefinition": "Primary auxiliaries (be, do, have) build tense, aspect, voice, negatives, questions, and emphasis, and can also serve as main verbs. Modal auxiliaries (can, could, may, might, will, would, shall, should, must, ought to) are defective verbs lacking '-s', infinitive, or participle forms, expressing speaker attitude toward ability, permission, possibility, obligation, or advice.",
+      "simpleExplanation": "1) Primary Auxiliaries: 'be' forms continuous/passive; 'have' forms perfect tenses; 'do/does/did' powers questions, negatives, and emphasis ('I DID lock the door!').\n2) Modal Grammar Rule: Modal + Bare Infinitive V1 (EXCEPT 'ought to' and semi-modal 'used to'). Never write *must to go or *he cans.\n3) Key Modal Nuances:\n- Ability: 'can' (present), 'could' (past general ability), 'was/were able to' (managed on ONE specific past occasion!).\n- Permission: 'may/could' (polite formal permission), 'can' (informal).\n- Possibility/Deduction: 'may' (good chance), 'might' (remote chance), 'must be' (strong logical certainty), 'can't be' (logical impossibility—NOT *mustn't be!).\n- Obligation & Advice: 'must' (strong internal duty/rule), 'have to' (external rule), 'must not' (prohibition) vs 'need not / don't have to' (no necessity!), 'should / ought to' (moral duty or good advice).",
+      "structurePatterns": [
+        {
+          "formName": "Modal Syntax Lock",
+          "formula": "Subject + Modal + Bare V1 (NO -s, NO to, NO -ed)",
+          "sample": "She must submit (NOT *musts / *must to submit) the pass today."
+        },
+        {
+          "formName": "Prohibition vs. No Necessity",
+          "formula": "mustn't = Forbidden (Don't do it!) | needn't / don't have to = Not required (Optional)",
+          "sample": "You mustn't touch the wire, though you needn't wear a helmet indoors."
+        },
+        {
+          "formName": "Logical Deduction",
+          "formula": "95% sure TRUE → must be | 95% sure FALSE → can't be",
+          "sample": "The lights are off—everyone must be asleep; they can't be awake."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Although the tide was strong, the lifeguard was able to rescue the swimmer safely.",
+          "contextNote": "Single successful past achievement uses 'was able to' rather than 'could'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Could I borrow your compass for five minutes, please?",
+          "contextNote": "'Could' softens requests into polite classroom or formal speech.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Yesterday I could reach the summit before the storm, and you mustn't bring lunch—it's free!",
+          "correctSentence": "Yesterday I was able to reach the summit before the storm, and you needn't bring lunch—it's free!",
+          "whyItHappens": "Use 'was able to' for a single past achievement, and 'needn't / don't have to' (not 'mustn't') when something is optional.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Semi-modals 'need' and 'dare' drop '-s' and 'to' in negatives/questions ('He need not come', 'Dare she speak?'), yet take '-s' and 'to' as ordinary affirmative verbs ('He needs to rest').",
+        "'Used to + V1' expresses a discontinued past habit ('We used to walk to school'), unlike 'be used to + V-ing' ('accustomed to walking')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m12_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Obligation vs. No Necessity",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD12_CP1",
+      "subtopicId": "auxiliaries_modals",
+      "subtopicTitle": "Mustn't vs. Needn't",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya posts a sign at the free Royal Library: \"Admission is free for all students; you ____ pay any entry fee.\"",
+      "questionPrompt": "Choose the modal that means 'it is NOT necessary' (rather than 'it is forbidden to pay'):",
+      "options": [
+        "must not",
+        "need not",
+        "can not",
+        "ought not"
+      ],
+      "acceptedAnswers": ["need not"],
+      "hint": "'Must not' means strictly forbidden! Which option means optional / not required?",
+      "feedbackCorrect": "Maharaj Vakya: \"Splendid distinction! 'Need not' (or 'don't have to') shows zero obligation, whereas 'must not' means prohibited.\"",
+      "feedbackWrongDefault": "Choose the modal expressing lack of necessity rather than prohibition or inability.",
+      "feedbackWrongByOption": {
+        "must not": "'You must not pay' sounds like paying is a crime! Here paying is simply unnecessary."
+      },
+      "simplerExample": "Sunday is a holiday, so you needn't set an alarm.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m12_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Logical Deduction",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD12_CP2",
+      "subtopicId": "auxiliaries_modals",
+      "subtopicTitle": "Must vs. Can't for Deduction",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira points at the spotless desk: \"The inkwell is dry and dusty; the culprit ____ be writing here right now!\"",
+      "questionPrompt": "Type the negative modal showing logical impossibility ('can't' or 'cannot'):",
+      "sentenceTemplate": "The inkwell is dry and dusty; the culprit ________ be writing here right now!",
+      "acceptedAnswers": ["can't", "cannot"],
+      "hint": "Opposite of 'must be' (sure it IS true) is '____ be' (sure it is NOT true—never use 'mustn't be' for deduction!).",
+      "feedbackCorrect": "Detective Ira: \"Sharp logic! Opposite of 'must be' (certainly true) is 'can't / cannot be' (certainly impossible).\"",
+      "feedbackWrongDefault": "Use 'can't' or 'cannot' (never 'mustn't') to express logical impossibility.",
+      "simplerExample": "He just ate a full meal—he can't be hungry yet!",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m12_step_05_special_verbs",
+      "stepTitle": "Discover: Non-Conclusive, Inchoative & Group Verbs",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "special_verbs",
+      "subtopicTitle": "Special Verb Categories (Non-conclusive, Inchoative, Group Verbs)",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Three VIP verb clubs in Assam's grammar hall: (1) Non-conclusive verbs are statue-states that hate '-ing' ('know, belong, resemble'); (2) Inchoative verbs are weather-changers showing A BECOMES B ('turn sour, grow dark'); (3) Group verbs are team buddies where a verb + preposition changes meaning ('give up' = surrender)!",
+      "formalDefinition": "Special verb classes highlighted in secondary grammar include: (1) Non-conclusive (stative) verbs expressing states of mind, emotion, possession, or perception that normally reject progressive tenses; (2) Inchoative verbs indicating a transition or entry into a new state ('become, get, grow, turn, go'); and (3) Group (phrasal/prepositional) verbs combining a base verb with an adverbial particle or preposition to yield an idiomatic meaning.",
+      "simpleExplanation": "Know all three special classes:\n1) Non-conclusive (Stative) Verbs: Verbs of mind/knowing ('know, understand, believe, remember'), emotion ('love, hate, prefer'), possession ('own, belong, possess, contain'), and state ('seem, appear, resemble'). Say 'I know the answer' and 'This book belongs to me'—NEVER *I am knowing or *is belonging!\n2) Inchoative Verbs: Verbs meaning 'become' before an adjective or noun: 'The milk turned sour', 'Leaves grew yellow', 'He became a doctor', 'The iron went rusty'.\n3) Group Verbs: Verb + particle/preposition acting as one idiomatic unit: 'look after' (care for), 'put off' (postpone), 'put out' (extinguish), 'call off' (cancel), 'give up' (quit), 'break out' (start suddenly, e.g., fire/epidemic).",
+      "structurePatterns": [
+        {
+          "formName": "Non-Conclusive (Stative) Verbs — No '-ing'",
+          "formula": "know / believe / own / belong / consist / seem / resemble → Use Simple Tense",
+          "sample": "This flask contains (NOT *is containing) warm tea. / She resembles her aunt."
+        },
+        {
+          "formName": "Inchoative Verbs (Change of State)",
+          "formula": "Subject + become / get / grow / turn / go / fall + New State (Adj/Noun)",
+          "sample": "The evening grew chilly. / The apples went bad. / Her dream came true."
+        },
+        {
+          "formName": "High-Frequency Group Verbs",
+          "formula": "Verb + Particle/Preposition = New Idiomatic Meaning",
+          "sample": "call off (cancel) • put out (extinguish) • look into (investigate) • carry out (execute)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Detective Ira promised to look into the case while firefighters put out the spark.",
+          "contextNote": "'Look into' (investigate) and 'put out' (extinguish) are Group Verbs.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "As monsoon clouds gathered, the afternoon sky turned dark and cool.",
+          "contextNote": "'Turned dark' uses an Inchoative verb showing transition into a new state.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "This suitcase is belonging to me, and I am remembering your name!",
+          "correctSentence": "This suitcase belongs to me, and I remember your name!",
+          "whyItHappens": "'Belong' and 'remember' are non-conclusive (stative) verbs and normally do not take continuous '-ing' tenses.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Some stative verbs CAN take '-ing' only when their meaning shifts to an active process: 'I have a pen' (possession: stative) vs. 'We are having lunch' (eating: action); 'The mango tastes sweet' vs. 'Chef is tasting the curry'."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m12_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Spot the Group Verb & Inchoative Verb",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD12_CP3",
+      "subtopicId": "special_verbs",
+      "subtopicTitle": "Group Verbs (Phrasal Verbs)",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani reads a notice posted at the stadium: \"Heavy rain forced the organisers to ____ the cricket match.\"",
+      "questionPrompt": "Which Group Verb accurately replaces 'cancel' here?",
+      "options": [
+        "call off",
+        "put out",
+        "look after",
+        "give in"
+      ],
+      "acceptedAnswers": ["call off"],
+      "hint": "'Put out' means extinguish a fire; 'look after' means care for; 'give in' means surrender. Which means cancel?",
+      "feedbackCorrect": "Vaani: \"Match update clear! 'Call off' means to cancel an event.\"",
+      "feedbackWrongDefault": "Recall the idiomatic meaning of each group verb.",
+      "feedbackWrongByOption": {
+        "put out": "'Put out' means extinguish (fire/lamp), not cancel.",
+        "look after": "'Look after' means take care of.",
+        "give in": "'Give in' means yield/surrender."
+      },
+      "simplerExample": "They had to call off the picnic due to hail.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m12_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Repair the Special Verb Error",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD12_CP4",
+      "subtopicId": "special_verbs",
+      "subtopicTitle": "Non-Conclusive Verbs & Modal Syntax",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Chikoo signs the office register: \"I am knowing the rules, so I can to help anyone who visits!\"",
+      "questionPrompt": "Pick the clean correction fixing BOTH the non-conclusive verb and the modal:",
+      "options": [
+        "I am knowing the rules, so I can help anyone who visits.",
+        "I know the rules, so I can help anyone who visits.",
+        "I know the rules, so I can to help anyone who visits.",
+        "I knows the rules, so I cans help anyone who visits."
+      ],
+      "acceptedAnswers": ["I know the rules, so I can help anyone who visits."],
+      "hint": "'Know' is non-conclusive (use Simple Present 'know'), and modal 'can' takes bare V1 'help' without 'to'!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Spotless! Stative 'know' stays in Simple Present, and 'can' takes bare 'help'.\"",
+      "feedbackWrongDefault": "Fix both *am knowing → 'know' and *can to help → 'can help'.",
+      "feedbackWrongByOption": {
+        "I am knowing the rules, so I can help anyone who visits.": "Do not use progressive 'am knowing' for the stative verb 'know'."
+      },
+      "simplerExample": "I understand the plan, and I can explain it clearly.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m12_step_08_outro",
+      "stepTitle": "Scene 2: Official Stamps Verified!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Royal Permission Office • Sunset",
+      "settingDescription": "With crisp primary auxiliaries, accurate modals, and well-matched special verbs, the Permission Office stamps passes without a single slip.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "confident",
+          "line": "May I stamp the final ledger? Wait—let me check! You ought to review your notebook, and no one needn't—oops, nobody needs to worry!"
+        },
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "applauding",
+          "line": "Well caught, Chikoo! Open your Grammar Notebook and conquer the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 12 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Primary Auxiliaries vs. Modal Auxiliaries",
+        "ruleSummary": "Primary auxiliaries (be, do, have) inflect for tense/person and build continuous, passive, perfect, question, and negative structures. Modals (can, could, may, might, must, shall, should, will, would) take NO '-s', NO '-ing', and NO 'to' (except 'ought to').",
+        "formulaOrPattern": "Modal + Bare V1 | ought to + V1 | used to + V1",
+        "example": "You should check the lock; she must be inside."
+      },
+      {
+        "heading": "Mustn't vs. Needn't & Could vs. Was Able To",
+        "ruleSummary": "'Mustn't' prohibits an action; 'needn't / don't have to' means no obligation. Use 'could' for general past ability, and 'was/were able to' for succeeding on one specific past occasion.",
+        "formulaOrPattern": "mustn't (forbidden) ≠ needn't (not required) | could (general) vs. was able to (single success)",
+        "example": "Because the door jammed, we were able to climb through the side window."
+      },
+      {
+        "heading": "Special Verbs: Non-Conclusive, Inchoative & Group Verbs",
+        "ruleSummary": "Non-conclusive/stative verbs (know, own, belong, resemble, contain) avoid progressive '-ing'. Inchoative verbs (become, grow, turn, get) mark transition into a new state. Group verbs combine verb + particle/preposition idiomatically.",
+        "formulaOrPattern": "know / belong (Simple) | grow dark / turn sour (Inchoative) | call off / put out (Group)",
+        "example": "Firefighters put out the blaze before the hall grew hotter."
+      }
+    ],
+    "memoryAids": [
+      "Modals are stubborn royalty: zero '-s', zero '-ing', zero 'to' (*he cans, *must to go are always wrong!).",
+      "Special Verbs Trio: Statue-states (know/belong = no '-ing'), State-changers (turn/grow = Inchoative), Team-buddies (call off/put out = Group)."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "I am having two dictionaries and this bag is belonging to Ria.",
+        "correctSentence": "I have two dictionaries and this bag belongs to Ria.",
+        "whyItHappens": "Possession uses of 'have' and 'belong' are non-conclusive/stative and reject progressive '-ing'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "The meeting was put out because the lights mustn't be paid for.",
+        "correctSentence": "The meeting was put off because members needn't pay any fee.",
+        "whyItHappens": "'Put off' means postpone (whereas 'put out' means extinguish), and 'needn't' expresses no necessity.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Note the difference: 'He used to wake at six' (past habit + V1) vs. 'He is used to waking at six' (accustomed + V-ing).",
+      "Negative logical deduction uses 'can't be' ('That can't be true!'), NOT *mustn't be."
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 10 (Special Verbs), Punjab IX Ch. 2 (Modals), and Odisha IX Ch. 4 (Auxiliaries)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M12_Q01",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Primary vs Modal auxiliaries",
+        "difficulty": "EASY",
+        "questionText": "Which group contains ONLY Primary Auxiliaries?",
+        "options": [
+          "can, may, must",
+          "be, do, have",
+          "shall, should, ought",
+          "might, could, would"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Be', 'do', and 'have' (in all their tense/number forms) are the three Primary Auxiliaries; all others listed are Modal Auxiliaries.",
+        "distractorRationales": [
+          "All modal auxiliaries.",
+          "Correct: primary auxiliaries.",
+          "All modal auxiliaries.",
+          "All modal auxiliaries."
+        ],
+        "grammarRule": "Primary auxiliaries are be, do, and have; modal auxiliaries express mood/attitude.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q02",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Bare infinitive after modals",
+        "difficulty": "EASY",
+        "questionText": "Choose the grammatically accurate modal sentence:",
+        "options": [
+          "Every visitor must to sign the register.",
+          "She cans solve quadratic puzzles quickly.",
+          "We ought submit our notebooks before noon.",
+          "Passengers must wear seatbelts during takeoff."
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "'Must' takes no '-s' and takes a bare infinitive ('wear'). Note: 'ought' uniquely requires 'to' ('ought to submit').",
+        "distractorRationales": [
+          "'Must' never takes 'to'.",
+          "Modals never add '-s'.",
+          "'Ought' requires 'to' ('ought to submit').",
+          "Correct: 'must' + bare V1 'wear'."
+        ],
+        "grammarRule": "Modal auxiliaries take bare V1 (except 'ought to').",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q03",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Mustn't vs Needn't",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the right modal: \"You ____ bring a raincoat—the forecast predicts clear sunshine all week.\"",
+        "options": [
+          "must not",
+          "need not",
+          "ought not",
+          "dare not"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When an action is unnecessary or optional, use 'need not' (or 'don't have to'), not prohibition 'must not'.",
+        "distractorRationales": [
+          "Means bringing a raincoat is strictly forbidden.",
+          "Correct: means not required.",
+          "Means moral advice against bringing it.",
+          "Means lacking courage."
+        ],
+        "grammarRule": "Use 'need not / don't have to' for absence of necessity, and 'must not' for prohibition.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q04",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Could vs Was able to",
+        "difficulty": "HARD",
+        "questionText": "Choose the best phrasing for ONE specific past achievement: \"Even though the trail was flooded, our team ____ reach the base camp safely.\"",
+        "options": [
+          "could",
+          "was able to",
+          "can",
+          "may"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "For succeeding on a single specific occasion in the past (not a general past skill), standard grammar uses 'was/were able to' (or 'managed to'), not 'could'.",
+        "distractorRationales": [
+          "'Could' expresses general past ability ('When young, he could swim fast'), not a single successful feat.",
+          "Correct: 'was able to' for specific past success.",
+          "Present tense mismatch.",
+          "Present/future possibility mismatch."
+        ],
+        "grammarRule": "Use 'was/were able to' for a specific past success; 'couldn't' works for negative failure.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M12_Q05",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Logical deduction",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete logically: \"Rohan won first prize in both essays and debates—he ____ read very widely!\"",
+        "options": [
+          "can't",
+          "must",
+          "needn't",
+          "dare"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Must' expresses strong logical certainty based on clear evidence ('he must read widely').",
+        "distractorRationales": [
+          "Contradicts the evidence.",
+          "Correct: modal of strong logical deduction.",
+          "Wrong sense.",
+          "Wrong modal."
+        ],
+        "grammarRule": "Use 'must' for strong affirmative deduction and 'can't' for negative deduction.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q06",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Used to + V1 vs Be used to + V-ing",
+        "difficulty": "HARD",
+        "questionText": "Which pair is grammatically accurate?",
+        "options": [
+          "He used to waking early, and now he is used to wake early.",
+          "He used to wake early, and now he is used to waking early.",
+          "He uses to wake early, and now he is used to wake early.",
+          "He was used to wake early every Sunday."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Used to + V1' describes a past habit ('used to wake'), whereas 'be/get used to + V-ing' means accustomed to ('is used to waking').",
+        "distractorRationales": [
+          "Swapped both structures.",
+          "Correct: past habit + V1, accustomed + V-ing.",
+          "There is no present *uses to for habits.",
+          "'Be used to' requires gerund 'waking'."
+        ],
+        "grammarRule": "'Used to + V1' = past habit; 'am/is/are used to + V-ing' = accustomed to.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M12_Q07",
+        "subtopicId": "special_verbs",
+        "subtopicTitle": "Non-conclusive (stative) verbs",
+        "difficulty": "EASY",
+        "questionText": "Spot the sentence that uses a non-conclusive verb accurately:",
+        "options": [
+          "This brass box is containing twenty old coins.",
+          "She is resembling her mother closely.",
+          "I believe every word of your report.",
+          "They are owning a small tea stall near the station."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Believe', 'contain', 'resemble', and 'own' are non-conclusive (stative) verbs; only Option C keeps 'believe' in Simple Present.",
+        "distractorRationales": [
+          "Say 'contains', not *is containing.",
+          "Say 'resembles', not *is resembling.",
+          "Correct: non-conclusive 'believe' in Simple Present.",
+          "Say 'own', not *are owning."
+        ],
+        "grammarRule": "Non-conclusive verbs of mind, state, and possession normally reject progressive '-ing' forms.",
+        "lessonStepRef": "m12_step_05_special_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M12_Q08",
+        "subtopicId": "special_verbs",
+        "subtopicTitle": "Inchoative verbs",
+        "difficulty": "MEDIUM",
+        "questionText": "In which sentence is an INCHOATIVE verb (showing transition into a new state) used?",
+        "options": [
+          "The watchman stayed inside the booth.",
+          "Without refrigeration, the milk turned sour by afternoon.",
+          "We painted the wooden bench green.",
+          "She knows three classical ragas."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Turned sour' shows the milk changing from fresh to sour—a classic inchoative verb meaning 'became'.",
+        "distractorRationales": [
+          "'Stayed' shows continuity, not change of state.",
+          "Correct: 'turned' = became (inchoative).",
+          "'Painted' is a causative transitive action.",
+          "'Knows' is a static non-conclusive verb."
+        ],
+        "grammarRule": "Inchoative verbs (become, grow, turn, get, go) express a change or entry into a new state.",
+        "lessonStepRef": "m12_step_05_special_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M12_Q09",
+        "subtopicId": "special_verbs",
+        "subtopicTitle": "Group verbs",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the Group Verb that means 'postpone': \"Due to the cyclone warning, the principal ____ the annual sports day.\"",
+        "options": [
+          "put out",
+          "put off",
+          "put on",
+          "put up with"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Put off' = postpone; 'put out' = extinguish; 'put on' = wear; 'put up with' = tolerate.",
+        "distractorRationales": [
+          "Means extinguish.",
+          "Correct: 'put off' means postpone.",
+          "Means wear/dress in.",
+          "Means tolerate."
+        ],
+        "grammarRule": "Group verbs combine a base verb and particle into a single idiomatic meaning.",
+        "lessonStepRef": "m12_step_05_special_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M12_Q10",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Emphatic 'do' auxiliary",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"Although she looked tired, she DID finish every problem\", what function does 'DID' serve?",
+        "options": [
+          "Main lexical verb",
+          "Primary auxiliary adding emphasis to an affirmative past verb",
+          "Modal auxiliary of possibility",
+          "Inchoative verb"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Primary auxiliary 'do/does/did' before a bare main verb ('did finish') adds strong affirmative emphasis.",
+        "distractorRationales": [
+          "'Finish' is the main verb here.",
+          "Correct: emphatic auxiliary 'did'.",
+          "'Did' is primary, not modal.",
+          "Shows no change of state."
+        ],
+        "grammarRule": "Primary auxiliary 'do/does/did + V1' creates emphasis in affirmative sentences.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q11",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "May vs Might",
+        "difficulty": "EASY",
+        "questionText": "Which modal best expresses a polite formal wish or blessing: \"____ happiness and wisdom guide your steps!\"",
+        "options": [
+          "Must",
+          "May",
+          "Should",
+          "Need"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Optative sentences expressing wishes and blessings begin with 'May + Subject + Bare V1'.",
+        "distractorRationales": [
+          "Expresses necessity/deduction.",
+          "Correct: 'May' introduces wishes/blessings.",
+          "Expresses duty/advice.",
+          "Not used for blessings."
+        ],
+        "grammarRule": "Use 'May + Subject + V1' to express formal wishes, blessings, or hopes.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q12",
+        "subtopicId": "special_verbs",
+        "subtopicTitle": "Group verbs (break out / carry out)",
+        "difficulty": "HARD",
+        "questionText": "Pick the option filling both blanks idiomatically: \"A small fire ____ in the storeroom, so the volunteers quickly ____ the rescue plan.\"",
+        "options": [
+          "broke into / gave up",
+          "broke out / carried out",
+          "broke up / called off",
+          "turned out / looked down"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Break out' = start suddenly (fire/war/disease); 'carry out' = execute/perform a plan or order.",
+        "distractorRationales": [
+          "'Break into' is forced entry by burglars; 'gave up' means quit.",
+          "Correct: 'broke out' + 'carried out'.",
+          "'Break up' means scatter/end.",
+          "Wrong idioms."
+        ],
+        "grammarRule": "'Break out' (erupt suddenly) and 'carry out' (execute) are core secondary-level group verbs.",
+        "lessonStepRef": "m12_step_05_special_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M12_Q13",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Past unfulfilled obligation (should have)",
+        "difficulty": "HARD",
+        "questionText": "Which sentence expresses regret or criticism about a PAST mistake that already happened?",
+        "options": [
+          "You should double-check the map before leaving.",
+          "You should have double-checked the map before we left.",
+          "You must double-check the map tomorrow.",
+          "You may double-check the map now."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Should have + V3' signals an advisable past action that someone failed to perform.",
+        "distractorRationales": [
+          "Refers to present/future advice.",
+          "Correct: 'should have + V3' expresses past unfulfilled advice.",
+          "Future necessity.",
+          "Present permission/possibility."
+        ],
+        "grammarRule": "Use 'should have + V3' or 'ought to have + V3' for past actions that ought to have happened.",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M12_Q14",
+        "subtopicId": "special_verbs",
+        "subtopicTitle": "State vs Action shift with 'have'",
+        "difficulty": "HARD",
+        "questionText": "In which sentence IS the progressive '-ing' form of 'have' completely grammatical?",
+        "options": [
+          "We are having a new dictionary in our bag.",
+          "He is having two younger cousins.",
+          "The guests are having breakfast on the veranda.",
+          "This museum is having three bronze statues."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "When 'have' means possession/relationship (A, B, D), it is stative (no '-ing'). When 'have' means an activity like eating/experiencing ('having breakfast'), progressive '-ing' is completely natural!",
+        "distractorRationales": [
+          "Possession uses 'have', not 'are having'.",
+          "Relationship uses 'has', not 'is having'.",
+          "Correct: 'having breakfast' denotes an active event.",
+          "Possession uses 'has'."
+        ],
+        "grammarRule": "'Have' refuses '-ing' for possession, yet accepts '-ing' for activities ('having dinner, having fun').",
+        "lessonStepRef": "m12_step_05_special_verbs",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M12_Q15",
+        "subtopicId": "auxiliaries_modals",
+        "subtopicTitle": "Polite requests with 'Would you mind'",
+        "difficulty": "MEDIUM",
+        "storyContext": "Vaani seals the final office register.",
+        "questionText": "Choose the accurate polite request:",
+        "options": [
+          "Would you mind to pass the ink bottle?",
+          "Would you mind passing the ink bottle?",
+          "Would you mind pass the ink bottle?",
+          "Would you mind passed the ink bottle?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The modal request frame 'Would you mind...' is followed by a gerund (V-ing): 'passing'.",
+        "distractorRationales": [
+          "'Mind' does not take 'to-infinitive'.",
+          "Correct: 'Would you mind + V-ing'.",
+          "Missing '-ing'.",
+          "Wrong verb form."
+        ],
+        "grammarRule": "Follow 'Would you mind...' with V-ing (or 'if I + past tense').",
+        "lessonStepRef": "m12_step_02_primary_and_modals",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      }
+    ]
+  }
+}

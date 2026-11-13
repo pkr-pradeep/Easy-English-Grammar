@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_15",
+  "worldId": "WORLD_4",
+  "title": "Noun Phrases and Pre/Post Modifiers",
+  "storyTitle": "The Royal Description Contest",
+  "estimatedMinutes": 18,
+  "charactersInvolved": [
+    "DETECTIVE_IRA",
+    "CHIKOO_BANDAR",
+    "VAANI",
+    "ACHARYA_VIDYADHAR",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m15_step_01_intro",
+      "stepTitle": "Scene 1: Too Many Bags at the Lost & Found!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Connector Bridge Lost & Found • Morning",
+      "settingDescription": "Fifty nearly identical satchels sit on the shelf. Chikoo keeps shouting 'Give me a bag!'—and nobody knows which bag he means.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "pointing",
+          "line": "No, not that bag! Give me the blue bag! Wait—both bags are blue! Give me the small torn blue canvas bag with a brass whistle inside!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "laughing",
+          "line": "Aha! Without realizing it, Chikoo just built an expanded NOUN PHRASE around one Head Noun ('bag')!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "wise",
+          "line": "Notice how some helpers stood BEFORE 'bag' (Pre-modifiers: 'the small torn blue canvas') and another helper followed AFTER 'bag' (Post-modifier: 'with a brass whistle inside')!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "ready",
+          "line": "Knowing the Head Noun and its pre- and post-modifiers sharpens both descriptive writing and subject–verb agreement. Let us examine the blueprint!"
+        }
+      ],
+      "storyCallout": "Goal: Pinpoint the Head Noun and build clear Noun Phrases with Pre-modifiers and Post-modifiers."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m15_step_02_head_and_premodifiers",
+      "stepTitle": "Discover: Head Noun & Pre-Modifiers",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "noun_phrase_premodifiers",
+      "subtopicTitle": "Noun Phrase Blueprint: Determiners, Pre-Modifiers & Head Noun",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A Noun Phrase is a parade float! The HEAD NOUN sits on the main throne in the middle—Pre-modifiers march IN FRONT holding adjectives and material banners ('all those three shiny brass...'), and Post-modifiers trail BEHIND carrying extra clue signs ('...sitting on the top shelf')!",
+      "formalDefinition": "A noun phrase (NP) is a word or group of words built around a head noun (or pronoun) that functions as a subject, object, or complement in a clause. Elements before the head noun are determiners and pre-modifiers (adjectives, participles, nouns acting as modifiers, and possessives).",
+      "simpleExplanation": "To test the boundaries of any Noun Phrase, replace the ENTIRE chunk with a single pronoun ('it', 'they', 'him', 'her')—everything replaced is the Noun Phrase! Inside the pre-head slot, words stack neatly in this order:\n1) Determiners (articles, demonstratives, possessives, quantifiers: 'all the three')\n2) Adjectives & Participles ('new', 'handwoven', 'broken', 'glowing')\n3) Noun Modifiers / Classifiers sitting right before the Head Noun ('cricket bat', 'school bus', 'brass lock'—note: noun modifiers almost always stay SINGULAR: 'a five-rupee coin', NOT *five-rupees coin!).\nAlways remember: the Head Noun—never a modifier—controls the verb ('The shiny brass locks on the gate ARE rusty', Head = 'locks').",
+      "structurePatterns": [
+        {
+          "formName": "Pre-Modified Noun Phrase",
+          "formula": "(Determiner) + (Adjective / Participle) + (Noun Modifier) + HEAD NOUN",
+          "sample": "those two freshly painted wooden school benches"
+        },
+        {
+          "formName": "Singular Hyphenated Noun Pre-Modifiers",
+          "formula": "Number + Singular Unit Noun + Head Noun",
+          "sample": "a ten-kilometre walk (NOT *ten-kilometres) • a three-day camp"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Several enthusiastic Class IX students designed a solar-powered water filter.",
+          "contextNote": "NP1 head = 'students'; NP2 head = 'filter' (pre-modified by 'a solar-powered water').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "A glowing oil lamp stood beside the carved teak door.",
+          "contextNote": "'Glowing' (present participle) and 'carved' (past participle) pre-modify 'lamp' and 'door'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "She bought a five-hundred-rupees leather shoes box.",
+          "correctSentence": "She bought a five-hundred-rupee leather shoe box.",
+          "whyItHappens": "Nouns acting as pre-modifiers before another noun normally drop plural '-s' ('five-hundred-rupee', 'shoe box').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "A few noun modifiers keep a fixed '-s' even before another noun: 'sports day', 'news reporter', 'customs officer', 'savings account'."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m15_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Spot the True Head Noun",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD15_CP1",
+      "subtopicId": "noun_phrase_premodifiers",
+      "subtopicTitle": "Identifying the Head Noun",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira underlines a long subject noun phrase: \"The dusty old leather-bound diary in the royal chest belongs to Maharaj Vakya.\"",
+      "questionPrompt": "Which single word is the HEAD NOUN of that entire underlined Noun Phrase?",
+      "options": [
+        "leather-bound",
+        "diary",
+        "royal",
+        "chest"
+      ],
+      "acceptedAnswers": ["diary"],
+      "hint": "Ask: What literally 'belongs to Maharaj Vakya'—the chest or the diary? Everything before and after describes THAT core noun!",
+      "feedbackCorrect": "Detective Ira: \"Bullseye! 'Diary' is the Head Noun; 'the dusty old leather-bound' pre-modifies it and 'in the royal chest' post-modifies it.\"",
+      "feedbackWrongDefault": "Find the central thing being talked about before 'belongs', ignoring describing words and the trailing 'in...' phrase.",
+      "feedbackWrongByOption": {
+        "chest": "'In the royal chest' is a post-modifying prepositional phrase telling WHERE the diary is—not the main item itself!",
+        "leather-bound": "'Leather-bound' is an adjective modifying 'diary'."
+      },
+      "simplerExample": "In 'The tall boy near the window', the Head Noun is 'boy'.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m15_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Assemble the Pre-Modifiers",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD15_CP2",
+      "subtopicId": "noun_phrase_premodifiers",
+      "subtopicTitle": "Ordering Determiners & Pre-Modifiers",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani picks up a prize satchel tag from the floor. Put the pre-modifiers and head noun into smooth English order.",
+      "questionPrompt": "Tap the tiles to build a natural Noun Phrase:",
+      "wordTokens": [
+        "compass",
+        "my",
+        "small",
+        "brass",
+        "pocket",
+        "old"
+      ],
+      "acceptedAnswers": ["my small old brass pocket compass"],
+      "hint": "Determiner ('my') → Size ('small') → Age ('old') → Material ('brass') → Noun Modifier ('pocket') → Head Noun ('compass').",
+      "feedbackCorrect": "Vaani: \"Crystal clear! Determiner, adjectives (Size → Age), material, and noun modifier line up cleanly before the Head Noun 'compass'.\"",
+      "feedbackWrongDefault": "Place 'my' first, then 'small', 'old', 'brass', 'pocket', and Head Noun 'compass' last.",
+      "simplerExample": "Her big new red school bag.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m15_step_05_postmodifiers",
+      "stepTitle": "Discover: Post-Modifiers in Noun Phrases",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "postmodifiers",
+      "subtopicTitle": "Prepositional Phrases, Participles, Infinitives & Relative Clauses as Post-Modifiers",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Short labels ride IN FRONT of the noun ('a blue umbrella'), while heavy backpacks ride BEHIND the noun as Post-modifiers ('the girl carrying a blue umbrella / with a blue umbrella / who lent me her umbrella')!",
+      "formalDefinition": "Post-modifiers follow the head noun inside a noun phrase to narrow or specify its reference. The four primary English post-modifiers are: (1) prepositional phrases, (2) participial (-ing / -ed) phrases, (3) to-infinitive phrases, and (4) relative clauses.",
+      "simpleExplanation": "Look at the four sleek ways to expand a noun AFTER the Head Noun:\n1) Prepositional Phrase: 'the bridge across the river', 'students in uniform'.\n2) Participial Phrase (shortened relative clause): 'the lantern glowing on the table' (= which is glowing), 'the scroll sealed in wax' (= which was sealed).\n3) To-Infinitive Phrase: 'the best train to catch', 'a quiet place to study'.\n4) Relative Clause: 'the craftsman who carved this flute'.\nCRITICAL PLACEMENT RULE: Keep a post-modifier RIGHT NEXT to the noun it modifies, or funny misplaced modifiers happen (*'She bought a scooter from a neighbour with leather seats'—did the neighbour have leather seats?!).",
+      "structurePatterns": [
+        {
+          "formName": "Four Post-Modifier Engines",
+          "formula": "Head Noun + [Prep Phrase] | [V-ing / V3 Phrase] | [to-Infinitive] | [Relative Clause]",
+          "sample": "the key on the hook • the boy wearing glasses • plenty of books to read • the artist whom we met"
+        },
+        {
+          "formName": "Full NP = Determiner + Pre-Modifiers + HEAD NOUN + Post-Modifiers",
+          "formula": "Combine both sides around the Head Noun without overloading",
+          "sample": "all those glowing clay lamps arranged along the courtyard wall"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The first student to solve the puzzle will receive a brass bookmark.",
+          "contextNote": "Post-modifier = to-infinitive 'to solve the puzzle' following 'student'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Every sapling planted during Van Mahotsav survived the summer heat.",
+          "contextNote": "Post-modifier = past participial phrase 'planted during Van Mahotsav' modifying 'sapling'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Chikoo spotted a parrot in his pyjamas sitting on the mango branch.",
+          "correctSentence": "Wearing his pyjamas, Chikoo spotted a parrot sitting on the mango branch.",
+          "whyItHappens": "Putting 'in his pyjamas' right after 'parrot' turns it into a post-modifier describing the PARROT instead of Chikoo!",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "When post-modifiers stack, place shorter prepositional phrases before longer relative clauses: 'the museum on Park Street that displays ancient coins' (not *the museum that displays ancient coins on Park Street)."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m15_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Spot the Post-Modifier Type",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD15_CP3",
+      "subtopicId": "postmodifiers",
+      "subtopicTitle": "Recognising Post-Modifier Forms",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar highlights a phrase: \"The wooden bridge built across the gorge opened this morning.\"",
+      "questionPrompt": "In that Noun Phrase, what kind of post-modifier is \"built across the gorge\"?",
+      "options": [
+        "To-infinitive post-modifier",
+        "Past participial phrase post-modifier",
+        "Pre-modifying adjective",
+        "Relative pronoun"
+      ],
+      "acceptedAnswers": ["Past participial phrase post-modifier"],
+      "hint": "'Built' is the passive past participle V3 (= 'which was built across the gorge'), standing AFTER 'The wooden bridge'.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Exact! 'Built across the gorge' is a past participial phrase post-modifying 'bridge'.\"",
+      "feedbackWrongDefault": "Notice 'built' (V3) sits AFTER the head noun 'bridge' and condenses 'that was built...'.",
+      "feedbackWrongByOption": {
+        "Pre-modifying adjective": "'Wooden' is the pre-modifier BEFORE 'bridge'; 'built across the gorge' comes AFTER 'bridge'!"
+      },
+      "simplerExample": "The letter written in blue ink (= which was written in blue ink) arrived safely.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m15_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Fix the Misplaced Post-Modifier",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD15_CP4",
+      "subtopicId": "postmodifiers",
+      "subtopicTitle": "Avoiding Misplaced Post-Modifiers",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo wrote a hilarious Royal Lost & Found notice: \"Wanted: A bicycle for a student with shiny mudguards and a loud bell!\"",
+      "questionPrompt": "Choose the revision that places the post-modifier beside the RIGHT head noun:",
+      "options": [
+        "Wanted: A bicycle with shiny mudguards and a loud bell for a student.",
+        "Wanted for a student: a loud bell with a bicycle and shiny mudguards.",
+        "Wanted: A student with shiny mudguards and a loud bell for a bicycle.",
+        "Wanted: A bicycle for a student who has shiny mudguards and a loud bell."
+      ],
+      "acceptedAnswers": ["Wanted: A bicycle with shiny mudguards and a loud bell for a student."],
+      "hint": "Does the STUDENT have shiny mudguards and a bell, or does the BICYCLE have them? Keep 'with shiny mudguards...' right after 'bicycle'!",
+      "feedbackCorrect": "Maharaj Vakya: \"Hahaha! Much better—the bicycle has the mudguards, not the poor student!\"",
+      "feedbackWrongDefault": "Place 'with shiny mudguards and a loud bell' immediately after 'A bicycle'.",
+      "feedbackWrongByOption": {
+        "Wanted: A bicycle for a student who has shiny mudguards and a loud bell.": "That explicitly gives the student mudguards!"
+      },
+      "simplerExample": "I read an article in today's paper about solar buses. → I read an article about solar buses in today's paper.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m15_step_08_outro",
+      "stepTitle": "Scene 2: Every Satchel Identified!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Connector Bridge Lost & Found • Noon",
+      "settingDescription": "With crystal-clear pre-modifiers and sharply placed post-modifiers, every satchel returns to its rightful owner in seconds.",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "smiling",
+          "line": "Zero confusion now! 'The small torn blue canvas bag with a brass whistle inside' found its owner immediately."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "encouraging",
+          "line": "Review your Grammar Notebook rules on Noun Phrases and test your precision in the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 15 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Anatomy of a Noun Phrase (NP)",
+        "ruleSummary": "A noun phrase centres on one Head Noun and can be replaced as a whole by a pronoun ('it/they/he/she'). Pre-modifiers precede the Head Noun; post-modifiers follow it.",
+        "formulaOrPattern": "(Determiner) + (Pre-Modifiers) + HEAD NOUN + (Post-Modifiers)",
+        "example": "All the bright red kites soaring above the rooftops."
+      },
+      {
+        "heading": "Pre-Modifiers Stay Singular When Nouns Modify Nouns",
+        "ruleSummary": "Determiners come first, followed by adjectives/participles and singular noun modifiers ('a three-week course', 'shoe box').",
+        "formulaOrPattern": "Number + Singular Unit + Head Noun (no '-s' inside the pre-modifier)",
+        "example": "A twenty-page booklet on coastal birds."
+      },
+      {
+        "heading": "Four Post-Modifier Structures & Placement",
+        "ruleSummary": "Post-modify nouns with prepositional phrases, participial phrases (-ing/V3), to-infinitives, or relative clauses—always placed directly next to the noun they describe.",
+        "formulaOrPattern": "Head Noun + [Prep Phrase / V-ing or V3 Phrase / to-V1 / Relative Clause]",
+        "example": "The train arriving on Platform 2 is the fastest express to catch."
+      }
+    ],
+    "memoryAids": [
+      "Pronoun Test: anything you can swap out with 'it' or 'they' in one gulp is a complete Noun Phrase!",
+      "Parade Float Rule: Pre-modifiers march in front, the Head Noun sits on the throne, and Post-modifiers trail right behind—keep them close so nobody thinks the student has mudguards!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "We stayed at a five-stars hotel and took a two-hours boat ride.",
+        "correctSentence": "We stayed at a five-star hotel and took a two-hour boat ride.",
+        "whyItHappens": "Hyphenated number+noun pre-modifiers act like adjectives and remain singular.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "The girl with black spots adopted a puppy in a yellow dress.",
+        "correctSentence": "The girl in a yellow dress adopted a puppy with black spots.",
+        "whyItHappens": "Misplaced post-modifiers attach to whichever noun sits immediately in front of them.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "A few nouns retain '-s' even as modifiers: 'sports club', 'customs officer', 'arms race', 'savings bank'."
+    ],
+    "textbookNotes": [
+      "Grounded in Odisha Class IX Ch. 5 (The Noun Phrase) and Ch. 6 (Pre and Post Modifiers in the Noun Phrase)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M15_Q01",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Pronoun test for noun phrase boundaries",
+        "difficulty": "EASY",
+        "questionText": "In \"The cheerful volunteers from Assam planted fifty bamboo saplings\", what is the COMPLETE subject Noun Phrase?",
+        "options": [
+          "The cheerful volunteers",
+          "The cheerful volunteers from Assam",
+          "volunteers from Assam planted",
+          "fifty bamboo saplings"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'They planted fifty bamboo saplings'—the entire chunk 'The cheerful volunteers from Assam' (pre-modifiers + Head Noun 'volunteers' + post-modifier 'from Assam') is the subject NP.",
+        "distractorRationales": [
+          "Drops the post-modifier 'from Assam'.",
+          "Correct: full NP replaced by 'They'.",
+          "Wrongly includes the verb 'planted'.",
+          "That is the object Noun Phrase."
+        ],
+        "grammarRule": "A complete noun phrase includes its determiners, pre-modifiers, head noun, and post-modifiers.",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q02",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Identifying the Head Noun",
+        "difficulty": "EASY",
+        "questionText": "Which word is the HEAD NOUN of the phrase \"those two fragile glass flower vases on the shelf\"?",
+        "options": [
+          "glass",
+          "flower",
+          "vases",
+          "shelf"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Glass' and 'flower' modify 'vases' (telling what material and purpose), and 'on the shelf' post-modifies 'vases'. So 'vases' is the Head Noun.",
+        "distractorRationales": [
+          "Material pre-modifier.",
+          "Purpose noun pre-modifier.",
+          "Correct: the core item being referred to is 'vases'.",
+          "Object inside the post-modifying prepositional phrase."
+        ],
+        "grammarRule": "The head noun is the main noun modified by preceding words and following post-modifiers.",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q03",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Singular noun pre-modifiers",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the grammatically accurate hyphenated pre-modifier:",
+        "options": [
+          "a ten-minutes break",
+          "a ten-minute break",
+          "ten-minutes' break",
+          "a tens-minute break"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Inside a compound pre-modifier ('a ____ break'), the unit noun stays singular without '-s' ('ten-minute').",
+        "distractorRationales": [
+          "Wrongly keeps plural '-s' inside modifier.",
+          "Correct: singular 'minute' in pre-modifier.",
+          "Missing 'a' and irregular pattern.",
+          "Wrong plural."
+        ],
+        "grammarRule": "Keep hyphenated number+noun pre-modifiers singular ('a five-day trip', 'a two-litre bottle').",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M15_Q04",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Pre-modifier ordering",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the natural ordering of pre-modifiers:",
+        "options": [
+          "a silk lovely pink festival sari",
+          "a lovely pink silk festival sari",
+          "a festival pink silk lovely sari",
+          "pink a lovely silk festival sari"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Determiner ('a') → Opinion ('lovely') → Colour ('pink') → Material ('silk') → Purpose/Noun modifier ('festival') → Head Noun ('sari').",
+        "distractorRationales": [
+          "Material precedes opinion and colour.",
+          "Correct: Opinion → Colour → Material → Purpose → Head.",
+          "Reversed order.",
+          "Adjective before article 'a'."
+        ],
+        "grammarRule": "Order pre-modifiers from general opinion toward material/purpose classifiers nearest the head noun.",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q05",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "Identifying post-modifier types",
+        "difficulty": "EASY",
+        "questionText": "What type of post-modifier follows 'key' in \"the brass key inside the locked drawer\"?",
+        "options": [
+          "Relative clause",
+          "To-infinitive phrase",
+          "Prepositional phrase",
+          "Present participial phrase"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Inside the locked drawer' begins with the preposition 'inside', making it a Prepositional Phrase post-modifier.",
+        "distractorRationales": [
+          "No 'which/that' + finite verb.",
+          "No 'to + verb'.",
+          "Correct: begins with preposition 'inside'.",
+          "No '-ing' participle."
+        ],
+        "grammarRule": "A preposition + its noun phrase placed after a head noun acts as a prepositional post-modifier.",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q06",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "Participial post-modifiers (-ing vs V3)",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the right participial post-modifier: \"The letter ____ on the table is addressed to the captain, and the boy ____ near the door is a courier.\"",
+        "options": [
+          "lying / stood",
+          "lain / standing",
+          "lying / standing",
+          "laid / stood"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Both 'letter lying' (= which is lying) and 'boy standing' (= who is standing) express active ongoing states, requiring '-ing' present participles.",
+        "distractorRationales": [
+          "'Stood' is passive/past and does not work actively here.",
+          "'Lain' is past participle (active progressive uses 'lying').",
+          "Correct: both active ongoing post-modifiers take '-ing'.",
+          "Wrong meaning and voice."
+        ],
+        "grammarRule": "Use '-ing' participial post-modifiers for active ongoing states, and V3 for passive/completed states.",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q07",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "To-infinitive post-modifiers",
+        "difficulty": "MEDIUM",
+        "questionText": "In which sentence does a TO-INFINITIVE function as a post-modifier inside a Noun Phrase?",
+        "options": [
+          "She decided to join the choir.",
+          "To tell the truth is always wise.",
+          "Bring a warm shawl to wear during the evening boat ride.",
+          "He ran quickly to catch the bus."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'a warm shawl to wear', 'to wear' directly post-modifies the noun 'shawl' (= 'that you can wear'). In A it is verb object; in B it is subject; in D it is adverbial of purpose.",
+        "distractorRationales": [
+          "Object of 'decided'.",
+          "Subject of 'is'.",
+          "Correct: post-modifies 'a warm shawl'.",
+          "Adverbial of purpose modifying 'ran'."
+        ],
+        "grammarRule": "A to-infinitive directly describing what a noun is for ('work to do', 'food to eat') is a post-modifier.",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q08",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "Misplaced post-modifiers",
+        "difficulty": "HARD",
+        "questionText": "Which sentence avoids a funny misplaced post-modifier?",
+        "options": [
+          "The tailor stitched a coat for the king made of Kashmiri wool.",
+          "The tailor stitched a coat made of Kashmiri wool for the king.",
+          "Made of Kashmiri wool, the tailor stitched a coat for the king.",
+          "The tailor stitched for the king a coat who was made of Kashmiri wool."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Placing 'made of Kashmiri wool' right after 'a coat' clearly shows the COAT—not the king or the tailor—is made of wool.",
+        "distractorRationales": [
+          "Makes it sound like the king is made of wool.",
+          "Correct: post-modifier immediately follows 'a coat'.",
+          "Makes it sound like the tailor is made of wool.",
+          "Wrong relative pronoun 'who' for 'coat'."
+        ],
+        "grammarRule": "Place every post-modifier immediately after the exact head noun it modifies.",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M15_Q09",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Agreement with head noun + post-modifier",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"All the fresh notes pinned inside the red notebook ____ clearly written.\"",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "has been"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "The Head Noun is plural 'notes' (not singular 'notebook' inside the post-modifier), so the verb must be plural 'are'.",
+        "distractorRationales": [
+          "Wrongly agrees with 'notebook'.",
+          "Singular past verb.",
+          "Correct: agrees with plural Head Noun 'notes'.",
+          "Singular verb."
+        ],
+        "grammarRule": "Only the Head Noun of a subject NP determines singular vs. plural verb agreement.",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q10",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "Multiple post-modifiers order",
+        "difficulty": "HARD",
+        "questionText": "Choose the smoothest order when stacking TWO post-modifiers after 'the museum':",
+        "options": [
+          "the museum which houses rare coins on MG Road",
+          "the museum on MG Road which houses rare coins",
+          "on MG Road the museum which houses rare coins",
+          "the which houses rare coins museum on MG Road"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Place shorter prepositional post-modifiers ('on MG Road') before longer relative-clause post-modifiers ('which houses rare coins'), avoiding ambiguity about whether the coins or museum sit on MG Road.",
+        "distractorRationales": [
+          "Sounds like the rare coins sit directly on the street!",
+          "Correct: shorter Prep Phrase before longer Relative Clause.",
+          "Splits determiner/head placement.",
+          "Relative clause cannot precede Head Noun in English."
+        ],
+        "grammarRule": "Order stacked post-modifiers from shorter (prepositional/participial) to longer (relative clause).",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M15_Q11",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Participle pre-modifiers (-ing vs V3)",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in accurately: \"Do not step on the ____ glass beside the ____ engine.\"",
+        "options": [
+          "breaking / smoking",
+          "broken / smoked",
+          "broken / smoking",
+          "broke / smoking"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Broken glass' (already shattered: passive V3) vs. 'smoking engine' (actively emitting smoke: present participle '-ing').",
+        "distractorRationales": [
+          "'Breaking glass' suggests it is still falling/shattering now.",
+          "'Smoked engine' sounds cured like food!",
+          "Correct: V3 'broken' + V-ing 'smoking'.",
+          "'Broke' is simple past V2, not a pre-modifier."
+        ],
+        "grammarRule": "Use V3 for passive/completed states ('broken glass') and '-ing' for ongoing action ('boiling water').",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q12",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "Condensing relative clauses into participial post-modifiers",
+        "difficulty": "HARD",
+        "questionText": "Condense \"the students who are rehearsing in the auditorium\" into a clean participial Noun Phrase:",
+        "options": [
+          "the rehearsed students in the auditorium",
+          "the students rehearsing in the auditorium",
+          "the students to rehearsing in the auditorium",
+          "rehearsing in the auditorium students"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Drop 'who are' to turn a relative clause into a crisp '-ing' post-modifier: 'the students rehearsing in the auditorium'.",
+        "distractorRationales": [
+          "'Rehearsed students' changes meaning to passive.",
+          "Correct: reduced relative participial post-modifier.",
+          "Ungrammatical 'to rehearsing'.",
+          "Heavy participial phrases cannot go before the noun in English."
+        ],
+        "grammarRule": "Multi-word participial modifiers ('rehearsing in the auditorium') stay as post-modifiers after the head noun.",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M15_Q13",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Fixed '-s' noun modifiers",
+        "difficulty": "HARD",
+        "questionText": "Which phrase uses a plural-form noun modifier idiomatically?",
+        "options": [
+          "a scissors drawer",
+          "an annuals sports day",
+          "a sports complex",
+          "a five-rupees stamp"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Sports' retains its '-s' in compounds like 'sports complex / sports day', whereas 'five-rupee stamp' drops '-s'.",
+        "distractorRationales": [
+          "Rare compared to standard 'sports complex'.",
+          "*Annuals sports adds a wrong '-s' to 'annual'.",
+          "Correct: 'sports' stays plural in 'sports complex'.",
+          "Should be 'five-rupee stamp'."
+        ],
+        "grammarRule": "Standard exceptions like 'sports', 'news', 'customs', and 'savings' keep '-s' as pre-modifiers.",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M15_Q14",
+        "subtopicId": "postmodifiers",
+        "subtopicTitle": "Relative clause vs Appositive post-modifier",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"Acharya Vidyadhar, our head grammarian, designed this puzzle\", what role does ', our head grammarian,' play?",
+        "options": [
+          "An appositive noun phrase renaming the head noun",
+          "A finite verb group",
+          "An adverbial of time",
+          "A pre-modifier"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "An appositive noun phrase sits beside another noun ('Acharya Vidyadhar') to rename or identify it.",
+        "distractorRationales": [
+          "Correct: appositive NP post-modifying/renaming 'Acharya Vidyadhar'.",
+          "Contains no verb.",
+          "Does not indicate time.",
+          "Follows the noun, does not precede it."
+        ],
+        "grammarRule": "Appositives follow a noun to explain or rename it ('Guwahati, the gateway to the Northeast').",
+        "lessonStepRef": "m15_step_05_postmodifiers",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M15_Q15",
+        "subtopicId": "noun_phrase_premodifiers",
+        "subtopicTitle": "Noun phrases in object position",
+        "difficulty": "EASY",
+        "storyContext": "Maharaj Vakya judges the final satchel label.",
+        "questionText": "Identify the Head Noun of the OBJECT Noun Phrase in: \"Detective Ira inspected the muddy footprints near the garden fountain.\"",
+        "options": [
+          "Detective Ira",
+          "muddy",
+          "footprints",
+          "fountain"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "The object of 'inspected' is 'the muddy footprints near the garden fountain'—its Head Noun is 'footprints'.",
+        "distractorRationales": [
+          "Subject of the sentence.",
+          "Pre-modifying adjective.",
+          "Correct: Head Noun of the object NP.",
+          "Part of the post-modifying phrase 'near the garden fountain'."
+        ],
+        "grammarRule": "Noun phrases operate identically in subject, object, and prepositional-object slots.",
+        "lessonStepRef": "m15_step_02_head_and_premodifiers",
+        "provenance": "SOURCE_TEXTBOOK"
+      }
+    ]
+  }
+}

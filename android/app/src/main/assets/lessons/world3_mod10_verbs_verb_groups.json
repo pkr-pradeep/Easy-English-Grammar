@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_10",
+  "worldId": "WORLD_3",
+  "title": "Verbs and Verb Groups",
+  "storyTitle": "The Stalled Action Engine",
+  "estimatedMinutes": 16,
+  "charactersInvolved": [
+    "CHIKOO_BANDAR",
+    "DETECTIVE_IRA",
+    "ACHARYA_VIDYADHAR",
+    "VAANI",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m10_step_01_intro",
+      "stepTitle": "Scene 1: The Engine Won't Budge!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Time Machine Workshop • Morning",
+      "settingDescription": "Inside World 3's workshop, the Time Machine's central Action Engine has sputtered to a halt. Loose verb gears clutter the workbench.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "flustered",
+          "line": "I tried to restart it! I wrote 'The river has flow', 'I lay down yesterday'—Wait, or 'lied'—and 'My coat hanged on the hook'!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "examining",
+          "line": "No wonder the gears jammed! You mixed up irregular past forms like 'flow / flew / flowed' and 'lie / lay', and cut a verb group in half!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "calm",
+          "line": "Every clause runs on a Verb or a multi-word Verb Group. Once you see how main verbs, objects, and regular/irregular forms fit together, the engine purrs again."
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "ready",
+          "line": "Let us inspect single main verbs, complete verb groups, and tricky irregular verb twins before Maharaj Vakya arrives for the test run!"
+        }
+      ],
+      "storyCallout": "Goal: Identify main verbs and multi-word verb groups, distinguish transitive/intransitive/linking verbs, and master irregular verb forms."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m10_step_02_verbs_and_verb_groups",
+      "stepTitle": "Discover: Main Verbs & Multi-Word Verb Groups",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "main_verbs_groups",
+      "subtopicTitle": "Main Verbs, Verb Groups & Transitivity",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A Verb Group is a relay team holding one baton: the Helping Verbs (auxiliaries) carry tense, possibility, or voice up front, while the Main Verb anchors the exact action at the finish line ('must have been repaired')!",
+      "formalDefinition": "A verb expresses an action, event, or state of being. A verb group (verb phrase) consists of a main (lexical) verb either standing alone ('runs', 'wrote') or preceded by one or more auxiliary verbs ('is running', 'will have been built'). Verbs are further classified by clause function as transitive (taking an object), intransitive (no object), or linking/copular.",
+      "simpleExplanation": "Look at the LAST word in any active or passive verb group—that is always the Main Verb carrying the dictionary meaning ('has been reading' → 'reading' is the main verb; 'has' and 'been' are auxiliaries). Also check what follows the verb: Transitive verbs pass action to a Direct Object ('He opened the door'); Intransitive verbs need no object ('The train arrived early'); Linking verbs connect the subject to a description ('The soup became cold'). Many verbs (like 'open' or 'fly') can act as either transitive or intransitive depending on the sentence!",
+      "structurePatterns": [
+        {
+          "formName": "Verb Group Blueprint",
+          "formula": "(Modal) + (Perfect 'have') + (Progressive 'be') + (Passive 'be') + MAIN VERB",
+          "sample": "wrote (1) • is writing (2) • has been writing (3) • should have been written (4)"
+        },
+        {
+          "formName": "Transitive vs. Intransitive vs. Linking",
+          "formula": "Transitive (+ Object) | Intransitive (No Object) | Linking (+ Complement)",
+          "sample": "Kiran rang the bell (T). / The bell rang loudly (I). / The bell sounded loud (L)."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The engineer might have checked the pressure gauge before noon.",
+          "contextNote": "Verb group = 'might have checked' ('might' = modal, 'have' = perfect auxiliary, 'checked' = main verb).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "The kite flew high above the terrace, and Arjun flew it skilfully.",
+          "contextNote": "First 'flew' is Intransitive (no object); second 'flew' is Transitive (object = 'it').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The broken clock has repair by the mechanic yesterday.",
+          "correctSentence": "The broken clock was repaired by the mechanic yesterday.",
+          "whyItHappens": "A completed passive verb group needs a 'be' auxiliary ('was') plus the past participle V3 ('repaired'), not base 'repair'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Prepositional/phrasal verbs ('look after, turn off, give up') act as a single multi-word main verb unit ('She looked after her grandmother').",
+        "In questions, the verb group splits around the subject: 'Have you finished?' — the full verb group is 'have finished'."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m10_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Spot the Full Verb Group",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD10_CP1",
+      "subtopicId": "main_verbs_groups",
+      "subtopicTitle": "Identifying Multi-Word Verb Groups",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira examines a maintenance log: \"By evening, the technicians will have repaired the golden turbine.\"",
+      "questionPrompt": "Which span forms the COMPLETE verb group in this sentence?",
+      "options": [
+        "repaired",
+        "will have",
+        "will have repaired",
+        "have repaired the turbine"
+      ],
+      "acceptedAnswers": ["will have repaired"],
+      "hint": "Include all auxiliaries ('will' + 'have') right up to the main verb ('repaired'), without including the object noun phrase.",
+      "feedbackCorrect": "Detective Ira: \"Logged cleanly! 'Will' (modal) + 'have' (perfect auxiliary) + 'repaired' (main verb) form the full verb group.\"",
+      "feedbackWrongDefault": "Select every auxiliary verb together with the main verb, stopping before the object 'the golden turbine'.",
+      "feedbackWrongByOption": {
+        "repaired": "'Repaired' is the main verb alone, leaving its helpers 'will have' behind.",
+        "have repaired the turbine": "A verb group does not include the noun object ('the turbine')."
+      },
+      "simplerExample": "In 'She has been practising the flute', the verb group is 'has been practising'.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m10_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Transitive or Intransitive?",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD10_CP2",
+      "subtopicId": "main_verbs_groups",
+      "subtopicTitle": "Verb Function in Context",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani writes two twin sentences using 'grew': (1) \"Sunflowers grew tall along the wall.\" (2) \"The gardener grew bright marigolds.\"",
+      "questionPrompt": "How is 'grew' functioning in Sentence (1) vs. Sentence (2)?",
+      "options": [
+        "Transitive in (1), Intransitive in (2)",
+        "Linking/Intransitive (no object) in (1), Transitive (object: bright marigolds) in (2)",
+        "Transitive in both sentences",
+        "Auxiliary verb in both sentences"
+      ],
+      "acceptedAnswers": ["Linking/Intransitive (no object) in (1), Transitive (object: bright marigolds) in (2)"],
+      "hint": "Ask 'grew WHAT?' in each sentence! In (1), 'tall' is an adjective complement; in (2), 'bright marigolds' is a noun object.",
+      "feedbackCorrect": "Vaani: \"Sharp analysis! 'Grew tall' links to an adjective (no object), while 'grew bright marigolds' passes the action to an object.\"",
+      "feedbackWrongDefault": "Test whether a noun/pronoun receives the action ('grew what?') or whether 'tall' merely describes 'sunflowers'.",
+      "feedbackWrongByOption": {
+        "Transitive in (1), Intransitive in (2)": "'Tall' is an adjective, not an object—'bright marigolds' in (2) is the object!"
+      },
+      "simplerExample": "The soup boiled (Intransitive) vs. Mother boiled water (Transitive).",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m10_step_05_regular_irregular_forms",
+      "stepTitle": "Discover: Verb Forms & Tricky Irregular Twins",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "verb_forms_irregular",
+      "subtopicTitle": "Five Verb Forms & Regular vs. Irregular Patterns",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Most verbs are polite soldiers who add '-ed' for past and past participle (walk–walked–walked). Irregular verbs are rebels with their own passwords—and look-alike twins like 'lie' (rest: lie–lay–lain) vs. 'lay' (place something: lay–laid–laid) love tripping hasty mechanics!",
+      "formalDefinition": "English lexical verbs display up to five morphological forms: Base (V1), -s/-es third-person singular, Past (V2), Past Participle (V3), and Present Participle (-ing). Regular verbs form V2 and V3 by adding '-d/-ed', whereas irregular verbs vary by vowel shift, invariant forms, or distinct V2/V3 stems.",
+      "simpleExplanation": "Master the five high-confusion irregular sets tested in Classes IX–X:\n1) Lie (rest flat, NO object): lie – lay – lain – lying ('She lay down to rest').\n2) Lay (put/place something, TAKES object): lay – laid – laid – laying ('He laid the book on the table').\n3) Lie (speak untruth): lie – lied – lied – lying ('Never lie').\n4) Fly (move in air): fly – flew – flown vs. Flow (liquid moves): flow – flowed – flowed.\n5) Hang (clothes/pictures): hang – hung – hung vs. Hang (execute a criminal): hang – hanged – hanged.\nAlso remember invariant verbs that NEVER add '-ed': 'cut, put, shut, hurt, cast, broadcast, cost, burst' (never *costed or *broadcasted!).",
+      "structurePatterns": [
+        {
+          "formName": "Lie vs. Lay Twin Pair",
+          "formula": "lie (rest: lie – lay – lain) | lay (put object: lay – laid – laid) | lie (untruth: lie – lied – lied)",
+          "sample": "I lay on the mat (rested), after I had laid my bag beside me (placed it)."
+        },
+        {
+          "formName": "Fly vs. Flow & Hang vs. Hanged",
+          "formula": "fly–flew–flown | flow–flowed–flowed | hang–hung–hung (object) | hang–hanged–hanged (execution)",
+          "sample": "The river overflowed its banks; birds flew overhead; we hung the lantern."
+        },
+        {
+          "formName": "Zero-Change (Invariant) Irregulars",
+          "formula": "V1 = V2 = V3 (NO '-ed'!)",
+          "sample": "cost–cost–cost • cast–cast–cast • broadcast–broadcast–broadcast • burst–burst–burst"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Yesterday the coach laid the bat on the grass and lay down in the shade.",
+          "contextNote": "'Laid' (V2 of 'lay', taking object 'the bat') vs. 'lay' (V2 of 'lie', intransitive resting).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "All India Radio broadcast the weather alert after the river had overflowed.",
+          "contextNote": "'Broadcast' stays unchanged in V2; 'overflow' is regular ('overflowed', NOT *overflown).",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The floodwater has overflown the bridge, and this repair costed five thousand rupees.",
+          "correctSentence": "The floodwater has overflowed the bridge, and this repair cost five thousand rupees.",
+          "whyItHappens": "'Overflow' comes from 'flow' (regular: overflowed), not 'fly' (flown); and 'cost' is invariant (cost–cost–cost).",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "A few verbs have two accepted V2/V3 forms in British/Indian English: 'burn → burned/burnt', 'learn → learned/learnt', 'dream → dreamed/dreamt'."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m10_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Solve the Lie / Lay Puzzle",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD10_CP3",
+      "subtopicId": "verb_forms_irregular",
+      "subtopicTitle": "Irregular Twin Verbs (lie vs. lay)",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar points to an old manuscript: \"The ancient key has ____ untouched inside this drawer for ten years.\"",
+      "questionPrompt": "Type the exact Past Participle (V3) of 'lie' (meaning rest/remain in place):",
+      "sentenceTemplate": "The ancient key has ________ untouched inside this drawer for ten years.",
+      "acceptedAnswers": ["lain"],
+      "hint": "There is NO object after the verb! Remember: lie (V1) → lay (V2) → ____ (V3).",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Brilliant! 'Has lain' is the past participle of intransitive 'lie' (to rest in place).\"",
+      "feedbackWrongDefault": "Check the three parts of intransitive 'lie': lie – lay – lain (not *lied or *laid!).",
+      "simplerExample": "The cat had lain on the warm rug all morning.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m10_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Repair Chikoo's Logbook",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD10_CP4",
+      "subtopicId": "verb_forms_irregular",
+      "subtopicTitle": "Irregular & Invariant Verb Forms",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo submits his workshop bill: \"Our lantern was hung carefully, yet the sudden storm casted shadows and burstted a pipe!\"",
+      "questionPrompt": "Choose the sentence that fixes EVERY verb form accurately:",
+      "options": [
+        "Our lantern was hanged carefully, yet the storm cast shadows and bursted a pipe.",
+        "Our lantern was hung carefully, yet the sudden storm cast shadows and burst a pipe.",
+        "Our lantern hunged carefully, yet the storm casted shadows and burst a pipe.",
+        "Our lantern was hung carefully, yet the sudden storm cast shadows and bursted a pipe."
+      ],
+      "acceptedAnswers": ["Our lantern was hung carefully, yet the sudden storm cast shadows and burst a pipe."],
+      "hint": "Lanterns are 'hung' (not 'hanged'), and BOTH 'cast' and 'burst' never change or take '-ed'!",
+      "feedbackCorrect": "Maharaj Vakya: \"The Action Engine roars back to life! 'Hung' for objects, and invariant 'cast' and 'burst' need zero '-ed'.\"",
+      "feedbackWrongDefault": "Both 'cast' and 'burst' keep the exact same spelling in base, past, and past participle forms.",
+      "feedbackWrongByOption": {
+        "Our lantern was hanged carefully, yet the storm cast shadows and bursted a pipe.": "'Hanged' is only for capital punishment, and *bursted does not exist!"
+      },
+      "simplerExample": "The balloon burst (NOT *bursted), and he cast the net (NOT *casted).",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m10_step_08_outro",
+      "stepTitle": "Scene 2: The Action Engine Roars!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Time Machine Workshop • Noon",
+      "settingDescription": "With every verb group aligned and irregular past participles locked into place, the golden turbine spins smoothly.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "proud",
+          "line": "Listen to that hum! The water flowed, the kites flew, I laid my wrench on the bench, and nothing *costed extra!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "smiling",
+          "line": "Well repaired! Review your Grammar Notebook and unlock the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 10 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Main Verbs & Multi-Word Verb Groups",
+        "ruleSummary": "A verb group contains 0 to 3 auxiliaries followed by the main lexical verb at the end. Transitive verbs take objects; intransitive verbs do not; linking verbs take complements.",
+        "formulaOrPattern": "(Modal) + (have) + (be) + MAIN VERB",
+        "example": "The bridge will have been inspected (verb group) before sunset."
+      },
+      {
+        "heading": "Tricky Twin Irregular Verbs",
+        "ruleSummary": "Separate intransitive 'lie' (rest) from transitive 'lay' (place), 'fly' from 'flow/overflow', and 'hang' (object: hung) from 'hang' (execute: hanged).",
+        "formulaOrPattern": "lie–lay–lain | lay–laid–laid | flow–flowed–flowed | fly–flew–flown",
+        "example": "The river had overflowed before we laid the sandbags."
+      },
+      {
+        "heading": "Invariant Verbs (V1 = V2 = V3)",
+        "ruleSummary": "Verbs like cut, put, shut, hurt, cost, cast, broadcast, telecast, spread, and burst never add '-ed' in past or participle forms.",
+        "formulaOrPattern": "cost–cost–cost | cast–cast–cast | broadcast–broadcast–broadcast | burst–burst–burst",
+        "example": "The radio broadcast the score; the repair cost very little."
+      }
+    ],
+    "memoryAids": [
+      "A Verb Group is a relay race: auxiliaries run the opening legs, and the Main Verb crosses the finish line last!",
+      "Twin rule: you LAY a mat down (takes an object), then LIE down on it (no object): yesterday you laid the mat and lay on it."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The river has overflown its banks and broadcasted mud everywhere.",
+        "correctSentence": "The river has overflowed its banks and spread mud everywhere.",
+        "whyItHappens": "'Overflow' follows 'flow → flowed', not 'fly → flown'; 'spread' and 'broadcast' never take '-ed'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "She laid on the sofa after she had lain her umbrella near the door.",
+        "correctSentence": "She lay on the sofa after she had laid her umbrella near the door.",
+        "whyItHappens": "'Lay' is the past tense of 'lie' (rest); 'laid' is the past/participle of 'lay' (place an object).",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "In questions and 'not' sentences, the first auxiliary steps ahead of the subject or adverb ('Has she not arrived yet?').",
+      "A few verbs ('dive', 'shine', 'dream', 'spell') allow either regular or irregular forms depending on meaning/dialect (e.g., 'He shined his shoes' vs. 'The sun shone')."
+    ],
+    "textbookNotes": [
+      "Grounded in Odisha Class IX Ch. 2 (Verbs): main verbs, verb forms, verb groups, and regular/irregular patterns."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M10_Q01",
+        "subtopicId": "main_verbs_groups",
+        "subtopicTitle": "Identifying main verb in a verb group",
+        "difficulty": "EASY",
+        "questionText": "In \"The students must have been waiting for the results\", which word is the MAIN (lexical) verb?",
+        "options": [
+          "must",
+          "have",
+          "been",
+          "waiting"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "'Must', 'have', and 'been' are auxiliaries; 'waiting' at the end carries the core lexical meaning.",
+        "distractorRationales": [
+          "Modal auxiliary.",
+          "Perfect auxiliary.",
+          "Progressive auxiliary.",
+          "Correct: main lexical verb at the end of the verb group."
+        ],
+        "grammarRule": "In any multi-word verb group, the final verb carries the main lexical meaning.",
+        "lessonStepRef": "m10_step_02_verbs_and_verb_groups",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q02",
+        "subtopicId": "main_verbs_groups",
+        "subtopicTitle": "Full verb group span",
+        "difficulty": "EASY",
+        "questionText": "Identify the complete verb group in: \"All the classrooms have been freshly painted.\"",
+        "options": [
+          "painted",
+          "have been painted",
+          "been freshly painted",
+          "have been"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Ignoring the inserted adverb 'freshly', the passive verb group is 'have been painted'.",
+        "distractorRationales": [
+          "Main participle alone.",
+          "Correct: perfect + passive auxiliaries + main V3.",
+          "Includes adverb 'freshly' and omits 'have'.",
+          "Omits the main verb 'painted'."
+        ],
+        "grammarRule": "Adverbs placed inside a verb group ('have freshly painted') do not belong to the verb words themselves.",
+        "lessonStepRef": "m10_step_02_verbs_and_verb_groups",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q03",
+        "subtopicId": "main_verbs_groups",
+        "subtopicTitle": "Transitive vs Intransitive",
+        "difficulty": "EASY",
+        "questionText": "In which sentence is 'opened' used INTRANSITIVELY (without a direct object)?",
+        "options": [
+          "The watchman opened the heavy iron gate.",
+          "Meera opened her geometry box quickly.",
+          "The lotus buds opened at sunrise.",
+          "They opened a new community library."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'The lotus buds opened at sunrise', 'at sunrise' tells WHEN (adverbial), so 'opened' has no direct object.",
+        "distractorRationales": [
+          "Object = 'the heavy iron gate'.",
+          "Object = 'her geometry box'.",
+          "Correct: no object receives the action.",
+          "Object = 'a new community library'."
+        ],
+        "grammarRule": "An intransitive verb completes its meaning without a direct object.",
+        "lessonStepRef": "m10_step_02_verbs_and_verb_groups",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M10_Q04",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Lie vs Lay (past tense)",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the right past-tense verb: \"Exhausted after the trek, Dev ____ down on the grass for ten minutes.\"",
+        "options": [
+          "laid",
+          "lay",
+          "lied",
+          "lain"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Intransitive 'lie' (to recline/rest, no object) has past tense V2 = 'lay'.",
+        "distractorRationales": [
+          "'Laid' requires a direct object ('laid his bag down').",
+          "Correct: V2 of intransitive 'lie' is 'lay'.",
+          "'Lied' means spoke falsely.",
+          "'Lain' is V3, used after 'has/have/had'."
+        ],
+        "grammarRule": "lie (rest) → V2: lay → V3: lain.",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q05",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Lay (transitive)",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in cleanly: \"The mason ____ the foundation bricks before midday.\"",
+        "options": [
+          "lay",
+          "laid",
+          "lain",
+          "lied"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Because there is a direct object ('the foundation bricks'), we need transitive 'lay' → V2 'laid'.",
+        "distractorRationales": [
+          "'Lay' as V2 is intransitive (no object).",
+          "Correct: transitive V2 'laid' before 'the foundation bricks'.",
+          "V3 of intransitive 'lie'.",
+          "Wrong meaning ('lied')."
+        ],
+        "grammarRule": "lay (put/place + object) → V2: laid → V3: laid.",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q06",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Overflowed vs Flown",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the grammatically accurate sentence:",
+        "options": [
+          "Heavy rains caused the canal to overflown its banks.",
+          "By dawn, the swollen river had overflowed into the fields.",
+          "The paper boat has flown smoothly down the stream.",
+          "Yesterday the pigeons flowed across the sky."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Water 'flows → flowed' (so 'overflows → overflowed'); birds 'fly → flew → flown'.",
+        "distractorRationales": [
+          "*Overflown is wrong after 'to' and misuses 'fly' participle.",
+          "Correct: 'had overflowed'.",
+          "Boats float/flow; birds have flown.",
+          "Pigeons 'flew', not 'flowed'."
+        ],
+        "grammarRule": "flow–flowed–flowed (water); fly–flew–flown (air).",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M10_Q07",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Invariant irregulars",
+        "difficulty": "EASY",
+        "questionText": "Which verb keeps the SAME form in Base (V1), Past (V2), and Past Participle (V3)?",
+        "options": [
+          "ring",
+          "cost",
+          "choose",
+          "shake"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Cost–cost–cost' never changes form (whereas ring–rang–rung, choose–chose–chosen, shake–shook–shaken).",
+        "distractorRationales": [
+          "ring–rang–rung",
+          "Correct: cost–cost–cost",
+          "choose–chose–chosen",
+          "shake–shook–shaken"
+        ],
+        "grammarRule": "Invariant verbs like cost, cut, shut, put, hurt, cast, and spread keep identical V1/V2/V3 forms.",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q08",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Hung vs Hanged",
+        "difficulty": "HARD",
+        "questionText": "Select the sentence that uses 'hung' or 'hanged' accurately:",
+        "options": [
+          "We hanged the brass bell beside the classroom door.",
+          "We hung the festive lanterns across the courtyard.",
+          "The portrait was hanged neatly above the bookshelf.",
+          "Mother hunged the wet towels on the line."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use 'hung' for objects like lanterns, bells, and portraits; reserve 'hanged' strictly for executing a person.",
+        "distractorRationales": [
+          "'Hanged' is for execution, not bells.",
+          "Correct: 'hung' for lanterns.",
+          "Portraits are 'hung'.",
+          "*Hunged does not exist."
+        ],
+        "grammarRule": "hang–hung–hung (suspend an object); hang–hanged–hanged (execute by hanging).",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M10_Q09",
+        "subtopicId": "main_verbs_groups",
+        "subtopicTitle": "Ditransitive verbs",
+        "difficulty": "MEDIUM",
+        "questionText": "Which verb most naturally takes TWO objects (Indirect + Direct) as in \"She ____ her brother a story\"?",
+        "options": [
+          "slept",
+          "told",
+          "arrived",
+          "laughed"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Tell' is ditransitive ('told [her brother] [a story]'). 'Sleep', 'arrive', and 'laugh' are intransitive.",
+        "distractorRationales": [
+          "Intransitive.",
+          "Correct: ditransitive ('told someone something').",
+          "Intransitive.",
+          "Intransitive."
+        ],
+        "grammarRule": "Ditransitive verbs (give, tell, send, offer, teach) take both an indirect and a direct object.",
+        "lessonStepRef": "m10_step_02_verbs_and_verb_groups",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M10_Q10",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Broadcast / Telecast V2",
+        "difficulty": "HARD",
+        "questionText": "Fill in accurately: \"Doordarshan ____ the Republic Day parade live yesterday morning.\"",
+        "options": [
+          "broadcasted",
+          "broadcast",
+          "broadcasting",
+          "have broadcast"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Broadcast' and 'telecast' remain unchanged in the simple past ('broadcast' yesterday).",
+        "distractorRationales": [
+          "*Broadcasted is avoided in standard exam grammar.",
+          "Correct: invariant simple past 'broadcast'.",
+          "Participle missing auxiliary.",
+          "Plural auxiliary + conflicts with 'yesterday'."
+        ],
+        "grammarRule": "Use invariant 'broadcast' and 'telecast' (without '-ed') for past tenses.",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M10_Q11",
+        "subtopicId": "main_verbs_groups",
+        "subtopicTitle": "Linking vs Action verb",
+        "difficulty": "MEDIUM",
+        "questionText": "In which sentence does 'looked' act as a LINKING verb (not an action verb)?",
+        "options": [
+          "Detective Ira looked closely at the footprints.",
+          "Chikoo looked through the telescope.",
+          "The exhausted mountaineer looked pale after the climb.",
+          "The guards looked up at the tower."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "In 'looked pale', 'looked' means 'appeared/seemed' and links the subject to the adjective 'pale'.",
+        "distractorRationales": [
+          "Action of inspecting with eyes.",
+          "Action verb + adverbial.",
+          "Correct: copular/linking verb + adjective complement 'pale'.",
+          "Action verb."
+        ],
+        "grammarRule": "When 'look, feel, grow, turn' can be replaced by 'seem/become', they act as linking verbs.",
+        "lessonStepRef": "m10_step_02_verbs_and_verb_groups",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M10_Q12",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Find vs Found",
+        "difficulty": "HARD",
+        "questionText": "Choose the right contrast: \"Historians ____ that King Ashoka ____ many rest-houses along trade routes.\"",
+        "options": [
+          "founded / found",
+          "found / founded",
+          "finded / founded",
+          "found / found"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Find' (discover) → V2 'found'; 'found' (establish/set up an institution) is regular → V2 'founded'.",
+        "distractorRationales": [
+          "Reversed the two verbs.",
+          "Correct: 'found' (discovered) and 'founded' (established).",
+          "*Finded is non-existent.",
+          "'Found' cannot mean 'established' in the past."
+        ],
+        "grammarRule": "find–found–found (discover) vs. found–founded–founded (establish).",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M10_Q13",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "V3 after perfect auxiliaries",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"Before the bell rang, the choir had already ____ the national song.\"",
+        "options": [
+          "sang",
+          "sing",
+          "sung",
+          "singing"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "After 'has / have / had', always use the Past Participle V3 ('sung'), not Simple Past V2 ('sang').",
+        "distractorRationales": [
+          "'Sang' is V2 (simple past), never used after 'had'.",
+          "Base V1.",
+          "Correct: V3 'sung' after 'had'.",
+          "Continuous participle needs 'been'."
+        ],
+        "grammarRule": "Follow 'has / have / had' with V3 (sung, written, spoken, drunk), never V2.",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q14",
+        "subtopicId": "main_verbs_groups",
+        "subtopicTitle": "Multi-word verb group in passive",
+        "difficulty": "HARD",
+        "questionText": "Which sentence has a grammatically COMPLETE verb group?",
+        "options": [
+          "The parcel been delivered to the wrong gate.",
+          "The parcel has being delivered right now.",
+          "The parcel has been delivered safely.",
+          "The parcel was deliver before noon."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Has been delivered' properly combines perfect 'has' + past participle 'been' + passive V3 'delivered'.",
+        "distractorRationales": [
+          "Missing 'has/had' before 'been'.",
+          "'Has' cannot precede 'being' directly.",
+          "Correct: complete 'has been delivered'.",
+          "After passive 'was', use V3 'delivered'."
+        ],
+        "grammarRule": "Check each link in a verb group chain: have + V3, be + V-ing (active) or be + V3 (passive).",
+        "lessonStepRef": "m10_step_02_verbs_and_verb_groups",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M10_Q15",
+        "subtopicId": "verb_forms_irregular",
+        "subtopicTitle": "Rise vs Raise",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya watches the workshop gauges.",
+        "questionText": "Fill in both blanks accurately: \"As the sun ____ in the east, volunteers ____ the flag.\"",
+        "options": [
+          "raised / rose",
+          "rose / raised",
+          "risen / raised",
+          "rose / risen"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Rise' (move upward, NO object) → 'rose'; 'raise' (lift something, TAKES object 'the flag') → 'raised'.",
+        "distractorRationales": [
+          "Swapped transitive 'raise' and intransitive 'rise'.",
+          "Correct: 'sun rose' (no object) + 'volunteers raised the flag' (with object).",
+          "'Risen' is V3, needs 'had'.",
+          "'Risen' is wrong."
+        ],
+        "grammarRule": "rise–rose–risen (intransitive) vs. raise–raised–raised (transitive + object).",
+        "lessonStepRef": "m10_step_05_regular_irregular_forms",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      }
+    ]
+  }
+}

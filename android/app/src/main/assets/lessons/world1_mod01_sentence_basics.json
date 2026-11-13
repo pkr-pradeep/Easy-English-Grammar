@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_01",
+  "worldId": "WORLD_1",
+  "title": "Sentence Basics and Word Order",
+  "storyTitle": "The Jumbled Royal Proclamations",
+  "estimatedMinutes": 15,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m01_step_01_intro",
+      "stepTitle": "Scene 1: The Confused Messenger",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Palace Courtyard • Morning",
+      "settingDescription": "Chikoo Bandar runs into Maharaj Vakya's throne room waving three crumpled scrolls. The royal guards look utterly puzzled.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "dramatic",
+          "line": "Read the morning proclamation at once, Chikoo! The citizens are waiting!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "overconfident",
+          "line": "Ahem! Scroll one says: 'Bananas eating happily in the garden.' Scroll two says: 'Royal library quiet always is.' Pure poetry!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "amused",
+          "line": "One scroll is missing a complete thought, and the other has put its words through a blender! A pile of bricks is not a house—and a pile of words is not a sentence."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "investigating",
+          "line": "Let us inspect what makes a group of words a real sentence, and put Maharaj Vakya's proclamations back into clear English word order."
+        }
+      ],
+      "storyCallout": "Goal: Separate real sentences from incomplete fragments and restore standard English word order."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m01_step_02_what_is_sentence",
+      "stepTitle": "Discover: What Is a Sentence?",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "sentence_meaning",
+      "subtopicTitle": "What Is a Sentence & Meaningful Word Groups",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A sentence is a well-packed tiffin box: it needs a main dish (a subject), an action or state (a finite verb), and a tight lid (complete sense + end punctuation).",
+      "formalDefinition": "A sentence is a grammatically complete group of words arranged in a meaningful order that expresses a complete thought, contains at least one independent clause with a subject and a finite verb, and ends with a full stop, question mark, or exclamation mark.",
+      "simpleExplanation": "A group of words like 'near the old banyan tree' has meaning, yet leaves us asking 'Who did what?'. Without a subject (except understood 'you' in commands) and a finite verb expressing a complete idea, it is only a phrase or fragment—not a sentence.",
+      "structurePatterns": [
+        {
+          "formName": "Complete Sentence",
+          "formula": "Subject + Finite Verb (+ Object / Complement / Adverbial) + End Mark",
+          "sample": "The students read quietly in the school library."
+        },
+        {
+          "formName": "Incomplete Fragment",
+          "formula": "Group of words missing subject or finite verb or complete thought",
+          "sample": "Reading quietly in the school library. (Who is reading?)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The morning assembly begins at eight o'clock.",
+          "contextNote": "Has subject ('The morning assembly'), finite verb ('begins'), and expresses complete sense.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Please close the classroom window.",
+          "contextNote": "Imperative sentence: the subject 'you' is understood, and 'close' is the finite verb.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Because the monsoon arrived early this year.",
+          "correctSentence": "The farmers rejoiced because the monsoon arrived early this year.",
+          "whyItHappens": "Starting with 'because' creates a dependent clause that leaves the reader waiting for the main result.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Commands and requests ('Open the door.', 'Sit down.') are complete sentences even though the subject 'you' is hidden."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m01_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Spot the Complete Sentence",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD01_CP1",
+      "subtopicId": "sentence_meaning",
+      "subtopicTitle": "Sentence vs. Fragment",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira pulls four slips of paper from Chikoo's satchel. Only one is a complete sentence.",
+      "questionPrompt": "Which option is a complete, grammatically sound sentence?",
+      "options": [
+        "Running quickly across the wet playground.",
+        "Although the school bell rang loudly.",
+        "Meera won the inter-school chess trophy.",
+        "Under the wooden bench near the gate."
+      ],
+      "acceptedAnswers": ["Meera won the inter-school chess trophy."],
+      "hint": "Look for the option that has a clear doer (subject), a finite verb, and leaves no unfinished question.",
+      "feedbackCorrect": "Detective Ira: \"Case clue verified! 'Meera' is the subject, 'won' is the finite verb, and the thought is complete.\"",
+      "feedbackWrongDefault": "Check whether the group of words leaves you waiting for 'who' or 'what happened next'.",
+      "feedbackWrongByOption": {
+        "Running quickly across the wet playground.": "Who is running? There is no subject and no finite verb here.",
+        "Although the school bell rang loudly.": "'Although...' introduces a condition, so the sentence feels cut off mid-thought!",
+        "Under the wooden bench near the gate.": "This only tells us a location—it is a prepositional phrase, not a sentence."
+      },
+      "simplerExample": "Fragment: 'In the blue bag.' → Complete sentence: 'My notebook is in the blue bag.'",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m01_step_04_word_order",
+      "stepTitle": "Discover: Word Order & Core Elements",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "word_order",
+      "subtopicTitle": "Sentence Structure, Elements & Word Order",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "English word order is a train on fixed tracks: Actor Engine (Subject) pulls Action Carriage (Verb) which carries the Cargo (Object).",
+      "formalDefinition": "Standard English declarative sentences follow SVO (Subject–Verb–Object) or SVC/SVA order, where grammatical meaning depends heavily on word position rather than noun endings.",
+      "simpleExplanation": "Unlike many Indian languages where the verb usually stands at the end ('Rohan kitab padhta hai'), English places the finite verb right after the subject and before the object ('Rohan reads a book'). Swapping Subject and Object changes who does what!",
+      "structurePatterns": [
+        {
+          "formName": "SV (Subject + Verb)",
+          "formula": "Subject + Intransitive Verb",
+          "sample": "Birds fly. / The baby smiled."
+        },
+        {
+          "formName": "SVO (Subject + Verb + Object)",
+          "formula": "Subject + Transitive Verb + Direct Object",
+          "sample": "Aarav solved the riddle."
+        },
+        {
+          "formName": "SVOO (Double Object)",
+          "formula": "Subject + Verb + Indirect Object + Direct Object",
+          "sample": "Acharya gave Chikoo a map."
+        },
+        {
+          "formName": "SVA / SVOA",
+          "formula": "Subject + Verb (+ Object) + Adverbial (Place before Time)",
+          "sample": "We practised drama in the auditorium yesterday."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The goalkeeper caught the ball cleanly.",
+          "contextNote": "Subject ('The goalkeeper') + Verb ('caught') + Object ('the ball') + Manner Adverb ('cleanly').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Priya sent her cousin a postcard from Shillong.",
+          "contextNote": "SVOO pattern: Indirect Object ('her cousin') comes before Direct Object ('a postcard').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "The royal library quiet always is.",
+          "correctSentence": "The royal library is always quiet.",
+          "whyItHappens": "In English, the linking verb ('is') follows the subject, adverbs like 'always' sit after 'be', and the adjective ('quiet') follows.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "In yes/no questions and negative emphasis ('Never have I seen such chaos!'), the auxiliary verb moves BEFORE the subject."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m01_step_05_cp2",
+      "stepTitle": "Checkpoint 2: Rebuild the Royal Proclamation",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD01_CP2",
+      "subtopicId": "word_order",
+      "subtopicTitle": "Standard Word Order (SVOA)",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo dropped the tiles of Maharaj Vakya's announcement on the floor! Put them back in natural English word order.",
+      "questionPrompt": "Tap the tiles in order to form a clear sentence (Place before Time):",
+      "wordTokens": [
+        "in the hall",
+        "will announce",
+        "Maharaj Vakya",
+        "tomorrow.",
+        "the contest"
+      ],
+      "acceptedAnswers": ["Maharaj Vakya will announce the contest in the hall tomorrow."],
+      "hint": "Follow Subject → Verb → Object → Place → Time.",
+      "feedbackCorrect": "Maharaj Vakya: \"Magnificent order! Subject, verb, object, place, and time march like royal guards!\"",
+      "feedbackWrongDefault": "Remember the English track: Subject ('Maharaj Vakya') + Verb ('will announce') + Object ('the contest') + Place + Time.",
+      "simplerExample": "The team will play the final at the stadium tomorrow.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m01_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Spot the Word's Role",
+      "provenance": "ADDITIONAL_EXAMPLE",
+      "checkpointId": "MOD01_CP3",
+      "subtopicId": "sentence_elements",
+      "subtopicTitle": "Sentence Elements (S, V, O, IO)",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar writes a thank-you note on the board: \"Detective Ira handed Maharaj Vakya the golden key.\"",
+      "questionPrompt": "In that sentence, what grammatical element is \"the golden key\"?",
+      "options": [
+        "Subject",
+        "Finite Verb",
+        "Direct Object",
+        "Indirect Object"
+      ],
+      "acceptedAnswers": ["Direct Object"],
+      "hint": "Ask 'Handed WHAT?' vs 'Handed TO WHOM?'.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Right! 'Detective Ira' is the Subject, 'Maharaj Vakya' is the Indirect Object (recipient), and 'the golden key' is the Direct Object (thing handed over).\"",
+      "feedbackWrongDefault": "Test the questions: Who handed? (Subject). Handed to whom? (Indirect Object). Handed what? (Direct Object).",
+      "feedbackWrongByOption": {
+        "Subject": "'Detective Ira' performs the action, so Detective Ira is the Subject.",
+        "Indirect Object": "'Maharaj Vakya' is the person receiving the key (Indirect Object); 'the golden key' is the thing itself."
+      },
+      "simplerExample": "Mother gave Rohan (Indirect Object) a watch (Direct Object).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m01_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Fix Chikoo's Word-Order Slip",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD01_CP4",
+      "subtopicId": "word_order",
+      "subtopicTitle": "Adverb & Object Placement",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "CHIKOO_BANDAR",
+      "storyPrompt": "Chikoo tries to write an honest diary entry: \"I like very much spicy mangoes.\"",
+      "questionPrompt": "Choose the natural, grammatically accurate correction:",
+      "options": [
+        "I very much spicy mangoes like.",
+        "I like spicy mangoes very much.",
+        "Very much I spicy mangoes like.",
+        "I spicy mangoes like very much."
+      ],
+      "acceptedAnswers": ["I like spicy mangoes very much."],
+      "hint": "Keep the verb ('like') right next to its object ('spicy mangoes'), and put 'very much' after the object.",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Well fixed! Never wedge 'very much' between a verb and its direct object.\"",
+      "feedbackWrongDefault": "Keep Subject + Verb + Object together ('I like spicy mangoes'), then add 'very much'.",
+      "feedbackWrongByOption": {
+        "I very much spicy mangoes like.": "Don't push the verb 'like' to the end of the English sentence."
+      },
+      "simplerExample": "I enjoy cricket very much. (NOT: I enjoy very much cricket.)",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m01_step_08_outro",
+      "stepTitle": "Scene 2: Clear Proclamations!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Palace Balcony • Noon",
+      "settingDescription": "With every word aligned on the royal tracks, Chikoo reads the corrected scrolls smoothly to cheering townsfolk.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "cheering",
+          "line": "Hear ye! Maharaj Vakya will announce the contest in the hall tomorrow!"
+        },
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "approving",
+          "line": "Now THAT is a sentence worthy of the Grammar Kingdom! Keep your notebook handy and prove your skill in the Final Assessment."
+        }
+      ],
+      "storyCallout": "Module 1 Story Complete! Check your Grammar Notebook or try the 15-question assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Requirements of a Complete Sentence",
+        "ruleSummary": "Must express a complete thought, contain a subject and a finite verb (or understood 'you' in commands), use proper word order, and end with '.', '?', or '!'.",
+        "formulaOrPattern": "Subject + Finite Verb + (Object / Complement / Adverbial)",
+        "example": "The monsoon clouds gathered quickly."
+      },
+      {
+        "heading": "Core English Word Order Patterns",
+        "ruleSummary": "Declarative sentences place the verb after the subject and before any objects, keeping verbs and direct objects together.",
+        "formulaOrPattern": "SV | SVO | SVOO | SVC | SVOA (Place before Time)",
+        "example": "Neha gave her friend a pen in class yesterday."
+      }
+    ],
+    "memoryAids": [
+      "A sentence is a well-packed tiffin box: Subject (main dish), Finite Verb (action), Complete Sense + End Mark (tight lid).",
+      "Word order is a train: Actor Engine (S) → Action Carriage (V) → Cargo (O) → Place → Time."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Because I missed the morning bus.",
+        "correctSentence": "I reached school late because I missed the morning bus.",
+        "whyItHappens": "A subordinating conjunction ('because', 'although', 'if') turns a clause into a fragment unless attached to a main clause.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "She speaks very well English.",
+        "correctSentence": "She speaks English very well.",
+        "whyItHappens": "Do not split a transitive verb ('speaks') from its direct object ('English') with a manner adverbial.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Imperative sentences ('Please wait outside.') omit the surface subject 'you' while still remaining complete sentences.",
+      "Questions and negative inversions ('Did you finish?', 'Seldom have we seen...') place the auxiliary verb before the subject."
+    ],
+    "textbookNotes": [
+      "Consolidated secondary-school foundation matching sentence-basics chapters across Classes IX–X."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M01_Q01",
+        "subtopicId": "sentence_meaning",
+        "subtopicTitle": "What is a sentence?",
+        "difficulty": "EASY",
+        "questionText": "Which of the following is a complete sentence?",
+        "options": [
+          "The tall banyan tree behind our school.",
+          "Waiting patiently at the railway platform.",
+          "The train arrived on time.",
+          "When the evening bell rang."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'The train arrived on time.' has a subject ('The train'), a finite verb ('arrived'), and expresses a complete thought.",
+        "distractorRationales": [
+          "Noun phrase only—no finite verb.",
+          "Participial phrase—missing subject and finite auxiliary.",
+          "Correct: complete subject + finite verb + complete sense.",
+          "Dependent 'when'-clause fragment."
+        ],
+        "grammarRule": "A sentence requires a subject, a finite verb, and complete sense.",
+        "lessonStepRef": "m01_step_02_what_is_sentence",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q02",
+        "subtopicId": "sentence_meaning",
+        "subtopicTitle": "Meaningful word groups",
+        "difficulty": "EASY",
+        "questionText": "Why is \"Although it rained heavily\" NOT a complete sentence?",
+        "options": [
+          "It has no noun.",
+          "It has no verb.",
+          "It begins with a subordinator and leaves the main thought unfinished.",
+          "It is too short."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "It contains a subject ('it') and verb ('rained'), but 'Although' makes it a dependent clause awaiting a main result.",
+        "distractorRationales": [
+          "'It' acts as pronoun subject.",
+          "'Rained' is a verb.",
+          "Correct: 'Although' signals contrast and requires a main clause.",
+          "Length does not decide sentence completeness ('Birds fly.' is complete)."
+        ],
+        "grammarRule": "A subordinate clause alone is a sentence fragment.",
+        "lessonStepRef": "m01_step_02_what_is_sentence",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q03",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Word order (SVO)",
+        "difficulty": "EASY",
+        "questionText": "Choose the grammatically well-ordered sentence:",
+        "options": [
+          "Always helps Karan his younger sister.",
+          "Karan always helps his younger sister.",
+          "Karan helps his younger sister always.",
+          "Helps Karan always his younger sister."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Frequency adverbs like 'always' sit between the subject ('Karan') and a main action verb ('helps').",
+        "distractorRationales": [
+          "Putting 'always' before the subject sounds awkward in standard statements.",
+          "Correct: Subject + Frequency Adverb + Main Verb + Object.",
+          "Putting 'always' at the very end is unnatural here.",
+          "Verb-first order is not used in ordinary statements."
+        ],
+        "grammarRule": "Place frequency adverbs before main verbs (and after 'be').",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M01_Q04",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Verb + Object adjacency",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence places the adverbial correctly?",
+        "options": [
+          "He speaks fluently Hindi and English.",
+          "He speaks Hindi and English fluently.",
+          "He Hindi and English fluently speaks.",
+          "Fluently he speaks Hindi and English always."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Do not split the verb ('speaks') and direct object ('Hindi and English') with the manner adverb ('fluently').",
+        "distractorRationales": [
+          "'Fluently' wedges between verb and object.",
+          "Correct: Verb + Direct Object + Manner Adverb.",
+          "Places verb at the end (mother-tongue interference).",
+          "Awkward placement of both adverbs."
+        ],
+        "grammarRule": "Keep transitive verbs directly next to their direct objects.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q05",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Place before Time",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the sentence with standard English adverbial order (Place before Time):",
+        "options": [
+          "We met yesterday at the science exhibition.",
+          "We met at the science exhibition yesterday.",
+          "At the science exhibition we yesterday met.",
+          "Yesterday at the science exhibition met we."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "At the end of an English clause, Place ('at the science exhibition') normally precedes Time ('yesterday').",
+        "distractorRationales": [
+          "Puts Time before Place.",
+          "Correct: Subject + Verb + Place + Time.",
+          "Splits subject and verb with 'yesterday'.",
+          "Inverted 'met we' is ungrammatical."
+        ],
+        "grammarRule": "End-position adverbials typically follow Manner → Place → Time.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M01_Q06",
+        "subtopicId": "sentence_elements",
+        "subtopicTitle": "Sentence elements (SVOO)",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"The librarian lent Kabir an atlas\", what is 'Kabir'?",
+        "options": [
+          "Subject",
+          "Direct Object",
+          "Indirect Object",
+          "Adverbial"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Kabir' is the recipient who receives 'an atlas' (Direct Object), making 'Kabir' the Indirect Object.",
+        "distractorRationales": [
+          "'The librarian' is the Subject.",
+          "'An atlas' is the Direct Object.",
+          "Correct: recipient before the direct object is the Indirect Object.",
+          "Not a time/place/manner modifier."
+        ],
+        "grammarRule": "In SVOO, the Indirect Object precedes the Direct Object.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q07",
+        "subtopicId": "sentence_meaning",
+        "subtopicTitle": "Imperative sentence completeness",
+        "difficulty": "EASY",
+        "questionText": "Which of the following is a valid complete sentence even without a visible subject word?",
+        "options": [
+          "Walking down the road.",
+          "Please submit your lab record by Friday.",
+          "In the middle of the playground.",
+          "A very exciting cricket match."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Imperative sentences ('Please submit...') have an understood subject 'you' and are grammatically complete.",
+        "distractorRationales": [
+          "Fragment lacking finite verb.",
+          "Correct: valid imperative sentence.",
+          "Prepositional phrase only.",
+          "Noun phrase only."
+        ],
+        "grammarRule": "Imperatives are complete sentences with an implied subject 'you'.",
+        "lessonStepRef": "m01_step_02_what_is_sentence",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q08",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Linking verb word order",
+        "difficulty": "EASY",
+        "questionText": "Unscramble the sentence: \"is / the / mountain / morning / air / crisp\"",
+        "options": [
+          "Crisp is the morning mountain air.",
+          "The morning mountain air is crisp.",
+          "The mountain air crisp is morning.",
+          "Morning air crisp is the mountain."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Standard SVC order places the noun phrase subject first, followed by linking verb 'is' and adjective 'crisp'.",
+        "distractorRationales": [
+          "Poetic inversion, not standard prose order.",
+          "Correct: Subject + Linking Verb + Complement.",
+          "Verb placed after adjective.",
+          "Broken noun phrase."
+        ],
+        "grammarRule": "Linking-verb statements follow Subject + Be + Complement.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M01_Q09",
+        "subtopicId": "sentence_elements",
+        "subtopicTitle": "Identifying finite verbs",
+        "difficulty": "MEDIUM",
+        "questionText": "Why is \"The girl singing on the stage\" NOT a sentence yet?",
+        "options": [
+          "'Singing' needs an auxiliary verb like 'is' or 'was' to become a finite verb group.",
+          "'Stage' should be plural.",
+          "'On' is the wrong preposition.",
+          "It needs an exclamation mark."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Singing' alone is a non-finite participle; adding 'is' ('The girl is singing on the stage.') completes the finite verb.",
+        "distractorRationales": [
+          "Correct: bare '-ing' participles cannot serve as main finite verbs.",
+          "Singular 'stage' is fine.",
+          "'On the stage' is idiomatic.",
+          "Punctuation alone cannot fix a missing finite verb."
+        ],
+        "grammarRule": "A clause needs a finite verb marked for tense/number, not a bare participle.",
+        "lessonStepRef": "m01_step_02_what_is_sentence",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q10",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Question word order",
+        "difficulty": "MEDIUM",
+        "questionText": "Which question follows accurate English word order?",
+        "options": [
+          "Where you are going after school?",
+          "Where are you going after school?",
+          "Where going you are after school?",
+          "Are going where you after school?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Wh-questions invert the auxiliary ('are') BEFORE the subject ('you'): Wh-word + Auxiliary + Subject + Main Verb.",
+        "distractorRationales": [
+          "Missing subject-auxiliary inversion.",
+          "Correct: Wh-word + 'are' + 'you' + 'going'.",
+          "Main verb cannot precede subject.",
+          "Scrambled order."
+        ],
+        "grammarRule": "Standard wh-questions place the auxiliary before the subject.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q11",
+        "subtopicId": "sentence_elements",
+        "subtopicTitle": "SV vs SVO",
+        "difficulty": "MEDIUM",
+        "questionText": "Which sentence follows the SV (Subject + Intransitive Verb) pattern with NO object?",
+        "options": [
+          "Ritu painted a landscape.",
+          "The stars shone brightly.",
+          "Grandfather told a story.",
+          "The mechanic fixed the scooter."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Shone' is intransitive; 'brightly' is an adverbial of manner, not an object.",
+        "distractorRationales": [
+          "'A landscape' is a Direct Object (SVO).",
+          "Correct: 'The stars' (S) + 'shone' (V) + 'brightly' (Adv).",
+          "'A story' is a Direct Object (SVO).",
+          "'The scooter' is a Direct Object (SVO)."
+        ],
+        "grammarRule": "Intransitive verbs take no object, though they may take adverbials.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q12",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Adverb placement with 'be'",
+        "difficulty": "HARD",
+        "questionText": "Identify the sentence with accurate placement of 'never':",
+        "options": [
+          "Chikoo never is late for lunch.",
+          "Chikoo is never late for lunch.",
+          "Never Chikoo is late for lunch.",
+          "Chikoo is late never for lunch."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "With the verb 'be' ('is'), frequency adverbs like 'never' and 'always' follow 'is' rather than preceding it.",
+        "distractorRationales": [
+          "'Never' precedes main verbs, but follows 'am/is/are/was/were'.",
+          "Correct: 'is' + 'never' + adjective.",
+          "Inversion after initial 'Never' would require 'Never is Chikoo late...'.",
+          "Misplaced after 'late'."
+        ],
+        "grammarRule": "Frequency adverbs follow forms of 'be' ('is always', 'was never').",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M01_Q13",
+        "subtopicId": "sentence_meaning",
+        "subtopicTitle": "Fixing run-on/jumbled words",
+        "difficulty": "HARD",
+        "questionText": "Which revision best fixes the fragment: \"Before leaving the laboratory after the experiment.\"",
+        "options": [
+          "Before leaving the laboratory after the experiment!",
+          "Students switched off the burners before leaving the laboratory after the experiment.",
+          "Leaving the laboratory after the experiment.",
+          "Before the laboratory after the experiment."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Attaching a complete main clause ('Students switched off the burners') turns the adverbial fragment into a complete sentence.",
+        "distractorRationales": [
+          "Changing '.' to '!' does not supply a subject and finite verb.",
+          "Correct: complete main clause + adverbial phrase.",
+          "Still a participial fragment.",
+          "Prepositional fragment."
+        ],
+        "grammarRule": "Attach introductory phrases/subordinate clauses to a full main clause.",
+        "lessonStepRef": "m01_step_02_what_is_sentence",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M01_Q14",
+        "subtopicId": "sentence_elements",
+        "subtopicTitle": "Direct vs Indirect Object phrasing",
+        "difficulty": "HARD",
+        "questionText": "Which pair expresses the exact same meaning with valid English word order?",
+        "options": [
+          "He gave to me the book. / He gave me the book.",
+          "He gave me the book. / He gave the book to me.",
+          "He gave the book me. / He gave me to the book.",
+          "He to me gave the book. / He gave book to me."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Either place Indirect Object before Direct Object ('gave me the book') OR place Direct Object first with 'to' ('gave the book to me').",
+        "distractorRationales": [
+          "'Gave to me the book' puts 'to me' in the wrong slot.",
+          "Correct: both SVOO and SVO + 'to'-recipient are standard.",
+          "'Gave the book me' is missing 'to'; 'gave me to the book' changes meaning absurdly.",
+          "Unnatural word order and missing article."
+        ],
+        "grammarRule": "SV + IO + DO alternates with SV + DO + to/for + IO.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M01_Q15",
+        "subtopicId": "word_order",
+        "subtopicTitle": "Basic sentence construction",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya checks the final proclamation.",
+        "questionText": "Choose the sentence that combines all five words meaningfully: \"crafted / silver / the / artisan / a / tray\" (including 'a'):",
+        "options": [
+          "A silver tray crafted the artisan.",
+          "The artisan crafted a silver tray.",
+          "Crafted the artisan a silver tray.",
+          "The silver artisan a tray crafted."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The animate agent ('The artisan') must stand in Subject position before the verb ('crafted') and object ('a silver tray').",
+        "distractorRationales": [
+          "Makes a silver tray craft a person!",
+          "Correct: Subject ('The artisan') + Verb ('crafted') + Object ('a silver tray').",
+          "Verb cannot start a standard statement.",
+          "Misplaced object before verb."
+        ],
+        "grammarRule": "Word position in English SVO determines who performs vs. receives the action.",
+        "lessonStepRef": "m01_step_04_word_order",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

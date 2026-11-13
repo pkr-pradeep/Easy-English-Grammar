@@ -1,0 +1,6 @@
+{
+  "name": "English Grammar Adventure",
+  "description": "Offline-first story-driven native Android English grammar learning app for Classes IX and X.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

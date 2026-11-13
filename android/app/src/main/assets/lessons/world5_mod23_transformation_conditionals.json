@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_23",
+  "worldId": "WORLD_5",
+  "title": "Sentence Transformation and Conditional Structures",
+  "storyTitle": "The Royal Transformation Chamber",
+  "estimatedMinutes": 24,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "ACHARYA_VIDYADHAR",
+    "CHIKOO_BANDAR",
+    "DETECTIVE_IRA",
+    "VAANI"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m23_step_01_intro",
+      "stepTitle": "Scene 1: Change the Outfit, Keep the Meaning!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "The Royal Transformation Chamber • Afternoon",
+      "settingDescription": "Inside a hall of refracting mirrors, Maharaj Vakya tests whether sentences can change clothes—affirmative to negative, simple to complex, or real to hypothetical—without changing their core truth!",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "challenging",
+          "line": "Transform 'Everyone loves honesty' into a negative sentence WITHOUT flipping its meaning! If you write 'Everyone hates honesty', the alarm rings!"
+        },
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "proud",
+          "line": "Aha! Watch this: 'There is NO ONE who does NOT love honesty!' Same truth, brand-new negative clothes!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "impressed",
+          "line": "Bravo, Chikoo! Transformation of Sentences reshapes grammar—affirmative/negative, interrogative/assertive, parts of speech, simple/compound/complex, and conditional/concessive clauses—while preserving exact meaning."
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "alert",
+          "line": "And inside Conditional mirrors, watch the tense locks! Zero, First, Second, and Third Conditionals refuse 'will' or 'would' inside the 'if'-clause!"
+        }
+      ],
+      "storyCallout": "Goal: Transform sentences across structure and part of speech while preserving meaning, and master all four Conditional types."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m23_step_02_meaning_preserving_transforms",
+      "stepTitle": "Discover: Affirmative/Negative, Parts of Speech & Clause Synthesis",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "sentence_transformation",
+      "subtopicTitle": "Preserving Meaning Across Structure & Part-of-Speech Shifts",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Sentence Transformation is grammar origami: fold the same sheet ('He was too tired to run') into a crane ('He was so tired that he could not run')—new shape, exact same message!",
+      "formalDefinition": "Transformation of sentences converts a clause from one grammatical structure to another (affirmative ↔ negative, assertive ↔ interrogative/exclamatory, simple ↔ compound ↔ complex, or shifting a word's part of speech) without altering its proposition.",
+      "simpleExplanation": "Master the five most tested Class IX–X transformations:\n1) Affirmative ↔ Negative (keep meaning!): 'Only + X' → 'None but + X' ('Only the brave win' = 'None but the brave win'); 'Always' → 'Never + antonym' ('Always speak the truth' = 'Never tell a lie'); 'As soon as...' → 'No sooner had/did ... than...'; 'Too... to' → 'So... that + cannot/could not'.\n2) Assertive ↔ Interrogative (rhetorical): 'Everyone knows him' ↔ 'Who does not know him?'. Exclamatory ↔ Assertive: 'What a vibrant mural this is!' ↔ 'This is a very vibrant mural.'\n3) Part-of-Speech Conversion: 'He listened with patience' (Noun) ↔ 'He listened patiently' (Adverb); 'She succeeded' (Verb) ↔ 'She was successful' (Adjective) ↔ 'She achieved success' (Noun).\n4) Simple ↔ Compound ↔ Complex: 'In spite of his illness' (Simple prep phrase) ↔ 'He was ill, yet he attended' (Compound) ↔ 'Although he was ill, he attended' (Complex).",
+      "structurePatterns": [
+        {
+          "formName": "Core Meaning-Preserving Pairs",
+          "formula": "Only → None but | As soon as → No sooner... than | Must → Cannot but V1 | Too... to → So... that",
+          "sample": "As soon as the rain stopped, we left. = No sooner did the rain stop than we left."
+        },
+        {
+          "formName": "Simple ↔ Compound ↔ Complex (Concession)",
+          "formula": "In spite of / Despite + NP/V-ing (Simple) | ... yet/but ... (Compound) | Although/Though ... (Complex)",
+          "sample": "Despite the mist, we hiked. = It was misty, yet we hiked. = Although it was misty, we hiked."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "She could not help smiling at Chikoo's rhyme. ↔ She could not but smile at Chikoo's rhyme.",
+          "contextNote": "Both mean 'She had to smile' ('cannot help + V-ing' vs. 'cannot but + Bare V1').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "He answered every question with confidence. ↔ He answered every question confidently.",
+          "contextNote": "Noun ('confidence') transformed smoothly into Adverb ('confidently').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Assertive 'Everybody respects courage' transformed to negative: 'Nobody respects courage.'",
+          "correctSentence": "There is nobody who does not respect courage.",
+          "whyItHappens": "'Nobody respects courage' reverses the meaning! Use a balanced negative ('There is nobody who does not...') to preserve meaning.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Unless' (Complex) transforms cleanly to Compound 'or / otherwise': 'Unless you hurry, you will miss the train' = 'Hurry up, or you will miss the train.'"
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m23_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Keep the Meaning in Negative Clothes",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD23_CP1",
+      "subtopicId": "sentence_transformation",
+      "subtopicTitle": "Affirmative to Negative Transformation",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya challenges you inside the Transformation Mirror: \"Only skilled navigators can cross this channel.\"",
+      "questionPrompt": "Transform this into a NEGATIVE sentence WITHOUT changing its meaning:",
+      "options": [
+        "Skilled navigators cannot cross this channel.",
+        "None but skilled navigators can cross this channel.",
+        "No skilled navigators can cross this channel.",
+        "Not only skilled navigators can cross this channel."
+      ],
+      "acceptedAnswers": ["None but skilled navigators can cross this channel."],
+      "hint": "What negative pair always replaces 'Only + [person/group]' without altering meaning?",
+      "feedbackCorrect": "Maharaj Vakya: \"Mirror passed! 'None but' preserves 'Only' with negative grammar cleanly.\"",
+      "feedbackWrongDefault": "Use 'None but...' (meaning 'nobody except...') to keep the exact meaning of 'Only...'.",
+      "feedbackWrongByOption": {
+        "Skilled navigators cannot cross this channel.": "Completely flips the truth of the sentence!",
+        "Not only skilled navigators can cross this channel.": "Means unskilled people can cross too—changes meaning!"
+      },
+      "simplerExample": "Only hard work brings mastery. → Nothing but hard work brings mastery.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m23_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Simple ↔ Complex Concession",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD23_CP2",
+      "subtopicId": "sentence_transformation",
+      "subtopicTitle": "Transforming Part of Speech & Clause Structure",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani transforms: \"Although the mountain path was slippery, the scouts climbed steadily.\" into a Simple Sentence: \"____ the slippery mountain path, the scouts climbed steadily.\"",
+      "questionPrompt": "Type the one-word preposition that converts 'Although + clause' into a Simple Sentence:",
+      "sentenceTemplate": "________ the slippery mountain path, the scouts climbed steadily.",
+      "acceptedAnswers": ["Despite"],
+      "hint": "One word (NOT 'In spite of', which is three words—and NEVER *Despite of!)",
+      "feedbackCorrect": "Vaani: \"Exact! 'Despite + Noun Phrase' replaces 'Although + Clause' cleanly (and never add 'of' after 'Despite').\"",
+      "feedbackWrongDefault": "Use the single-word concession preposition 'Despite' (no 'of'!).",
+      "simplerExample": "Although it rained, we played. → Despite the rain, we played.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m23_step_05_conditionals",
+      "stepTitle": "Discover: Conditional Sentences (Zero, 1st, 2nd & 3rd)",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "conditionals",
+      "subtopicTitle": "Zero, First, Second, Third & Inverted Conditionals",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "The 'If'-Clause is a strict no-'will'/no-'would' zone! Keep 'will' and 'would' ONLY on the Result side of the fence: First Conditional = [If + Present] → [will + V1]; Second = [If + Past / were] → [would + V1]; Third = [If + had + V3] → [would have + V3]!",
+      "formalDefinition": "Conditional structures link a condition clause (protasis, typically introduced by 'if' or 'unless') with a result clause (apodosis). English distinguishes Zero (universal facts), First (real future possibility), Second (unlikely/imaginary present or future), and Third (impossible/unfulfilled past) conditionals according to tense pairing.",
+      "simpleExplanation": "Memorise the four Conditional ladders completely:\n0) Zero Conditional (Always true / Science): If + Simple Present → Simple Present ('If you heat ice, it melts').\n1) First Conditional (Real future possibility): If + Simple Present → will / can / may + V1 ('If you study hard, you will pass'—NEVER *If you will study hard!).\n2) Second Conditional (Imaginary / Hypothetical now): If + Simple Past (use 'WERE' for all subjects formally: 'If I were you...') → would / could + V1 ('If I had wings, I would fly').\n3) Third Conditional (Regret / Unfulfilled Past): If + Past Perfect ('had + V3') → would / could / might + have + V3 ('If she had caught the early bus, she wouldn't have missed the bell').\nFormal Inversion: You may omit 'if' in Second/Third conditionals by inverting: 'Were I the king...' (= If I were) and 'Had I known...' (= If I had known).",
+      "structurePatterns": [
+        {
+          "formName": "All Four Conditional Tenses",
+          "formula": "0: Pres → Pres | 1st: Pres → will+V1 | 2nd: Past/were → would+V1 | 3rd: had+V3 → would have+V3",
+          "sample": "If it rains, plants grow (0) • will stay (1) • had/would fly (2) • had trained/would have won (3)."
+        },
+        {
+          "formName": "Inverted Third Conditional",
+          "formula": "Had + Subject + V3, Subject + would have + V3",
+          "sample": "Had the watchman checked the lock, the key would not have vanished."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "If I were the stadium captain, I would schedule extra practice on Saturday morning.",
+          "contextNote": "Second Conditional uses subjunctive 'were' (even after 'I/he/she') + 'would + V1'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Had Chikoo read the sign carefully, he would not have stepped onto wet paint.",
+          "contextNote": "Inverted Third Conditional (= 'If Chikoo had read...') paired with 'would not have + V3'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "If it will rain tomorrow, we cancel the match; and if he would have called me, I would go.",
+          "correctSentence": "If it rains tomorrow, we will cancel the match; and if he had called me, I would have gone.",
+          "whyItHappens": "Never place 'will' or 'would have' inside the 'if'-clause—keep Simple Present in First Conditional and 'had + V3' in Third Conditional.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Provided (that)', 'on condition that', and 'as long as' work like strong 'if' in First/Zero conditionals ('You may borrow the scroll provided that you return it by Friday')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m23_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Match the Third Conditional",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD23_CP3",
+      "subtopicId": "conditionals",
+      "subtopicTitle": "Unfulfilled Past (Third Conditional)",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira reflects on an earlier clue: \"If the courier had taken the river ferry, he ____ arrived on time.\"",
+      "questionPrompt": "Type the two missing Third-Conditional words ('____ ____'):",
+      "sentenceTemplate": "If the courier had taken the river ferry, he ________ arrived on time.",
+      "acceptedAnswers": ["would have", "could have", "might have"],
+      "hint": "Condition has Past Perfect ('had taken') → Result before V3 ('arrived') takes 'would ____'!",
+      "feedbackCorrect": "Detective Ira: \"Exact Third Conditional! 'If + had + V3' pairs strictly with 'would/could/might have + V3'.\"",
+      "feedbackWrongDefault": "Use 'would have' (or 'could have') before 'arrived' to match 'had taken'.",
+      "simplerExample": "If she had left earlier, she would have caught the train.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m23_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Spot the Flawless Conditional",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD23_CP4",
+      "subtopicId": "conditionals",
+      "subtopicTitle": "Zero, First & Second Conditional Grammar",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Chikoo tests a mirror riddle: \"If I will find a magic lamp, I would ask for endless mangoes!\"",
+      "questionPrompt": "Pick the grammatically consistent SECOND Conditional (unreal present/future dream):",
+      "options": [
+        "If I found a magic lamp, I would ask for endless mangoes!",
+        "If I find a magic lamp, I would ask for endless mangoes!",
+        "If I would find a magic lamp, I will ask for endless mangoes!",
+        "If I had found a magic lamp, I would ask for endless mangoes!"
+      ],
+      "acceptedAnswers": ["If I found a magic lamp, I would ask for endless mangoes!"],
+      "hint": "Second Conditional (imaginary dream) pairs 'If + Simple Past (found)' with 'would + V1 (would ask)'!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Dreamy and grammatical! Second Conditional pairs Simple Past 'found' with 'would ask' (zero 'will/would' inside 'If').\"",
+      "feedbackWrongDefault": "Match 'would ask' in the result clause with Simple Past 'found' inside the 'if'-clause.",
+      "feedbackWrongByOption": {
+        "If I find a magic lamp, I would ask for endless mangoes!": "Mixes First Conditional ('find') with Second Conditional ('would ask')!"
+      },
+      "simplerExample": "If I won a telescope, I would study Saturn every night.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m23_step_08_outro",
+      "stepTitle": "Scene 2: Mastery of World 5!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "The Royal Transformation Chamber • Dusk",
+      "settingDescription": "All four transformation mirrors shimmer in harmony—affirmative to negative, simple to complex, and every conditional locked cleanly.",
+      "dialogues": [
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "applauding",
+          "line": "Had you not trained so diligently, this chamber would never have unlocked so swiftly! Look—an inverted Third Conditional!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "World 5 is complete! Check your Grammar Notebook summary patterns and conquer the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 23 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Meaning-Preserving Sentence Transformations",
+        "ruleSummary": "Transform sentences without flipping truth: 'Only' ↔ 'None but'; 'Too... to' ↔ 'So... that + cannot/could not'; 'In spite of / Despite + NP' (Simple) ↔ 'Although + Clause' (Complex) ↔ '..., yet/but ...' (Compound).",
+        "formulaOrPattern": "As soon as S + V ... ↔ No sooner did/had S + V ... than ...",
+        "example": "He was too proud to apologise. ↔ He was so proud that he could not apologise."
+      },
+      {
+        "heading": "Changing Parts of Speech Without Losing Meaning",
+        "ruleSummary": "Swap verbs, nouns, adjectives, and adverbs cleanly: 'spoke with pride' (Noun) = 'spoke proudly' (Adverb) = 'was proud' (Adjective).",
+        "formulaOrPattern": "Noun ('with courage') ↔ Adverb ('courageously') ↔ Adjective ('courageous')",
+        "example": "She achieved success (Noun) ↔ She succeeded (Verb)."
+      },
+      {
+        "heading": "All Four Conditionals (Never Put 'will/would' in 'If'-Clause!)",
+        "ruleSummary": "Zero: Pres → Pres. First: Pres → will+V1. Second: Past / were → would+V1. Third: had+V3 → would have+V3. Inverted: 'Were I...', 'Had I known...'.",
+        "formulaOrPattern": "0: Pres/Pres | 1: Pres/will V1 | 2: Past/would V1 | 3: had V3/would have V3",
+        "example": "Had we left earlier, we would have seen the sunrise."
+      }
+    ],
+    "memoryAids": [
+      "Grammar Origami: fold a sentence into a new shape (Simple / Complex / Negative / Interrogative), yet keep the exact same message inside!",
+      "No-'Will' Fence: 'will' and 'would' stay on the Result side—NEVER inside the 'If'-clause!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "If you will practise daily, you would improve; and despite of the rain we played.",
+        "correctSentence": "If you practise daily, you will improve; and despite the rain we played.",
+        "whyItHappens": "Drop 'will' from the 'if'-clause, align First Conditional ('will improve'), and never put 'of' after 'despite'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "Had I knew the truth earlier, I would help you yesterday.",
+        "correctSentence": "Had I known the truth earlier, I would have helped you yesterday.",
+        "whyItHappens": "Inverted Third Conditional uses Past Participle V3 ('known') after 'Had', paired with 'would have + V3'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Note the difference between 'cannot help + V-ing' ('She cannot help laughing') and 'cannot but + Bare V1' ('She cannot but laugh').",
+      "Formal Second Conditional uses 'were' for all persons ('If she were present...')."
+    ],
+    "textbookNotes": [
+      "Grounded in Assam Ch. 3 & Ch. 16 (Transformation of Sentences) and Ch. 7 (Clauses: conditional/concessive transformation)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M23_Q01",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Affirmative ↔ Negative ('too...to' ↔ 'so...that')",
+        "difficulty": "EASY",
+        "questionText": "Transform without changing meaning: \"The riddle was too intricate for Chikoo to solve.\"",
+        "options": [
+          "The riddle was so intricate that Chikoo could solve it.",
+          "The riddle was so intricate that Chikoo could not solve it.",
+          "The riddle was very intricate that Chikoo cannot solve it.",
+          "The riddle was enough intricate for Chikoo to solve."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Past 'was too + Adj + for X to V1' transforms to 'was so + Adj + that + X + could not + V1 (+ it)'.",
+        "distractorRationales": [
+          "Omits 'not', reversing the meaning.",
+          "Correct: 'so intricate that Chikoo could not solve it'.",
+          "Uses 'very' instead of 'so' and mismatches tense 'cannot'.",
+          "Wrong position and reverses meaning."
+        ],
+        "grammarRule": "Transform 'too + Adj + to V1' into 'so + Adj + that + S + cannot/could not + V1'.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q02",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Exclamatory ↔ Assertive",
+        "difficulty": "EASY",
+        "questionText": "Convert into an Assertive (Declarative) sentence: \"What a melodious song Vaani sang!\"",
+        "options": [
+          "Did Vaani sing a melodious song?",
+          "Vaani sang a very melodious song.",
+          "Vaani sang a what melodious song.",
+          "Vaani did not sing a melodious song."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'What a + Adj + Noun + S + V!' becomes 'S + V + a + very + Adj + Noun.'",
+        "distractorRationales": [
+          "Turns exclamation into a question.",
+          "Correct: assertive statement with 'very'.",
+          "Keeps exclamatory 'what'.",
+          "Reverses meaning."
+        ],
+        "grammarRule": "Convert 'What a / How' exclamations to assertive sentences using intensifiers like 'very' or 'great'.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q03",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Assertive ↔ Interrogative",
+        "difficulty": "MEDIUM",
+        "questionText": "Transform into a rhetorical Interrogative sentence preserving the exact same meaning: \"Nobody can forget Dr. Kalam's inspiring words.\"",
+        "options": [
+          "Can nobody forget Dr. Kalam's inspiring words?",
+          "Who can ever forget Dr. Kalam's inspiring words?",
+          "Who cannot forget Dr. Kalam's inspiring words?",
+          "Did everyone forget Dr. Kalam's inspiring words?"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "A negative assertive statement ('Nobody can...') turns into a positive rhetorical question ('Who can ever...?') implying the answer 'Nobody!'.",
+        "distractorRationales": [
+          "Awkward double force; 'Anybody' or 'Who' is standard.",
+          "Correct: positive rhetorical question matches negative statement.",
+          "Means everyone forgets—opposite meaning!",
+          "Wrong tense and meaning."
+        ],
+        "grammarRule": "Negative assertive ('Nobody...') ↔ Positive rhetorical question ('Who...?'); Positive assertive ('Everyone...') ↔ Negative rhetorical question ('Who does not...?').",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q04",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Changing parts of speech",
+        "difficulty": "MEDIUM",
+        "questionText": "Rewrite \"The team celebrated its victory with enthusiasm\" replacing the noun 'enthusiasm' with an ADVERB:",
+        "options": [
+          "The team celebrated its victory enthusiastic.",
+          "The team celebrated its victory enthusiastically.",
+          "The team was enthusiastic about celebrating its victory.",
+          "The enthusiastic team celebrated its victory."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'With enthusiasm' (preposition + noun) converts cleanly to the single adverb 'enthusiastically' modifying 'celebrated'.",
+        "distractorRationales": [
+          "'Enthusiastic' is an adjective, not an adverb.",
+          "Correct: adverb 'enthusiastically'.",
+          "Uses adjective, not adverb.",
+          "Uses adjective before 'team'."
+        ],
+        "grammarRule": "Prepositional phrases of manner ('with + abstract noun') transform directly into '-ly' adverbs.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q05",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Simple ↔ Compound ↔ Complex",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert the Complex sentence \"If you follow the safety rules, you will avoid accidents\" into a COMPOUND sentence:",
+        "options": [
+          "Following the safety rules helps avoid accidents.",
+          "Follow the safety rules, and you will avoid accidents.",
+          "Because you follow the safety rules, you avoid accidents.",
+          "Unless you follow the safety rules, you will face accidents."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Follow the safety rules, and you will avoid accidents' joins two independent clauses with coordinating 'and' (Compound).",
+        "distractorRationales": [
+          "Simple sentence (one clause).",
+          "Correct: Compound sentence (Imperative clause + 'and' + Main clause).",
+          "Complex sentence (subordinator 'Because').",
+          "Complex sentence (subordinator 'Unless')."
+        ],
+        "grammarRule": "'If + positive condition' (Complex) becomes '[Imperative], and...' (Compound); 'Unless' becomes '[Imperative], or...'.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q06",
+        "subtopicId": "conditionals",
+        "subtopicTitle": "Zero Conditional",
+        "difficulty": "EASY",
+        "questionText": "Complete this Zero Conditional (scientific fact): \"If water reaches 0 degrees Celsius, it ____.\"",
+        "options": [
+          "would freeze",
+          "freezes",
+          "froze",
+          "had frozen"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Zero Conditional expresses invariable natural laws with Simple Present in BOTH clauses ('reaches' → 'freezes').",
+        "distractorRationales": [
+          "Second Conditional modal.",
+          "Correct: Simple Present + Simple Present.",
+          "Past tense.",
+          "Past Perfect."
+        ],
+        "grammarRule": "Zero Conditional: If + Simple Present, Simple Present (general/scientific truths).",
+        "lessonStepRef": "m23_step_05_conditionals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M23_Q07",
+        "subtopicId": "conditionals",
+        "subtopicTitle": "First Conditional (no 'will' in if-clause)",
+        "difficulty": "EASY",
+        "questionText": "Choose the accurate First Conditional sentence:",
+        "options": [
+          "If the courier will arrive before noon, we will open the vault.",
+          "If the courier arrives before noon, we will open the vault.",
+          "If the courier arrived before noon, we will open the vault.",
+          "If the courier arrives before noon, we would open the vault."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "First Conditional uses Simple Present ('arrives') in the 'if'-clause and 'will + V1' ('will open') in the result clause.",
+        "distractorRationales": [
+          "Never use 'will' inside the 'if'-clause.",
+          "Correct: Simple Present + 'will open'.",
+          "Mismatches Past 'arrived' with 'will'.",
+          "Mismatches Present 'arrives' with 'would'."
+        ],
+        "grammarRule": "First Conditional: If + Simple Present, will/can/may + V1.",
+        "lessonStepRef": "m23_step_05_conditionals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M23_Q08",
+        "subtopicId": "conditionals",
+        "subtopicTitle": "Second Conditional ('If I were')",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete this unreal present/hypothetical advice: \"If I ____ you, I ____ accept the captaincy cheerfully.\"",
+        "options": [
+          "am / would",
+          "were / would",
+          "was / will",
+          "had been / would"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Second Conditional uses subjunctive 'were' ('If I were you') paired with 'would + V1' ('would accept').",
+        "distractorRationales": [
+          "Mismatches Present 'am' with 'would'.",
+          "Correct: Second Conditional 'were / would'.",
+          "Mismatches Past with 'will'.",
+          "Mismatches 3rd-conditional 'had been' with 2nd-conditional 'would accept'."
+        ],
+        "grammarRule": "Second Conditional: If + Simple Past / subjunctive 'were', would/could + V1.",
+        "lessonStepRef": "m23_step_05_conditionals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M23_Q09",
+        "subtopicId": "conditionals",
+        "subtopicTitle": "Third Conditional",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete this impossible-past reflection: \"If Dev ____ the compass earlier, the scouts wouldn't have lost the trail.\"",
+        "options": [
+          "checked",
+          "would have checked",
+          "had checked",
+          "has checked"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Wouldn't have lost' signals a Third Conditional, requiring Past Perfect ('had checked') in the 'if'-clause.",
+        "distractorRationales": [
+          "Simple Past pairs with 'wouldn't lose', not 'wouldn't have lost'.",
+          "Never put 'would have' inside the 'if'-clause.",
+          "Correct: 'If + had + V3' pairs with 'wouldn't have + V3'.",
+          "Present Perfect does not match past unfulfilled result."
+        ],
+        "grammarRule": "Third Conditional: If + had + V3, would/could/might + have + V3.",
+        "lessonStepRef": "m23_step_05_conditionals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M23_Q10",
+        "subtopicId": "conditionals",
+        "subtopicTitle": "Inverted Third Conditional ('Had...')",
+        "difficulty": "HARD",
+        "questionText": "Rewrite \"If you had informed the watchman, he would have unlocked the side gate\" WITHOUT using 'if':",
+        "options": [
+          "Did you inform the watchman, he would have unlocked the side gate.",
+          "Had you informed the watchman, he would have unlocked the side gate.",
+          "Have you informed the watchman, he would have unlocked the side gate.",
+          "Were you informed the watchman, he would have unlocked the side gate."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Omit 'if' in a Third Conditional by moving 'Had' ahead of the subject ('Had you informed...').",
+        "distractorRationales": [
+          "Cannot use 'Did' for Third Conditional inversion.",
+          "Correct: 'Had + Subject + V3'.",
+          "Wrong tense ('Have').",
+          "Changes meaning to passive 'Were you informed'."
+        ],
+        "grammarRule": "Invert Third Conditionals by dropping 'if' and placing 'Had' before the subject.",
+        "lessonStepRef": "m23_step_05_conditionals",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M23_Q11",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Complex to Simple with 'so that' → 'in order to'",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert \"We planted neem trees so that we might shade the courtyard\" into a SIMPLE sentence (one finite verb):",
+        "options": [
+          "We planted neem trees because we wanted shade in the courtyard.",
+          "We planted neem trees in order to shade the courtyard.",
+          "We planted neem trees, so the courtyard got shade.",
+          "Planting neem trees, the courtyard was shaded."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'So that + clause' (Complex purpose) condenses into an infinitive phrase of purpose 'in order to / to + V1' (Simple sentence with only one finite verb 'planted').",
+        "distractorRationales": [
+          "Still Complex ('because we wanted').",
+          "Correct: Simple sentence using 'in order to + V1'.",
+          "Compound sentence ('so').",
+          "Dangling participle."
+        ],
+        "grammarRule": "Convert 'so that + S + may/might + V1' (Complex) to 'in order to / to + V1' (Simple).",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q12",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Cannot but vs Cannot help",
+        "difficulty": "HARD",
+        "questionText": "Which pair preserves \"Every audience member had to applaud\" accurately?",
+        "options": [
+          "Every audience member could not help to applaud. / could not but applauding.",
+          "Every audience member could not help applauding. / could not but applaud.",
+          "Every audience member could not help applaud. / could not but to applaud.",
+          "No audience member could help not applauding."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Use 'cannot/could not help + V-ing' OR 'cannot/could not but + Bare V1'.",
+        "distractorRationales": [
+          "Swaps gerund and bare infinitive forms.",
+          "Correct: 'could not help + V-ing' and 'could not but + Bare V1'.",
+          "Omits '-ing' on first and adds 'to' on second.",
+          "Double negative distorts meaning."
+        ],
+        "grammarRule": "'Must / Have to' transforms negatively to 'cannot help + V-ing' or 'cannot but + Bare V1'.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q13",
+        "subtopicId": "conditionals",
+        "subtopicTitle": "Unless vs If",
+        "difficulty": "MEDIUM",
+        "questionText": "Rewrite \"If you do not water the potted jasmine, it will wilt\" using 'Unless':",
+        "options": [
+          "Unless you do not water the potted jasmine, it will wilt.",
+          "Unless you water the potted jasmine, it will wilt.",
+          "Unless you will water the potted jasmine, it wilts.",
+          "Unless you watered the potted jasmine, it will wilt."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Unless' = 'if... not', so replace 'If you do not water' cleanly with 'Unless you water'.",
+        "distractorRationales": [
+          "Double negative *Unless you do not.",
+          "Correct: 'Unless' + affirmative Present 'water'.",
+          "Never put 'will' after 'unless'.",
+          "Mismatches Past 'watered' with 'will'."
+        ],
+        "grammarRule": "'If + S + do/does not + V1' = 'Unless + S + V1'.",
+        "lessonStepRef": "m23_step_05_conditionals",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M23_Q14",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "As soon as → No sooner ... than",
+        "difficulty": "HARD",
+        "questionText": "Transform accurately: \"As soon as the curtain rose, the hall grew silent.\"",
+        "options": [
+          "No sooner the curtain rose than the hall grew silent.",
+          "No sooner did the curtain rise than the hall grew silent.",
+          "No sooner had the curtain risen when the hall grew silent.",
+          "No sooner did the curtain rose than the hall grew silent."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'No sooner' at the start requires auxiliary inversion ('did the curtain rise' OR 'had the curtain risen') followed strictly by 'than'.",
+        "distractorRationales": [
+          "Missing auxiliary inversion.",
+          "Correct: 'No sooner did + S + V1 ... than'.",
+          "Misuses 'when' instead of 'than'.",
+          "Keeps V2 'rose' after 'did'."
+        ],
+        "grammarRule": "Transform 'As soon as...' into 'No sooner did/had + S + verb ... than...'.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M23_Q15",
+        "subtopicId": "sentence_transformation",
+        "subtopicTitle": "Part of speech: Verb to Noun",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya opens the final chamber seal.",
+        "questionText": "Transform \"Detective Ira decided quickly\" so that 'decided' becomes a NOUN without changing the core meaning:",
+        "options": [
+          "Detective Ira made a quick decision.",
+          "Detective Ira was decisive quickly.",
+          "Detective Ira quickly decides.",
+          "Detective Ira's quickly decision happened."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Decided' (Verb) + 'quickly' (Adverb) converts smoothly to 'made a quick decision' (Verb 'made' + Adjective 'quick' + Noun 'decision').",
+        "distractorRationales": [
+          "Correct: transforms verb to noun 'decision' and adverb to adjective 'quick'.",
+          "'Decisive' is an adjective, not a noun.",
+          "Keeps verb 'decides' and shifts tense.",
+          "Modifies noun 'decision' wrongly with adverb 'quickly'."
+        ],
+        "grammarRule": "When changing a verb to its noun form, pair it with a light verb ('make a decision', 'take pride') and shift adverbs to adjectives.",
+        "lessonStepRef": "m23_step_02_meaning_preserving_transforms",
+        "provenance": "SOURCE_TEXTBOOK"
+      }
+    ]
+  }
+}

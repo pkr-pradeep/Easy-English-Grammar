@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_09",
+  "worldId": "WORLD_2",
+  "title": "Adjectives",
+  "storyTitle": "The Grand Craft & Fashion Pavilion",
+  "estimatedMinutes": 16,
+  "charactersInvolved": [
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "MAHARAJ_VAKYA",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m09_step_01_intro",
+      "stepTitle": "Scene 1: Judging the Craft Pavilion",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Grand Craft Pavilion • Afternoon",
+      "settingDescription": "Artisans from across the Grammar Kingdom display woven shawls, clay lanterns, and brass trophies—while Chikoo announces entries in wild adjective tangles.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "excited",
+          "line": "Behold a cotton round lovely Assam red tiny shawl! It is more better and more brighter than every stall!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "wincing",
+          "line": "Oof! That shawl sounds tangled before anyone touches it! And 'more better' is a double comparative!"
+        },
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "authoritative",
+          "line": "We cannot crown a champion with jumbled descriptions! Teach our judges the true functions, positions, natural order, and degrees of Adjectives."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "encouraging",
+          "line": "Let us untangle how adjectives describe nouns—whether sitting right before them or after linking verbs—and arrange their royal order smoothly."
+        }
+      ],
+      "storyCallout": "Goal: Master adjective functions, natural OSASCOMP order, -ed vs -ing adjectives, and degrees of comparison."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m09_step_02_functions_and_order",
+      "stepTitle": "Discover: Functions, Kinds & Natural Order",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "adjective_functions_order",
+      "subtopicTitle": "Attributive vs. Predicative Functions & Adjective Order",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Adjectives are spice garlands around a noun! Before a noun (Attributive: 'a bright lantern'), they stand like front guards; after linking verbs like 'is/seems/tastes' (Predicative: 'The lantern looks bright'), they echo from behind—and multiple guards always line up in OSASCOMP order!",
+      "formalDefinition": "An adjective modifies a noun or pronoun by describing quality, quantity, number, origin, or state. Adjectives appear attributively before a noun ('a wooden box') or predicatively after linking verbs ('the box is sturdy'). Multiple pre-modifying adjectives follow the semantic order: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose (OSASCOMP).",
+      "simpleExplanation": "Check three essentials: (1) Attributive vs. Predicative: Most adjectives work in both spots ('fresh fruit' / 'the fruit tastes fresh'), while a few 'a-' adjectives ('afraid, asleep, awake, alive') are predicative only (*an asleep child → 'a sleeping child' / 'the child is asleep'). (2) '-ed' vs. '-ing' Participle Adjectives: '-ed' describes how a person FEELS ('I am bored / excited / interested'); '-ing' describes what CAUSES the feeling ('a boring speech / an exciting match'). (3) Stack adjectives in natural OSASCOMP order—Opinion comes FIRST, Material/Purpose right next to the noun ('a lovely small old red Indian silk shawl').",
+      "structurePatterns": [
+        {
+          "formName": "OSASCOMP Order Before a Noun",
+          "formula": "Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose + NOUN",
+          "sample": "a beautiful (O) small (S) antique (A) round (Sh) brass (M) tea (P) kettle"
+        },
+        {
+          "formName": "Participle Adjectives (-ed vs. -ing)",
+          "formula": "-ed = Person's Feeling | -ing = Quality of the Thing/Event",
+          "sample": "The students were amazed by the amazing science model."
+        },
+        {
+          "formName": "Linking Verbs Take Adjectives (Not Adverbs!)",
+          "formula": "Subject + seem / look / smell / taste / feel / become + ADJECTIVE",
+          "sample": "The mango curry smells delicious. (NOT *deliciously)"
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "She bought a charming small square Kashmiri wooden jewellery box.",
+          "contextNote": "Follows Opinion ('charming') → Size ('small') → Shape ('square') → Origin ('Kashmiri') → Material ('wooden') → Purpose ('jewellery').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "After three hours of trekking, the tired hikers felt hungry.",
+          "contextNote": "'Tired' (attributive -ed) describes hikers; 'hungry' (predicative after 'felt') describes hikers.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Look at that asleep puppy, and I am very boring during long speeches.",
+          "correctSentence": "Look at that sleeping puppy, and I feel very bored during long speeches.",
+          "whyItHappens": "'Asleep' only goes after a verb ('is asleep'), not before a noun; and a listener feels 'bored' (-ed), whereas the speech is 'boring' (-ing).",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Indefinite pronouns ('something, nothing, anyone') place adjectives AFTER them: 'something special', 'nothing new' (not *special something).",
+        "Sensory linking verbs ('smell, taste, look, sound, feel') take adjectives when describing the subject ('The rose smells sweet'), NOT adverbs—unless describing how someone performs an action ('He looked carefully at the clue')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m09_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Feeling (-ed) vs. Cause (-ing)",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD09_CP1",
+      "subtopicId": "adjective_functions_order",
+      "subtopicTitle": "Participle Adjectives (-ed vs -ing)",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira notes two reactions at the magic lantern booth: \"Because the riddle was so ____, even Chikoo looked ____.\"",
+      "questionPrompt": "Choose the accurate pair of adjectives:",
+      "options": [
+        "confused / confusing",
+        "confusing / confused",
+        "confusing / confusing",
+        "confused / confused"
+      ],
+      "acceptedAnswers": ["confusing / confused"],
+      "hint": "The riddle CAUSES confusion (-ing); Chikoo FEELS confusion (-ed)!",
+      "feedbackCorrect": "Detective Ira: \"Exact match! The riddle is 'confusing' (cause), so Chikoo feels 'confused' (experiencer).\"",
+      "feedbackWrongDefault": "Use '-ing' for the thing causing the feeling, and '-ed' for the person experiencing it.",
+      "feedbackWrongByOption": {
+        "confused / confusing": "Riddles do not have feelings—the riddle is 'confusing', and Chikoo is 'confused'!"
+      },
+      "simplerExample": "The film was thrilling (-ing), so we felt thrilled (-ed).",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m09_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Order the Craft Label",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD09_CP2",
+      "subtopicId": "adjective_functions_order",
+      "subtopicTitle": "OSASCOMP Adjective Order",
+      "interactionType": "ARRANGE_WORDS",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani drops the tag for the winning weaving prize! Line up Opinion, Size, Colour, and Material before the noun.",
+      "questionPrompt": "Tap the tiles in natural OSASCOMP order:",
+      "wordTokens": [
+        "silk",
+        "scarf",
+        "bright",
+        "long",
+        "lovely",
+        "a"
+      ],
+      "acceptedAnswers": ["a lovely long bright silk scarf"],
+      "hint": "Determiner ('a') → Opinion ('lovely') → Size ('long') → Colour/Tone ('bright') → Material ('silk') → Noun ('scarf').",
+      "feedbackCorrect": "Vaani: \"Runway-ready phrasing! Opinion → Size → Colour → Material → Noun sounds effortless.\"",
+      "feedbackWrongDefault": "Follow OSASCOMP: a + lovely (Opinion) + long (Size) + bright (Colour) + silk (Material) + scarf.",
+      "simplerExample": "A cute little brown clay pot.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m09_step_05_degrees_comparison",
+      "stepTitle": "Discover: Degrees of Comparison & Special Traps",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "degrees_comparison",
+      "subtopicTitle": "Positive, Comparative & Superlative Degrees + Latin Comparatives",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Never give an adjective two crowns at once! Either wear the '-er / -est' hat (taller / tallest) OR the 'more / most' cloak (more graceful / most graceful)—never BOTH (*more taller)!",
+      "formalDefinition": "Gradable adjectives inflect or modify across Positive ('as tall as'), Comparative ('taller than', 'more useful than'), and Superlative ('the tallest', 'the most useful') degrees. Short adjectives generally take '-er/-est'; longer adjectives (2+ syllables not ending in '-y') take 'more/most'; several common adjectives are irregular (good/better/best, bad/worse/worst, little/less/least).",
+      "simpleExplanation": "Master these four high-scoring Class IX–X rules: (1) Compare TWO things with the Comparative ('Between the two routes, this one is shorter'—NOT *shortest), and THREE or more with the Superlative ('the sharpest of all'). (2) Never double-mark comparatives (*more cleverer → 'cleverer') or superlatives (*most bravest → 'bravest'). (3) Latin '-ior' adjectives ('senior, junior, superior, inferior, prior') and 'prefer' take 'TO', NOT 'than' ('He is junior to me'—NOT *junior than me). (4) In 'comparative + than any other', include 'other' when comparing inside the same group ('Gold is heavier than any other metal here'—because gold IS a metal!).",
+      "structurePatterns": [
+        {
+          "formName": "Three Degrees Equivalence",
+          "formula": "Positive: No other + N ... as X as | Comparative: X + comp + than any other + N | Superlative: the + sup + N",
+          "sample": "No other peak is as high as Everest. / Everest is higher than any other peak. / Everest is the highest peak."
+        },
+        {
+          "formName": "Latin '-ior' Adjectives + 'to'",
+          "formula": "senior / junior / superior / inferior / prior + TO (NEVER 'than')",
+          "sample": "This cotton weave is superior to that nylon one."
+        },
+        {
+          "formName": "Elder vs. Older",
+          "formula": "elder / eldest (same family members; 'elder' does NOT take 'than') | older / oldest (people or things + 'than')",
+          "sample": "My elder brother is two years older than I am."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Between the two pottery stalls, the corner one is brighter and more spacious.",
+          "contextNote": "Comparing two items requires the comparative degree ('brighter', 'more spacious'), not superlative.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "Kalidasa is greater than any other Sanskrit poet (often phrased: one of the greatest poets).",
+          "contextNote": "'Any other' excludes Kalidasa from comparing against himself!",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "This brass lamp is more brighter and superior than the clay lamp.",
+          "correctSentence": "This brass lamp is brighter and superior to the clay lamp.",
+          "whyItHappens": "Avoid double comparatives ('more brighter'), and remember 'superior/inferior/senior/junior' always pair with 'to', never 'than'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Farther' refers mainly to physical distance ('farther down the road'); 'further' also means additional ('without further delay').",
+        "Non-gradable/absolute adjectives ('unique', 'square', 'dead', 'perfect') normally do not take *more unique or *most perfect in formal usage."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m09_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Fix the Latin Comparative",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD09_CP3",
+      "subtopicId": "degrees_comparison",
+      "subtopicTitle": "Preposition 'to' with senior/junior/superior",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar points to a craft judge's note: \"Handloom cotton is far superior ____ synthetic cloth in humid summers.\"",
+      "questionPrompt": "Type the one-word preposition that accurately follows 'superior':",
+      "sentenceTemplate": "Handloom cotton is far superior ________ synthetic cloth in humid summers.",
+      "acceptedAnswers": ["to"],
+      "hint": "Latin '-ior' comparatives (superior, inferior, senior, junior, prior) refuse 'than' and take a two-letter preposition!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Bullseye! 'Superior to', 'inferior to', 'senior to', and 'junior to' always take 'to'.\"",
+      "feedbackWrongDefault": "Use the two-letter preposition 'to' instead of 'than' after 'superior'.",
+      "simplerExample": "She is junior to me by one grade.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m09_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Accurate Comparative Logic",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD09_CP4",
+      "subtopicId": "degrees_comparison",
+      "subtopicTitle": "'Than any other' & Double Comparatives",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Chikoo announces the pavilion winner: \"The peacock shawl is more colourfuler than any shawl in the hall!\"",
+      "questionPrompt": "Pick the sentence that fixes BOTH grammar errors:",
+      "options": [
+        "The peacock shawl is more colourful than any other shawl in the hall.",
+        "The peacock shawl is colourfulest than any other shawl in the hall.",
+        "The peacock shawl is more colourful than all shawl in the hall.",
+        "The peacock shawl is most colourful than any shawl in the hall."
+      ],
+      "acceptedAnswers": ["The peacock shawl is more colourful than any other shawl in the hall."],
+      "hint": "'Colourful' uses 'more colourful' (never '-er'!), and since the peacock shawl is in the hall, add 'other' ('than any other shawl')!",
+      "feedbackCorrect": "Maharaj Vakya: \"Royally repaired! 'More colourful' avoids the fake '-er', and 'any other shawl' prevents comparing the shawl against itself!\"",
+      "feedbackWrongDefault": "Check for 'more colourful' (without '-er') and 'any other' before singular 'shawl'.",
+      "feedbackWrongByOption": {
+        "The peacock shawl is colourfulest than any other shawl in the hall.": "Multi-syllable '-ful' adjectives take 'more/most', not '-er/-est', and 'than' requires comparative."
+      },
+      "simplerExample": "The Nile is longer than any other river in Africa.",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m09_step_08_outro",
+      "stepTitle": "Scene 2: Pavilion Champion Crowned!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "Grand Craft Pavilion • Sunset",
+      "settingDescription": "With crisp OSASCOMP tags and spotless degrees of comparison, Maharaj Vakya awards the golden ribbon cleanly.",
+      "dialogues": [
+        {
+          "characterId": "VAANI",
+          "expression": "applauding",
+          "line": "A lovely long bright silk shawl—superior to every synthetic banner and fairer than any other weave in the pavilion!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "World 2's Word Bazaar shines in order! Open your Grammar Notebook to revise and test yourself in the 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 9 Story Complete! Open your Grammar Notebook or launch the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Attributive, Predicative & '-ed / -ing' Adjectives",
+        "ruleSummary": "Adjectives modify nouns before them (attributive) or after linking verbs (predicative). Use '-ed' for a person's feeling and '-ing' for the thing/event causing it.",
+        "formulaOrPattern": "Linking Verb (look/smell/taste/feel/seem) + Adjective | Person: -ed / Cause: -ing",
+        "example": "The soup tastes spicy; the amazed audience clapped for the amazing dancers."
+      },
+      {
+        "heading": "OSASCOMP Order of Multiple Adjectives",
+        "ruleSummary": "Place Opinion before Size, Age, Shape, Colour, Origin, Material, and Purpose right before the head noun.",
+        "formulaOrPattern": "Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose + Noun",
+        "example": "A charming small ancient round blue ceramic flower vase."
+      },
+      {
+        "heading": "Degrees of Comparison & 'to' Adjectives",
+        "ruleSummary": "Never double-mark with both 'more' and '-er' (*more taller). Use comparative for 2 items, superlative for 3+, 'than any other' within the same group, and 'to' after senior/junior/superior/inferior/prior.",
+        "formulaOrPattern": "senior / junior / superior / inferior / prior + TO | comparative + than any other + Singular Noun",
+        "example": "Iron is more useful than any other metal; pure silk is superior to plastic lace."
+      }
+    ],
+    "memoryAids": [
+      "OSASCOMP lines up adjective guards: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose.",
+      "Never wear two crowns at once: either '-er' OR 'more', never both (*more brighter)!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "The rose smells sweetly, and she is more taller than her cousin.",
+        "correctSentence": "The rose smells sweet, and she is taller than her cousin.",
+        "whyItHappens": "Sensory linking verbs ('smell, taste, look, feel') take adjectives ('sweet'), not adverbs; and 'taller' must not add 'more'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "He is senior than me by two years and my older brother.",
+        "correctSentence": "He is senior to me by two years, and he is my elder brother.",
+        "whyItHappens": "'Senior' always takes 'to'; 'elder' is preferred before family-member nouns (and never takes 'than').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Put adjectives AFTER indefinite pronouns: 'someone brave', 'nothing impossible', 'anything useful'.",
+      "'Asleep, awake, afraid, alive, alone' normally stand predicatively after a verb ('The baby is asleep'), not right before a noun."
+    ],
+    "textbookNotes": [
+      "Consolidated from Odisha IX Ch. 9 (Adjectives) and Assam overview coverage for Classes IX–X."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M09_Q01",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "Attributive vs predicative",
+        "difficulty": "EASY",
+        "questionText": "In \"The mango pickle tastes tangy\", what role does 'tangy' play?",
+        "options": [
+          "Attributive adjective",
+          "Predicative adjective (Subject Complement)",
+          "Adverb of manner",
+          "Abstract noun"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Tangy' follows the sensory linking verb 'tastes' and describes the subject 'The mango pickle', so it is a Predicative adjective.",
+        "distractorRationales": [
+          "Attributive adjectives sit before the noun ('tangy pickle').",
+          "Correct: follows linking verb 'tastes' to describe the subject.",
+          "Linking verbs take adjectives, not adverbs.",
+          "Describes a noun, does not name a quality independently."
+        ],
+        "grammarRule": "Adjectives placed after linking verbs (be, seem, taste, smell, feel, look) function predicatively.",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q02",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "Participle adjectives (-ed / -ing)",
+        "difficulty": "EASY",
+        "questionText": "Choose the right option: \"Everyone was ____ by the magician's ____ finale.\"",
+        "options": [
+          "thrilling / thrilled",
+          "thrilled / thrilling",
+          "thrilled / thrilled",
+          "thrilling / thrilling"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Everyone' felt the emotion ('thrilled'), caused by the performance ('thrilling finale').",
+        "distractorRationales": [
+          "Reversed feeling and cause.",
+          "Correct: '-ed' for experiencer, '-ing' for cause.",
+          "A finale cannot experience emotions.",
+          "Audiences feel '-ed', not '-ing', here."
+        ],
+        "grammarRule": "Use '-ed' for how someone feels and '-ing' for what produces that feeling.",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M09_Q03",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "OSASCOMP adjective order",
+        "difficulty": "MEDIUM",
+        "questionText": "Which noun phrase follows natural English adjective order?",
+        "options": [
+          "a leather brown big school bag",
+          "a big brown leather school bag",
+          "a brown leather big school bag",
+          "a school leather brown big bag"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Follow Size ('big') → Colour ('brown') → Material ('leather') → Purpose ('school') + Noun ('bag').",
+        "distractorRationales": [
+          "Material precedes Size.",
+          "Correct: Size → Colour → Material → Purpose.",
+          "Colour and Material precede Size.",
+          "Reversed order."
+        ],
+        "grammarRule": "Follow OSASCOMP: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose.",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q04",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "Predicative-only adjectives",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the grammatically standard sentence:",
+        "options": [
+          "Do not wake the asleep baby.",
+          "Do not wake the sleeping baby.",
+          "The afraid deer hid behind a bush.",
+          "An alive fish jumped out of the net."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Asleep', 'afraid', and 'alive' are predicative-only ('the baby is asleep'); before a noun, use 'sleeping', 'frightened', or 'live/living'.",
+        "distractorRationales": [
+          "'Asleep' cannot sit attributively before 'baby'.",
+          "Correct: 'sleeping' works attributively before 'baby'.",
+          "'Afraid' is predicative-only ('the deer was afraid').",
+          "'Alive' is predicative-only ('the fish is alive')."
+        ],
+        "grammarRule": "Use 'asleep, afraid, alive, awake, alone' only after linking verbs, not before nouns.",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M09_Q05",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Double comparatives & superlatives",
+        "difficulty": "EASY",
+        "questionText": "Identify the sentence that is FREE from a double-degree error:",
+        "options": [
+          "This route is more shorter than the highway.",
+          "Mount Kanchenjunga is the most highest peak in India.",
+          "Her handwriting is neater than mine.",
+          "That suitcase felt more heavier after rain."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Neater' uses '-er' alone without 'more'. Options A, B, and D double-mark degrees illegally.",
+        "distractorRationales": [
+          "*More shorter is a double comparative.",
+          "*Most highest is a double superlative.",
+          "Correct: single comparative 'neater'.",
+          "*More heavier is a double comparative."
+        ],
+        "grammarRule": "Never combine 'more/most' with '-er/-est' on the same adjective.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q06",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Comparing two vs more",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in cleanly: \"Of the two sisters, Meera is the ____ chess player.\"",
+        "options": [
+          "strongest",
+          "stronger",
+          "more strong",
+          "strong"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "When comparing TWO items ('Of the two sisters'), use the Comparative degree with 'the': 'the stronger'.",
+        "distractorRationales": [
+          "Superlative requires three or more.",
+          "Correct: comparative 'the stronger' for two.",
+          "'Strong' prefers '-er', not 'more strong'.",
+          "Positive degree does not compare."
+        ],
+        "grammarRule": "Compare two items with Comparative degree ('the better of the two'), and three or more with Superlative.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q07",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Latin '-ior' comparatives",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate sentence:",
+        "options": [
+          "Dr. Sen is senior than all other doctors in the clinic.",
+          "Dr. Sen is senior to all other doctors in the clinic.",
+          "Dr. Sen is more senior than all doctors in the clinic.",
+          "Dr. Sen is most senior to everyone."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Senior', 'junior', 'superior', 'inferior', and 'prior' take 'to' (never 'than') and do not take 'more/most'.",
+        "distractorRationales": [
+          "'Senior' must not take 'than'.",
+          "Correct: 'senior to'.",
+          "Avoid 'more senior than'.",
+          "Avoid 'most senior'."
+        ],
+        "grammarRule": "Latin comparatives ending in '-ior' take 'to' rather than 'than'.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q08",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Than any other",
+        "difficulty": "HARD",
+        "questionText": "Convert \"Copper conducts heat better than any other metal in this box\" into the Positive degree without changing meaning:",
+        "options": [
+          "Some metals in this box conduct heat better than copper.",
+          "No other metal in this box conducts heat as well as copper.",
+          "Every metal in this box conducts heat as well as copper.",
+          "Copper is the worst conductor in this box."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'X + comparative + than any other + N' matches Positive 'No other + N + ... as X as'.",
+        "distractorRationales": [
+          "Contradicts the original meaning.",
+          "Correct: exact Positive-degree equivalent.",
+          "Says all are equal, changing meaning.",
+          "Opposite meaning."
+        ],
+        "grammarRule": "Comparative 'X is -er than any other Y' = Positive 'No other Y is as ... as X'.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q09",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Elder vs Older",
+        "difficulty": "MEDIUM",
+        "questionText": "Pick the sentence using 'elder' and 'older' accurately:",
+        "options": [
+          "My elder sister is three years elder than me.",
+          "This temple is elder than the palace.",
+          "My elder sister is three years older than me.",
+          "He is the elder of all citizens in the town."
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Elder' applies to family members without 'than' ('my elder sister'), whereas comparisons with 'than' and non-family things require 'older'.",
+        "distractorRationales": [
+          "'Elder' does not pair with 'than'.",
+          "'Elder' applies to people in a family, not buildings.",
+          "Correct: 'elder sister' + 'older than me'.",
+          "Non-family comparisons use 'oldest'."
+        ],
+        "grammarRule": "Use 'elder/eldest' for family members (never 'elder than'); use 'older/oldest' for age comparisons with 'than' and for things.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q10",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Farther vs Further",
+        "difficulty": "HARD",
+        "questionText": "Choose the right pair: \"The bus stop is ____ down the lane, so call us if you need ____ directions.\"",
+        "options": [
+          "further / farther",
+          "farther / further",
+          "farther / fartherest",
+          "more far / further"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Farther' marks literal physical distance; 'further' means 'additional / more' ('further directions', 'further notice').",
+        "distractorRationales": [
+          "Swapped distance vs additional.",
+          "Correct: physical distance = 'farther'; additional = 'further'.",
+          "*Fartherest is not a word.",
+          "*More far is non-standard."
+        ],
+        "grammarRule": "Use 'farther' for physical distance and 'further' for 'additional' or figurative progress.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M09_Q11",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "Adjective after indefinite pronouns",
+        "difficulty": "HARD",
+        "questionText": "Select the natural word order with an indefinite pronoun:",
+        "options": [
+          "Did you notice anything unusual in the ledger?",
+          "Did you notice unusual anything in the ledger?",
+          "Nothing exciting never happens? No—exciting nothing happened.",
+          "We found interesting something near the well."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Indefinite pronouns ('anything, something, someone, nothing') place their modifying adjective AFTER them ('anything unusual').",
+        "distractorRationales": [
+          "Correct: pronoun + post-posed adjective.",
+          "Places adjective before 'anything'.",
+          "Broken order.",
+          "Places adjective before 'something'."
+        ],
+        "grammarRule": "Adjectives follow indefinite pronouns ending in '-thing', '-one', or '-body' ('something fresh').",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M09_Q12",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Two qualities in one person",
+        "difficulty": "HARD",
+        "questionText": "When comparing TWO qualities within the SAME person ('brave' vs 'clever'), which comparative form is standard?",
+        "options": [
+          "Rohan is braver than clever.",
+          "Rohan is more brave than clever.",
+          "Rohan is bravest than clever.",
+          "Rohan is most brave than clever."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Even for a one-syllable adjective like 'brave', comparing two qualities of the same noun uses 'more + positive adjective + than' ('more brave than clever').",
+        "distractorRationales": [
+          "'-er' is used when comparing two different nouns ('Rohan is braver than Ravi').",
+          "Correct: 'more brave than clever' compares two traits of one person.",
+          "Superlative cannot precede 'than'.",
+          "Superlative cannot precede 'than'."
+        ],
+        "grammarRule": "Use 'more + adjective + than' when comparing two qualities of the same person or thing.",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M09_Q13",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "Proper & possessive adjectives",
+        "difficulty": "EASY",
+        "questionText": "In \"Indian spices add rich aroma to coastal dishes\", what kinds of adjectives are 'Indian' and 'rich'?",
+        "options": [
+          "Proper Adjective and Descriptive (Quality) Adjective",
+          "Numerical Adjective and Demonstrative Adjective",
+          "Interrogative Adjective and Possessive Adjective",
+          "Distributive Adjective and Proper Noun"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Indian' derives from the proper noun India (Proper Adjective, capitalised), and 'rich' describes quality (Descriptive Adjective).",
+        "distractorRationales": [
+          "Correct: Proper Adjective + Adjective of Quality.",
+          "Neither shows count nor points ('this/that').",
+          "Not question words or possessives.",
+          "'Indian' modifies 'spices', so it acts as an adjective."
+        ],
+        "grammarRule": "Proper adjectives formed from proper nouns ('Indian, Shakespearean') are always capitalised.",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q14",
+        "subtopicId": "degrees_comparison",
+        "subtopicTitle": "Parallel comparative construction",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the sentence that fixes the faulty comparison: \"The climate of Shillong is cooler than Guwahati.\"",
+        "options": [
+          "The climate of Shillong is coolest than Guwahati.",
+          "The climate of Shillong is cooler than that of Guwahati.",
+          "The climate of Shillong is more cool than Guwahati.",
+          "Shillong's climate is cooler from Guwahati."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Compare like with like—a climate with a climate ('than that of Guwahati'), not a climate with a whole city!",
+        "distractorRationales": [
+          "Wrong degree and still compares climate to city.",
+          "Correct: 'that of' stands for 'the climate of'.",
+          "Still compares climate to city.",
+          "'Cooler from' uses wrong preposition."
+        ],
+        "grammarRule": "Keep comparisons parallel using 'that of' (singular) or 'those of' (plural).",
+        "lessonStepRef": "m09_step_05_degrees_comparison",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M09_Q15",
+        "subtopicId": "adjective_functions_order",
+        "subtopicTitle": "Adjective vs adverb after sensory verb",
+        "difficulty": "MEDIUM",
+        "storyContext": "Maharaj Vakya inspects the final craft table.",
+        "questionText": "Choose the accurate sentence: \"The newly varnished teak tray ____.\"",
+        "options": [
+          "looks smoothly and shines bright",
+          "looks smooth and smells fresh",
+          "looks smoothly and smells freshly",
+          "looks more smoother than wood"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Linking verbs 'looks' and 'smells' describe the tray's state, so they require adjectives ('smooth', 'fresh'), not '-ly' adverbs.",
+        "distractorRationales": [
+          "'Looks smoothly' misuses an adverb.",
+          "Correct: adjectives after linking verbs.",
+          "Misuses two adverbs.",
+          "Double comparative *more smoother."
+        ],
+        "grammarRule": "Follow sensory linking verbs ('look, smell, taste, sound, feel') with adjectives when describing the subject.",
+        "lessonStepRef": "m09_step_02_functions_and_order",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}

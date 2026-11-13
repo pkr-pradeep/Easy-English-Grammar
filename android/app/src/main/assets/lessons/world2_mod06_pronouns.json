@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_06",
+  "worldId": "WORLD_2",
+  "title": "Pronouns",
+  "storyTitle": "The Court of Endless Repetitions",
+  "estimatedMinutes": 16,
+  "charactersInvolved": [
+    "MAHARAJ_VAKYA",
+    "CHIKOO_BANDAR",
+    "VAANI",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m06_step_01_intro",
+      "stepTitle": "Scene 1: Name-Tag Fatigue!",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Registry Hall • Midday",
+      "settingDescription": "Because Chikoo banned pronouns from the bazaar, every speaker is exhausted from repeating full names ten times in a row.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "breathless",
+          "line": "Chikoo picked up Chikoo's basket because Chikoo thought Chikoo's bananas were in Chikoo's basket—and Chikoo hurt Chikoo's tongue!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "laughing",
+          "line": "Thank goodness! Even Maharaj Vakya nearly fell asleep listening to twenty 'Chikoos' in one sentence."
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "teaching",
+          "line": "That is why Pronouns exist—to stand in smoothly for nouns. Yet beware: wrong cases like 'between you and I', stray apostrophes in 'your's', or 'Myself Chikoo' cause fresh trouble!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "focused",
+          "line": "And never let a pronoun point to two suspects at once! Let us restore clear, crisp pronoun rules across the kingdom."
+        }
+      ],
+      "storyCallout": "Goal: Master pronoun categories, subject vs. object cases, reflexives, and clear pronoun antecedents."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m06_step_02_pronoun_types_cases",
+      "stepTitle": "Discover: Pronoun Types & Case Choices",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "pronoun_types_usage",
+      "subtopicTitle": "Pronoun Categories & Case (Subject, Object, Possessive)",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A pronoun is a trustworthy stunt double for a tired noun: 'he/she/they' do the action onstage (Subject), 'him/her/them' take the spotlight or stand after prepositions (Object), and 'his/hers/theirs' hold the property keys—with ZERO apostrophes!",
+      "formalDefinition": "A pronoun is a word used in place of a noun or noun phrase to avoid repetition and establish cohesion. Major types include Personal, Possessive, Reflexive/Emphatic, Demonstrative, Interrogative, Indefinite, Distributive, and Relative pronouns.",
+      "simpleExplanation": "Four pronoun habits matter most in exams and real writing: (1) After prepositions ('between you and me', 'for him and me') and after transitive verbs, ALWAYS use the Object pronoun ('me, us, him, her, them'), never 'I'. (2) Possessive pronouns ('ours, yours, hers, theirs, its') NEVER take an apostrophe ('it's' = 'it is'). (3) Reflexive pronouns ('myself, herself, themselves') bounce an action back onto the subject ('She taught herself'); do NOT start an introduction with 'Myself Aarav' (say 'I am Aarav'). (4) Distributive pronouns ('each, either, neither') are grammatically singular.",
+      "structurePatterns": [
+        {
+          "formName": "Personal Pronoun Cases",
+          "formula": "Subject (I, we, he, she, they) vs. Object (me, us, him, her, them)",
+          "sample": "Between you and me, she helped him and them."
+        },
+        {
+          "formName": "Possessive Pronouns (Stand Alone — No Apostrophe!)",
+          "formula": "mine, ours, yours, his, hers, theirs",
+          "sample": "This umbrella is hers; ours is drying outside."
+        },
+        {
+          "formName": "Reflexive vs. Emphatic",
+          "formula": "Reflexive (Object of verb/prep) | Emphatic (Extra stress right after noun/pronoun)",
+          "sample": "He blamed himself (Reflexive). / The principal himself handed out medals (Emphatic)."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Neither of the brothers has brought his admit card today.",
+          "contextNote": "'Neither' is singular, so it takes the singular verb 'has' and singular pronoun 'his'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "The mango tree lost its leaves, yet it's budding again.",
+          "contextNote": "'Its' (no apostrophe) = possessive; 'it's' = 'it is'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Myself Chikoo, and this secret stays between you and I.",
+          "correctSentence": "I am Chikoo, and this secret stays between you and me.",
+          "whyItHappens": "A reflexive pronoun ('myself') cannot act as the subject; and after the preposition 'between', we must use the object form 'me'.",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "When several singular pronouns appear together: good manners use 2–3–1 order ('You, he, and I completed the project'), whereas admitting a mistake uses 1–2–3 order ('I, you, and he should apologise').",
+        "After 'than' or 'as' in formal comparisons, match the implied verb: 'She is taller than I (am).' (Informally 'than me' is also heard in speech.)"
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m06_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Pick the Right Pronoun Case",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD06_CP1",
+      "subtopicId": "pronoun_choice",
+      "subtopicTitle": "Object Case After Prepositions",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira whispers a clue to you in the hall: \"Please keep this map strictly between you and ____.\"",
+      "questionPrompt": "Type the correct personal pronoun ('I' or 'me'):",
+      "sentenceTemplate": "Please keep this map strictly between you and ________.",
+      "acceptedAnswers": ["me"],
+      "hint": "'Between' is a preposition! Drop 'you and' for a second: would you say 'between I' or 'between me'?",
+      "feedbackCorrect": "Detective Ira: \"Precisely! Prepositions always take the objective case ('between you and me').\"",
+      "feedbackWrongDefault": "Use the object form 'me' after a preposition like 'between' or 'for'.",
+      "simplerExample": "The prize is for Ravi and me. (Test without Ravi: 'for me'.)",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m06_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Reflexive or Emphatic?",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD06_CP2",
+      "subtopicId": "pronoun_types_usage",
+      "subtopicTitle": "Reflexive vs. Emphatic Pronouns",
+      "interactionType": "IDENTIFY_ROLE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar points to a sentence: \"Maharaj Vakya himself inspected the market weights.\"",
+      "questionPrompt": "If we remove \"himself\", the sentence \"Maharaj Vakya inspected the market weights\" still makes complete sense. What kind of pronoun is \"himself\" here?",
+      "options": [
+        "Reflexive Pronoun",
+        "Emphatic (Intensive) Pronoun",
+        "Possessive Pronoun",
+        "Demonstrative Pronoun"
+      ],
+      "acceptedAnswers": ["Emphatic (Intensive) Pronoun"],
+      "hint": "When a '-self' pronoun simply adds emphasis and can be removed without breaking the sentence, what is it called?",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Well reasoned! Removing it leaves a complete sentence, proving 'himself' is an Emphatic Pronoun.\"",
+      "feedbackWrongDefault": "Notice that 'himself' isn't the object of 'inspected' ('the market weights' is); it merely adds emphasis.",
+      "feedbackWrongByOption": {
+        "Reflexive Pronoun": "In 'He hurt himself', removing 'himself' leaves 'He hurt' incomplete (Reflexive). Here 'inspected the weights' is already complete!"
+      },
+      "simplerExample": "I baked the cake myself (Emphatic) vs. I burned myself (Reflexive).",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m06_step_05_relative_and_reference",
+      "stepTitle": "Discover: Relative Pronouns & Clear Reference",
+      "provenance": "SOURCE_TEXTBOOK",
+      "subtopicId": "pronoun_reference",
+      "subtopicTitle": "Relative Pronouns & Unambiguous Antecedents",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "A pronoun's antecedent is its home address: if two nouns live on the same street ('Rohan told Kabir that he won'), nobody knows whose mailbox 'he' belongs to!",
+      "formalDefinition": "Relative pronouns (who, whom, whose, which, that) introduce adjective/relative clauses and link back to an antecedent noun. Pronoun reference requires every pronoun to match its antecedent clearly in person, number, and gender without ambiguity.",
+      "simpleExplanation": "Keep three rules sharp: (1) Use 'who' for people as subjects ('the girl who won'), 'whom' for people as objects ('the coach whom we respect'), 'whose' for possession ('the boy whose bag was lost'), and 'which/that' for things/animals. (2) Keep a pronoun unambiguous—if 'he' could mean either Rohan or Kabir, rewrite using the name or direct speech. (3) Indefinite pronouns like 'everyone, anybody, somebody, each' take singular verbs ('Everyone is ready').",
+      "structurePatterns": [
+        {
+          "formName": "Relative Pronouns Cheat Sheet",
+          "formula": "who (Person Subject) | whom (Person Object) | whose (Owner) | which/that (Thing)",
+          "sample": "The scientist who led the mission / the team that built the rover"
+        },
+        {
+          "formName": "Antecedent Agreement",
+          "formula": "Indefinite Pronoun (Everyone / Each / Neither) + Singular Verb + Singular Pronoun",
+          "sample": "Everyone must submit his or her assignment on time."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "The student whose essay won the medal thanked her mentor.",
+          "contextNote": "'Whose' shows possession linking 'essay' back to 'The student'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "When Suman met Priya, Priya offered to carry the heavy box.",
+          "contextNote": "Repeating 'Priya' avoids the ambiguity of 'she offered to carry the heavy box'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Chikoo gave Maharaj Vakya his crown, and then he laughed.",
+          "correctSentence": "Chikoo handed Maharaj Vakya the royal crown, and then Chikoo laughed.",
+          "whyItHappens": "Because there are two male characters ('Chikoo' and 'Maharaj Vakya'), 'he' has an ambiguous reference!",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "'Whose' can occasionally refer to inanimate things for brevity ('a house whose roof leaks') instead of the wordier 'the roof of which'.",
+        "After superlatives, 'all', 'only', and 'everything', 'that' is preferred over 'which' ('the best film that I saw')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m06_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Relative Pronoun Choice",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD06_CP3",
+      "subtopicId": "pronoun_choice",
+      "subtopicTitle": "Who vs. Whom vs. Whose",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani introduces an inventor at the bazaar: \"This is the artisan ____ carvings amazed the entire court.\"",
+      "questionPrompt": "Pick the correct relative pronoun:",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "acceptedAnswers": ["whose"],
+      "hint": "Look at the word right after the blank: 'carvings' belong to the artisan!",
+      "feedbackCorrect": "Vaani: \"Lovely! 'Whose carvings' shows possession—the carvings belong to the artisan.\"",
+      "feedbackWrongDefault": "Test ownership: 'her/his carvings amazed the court' → 'whose carvings'.",
+      "feedbackWrongByOption": {
+        "who": "'Who' is a subject ('who carved'), not possessive before 'carvings'.",
+        "whom": "'Whom' is an object ('whom we praised'), not possessive.",
+        "which": "'Which' is for things, not a person's ownership."
+      },
+      "simplerExample": "The girl whose bicycle was blue won the race.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m06_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Spot the Ambiguous Pronoun",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD06_CP4",
+      "subtopicId": "pronoun_reference",
+      "subtopicTitle": "Clear Antecedent Reference",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira reads a messy witness note: \"Arjun told Dev that he had left his keys on the bench.\"",
+      "questionPrompt": "Which revision removes the ambiguous pronoun reference completely?",
+      "options": [
+        "Arjun told Dev that they had left his keys on the bench.",
+        "Arjun told Dev, \"You left your keys on the bench.\"",
+        "He told Dev that he had left their keys on the bench.",
+        "Arjun told Dev that it had left its keys on the bench."
+      ],
+      "acceptedAnswers": ["Arjun told Dev, \"You left your keys on the bench.\""],
+      "hint": "In the original note, we don't know if 'he/his' means Arjun or Dev! Which option makes it crystal clear whose keys were left?",
+      "feedbackCorrect": "Detective Ira: \"Mystery solved! Quoting Arjun directly makes it 100% clear that Dev left the keys.\"",
+      "feedbackWrongDefault": "Choose the version where no reader has to guess who 'he' or 'his' refers to.",
+      "feedbackWrongByOption": {
+        "Arjun told Dev that they had left his keys on the bench.": "'They' vs 'his' is even more confusing!"
+      },
+      "simplerExample": "Ambiguous: 'Maya called Rina after her exam.' → Clear: 'Maya called Rina after Rina's exam.'",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m06_step_08_outro",
+      "stepTitle": "Scene 2: Smooth Speech Restored",
+      "provenance": "SOURCE_TEXTBOOK",
+      "sceneTag": "Royal Registry Hall • Afternoon",
+      "settingDescription": "Proclamations flow smoothly without repeating names or leaving readers guessing which pronoun points to whom.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "relieved",
+          "line": "I picked up my basket because I knew my bananas were safe inside it! Ah—my tongue feels lighter already!"
+        },
+        {
+          "characterId": "MAHARAJ_VAKYA",
+          "expression": "smiling",
+          "line": "Clear references and spotless pronoun cases! Consult your Grammar Notebook and test your sharpness in the assessment."
+        }
+      ],
+      "storyCallout": "Module 6 Story Complete! Review your Grammar Notebook or begin the 15-question assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Subject vs. Object Personal Pronouns",
+        "ruleSummary": "Use Subject pronouns (I, we, he, she, they) as subjects; use Object pronouns (me, us, him, her, them) as objects of verbs and after prepositions.",
+        "formulaOrPattern": "Verb + Object Pronoun | Preposition (between, for, with, to) + Object Pronoun",
+        "example": "Between you and me, the teacher praised him and her."
+      },
+      {
+        "heading": "Possessive Pronouns Have Zero Apostrophes",
+        "ruleSummary": "Mine, ours, yours, his, hers, its, theirs never take apostrophes. 'It's' always means 'it is' or 'it has'.",
+        "formulaOrPattern": "yours (NOT your's) • hers (NOT her's) • theirs (NOT their's) • its (possessive)",
+        "example": "That dictionary is yours; its cover is blue."
+      },
+      {
+        "heading": "Relative Pronouns & Clear Reference",
+        "ruleSummary": "Use who (subject), whom (object), whose (possessive) for people, and which/that for things. Ensure every pronoun points unmistakably to one antecedent.",
+        "formulaOrPattern": "Person: who / whom / whose | Thing: which / that",
+        "example": "The athlete who broke the record thanked the coach whom everyone admired."
+      }
+    ],
+    "memoryAids": [
+      "Pronouns are noun stunt doubles: no apostrophes in possessive pronouns (hers, theirs, yours, its)!",
+      "Preposition test: drop the first person ('between [you and] me') to hear the true object case instantly."
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Myself Kiran, and this notebook is your's.",
+        "correctSentence": "I am Kiran, and this notebook is yours.",
+        "whyItHappens": "Reflexives ('myself') cannot stand alone as subjects, and possessive pronouns never take apostrophes.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "One must always keep his promises.",
+        "correctSentence": "One must always keep one's promises.",
+        "whyItHappens": "When 'one' is used as an impersonal subject, keep 'one / one's' consistent rather than switching to 'his'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Reflexive pronouns ending in '-self/-selves' can act as Emphatic pronouns right after a noun/pronoun ('The captain herself spoke').",
+      "Pronoun order rule: 'You, she, and I' (2–3–1) for neutral/positive actions; 'I, you, and he' (1–2–3) when confessing an error."
+    ],
+    "textbookNotes": [
+      "Grounded in Assam Chapter 5 (Pronouns): pronoun categories, reference, and accurate choice."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M06_Q01",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Case after prepositions",
+        "difficulty": "EASY",
+        "questionText": "Choose the correct sentence:",
+        "options": [
+          "Nobody knows the secret except you and I.",
+          "Nobody knows the secret except you and me.",
+          "Nobody knows the secret except yourself and I.",
+          "Nobody knows the secret except I and you."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Except' acts as a preposition here and requires the object pronoun 'me' ('except you and me').",
+        "distractorRationales": [
+          "'I' is subject case, incorrect after 'except'.",
+          "Correct: 'except' + object pronoun 'me'.",
+          "Misuses 'yourself' and 'I'.",
+          "Wrong case ('I')."
+        ],
+        "grammarRule": "Prepositions (between, except, for, with, beside) take objective-case pronouns.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q02",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Possessive pronoun spelling",
+        "difficulty": "EASY",
+        "questionText": "Fill in the blank: \"The science project on the top shelf is ____.\"",
+        "options": [
+          "our's",
+          "ours",
+          "ours'",
+          "us"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Possessive pronouns ('ours', 'yours', 'hers', 'theirs') never take an apostrophe.",
+        "distractorRationales": [
+          "False apostrophe.",
+          "Correct: 'ours' has no apostrophe.",
+          "False apostrophe.",
+          "'Us' is object case, not possessive."
+        ],
+        "grammarRule": "Never place an apostrophe inside a possessive pronoun.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q03",
+        "subtopicId": "pronoun_types_usage",
+        "subtopicTitle": "Reflexive vs emphatic",
+        "difficulty": "MEDIUM",
+        "questionText": "In \"The students decorated the entire stage themselves\", what kind of pronoun is 'themselves'?",
+        "options": [
+          "Emphatic Pronoun",
+          "Reflexive Pronoun",
+          "Distributive Pronoun",
+          "Relative Pronoun"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'The stage' is already the object of 'decorated'; 'themselves' only emphasises that the students did it without help, so it is Emphatic.",
+        "distractorRationales": [
+          "Correct: adds emphasis without serving as direct object.",
+          "Reflexive serves as the object receiving the verb's action.",
+          "Distributives are each, either, neither.",
+          "Relatives are who, which, that."
+        ],
+        "grammarRule": "If a '-self/-selves' pronoun only stresses who acted and can be removed, it is Emphatic.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q04",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Self-introduction rule",
+        "difficulty": "EASY",
+        "questionText": "Which is the grammatically standard way to introduce yourself in an interview?",
+        "options": [
+          "Myself Aditya Verma from Class X.",
+          "I am Aditya Verma from Class X.",
+          "Me Aditya Verma from Class X.",
+          "Himself Aditya Verma from Class X."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Reflexive pronouns cannot replace a subject pronoun; use 'I am...' or 'My name is...'.",
+        "distractorRationales": [
+          "Common error: 'Myself' cannot act as subject.",
+          "Correct: uses subject pronoun 'I'.",
+          "Missing verb and wrong case.",
+          "Incorrect third-person reflexive."
+        ],
+        "grammarRule": "Do not begin a sentence with 'Myself + Name' as the subject.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M06_Q05",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Its vs It's",
+        "difficulty": "MEDIUM",
+        "questionText": "Select the sentence that uses 'its' and 'it's' accurately:",
+        "options": [
+          "Look at that peacock; it's feathers are bright, and its dancing!",
+          "Look at that peacock; its feathers are bright, and it's dancing!",
+          "Look at that peacock; its' feathers are bright, and it's dancing!",
+          "Look at that peacock; it's feathers are bright, and it's dancing!"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Its' (no apostrophe) shows possession ('its feathers'); 'it's' is short for 'it is' ('it is dancing').",
+        "distractorRationales": [
+          "Swaps 'it's' and 'its'.",
+          "Correct: possessive 'its' + contraction 'it's'.",
+          "'Its'' does not exist in English.",
+          "Uses 'it's' wrongly before 'feathers'."
+        ],
+        "grammarRule": "'Its' = possessive; 'it's' = 'it is' or 'it has'.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q06",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Who vs Whom",
+        "difficulty": "HARD",
+        "questionText": "Choose the right relative pronoun: \"The historian ____ we invited to the seminar lives in Cuttack.\"",
+        "options": [
+          "whoever",
+          "whom",
+          "whose",
+          "which"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In the relative clause 'we invited ____', 'we' is the subject and the historian is the object ('we invited him'), so formal grammar uses 'whom'.",
+        "distractorRationales": [
+          "Indefinite compound not fitting here.",
+          "Correct: object of 'invited'.",
+          "Shows possession, not object role.",
+          "'Which' is not used for a person."
+        ],
+        "grammarRule": "Test he/him: if 'him' fits ('we invited him'), formal English requires 'whom'.",
+        "lessonStepRef": "m06_step_05_relative_and_reference",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q07",
+        "subtopicId": "pronoun_reference",
+        "subtopicTitle": "Pronoun antecedent clarity",
+        "difficulty": "MEDIUM",
+        "questionText": "Why is the sentence \"Remove the battery from the toy and wash it\" unclear?",
+        "options": [
+          "There is no verb in the sentence.",
+          "'It' could refer either to the battery or to the toy.",
+          "'Remove' cannot take a plural object.",
+          "'It' is in the wrong gender."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Both 'battery' and 'toy' are singular inanimate nouns, so 'wash it' creates dangerous ambiguity!",
+        "distractorRationales": [
+          "'Remove' and 'wash' are verbs.",
+          "Correct: ambiguous antecedent between 'battery' and 'toy'.",
+          "Not relevant here.",
+          "Both nouns are neuter."
+        ],
+        "grammarRule": "If a pronoun has two plausible antecedents, replace the pronoun with the exact noun.",
+        "lessonStepRef": "m06_step_05_relative_and_reference",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q08",
+        "subtopicId": "pronoun_types_usage",
+        "subtopicTitle": "Pronoun consistency with 'One'",
+        "difficulty": "HARD",
+        "questionText": "Complete accurately: \"One should respect ____ elders and speak politely.\"",
+        "options": [
+          "his",
+          "their",
+          "one's",
+          "ones"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "When 'one' is the general indefinite subject, its corresponding possessive in standard grammar is 'one's'.",
+        "distractorRationales": [
+          "Mismatches indefinite 'one'.",
+          "Mismatches 'one' in formal usage.",
+          "Correct: 'one' pairs with 'one's'.",
+          "Missing apostrophe."
+        ],
+        "grammarRule": "Keep the indefinite pronoun 'one' consistent with 'one's' and 'oneself'.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M06_Q09",
+        "subtopicId": "pronoun_types_usage",
+        "subtopicTitle": "Pronoun ordering rule",
+        "difficulty": "MEDIUM",
+        "questionText": "Which opening sounds most courteous and standard for announcing a team achievement?",
+        "options": [
+          "I, you, and Kabir won the quiz trophy.",
+          "You, Kabir, and I won the quiz trophy.",
+          "Kabir, me, and you won the quiz trophy.",
+          "Me, Kabir, and you won the quiz trophy."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "For positive/neutral news, English places second person ('you'), then third ('Kabir'), then first ('I') — 2–3–1 order.",
+        "distractorRationales": [
+          "1–2–3 order is reserved for admitting faults.",
+          "Correct: polite 2–3–1 subject order with 'I'.",
+          "Uses object 'me' in subject position.",
+          "Uses 'me' first."
+        ],
+        "grammarRule": "Use 2nd → 3rd → 1st person order ('You, he, and I') in positive/neutral statements.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M06_Q10",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Distributive pronouns",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the correct option: \"Each of the cyclists carried ____ own water bottle.\"",
+        "options": [
+          "his or her",
+          "their's",
+          "they",
+          "ours"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Each' is singular, so formal textbook grammar pairs 'Each of the...' with a singular possessive ('his or her' / 'his').",
+        "distractorRationales": [
+          "Correct: singular agreement with 'Each'.",
+          "Non-standard spelling 'their's'.",
+          "'They' is a subject pronoun, not possessive.",
+          "Changes person from third to first."
+        ],
+        "grammarRule": "Distributive pronouns (each, either, neither) are singular.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q11",
+        "subtopicId": "pronoun_types_usage",
+        "subtopicTitle": "Each other vs One another",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in the blank: \"The two friends helped ____ prepare for the debate.\"",
+        "options": [
+          "themselves",
+          "each other",
+          "everyone",
+          "all another"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Each other' (reciprocal pronoun) shows mutual action between two people; 'themselves' would mean each helped only himself/herself.",
+        "distractorRationales": [
+          "Means self-help rather than mutual help.",
+          "Correct: reciprocal pronoun for mutual action between two.",
+          "Incorrect meaning.",
+          "Ungrammatical phrase."
+        ],
+        "grammarRule": "Use reciprocal pronouns ('each other' / 'one another') for mutual action.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M06_Q12",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Relative pronoun 'that' after superlatives",
+        "difficulty": "HARD",
+        "questionText": "Which relative pronoun fits best after a superlative: \"This is the finest essay ____ I have read this term\"?",
+        "options": [
+          "who",
+          "that",
+          "whom",
+          "whose"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "After superlative adjectives ('the finest', 'the best'), 'all', or 'only', standard grammar strongly prefers 'that'.",
+        "distractorRationales": [
+          "'Who' is for persons.",
+          "Correct: 'that' follows superlatives referring to things.",
+          "'Whom' is for persons.",
+          "'Whose' shows ownership."
+        ],
+        "grammarRule": "Prefer 'that' after superlatives, 'all', 'same', 'only', and 'nothing'.",
+        "lessonStepRef": "m06_step_05_relative_and_reference",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q13",
+        "subtopicId": "pronoun_reference",
+        "subtopicTitle": "Vague pronoun 'it' / 'this'",
+        "difficulty": "HARD",
+        "questionText": "Which sentence has the clearest pronoun reference?",
+        "options": [
+          "The bus arrived late, and Chikoo dropped his lunchbox, which upset everyone.",
+          "Because the bus arrived late, the commuters felt frustrated.",
+          "In the noticeboard, it says holidays begin tomorrow.",
+          "They say in the textbook that pronouns replace nouns."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Option B removes vague 'which', dummy 'it says', and mystery 'they say', keeping every subject specific and clear.",
+        "distractorRationales": [
+          "Unclear whether 'which' refers to the late bus or the dropped lunchbox.",
+          "Correct: no vague or orphan pronouns.",
+          "'In the noticeboard, it says' uses an unnecessary 'it'—write 'The noticeboard says'.",
+          "'They say in the textbook' has an unnamed 'they'—write 'The textbook says'."
+        ],
+        "grammarRule": "Avoid vague 'it', 'they', or 'which' without a specific grammatical antecedent.",
+        "lessonStepRef": "m06_step_05_relative_and_reference",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q14",
+        "subtopicId": "pronoun_types_usage",
+        "subtopicTitle": "Demonstrative pronoun vs determiner",
+        "difficulty": "MEDIUM",
+        "questionText": "In which sentence is 'These' used as a Demonstrative PRONOUN (not a determiner)?",
+        "options": [
+          "These mangoes taste sweet.",
+          "These are sweeter than those.",
+          "These old coins belong to the museum.",
+          "These three clues solved the riddle."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "In 'These are sweeter', 'These' stands alone as the subject rather than preceding a noun—making it a Demonstrative Pronoun.",
+        "distractorRationales": [
+          "Precedes 'mangoes' (determiner/demonstrative adjective).",
+          "Correct: stands alone without a following noun.",
+          "Precedes 'old coins' (determiner).",
+          "Precedes 'three clues' (determiner)."
+        ],
+        "grammarRule": "A demonstrative followed by a noun is a determiner; standing alone for a noun, it is a pronoun.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M06_Q15",
+        "subtopicId": "pronoun_choice",
+        "subtopicTitle": "Verb 'let' + object pronoun",
+        "difficulty": "EASY",
+        "storyContext": "Maharaj Vakya opens the gates of the Word Bazaar.",
+        "questionText": "Complete the sentence accurately: \"Let ____ discuss the final plan together.\"",
+        "options": [
+          "we",
+          "us",
+          "our",
+          "ourselves"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The verb 'let' always takes an objective-case pronoun ('Let us', 'Let him and me').",
+        "distractorRationales": [
+          "'We' is subjective case.",
+          "Correct: 'let' + objective pronoun 'us'.",
+          "'Our' is a possessive determiner.",
+          "'Ourselves' is reflexive, unsuitable here."
+        ],
+        "grammarRule": "Use object pronouns ('us', 'me', 'him', 'them') immediately after 'let'.",
+        "lessonStepRef": "m06_step_02_pronoun_types_cases",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      }
+    ]
+  }
+}

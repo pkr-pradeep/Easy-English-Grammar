@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "MOD_19",
+  "worldId": "WORLD_4",
+  "title": "Conjunctions and Connecting Words",
+  "storyTitle": "Rebuilding the Village Bridge",
+  "estimatedMinutes": 18,
+  "charactersInvolved": [
+    "VAANI",
+    "CHIKOO_BANDAR",
+    "ACHARYA_VIDYADHAR",
+    "DETECTIVE_IRA",
+    "MAHARAJ_VAKYA"
+  ],
+  "steps": [
+    {
+      "type": "story_scene",
+      "stepId": "m19_step_01_intro",
+      "stepTitle": "Scene 1: The Collapsed Bridge Planks",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "River Connector Bridge • Morning",
+      "settingDescription": "Two villages across the Grammar River are cut off! Chikoo tried bolting bridge planks together with 'Although... but', 'Neither... or', and 'Unless you don't'—and the planks won't lock!",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "worried",
+          "line": "Look! I bolted two strong beams together: 'Although the river was wide, BUT we crossed safely!' Why did Acharya say one bolt cancels the other?!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "calm",
+          "line": "Because 'although' ALREADY links the contrast! Adding 'but' is like tying a knot twice until it snaps! And 'unless' already means 'if not'!"
+        },
+        {
+          "characterId": "VAANI",
+          "expression": "pointing",
+          "line": "Let us sort our bridge builders cleanly: Coordinating pairs (FANBOYS), Correlative twins ('either...or', 'no sooner...than'), Subordinators ('because, although, unless'), and Relative connectors!"
+        },
+        {
+          "characterId": "DETECTIVE_IRA",
+          "expression": "ready",
+          "line": "And notice how relative words ('who, which, where, when') link clauses differently from pure conjunctions. Let us rebuild that bridge!"
+        }
+      ],
+      "storyCallout": "Goal: Master coordinating, subordinating, correlative, and relative connectors without double-conjunction errors."
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m19_step_02_coordinating_correlative",
+      "stepTitle": "Discover: Coordinating & Correlative Conjunctions",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "coordinating_correlative",
+      "subtopicTitle": "FANBOYS Coordinators & Correlative Twin Pairs",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Coordinating conjunctions (FANBOYS: For, And, Nor, But, Or, Yet, So) are equal bridge cables connecting two equals (noun + noun, clause + clause). Correlative conjunctions are matching dance shoes—'either' ONLY dances with 'or', 'neither' with 'nor', 'no sooner' with 'than', and 'hardly/scarcely' with 'when'!",
+      "formalDefinition": "Coordinating conjunctions (for, and, nor, but, or, yet, so) join grammatically equal words, phrases, or independent clauses. Correlative conjunctions work in fixed paired constructions (both...and, either...or, neither...nor, not only...but also, whether...or, no sooner...than, hardly/scarcely...when) and require parallel grammatical structure after both halves.",
+      "simpleExplanation": "Guard three golden rules for equal connectors:\n1) Fixed Correlative Partners (NEVER mix pairs!):\n- 'Both... AND' (never *both... as well as)\n- 'Either... OR' / 'Neither... NOR' (never *neither... or)\n- 'Not only... BUT ALSO'\n- 'No sooner... THAN' (never *no sooner... when!)\n- 'Hardly / Scarcely... WHEN' (never *hardly... than!)\n2) Parallelism Law: Whatever grammar type follows part 1 must follow part 2! If you write 'not only + verb', put a verb after 'but also' ('She not only sings well but also plays the sitar'—NOT *not only she sings well but also plays!).\n3) Inversion with Negative Fronted Correlatives: 'No sooner DID the bell ring THAN...', 'Hardly HAD we stepped out WHEN...'.",
+      "structurePatterns": [
+        {
+          "formName": "FANBOYS (Seven Coordinators)",
+          "formula": "For (reason) • And (addition) • Nor (negative add) • But (contrast) • Or (choice) • Yet (surprising contrast) • So (result)",
+          "sample": "The river was deep, yet the ferryman crossed calmly."
+        },
+        {
+          "formName": "Exact Correlative Twins",
+          "formula": "no sooner... than | hardly/scarcely... when | both... and | either... or | neither... nor",
+          "sample": "No sooner had we arrived than the gates opened. / Hardly had we arrived when it rained."
+        },
+        {
+          "formName": "Parallelism Check",
+          "formula": "Part 1 + [Form X] ... Part 2 + [Form X]",
+          "sample": "He is famous both for his poetry and for his paintings (Prep Phrase + Prep Phrase)."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Neither did Chikoo pack the ropes nor did he check the wooden planks.",
+          "contextNote": "Both halves share parallel inverted verb clauses after 'neither' and 'nor'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "No sooner had the train stopped at Guwahati than the passengers stepped onto the platform.",
+          "contextNote": "Uses 'No sooner + had + Subject + V3 ... than' (exact partner 'than').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "No sooner did I open the gate when it started raining, and she is both clever as well as kind.",
+          "correctSentence": "No sooner did I open the gate than it started raining, and she is both clever and kind.",
+          "whyItHappens": "'No sooner' pairs strictly with 'than' (not 'when'), and 'both' pairs strictly with 'and' (not 'as well as').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Use 'nor' (NOT 'or') after a negative verb when two balanced negatives are alternatives ('He has neither pen nor paper', 'I don't play chess or carrom'—note: 'no/not' uses 'or' inside a single NP, whereas 'neither' takes 'nor')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m19_step_03_cp1",
+      "stepTitle": "Checkpoint 1: Pair the Correlative Twins",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD19_CP1",
+      "subtopicId": "coordinating_correlative",
+      "subtopicTitle": "No sooner... than vs Hardly... when",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "ACHARYA_VIDYADHAR",
+      "storyPrompt": "Acharya Vidyadhar inspects two bridge cables: \"Hardly had the masons laid the final plank ____ the villagers cheered, and no sooner had the ribbon dropped ____ carts rolled across.\"",
+      "questionPrompt": "Pick the option that pairs BOTH correlatives accurately:",
+      "options": [
+        "than / when",
+        "when / than",
+        "than / than",
+        "when / when"
+      ],
+      "acceptedAnswers": ["when / than"],
+      "hint": "'Hardly / Scarcely' takes 'when'; 'No sooner' (comparative '-er'!) takes 'than'!",
+      "feedbackCorrect": "Acharya Vidyadhar: \"Memory lock engaged! Comparative 'sooner' demands 'than'; 'hardly/scarcely' demands 'when'.\"",
+      "feedbackWrongDefault": "Notice 'sooner' is a comparative ('-er'), so it pairs with 'than'; 'hardly' pairs with 'when'.",
+      "feedbackWrongByOption": {
+        "than / when": "Swapped! 'No sooner... than' and 'Hardly... when'."
+      },
+      "simplerExample": "Hardly had we sat down when the bell rang. / No sooner did we sit down than the bell rang.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m19_step_04_cp2",
+      "stepTitle": "Checkpoint 2: Fix Parallelism",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD19_CP2",
+      "subtopicId": "coordinating_correlative",
+      "subtopicTitle": "Parallel Structure with 'Not only... but also'",
+      "interactionType": "ERROR_CORRECTION",
+      "characterId": "VAANI",
+      "storyPrompt": "Vaani spots an unbalanced sentence on the bridge plaque: \"Not only Detective Ira solved the theft but also rescued the diamond.\"",
+      "questionPrompt": "Which revision makes the structure after 'not only' and 'but also' truly parallel?",
+      "options": [
+        "Detective Ira not only solved the theft but also rescued the diamond.",
+        "Not only Detective Ira solved the theft but also she rescued the diamond.",
+        "Detective Ira solved not only the theft but also rescued the diamond.",
+        "Not only solved Detective Ira the theft but also rescued the diamond."
+      ],
+      "acceptedAnswers": ["Detective Ira not only solved the theft but also rescued the diamond."],
+      "hint": "Put the shared subject ('Detective Ira') FIRST, then balance Verb Phrase 1 ('solved the theft') with Verb Phrase 2 ('rescued the diamond')!",
+      "feedbackCorrect": "Vaani: \"Perfect symmetry! 'Not only [solved the theft] but also [rescued the diamond]' balances two verb phrases cleanly.\"",
+      "feedbackWrongDefault": "Move 'Detective Ira' before 'not only' so both 'not only' and 'but also' immediately introduce past verb phrases.",
+      "feedbackWrongByOption": {
+        "Detective Ira solved not only the theft but also rescued the diamond.": "'Not only' sits before a noun ('the theft'), while 'but also' sits before a verb ('rescued')—unbalanced!"
+      },
+      "simplerExample": "She not only writes poems but also composes music.",
+      "xpReward": 20
+    },
+    {
+      "type": "concept_discovery",
+      "stepId": "m19_step_05_subordinators_relatives",
+      "stepTitle": "Discover: Subordinators, 'Although' Traps & Relatives",
+      "provenance": "CONSOLIDATED",
+      "subtopicId": "subordinating_relatives",
+      "subtopicTitle": "Subordinating Conjunctions & Conjunctives vs. Relatives",
+      "memoryAidLabel": "Memory Aid (Peculiar Definition — Not a Formal Rule)",
+      "peculiarDefinition": "Never double-lock one bridge door! 'Although' and 'Though' ALREADY show contrast—never tack on 'but' later (*Although it rained, but we played). Likewise, 'Unless' ALREADY hides 'if NOT' inside it, and 'Because' refuses to pair with 'so' (*Because I ran, so I arrived early)!",
+      "formalDefinition": "Subordinating conjunctions (because, since, as, although, though, if, unless, until, while, whereas, so that, lest) link a dependent clause to a main clause. Unlike pure conjunctions that merely join clauses, relative pronouns ('who, whom, whose, which, that') and relative adverbs ('where, when, why') both link a subordinate clause AND perform a grammatical role inside it (subject, object, or adverbial).",
+      "simpleExplanation": "Lock down four major secondary-level connector rules:\n1) Zero Double-Connectors: Use ONE conjunction to connect two clauses—NEVER pair 'Although/Though' with 'but' (a comma or optional 'yet' is acceptable; 'but' is wrong!), NEVER pair 'Because/Since/As' with 'so/therefore' in the same sentence, and NEVER write *The reason why... is because (write 'is THAT').\n2) 'Unless' & 'Lest' Traps: 'Unless' = 'if... not' → usually followed by an AFFIRMATIVE verb ('Unless you hurry, you will miss the ferry'—NOT *Unless you don't hurry!). 'Lest' (= for fear that) is already negative and takes 'should' + affirmative verb ('Walk carefully lest you should fall'—NOT *lest you shouldn't fall!).\n3) Conjunctives vs. Relatives (Assam Ch. 12): In 'I know WHERE she lives' (noun/adverbial link) vs 'the village WHERE she was born' (relative adverb modifying 'village' = 'in which she was born'), notice relatives refer back to an antecedent noun.\n4) 'Like' (Preposition + Noun) vs. 'As / As if' (Conjunction + Clause): Say 'Do as I say' (clause) and 'He looks as if he is tired', NOT *Do like I say.",
+      "structurePatterns": [
+        {
+          "formName": "One Connector Per Two-Clause Join",
+          "formula": "Although A, B (NO 'but') | Because A, B (NO 'so') | Unless + Positive Verb",
+          "sample": "Although the wind blew hard, the bridge held. / You won't pass unless you practise."
+        },
+        {
+          "formName": "'Lest ... should' & 'So ... that'",
+          "formula": "Action + lest + Subject + (should) + Positive V1 | so + Adj/Adv + that + Clause",
+          "sample": "Check the rope twice lest it should slip. / He spoke so clearly that everyone understood."
+        },
+        {
+          "formName": "Pure Conjunction vs. Relative Pronoun/Adverb",
+          "formula": "Conjunction (joins only) | Relative (joins + refers back to antecedent noun)",
+          "sample": "I waited until he came (Conjunction). / The hour when he came (Relative Adverb → 'hour')."
+        }
+      ],
+      "realLifeExamples": [
+        {
+          "sentence": "Although the ferry arrived late, all the students reached the auditorium on time.",
+          "contextNote": "Single subordinator 'Although' + comma + main clause (no 'but').",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        },
+        {
+          "sentence": "This is the quiet workshop where the timepiece was restored.",
+          "contextNote": "'Where' acts as a Relative Adverb linking back to the antecedent noun 'workshop'.",
+          "provenance": "ADDITIONAL_EXAMPLE"
+        }
+      ],
+      "correctVsIncorrect": [
+        {
+          "incorrectSentence": "Although he trained daily, but he won't succeed unless he doesn't stay calm.",
+          "correctSentence": "Although he trained daily, he won't succeed unless he stays calm.",
+          "whyItHappens": "Remove 'but' after 'Although', and remove 'doesn't' inside 'unless' (because 'unless' already means 'if not').",
+          "culpritCharacterId": "CHIKOO_BANDAR"
+        }
+      ],
+      "exceptions": [
+        "Note the two uses of 'since': as a preposition ('since Monday') and as a conjunction of time ('since we arrived') OR reason ('Since it is raining, let us stay indoors').",
+        "'While' shows simultaneous time ('While I was reading, he slept') OR contrast ('While Maya prefers chess, Dev loves football')."
+      ]
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m19_step_06_cp3",
+      "stepTitle": "Checkpoint 3: Fix 'Unless' & 'Lest'",
+      "provenance": "SOURCE_TEXTBOOK",
+      "checkpointId": "MOD19_CP3",
+      "subtopicId": "subordinating_relatives",
+      "subtopicTitle": "Negative Subordinators ('unless' and 'lest')",
+      "interactionType": "FILL_IN_BLANK",
+      "characterId": "DETECTIVE_IRA",
+      "storyPrompt": "Detective Ira posts a safety warning by the bridge rail: \"Hold the handrail tightly ____ you should slip on the wet planks!\"",
+      "questionPrompt": "Type the one-word subordinating conjunction meaning 'for fear that' which pairs naturally with 'should':",
+      "sentenceTemplate": "Hold the handrail tightly ________ you should slip on the wet planks!",
+      "acceptedAnswers": ["lest"],
+      "hint": "Starts with 'l', four letters, always takes 'should + positive verb'!",
+      "feedbackCorrect": "Detective Ira: \"Bridge sign verified! 'Lest' means 'for fear that' and pairs cleanly with 'should' without any 'not'.\"",
+      "feedbackWrongDefault": "Use the four-letter conjunction 'lest' (= 'in case / for fear that'), which pairs with 'should'.",
+      "simplerExample": "Leave early lest you should miss the morning bus.",
+      "xpReward": 20
+    },
+    {
+      "type": "interactive_checkpoint",
+      "stepId": "m19_step_07_cp4",
+      "stepTitle": "Checkpoint 4: Spot the Double Conjunction",
+      "provenance": "CONSOLIDATED",
+      "checkpointId": "MOD19_CP4",
+      "subtopicId": "subordinating_relatives",
+      "subtopicTitle": "Avoiding 'Although... but' & 'Because... so'",
+      "interactionType": "MULTIPLE_CHOICE",
+      "characterId": "MAHARAJ_VAKYA",
+      "storyPrompt": "Maharaj Vakya tests four bridge-opening speeches. Only ONE avoids the double-connector trap.",
+      "questionPrompt": "Which sentence connects its two clauses with clean, single-connector grammar?",
+      "options": [
+        "Because the bridge is sturdy, so villagers can cross safely.",
+        "Although the monsoon winds blew fiercely, yet but the pillars stood firm.",
+        "Though the monsoon winds blew fiercely, the sturdy pillars stood firm.",
+        "The reason our bridge held is because the engineers checked every bolt."
+      ],
+      "acceptedAnswers": ["Though the monsoon winds blew fiercely, the sturdy pillars stood firm."],
+      "hint": "Reject *Because... so, *Although... yet but, and *The reason... is because!",
+      "feedbackCorrect": "Maharaj Vakya: \"Strong as teakwood! Using 'Though' once without 'but' joins both clauses cleanly.\"",
+      "feedbackWrongDefault": "A two-clause sentence needs ONLY ONE conjunction ('Though' OR 'but', 'Because' OR 'so', never both!).",
+      "feedbackWrongByOption": {
+        "Because the bridge is sturdy, so villagers can cross safely.": "Never combine 'Because' and 'so' in the same sentence!",
+        "The reason our bridge held is because the engineers checked every bolt.": "In formal grammar, say 'The reason... is THAT...' (avoid *the reason... is because)."
+      },
+      "simplerExample": "Because it rained, we carried umbrellas. (OR: It rained, so we carried umbrellas.)",
+      "xpReward": 20
+    },
+    {
+      "type": "story_scene",
+      "stepId": "m19_step_08_outro",
+      "stepTitle": "Scene 2: Across the Grammar Bridge!",
+      "provenance": "CONSOLIDATED",
+      "sceneTag": "River Connector Bridge • Sunset",
+      "settingDescription": "Villagers stream happily across the rebuilt bridge as lanterns glow along every sturdy, grammatically balanced cable.",
+      "dialogues": [
+        {
+          "characterId": "CHIKOO_BANDAR",
+          "expression": "cheering",
+          "line": "No sooner had we bolted the last plank than the lanterns flickered on! Wait—I used 'No sooner... than' AND zero extra 'buts'!"
+        },
+        {
+          "characterId": "ACHARYA_VIDYADHAR",
+          "expression": "proud",
+          "line": "You have completed all five modules of World 4! Review your Grammar Notebook and unlock the final 15-question assessment."
+        }
+      ],
+      "storyCallout": "Module 19 Story Complete! Open your Grammar Notebook or try the Final Assessment."
+    }
+  ],
+  "grammarNotebook": {
+    "summaryRules": [
+      {
+        "heading": "Coordinating & Correlative Conjunctions",
+        "ruleSummary": "FANBOYS (for, and, nor, but, or, yet, so) join equal units. Keep correlative twins exact and both halves parallel in grammatical form.",
+        "formulaOrPattern": "no sooner... than | hardly/scarcely... when | both... and | either... or | neither... nor | not only... but also",
+        "example": "Hardly had the train departed when the drizzle began."
+      },
+      {
+        "heading": "Never Double-Connect Two Clauses",
+        "ruleSummary": "Use ONE connector per join: never pair 'Although/Though' with 'but', or 'Because/Since/As' with 'so/therefore'. Replace *The reason is because with 'The reason is that'.",
+        "formulaOrPattern": "Although A, B (NO 'but') | Because A, B (NO 'so') | The reason ... is that ...",
+        "example": "Although the climb was steep, every scout reached the ridge."
+      },
+      {
+        "heading": "Negative Conjunctions & Relative Links",
+        "ruleSummary": "'Unless' (= if not) and 'lest' (= for fear that + should) already carry negative force and take affirmative verbs. Relative pronouns/adverbs ('who, which, where, when') refer back to an antecedent noun.",
+        "formulaOrPattern": "unless + Affirmative Verb | lest + Subject + should + Affirmative V1",
+        "example": "Write down the clue lest you should forget it."
+      }
+    ],
+    "memoryAids": [
+      "Matching Dance Shoes: 'No sooner' (-er) dances with 'than'; 'Hardly / Scarcely' dances with 'when'; 'Neither' dances with 'nor'!",
+      "One Bolt Rule: Don't bolt a sentence twice with 'Although + but' or 'Because + so'!"
+    ],
+    "commonMistakes": [
+      {
+        "incorrectSentence": "Although she was tired, but she finished the test, and unless you don't hurry we'll be late.",
+        "correctSentence": "Although she was tired, she finished the test, and unless you hurry we'll be late.",
+        "whyItHappens": "Drop 'but' after 'Although' and drop 'don't' after 'unless' (which already means 'if not').",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      },
+      {
+        "incorrectSentence": "No sooner had we entered the hall when the bell rang, and she is both wise as well as gentle.",
+        "correctSentence": "No sooner had we entered the hall than the bell rang, and she is both wise and gentle.",
+        "whyItHappens": "'No sooner' pairs strictly with 'than', and 'both' pairs strictly with 'and'.",
+        "culpritCharacterId": "CHIKOO_BANDAR"
+      }
+    ],
+    "exceptions": [
+      "Formal prose allows 'Although..., yet...' occasionally for strong emphasis, though plain comma ('Although..., [clause]') is cleanest.",
+      "Do not confuse 'like' (preposition + noun: 'runs like a deer') with 'as / as if' (conjunction + clause: 'Do as I showed you')."
+    ],
+    "textbookNotes": [
+      "Consolidated across Assam Ch. 12 (Conjunctives and Relatives) and Punjab IX Ch. 4 (Conjunctions)."
+    ]
+  },
+  "assessment": {
+    "defaultQuestionCount": 15,
+    "passingPercentage": 70,
+    "questions": [
+      {
+        "id": "M19_Q01",
+        "subtopicId": "coordinating_correlative",
+        "subtopicTitle": "FANBOYS meaning",
+        "difficulty": "EASY",
+        "questionText": "Choose the coordinating conjunction showing surprising contrast: \"The mountain trail was steep and misty, ____ the young trekkers reached the summit cheerfully.\"",
+        "options": [
+          "so",
+          "for",
+          "yet",
+          "or"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "'Yet' (like 'but') expresses contrast—especially a surprising outcome despite difficulty.",
+        "distractorRationales": [
+          "'So' expresses result.",
+          "'For' expresses reason.",
+          "Correct: 'yet' expresses contrast.",
+          "'Or' expresses alternative."
+        ],
+        "grammarRule": "FANBOYS: 'but/yet' = contrast; 'for' = reason; 'so' = result; 'or/nor' = alternative.",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q02",
+        "subtopicId": "coordinating_correlative",
+        "subtopicTitle": "No sooner ... than",
+        "difficulty": "EASY",
+        "questionText": "Fill in the right partner: \"No sooner had the whistle blown ____ the sprinters shot forward.\"",
+        "options": [
+          "when",
+          "then",
+          "than",
+          "while"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Comparative 'No sooner' ALWAYS pairs with 'than' (never 'when' or 'then').",
+        "distractorRationales": [
+          "'When' pairs with 'hardly/scarcely'.",
+          "'Then' is an adverb of time, not a comparative conjunction.",
+          "Correct: 'No sooner... than'.",
+          "'While' does not pair with 'no sooner'."
+        ],
+        "grammarRule": "Always pair 'no sooner' with 'than' (and invert auxiliary + subject after initial 'No sooner').",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q03",
+        "subtopicId": "coordinating_correlative",
+        "subtopicTitle": "Scarcely / Hardly ... when",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate pair: \"Scarcely ____ the library ____ the afternoon drizzle began.\"",
+        "options": [
+          "we had left / than",
+          "had we left / when",
+          "did we left / when",
+          "had we left / than"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Fronted 'Scarcely' triggers inversion ('had we left') and pairs strictly with 'when'.",
+        "distractorRationales": [
+          "Lacks inversion and misuses 'than'.",
+          "Correct: inverted 'had we left' + partner 'when'.",
+          "Wrong verb 'left' after 'did'.",
+          "Misuses 'than' with 'scarcely'."
+        ],
+        "grammarRule": "Fronted 'Hardly/Scarcely' inverts Auxiliary + Subject and pairs with 'when'.",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q04",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "No 'but' after Although",
+        "difficulty": "EASY",
+        "questionText": "Pick the grammatically clean sentence:",
+        "options": [
+          "Although the parcel was heavy, but Chikoo carried it upstairs.",
+          "Although the parcel was heavy, Chikoo carried it upstairs.",
+          "Though the parcel was heavy, however Chikoo carried it upstairs.",
+          "Because the parcel was heavy, so Chikoo asked for help."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Never add 'but' or 'however' after a clause already introduced by 'Although/Though', nor 'so' after 'Because'.",
+        "distractorRationales": [
+          "Double connector *Although... but.",
+          "Correct: single subordinator 'Although'.",
+          "Double connector *Though... however.",
+          "Double connector *Because... so."
+        ],
+        "grammarRule": "Use only one conjunction to join two clauses ('Although A, B' OR 'A, but B').",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q05",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "Unless + Affirmative verb",
+        "difficulty": "MEDIUM",
+        "questionText": "Complete cleanly: \"You cannot borrow reference encyclopaedias ____ you bring your library card.\"",
+        "options": [
+          "unless",
+          "unless you don't",
+          "if",
+          "lest"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Unless' already means 'if... not', so 'unless you bring' accurately conveys 'if you do not bring'.",
+        "distractorRationales": [
+          "Correct: 'unless' + affirmative verb 'bring'.",
+          "Double negative *unless you don't.",
+          "Means the opposite ('if you bring, you cannot borrow').",
+          "Means 'for fear that'."
+        ],
+        "grammarRule": "'Unless' means 'if not' and is followed by an affirmative verb.",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q06",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "Lest ... should",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the accurate clause after 'lest': \"Keep the matchbox away from dry leaves lest ____.\"",
+        "options": [
+          "a spark should not ignite them",
+          "a spark should ignite them",
+          "a spark mustn't ignite them",
+          "a spark may ignite them"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Lest' (= for fear that) already carries negative warning and takes 'should' (or bare subjunctive) with an affirmative verb—never 'not'.",
+        "distractorRationales": [
+          "Never add 'not' inside a 'lest' clause.",
+          "Correct: 'lest + subject + should + positive V1'.",
+          "Never add 'not/n't'.",
+          "Standard grammar pairs 'lest' with 'should', not 'may'."
+        ],
+        "grammarRule": "Pair 'lest' with 'should' + affirmative verb (no 'not').",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q07",
+        "subtopicId": "coordinating_correlative",
+        "subtopicTitle": "Parallelism in correlatives",
+        "difficulty": "HARD",
+        "questionText": "Which sentence maintains true parallel structure?",
+        "options": [
+          "The workshop teaches both carpentry and how to paint pottery.",
+          "The workshop teaches both carpentry and pottery painting.",
+          "Neither Riya likes rowing nor swimming.",
+          "Not only he plays chess well, he also captains the debate club."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Both carpentry and pottery painting' balances noun phrase + noun phrase cleanly.",
+        "distractorRationales": [
+          "Mixes a noun ('carpentry') with a wh-infinitive clause ('how to paint pottery').",
+          "Correct: parallel noun phrases after 'both' and 'and'.",
+          "Misplaces 'Neither' before subject instead of before 'rowing'.",
+          "Unbalanced + lacks inversion after initial 'Not only' and omits 'but'."
+        ],
+        "grammarRule": "Words/phrases after both halves of a correlative conjunction must match in grammatical form.",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M19_Q08",
+        "subtopicId": "coordinating_correlative",
+        "subtopicTitle": "Both ... and (not as well as)",
+        "difficulty": "MEDIUM",
+        "questionText": "Fix the broken correlative pair: \"Both the principal as well as the teachers praised the exhibition.\"",
+        "options": [
+          "Both the principal along with the teachers praised the exhibition.",
+          "Both the principal and the teachers praised the exhibition.",
+          "Both the principal or the teachers praised the exhibition.",
+          "Either the principal and the teachers praised the exhibition."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Both' pairs exclusively with 'and' (and always takes a plural verb).",
+        "distractorRationales": [
+          "*Both... along with is mismatched.",
+          "Correct: 'both... and'.",
+          "*Both... or is mismatched.",
+          "*Either... and is mismatched."
+        ],
+        "grammarRule": "'Both' pairs strictly with 'and' (never 'as well as' or 'along with').",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q09",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "As / As if vs Like",
+        "difficulty": "HARD",
+        "questionText": "Pick the grammatically standard sentence:",
+        "options": [
+          "Write the experiment steps like Acharya showed us.",
+          "Write the experiment steps as Acharya showed us.",
+          "He talks as if he knows nothing? Wait—he talks like he is the king.",
+          "Nobody can weave silk like her mother weaves."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Before a full clause (Subject + Verb: 'Acharya showed us'), formal standard English requires the conjunction 'as' (or 'as if'), whereas 'like' is a preposition before a noun ('like an artist').",
+        "distractorRationales": [
+          "Avoid 'like' before a full subject+verb clause in formal grammar.",
+          "Correct: conjunction 'as' before clause 'Acharya showed us'.",
+          "Uses 'like' before clause 'he is the king'.",
+          "Uses 'like' before clause 'her mother weaves'."
+        ],
+        "grammarRule": "Use 'like' before a noun phrase (preposition) and 'as / as if' before a subject+verb clause (conjunction).",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M19_Q10",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "Conjunctive vs Relative Adverb",
+        "difficulty": "HARD",
+        "questionText": "Compare: (1) \"Tell me when the museum opens.\" (2) \"Sunday is the day when the museum stays open late.\" What is 'when' in Sentence (2)?",
+        "options": [
+          "A Relative Adverb referring back to the noun 'day'",
+          "A Coordinating Conjunction",
+          "A Preposition of Time",
+          "An Interjection"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "In (2), 'when' links the adjective clause back to the antecedent noun 'the day' (= 'on which'), acting as a Relative Adverb.",
+        "distractorRationales": [
+          "Correct: relative adverb modifying 'the day'.",
+          "Not one of FANBOYS.",
+          "Introduces a full clause, not a noun object.",
+          "Not an exclamation."
+        ],
+        "grammarRule": "Relative adverbs ('where, when, why') introduce a clause modifying an antecedent noun of place, time, or reason.",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "SOURCE_TEXTBOOK"
+      },
+      {
+        "id": "M19_Q11",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "The reason is that",
+        "difficulty": "MEDIUM",
+        "questionText": "Choose the formally preferred completion: \"The reason the bridge closed early is ____ the river rose rapidly.\"",
+        "options": [
+          "because",
+          "that",
+          "why because",
+          "due to"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Since 'The reason' already expresses cause, follow 'is' with 'that' ('The reason... is that...') rather than redundant *is because.",
+        "distractorRationales": [
+          "Redundant *the reason... is because.",
+          "Correct: 'The reason... is that...'.",
+          "Ungrammatical double form.",
+          "'Due to' takes a noun phrase, not a full clause."
+        ],
+        "grammarRule": "Write 'The reason... is that...' rather than *The reason... is because....",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M19_Q12",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "So ... that vs Too ... to",
+        "difficulty": "MEDIUM",
+        "questionText": "Convert \"The river current was too swift for the tiny boat to cross\" cleanly using 'so... that':",
+        "options": [
+          "The river current was so swift that the tiny boat could not cross.",
+          "The river current was so swift so the tiny boat cannot cross.",
+          "The river current was very swift that the tiny boat could not cross.",
+          "The river current was so swift as the tiny boat could not cross."
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "'Too + Adj + to V1' converts into 'so + Adj + that + Subject + could not / cannot + V1' (matching past tense 'was' → 'could not').",
+        "distractorRationales": [
+          "Correct: 'so... that' + past 'could not'.",
+          "Misuses 'so' instead of 'that' and mismatches tense.",
+          "*Very... that is ungrammatical.",
+          "*So... as is wrong here."
+        ],
+        "grammarRule": "Pair 'so + adjective/adverb' with 'that + clause' (matching main verb tense).",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q13",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "Because vs Because of / Despite vs Although",
+        "difficulty": "MEDIUM",
+        "questionText": "Fill in both blanks accurately: \"____ the heavy fog, the ferry sailed safely ____ the captain knew every bend of the river.\"",
+        "options": [
+          "Although / because of",
+          "Despite / because",
+          "Despite / because of",
+          "In spite / because"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Despite' (preposition) precedes the noun phrase 'the heavy fog' (never *Despite of); 'because' (conjunction) precedes the clause 'the captain knew...'.",
+        "distractorRationales": [
+          "'Although' needs a clause, and 'because of' needs a noun phrase.",
+          "Correct: 'Despite + NP' and 'because + Clause'.",
+          "'Because of' cannot precede a full subject+verb clause.",
+          "Missing 'of' after 'In spite'."
+        ],
+        "grammarRule": "Prepositions (despite, in spite of, because of) take NOUN PHRASES; conjunctions (although, because) take CLAUSES.",
+        "lessonStepRef": "m19_step_05_subordinators_relatives",
+        "provenance": "ADDITIONAL_EXAMPLE"
+      },
+      {
+        "id": "M19_Q14",
+        "subtopicId": "coordinating_correlative",
+        "subtopicTitle": "Coordinating 'nor' with inverted clause",
+        "difficulty": "HARD",
+        "questionText": "Complete cleanly: \"Chikoo did not touch the royal scroll, ____ open the sealed inkbox.\"",
+        "options": [
+          "nor did he",
+          "nor he did",
+          "or he didn't",
+          "neither he"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Coordinating 'nor' adding a second negative clause requires auxiliary–subject inversion: 'nor did he open...'.",
+        "distractorRationales": [
+          "Correct: 'nor + auxiliary + subject'.",
+          "Missing inversion after 'nor'.",
+          "Clumsy double shift.",
+          "Missing auxiliary and wrong inversion."
+        ],
+        "grammarRule": "When 'nor' joins two negative clauses, invert the auxiliary before the subject ('nor did he').",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "CONSOLIDATED"
+      },
+      {
+        "id": "M19_Q15",
+        "subtopicId": "subordinating_relatives",
+        "subtopicTitle": "Choosing 'whether' over 'if' with 'or not'",
+        "difficulty": "MEDIUM",
+        "storyContext": "Vaani checks the bridge inspection log at dusk.",
+        "questionText": "Choose the clearest phrasing before 'or not': \"We could not tell ____ the watchman had locked the gate or not.\"",
+        "options": [
+          "unless",
+          "whether",
+          "although",
+          "lest"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "'Whether' pairs naturally with alternatives ('whether... or not') and is preferred after prepositions or as a subject clause.",
+        "distractorRationales": [
+          "Means 'if not'.",
+          "Correct: 'whether... or not'.",
+          "Shows contrast.",
+          "Shows fear/warning."
+        ],
+        "grammarRule": "Prefer 'whether' (over 'if') before 'or not', after prepositions, and before to-infinitives ('whether to go').",
+        "lessonStepRef": "m19_step_02_coordinating_correlative",
+        "provenance": "CONSOLIDATED"
+      }
+    ]
+  }
+}
